@@ -1,0 +1,13 @@
+========================================
+LAYER INFO
+========================================
+
+Layer index : 24
+Layer name  : features.8.block.3
+Folder name : 024_features_8_block_3
+
+Tensors:
+- weight               | full name = features.8.block.3.weight                     | shape = [256, 204, 1, 1] | values = 52224
+
+Total tensors in this layer : 1
+Total values in this layer  : 52224

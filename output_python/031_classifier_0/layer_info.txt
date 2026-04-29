@@ -1,0 +1,8 @@
+========================================
+PYTHON OUTPUT LAYER INFO
+========================================
+
+Output index : 31
+Layer name   : classifier.0
+Layer type   : Flatten
+Shape        : [1, 307]

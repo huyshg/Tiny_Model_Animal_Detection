@@ -1,0 +1,13 @@
+========================================
+LAYER INFO
+========================================
+
+Layer index : 28
+Layer name  : features.9.block.3
+Folder name : 028_features_9_block_3
+
+Tensors:
+- weight               | full name = features.9.block.3.weight                     | shape = [307, 256, 1, 1] | values = 78592
+
+Total tensors in this layer : 1
+Total values in this layer  : 78592

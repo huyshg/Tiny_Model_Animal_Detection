@@ -1,0 +1,47 @@
+========================================
+PYTHON VS CPP OUTPUT COMPARISON
+========================================
+
+Python folder : C:\Users\NguyenHuy\Downloads\SoC_NewModel\output_python
+C++ folder    : C:\Users\NguyenHuy\Downloads\SoC_NewModel\output_cpp
+Layer count   : 34
+
+Layer                                           Count         MaxAbs        MeanAbs   Status
+000_features_0_fused_features_1                160000     2.3842e-06  9.5492759e-08       OK
+001_features_2                                 160000     1.3113e-06  4.9347803e-08       OK
+002_features_3_block_0_fused_features_3_block_1     160000     3.6955e-06  1.7871227e-07       OK
+003_features_3_block_2                         160000     3.6955e-06  1.2115114e-07       OK
+004_features_3_block_3_fused_features_3_block_4     326400     3.3974e-06  2.5957038e-07       OK
+005_features_3_block_5                         326400     3.3974e-06  1.5905444e-07       OK
+006_features_4_block_0_fused_features_4_block_1      81600      5.126e-06  3.1559069e-07       OK
+007_features_4_block_2                          81600      5.126e-06   1.630679e-07       OK
+008_features_4_block_3_fused_features_4_block_4     121600     3.8147e-06   3.284494e-07       OK
+009_features_4_block_5                         121600     3.8147e-06  1.8116857e-07       OK
+010_features_5_block_0_fused_features_5_block_1     121600     4.9919e-06   3.924009e-07       OK
+011_features_5_block_2                         121600     4.9919e-06  2.0899224e-07       OK
+012_features_5_block_3_fused_features_5_block_4     163200     4.7386e-06  4.3657784e-07       OK
+013_features_5_block_5                         163200     4.3512e-06  2.3026538e-07       OK
+014_features_6_block_0_fused_features_6_block_1      40800     4.6491e-06  3.5646647e-07       OK
+015_features_6_block_2                          40800     4.1723e-06  1.8162128e-07       OK
+016_features_6_block_3_fused_features_6_block_4      61200     4.0829e-06   4.069219e-07       OK
+017_features_6_block_5                          61200     3.7551e-06  2.0604821e-07       OK
+018_features_7_block_0_fused_features_7_block_1      61200     6.1989e-06  4.3310131e-07       OK
+019_features_7_block_2                          61200     6.1989e-06  2.0559431e-07       OK
+020_features_7_block_3_fused_features_7_block_4      81600     4.7683e-06  4.9384721e-07       OK
+021_features_7_block_5                          81600     4.7683e-06  2.3617039e-07       OK
+022_features_8_block_0_fused_features_8_block_1      20400     4.8578e-06  4.3494546e-07       OK
+023_features_8_block_2                          20400     4.8578e-06  2.0979854e-07       OK
+024_features_8_block_3_fused_features_8_block_4      25600     4.4107e-06  4.7266373e-07       OK
+025_features_8_block_5                          25600     4.4107e-06  2.2759857e-07       OK
+026_features_9_block_0_fused_features_9_block_1      25600     5.7221e-06  4.9821923e-07       OK
+027_features_9_block_2                          25600     5.7221e-06  2.1394061e-07       OK
+028_features_9_block_3_fused_features_9_block_4      30700      5.722e-06  8.6646824e-07       OK
+029_features_9_block_5                          30700      5.722e-06  3.8095261e-07       OK
+030_pool                                          307      7.152e-07  1.1446417e-07       OK
+031_classifier_0                                  307      7.152e-07  1.1446417e-07       OK
+032_classifier_1                                   10     3.0995e-06    1.09897e-06       OK
+033_softmax                                        10       2.98e-08      1.252e-08       OK
+
+Tolerance      : 0.0002
+Global max abs : 6.1989e-06
+Failed layers  : 0

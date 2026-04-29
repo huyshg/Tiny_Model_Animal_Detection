@@ -1,0 +1,25 @@
+========================================
+FUSED PARAMETERS MANIFEST
+========================================
+
+Source folder : parameters_by_layer
+Output folder : parameters_by_layer_fused
+BatchNorm eps : 1e-05
+Output layers : 16
+
+000: FUSED 000_features_0 (features.0) + 001_features_1 (features.1) -> 000_features_0_conv_bn_fused
+001: FUSED 002_features_3_block_0 (features.3.block.0) + 003_features_3_block_1 (features.3.block.1) -> 001_features_3_block_0_conv_bn_fused
+002: FUSED 004_features_3_block_3 (features.3.block.3) + 005_features_3_block_4 (features.3.block.4) -> 002_features_3_block_3_conv_bn_fused
+003: FUSED 006_features_4_block_0 (features.4.block.0) + 007_features_4_block_1 (features.4.block.1) -> 003_features_4_block_0_conv_bn_fused
+004: FUSED 008_features_4_block_3 (features.4.block.3) + 009_features_4_block_4 (features.4.block.4) -> 004_features_4_block_3_conv_bn_fused
+005: FUSED 010_features_5_block_0 (features.5.block.0) + 011_features_5_block_1 (features.5.block.1) -> 005_features_5_block_0_conv_bn_fused
+006: FUSED 012_features_5_block_3 (features.5.block.3) + 013_features_5_block_4 (features.5.block.4) -> 006_features_5_block_3_conv_bn_fused
+007: FUSED 014_features_6_block_0 (features.6.block.0) + 015_features_6_block_1 (features.6.block.1) -> 007_features_6_block_0_conv_bn_fused
+008: FUSED 016_features_6_block_3 (features.6.block.3) + 017_features_6_block_4 (features.6.block.4) -> 008_features_6_block_3_conv_bn_fused
+009: FUSED 018_features_7_block_0 (features.7.block.0) + 019_features_7_block_1 (features.7.block.1) -> 009_features_7_block_0_conv_bn_fused
+010: FUSED 020_features_7_block_3 (features.7.block.3) + 021_features_7_block_4 (features.7.block.4) -> 010_features_7_block_3_conv_bn_fused
+011: FUSED 022_features_8_block_0 (features.8.block.0) + 023_features_8_block_1 (features.8.block.1) -> 011_features_8_block_0_conv_bn_fused
+012: FUSED 024_features_8_block_3 (features.8.block.3) + 025_features_8_block_4 (features.8.block.4) -> 012_features_8_block_3_conv_bn_fused
+013: FUSED 026_features_9_block_0 (features.9.block.0) + 027_features_9_block_1 (features.9.block.1) -> 013_features_9_block_0_conv_bn_fused
+014: FUSED 028_features_9_block_3 (features.9.block.3) + 029_features_9_block_4 (features.9.block.4) -> 014_features_9_block_3_conv_bn_fused
+015: COPIED 030_classifier_1 (classifier.1) -> 015_classifier_1

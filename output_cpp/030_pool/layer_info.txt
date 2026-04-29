@@ -1,0 +1,7 @@
+========================================
+CPP OUTPUT LAYER INFO
+========================================
+
+Layer name   : pool
+Layer type   : AdaptiveAvgPool2d
+Shape        : [1, 307, 1, 1]

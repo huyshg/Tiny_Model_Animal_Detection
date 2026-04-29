@@ -1,0 +1,17 @@
+========================================
+LAYER INFO
+========================================
+
+Layer index : 23
+Layer name  : features.8.block.1
+Folder name : 023_features_8_block_1
+
+Tensors:
+- weight               | full name = features.8.block.1.weight                     | shape = [204] | values = 204
+- bias                 | full name = features.8.block.1.bias                       | shape = [204] | values = 204
+- running_mean         | full name = features.8.block.1.running_mean               | shape = [204] | values = 204
+- running_var          | full name = features.8.block.1.running_var                | shape = [204] | values = 204
+- num_batches_tracked  | full name = features.8.block.1.num_batches_tracked        | shape = [] | values = 1
+
+Total tensors in this layer : 5
+Total values in this layer  : 817

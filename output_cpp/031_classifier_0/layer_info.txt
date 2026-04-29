@@ -1,0 +1,7 @@
+========================================
+CPP OUTPUT LAYER INFO
+========================================
+
+Layer name   : classifier.0
+Layer type   : Flatten
+Shape        : [1, 307]

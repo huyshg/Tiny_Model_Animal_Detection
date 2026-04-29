@@ -1,0 +1,8 @@
+========================================
+PYTHON OUTPUT LAYER INFO
+========================================
+
+Output index : 24
+Layer name   : features.8.block.3_fused_features.8.block.4
+Layer type   : Conv2d + BatchNorm2d fused
+Shape        : [1, 256, 10, 10]

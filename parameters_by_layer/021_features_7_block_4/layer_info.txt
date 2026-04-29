@@ -1,0 +1,17 @@
+========================================
+LAYER INFO
+========================================
+
+Layer index : 21
+Layer name  : features.7.block.4
+Folder name : 021_features_7_block_4
+
+Tensors:
+- weight               | full name = features.7.block.4.weight                     | shape = [204] | values = 204
+- bias                 | full name = features.7.block.4.bias                       | shape = [204] | values = 204
+- running_mean         | full name = features.7.block.4.running_mean               | shape = [204] | values = 204
+- running_var          | full name = features.7.block.4.running_var                | shape = [204] | values = 204
+- num_batches_tracked  | full name = features.7.block.4.num_batches_tracked        | shape = [] | values = 1
+
+Total tensors in this layer : 5
+Total values in this layer  : 817

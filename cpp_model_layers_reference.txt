@@ -1,0 +1,597 @@
+====================================================
+MODEL LAYERS FOR C++ IMPLEMENTATION
+====================================================
+
+Input image shape : [1, 3, 160, 160]
+Number of classes : 10
+
+Layer 0
+Name         : features.0
+Type         : Conv2d
+Input shape  : [1, 3, 160, 160]
+Output shape : [1, 25, 80, 80]
+Kernel size  : (3, 3)
+Stride       : (2, 2)
+Padding      : (1, 1)
+Groups       : 1
+Bias         : False
+Parameters   : 675
+----------------------------------------------------
+Layer 1
+Name         : features.1
+Type         : BatchNorm2d
+Input shape  : [1, 25, 80, 80]
+Output shape : [1, 25, 80, 80]
+Kernel size  : -
+Stride       : -
+Padding      : -
+Groups       : -
+Bias         : True
+Parameters   : 50
+----------------------------------------------------
+Layer 2
+Name         : features.2
+Type         : ReLU
+Input shape  : [1, 25, 80, 80]
+Output shape : [1, 25, 80, 80]
+Kernel size  : -
+Stride       : -
+Padding      : -
+Groups       : -
+Bias         : -
+Parameters   : 0
+----------------------------------------------------
+Layer 3
+Name         : features.3.block.0
+Type         : Conv2d
+Input shape  : [1, 25, 80, 80]
+Output shape : [1, 25, 80, 80]
+Kernel size  : (3, 3)
+Stride       : (1, 1)
+Padding      : (1, 1)
+Groups       : 25
+Bias         : False
+Parameters   : 225
+----------------------------------------------------
+Layer 4
+Name         : features.3.block.1
+Type         : BatchNorm2d
+Input shape  : [1, 25, 80, 80]
+Output shape : [1, 25, 80, 80]
+Kernel size  : -
+Stride       : -
+Padding      : -
+Groups       : -
+Bias         : True
+Parameters   : 50
+----------------------------------------------------
+Layer 5
+Name         : features.3.block.2
+Type         : ReLU
+Input shape  : [1, 25, 80, 80]
+Output shape : [1, 25, 80, 80]
+Kernel size  : -
+Stride       : -
+Padding      : -
+Groups       : -
+Bias         : -
+Parameters   : 0
+----------------------------------------------------
+Layer 6
+Name         : features.3.block.3
+Type         : Conv2d
+Input shape  : [1, 25, 80, 80]
+Output shape : [1, 51, 80, 80]
+Kernel size  : (1, 1)
+Stride       : (1, 1)
+Padding      : (0, 0)
+Groups       : 1
+Bias         : False
+Parameters   : 1275
+----------------------------------------------------
+Layer 7
+Name         : features.3.block.4
+Type         : BatchNorm2d
+Input shape  : [1, 51, 80, 80]
+Output shape : [1, 51, 80, 80]
+Kernel size  : -
+Stride       : -
+Padding      : -
+Groups       : -
+Bias         : True
+Parameters   : 102
+----------------------------------------------------
+Layer 8
+Name         : features.3.block.5
+Type         : ReLU
+Input shape  : [1, 51, 80, 80]
+Output shape : [1, 51, 80, 80]
+Kernel size  : -
+Stride       : -
+Padding      : -
+Groups       : -
+Bias         : -
+Parameters   : 0
+----------------------------------------------------
+Layer 9
+Name         : features.4.block.0
+Type         : Conv2d
+Input shape  : [1, 51, 80, 80]
+Output shape : [1, 51, 40, 40]
+Kernel size  : (3, 3)
+Stride       : (2, 2)
+Padding      : (1, 1)
+Groups       : 51
+Bias         : False
+Parameters   : 459
+----------------------------------------------------
+Layer 10
+Name         : features.4.block.1
+Type         : BatchNorm2d
+Input shape  : [1, 51, 40, 40]
+Output shape : [1, 51, 40, 40]
+Kernel size  : -
+Stride       : -
+Padding      : -
+Groups       : -
+Bias         : True
+Parameters   : 102
+----------------------------------------------------
+Layer 11
+Name         : features.4.block.2
+Type         : ReLU
+Input shape  : [1, 51, 40, 40]
+Output shape : [1, 51, 40, 40]
+Kernel size  : -
+Stride       : -
+Padding      : -
+Groups       : -
+Bias         : -
+Parameters   : 0
+----------------------------------------------------
+Layer 12
+Name         : features.4.block.3
+Type         : Conv2d
+Input shape  : [1, 51, 40, 40]
+Output shape : [1, 76, 40, 40]
+Kernel size  : (1, 1)
+Stride       : (1, 1)
+Padding      : (0, 0)
+Groups       : 1
+Bias         : False
+Parameters   : 3876
+----------------------------------------------------
+Layer 13
+Name         : features.4.block.4
+Type         : BatchNorm2d
+Input shape  : [1, 76, 40, 40]
+Output shape : [1, 76, 40, 40]
+Kernel size  : -
+Stride       : -
+Padding      : -
+Groups       : -
+Bias         : True
+Parameters   : 152
+----------------------------------------------------
+Layer 14
+Name         : features.4.block.5
+Type         : ReLU
+Input shape  : [1, 76, 40, 40]
+Output shape : [1, 76, 40, 40]
+Kernel size  : -
+Stride       : -
+Padding      : -
+Groups       : -
+Bias         : -
+Parameters   : 0
+----------------------------------------------------
+Layer 15
+Name         : features.5.block.0
+Type         : Conv2d
+Input shape  : [1, 76, 40, 40]
+Output shape : [1, 76, 40, 40]
+Kernel size  : (3, 3)
+Stride       : (1, 1)
+Padding      : (1, 1)
+Groups       : 76
+Bias         : False
+Parameters   : 684
+----------------------------------------------------
+Layer 16
+Name         : features.5.block.1
+Type         : BatchNorm2d
+Input shape  : [1, 76, 40, 40]
+Output shape : [1, 76, 40, 40]
+Kernel size  : -
+Stride       : -
+Padding      : -
+Groups       : -
+Bias         : True
+Parameters   : 152
+----------------------------------------------------
+Layer 17
+Name         : features.5.block.2
+Type         : ReLU
+Input shape  : [1, 76, 40, 40]
+Output shape : [1, 76, 40, 40]
+Kernel size  : -
+Stride       : -
+Padding      : -
+Groups       : -
+Bias         : -
+Parameters   : 0
+----------------------------------------------------
+Layer 18
+Name         : features.5.block.3
+Type         : Conv2d
+Input shape  : [1, 76, 40, 40]
+Output shape : [1, 102, 40, 40]
+Kernel size  : (1, 1)
+Stride       : (1, 1)
+Padding      : (0, 0)
+Groups       : 1
+Bias         : False
+Parameters   : 7752
+----------------------------------------------------
+Layer 19
+Name         : features.5.block.4
+Type         : BatchNorm2d
+Input shape  : [1, 102, 40, 40]
+Output shape : [1, 102, 40, 40]
+Kernel size  : -
+Stride       : -
+Padding      : -
+Groups       : -
+Bias         : True
+Parameters   : 204
+----------------------------------------------------
+Layer 20
+Name         : features.5.block.5
+Type         : ReLU
+Input shape  : [1, 102, 40, 40]
+Output shape : [1, 102, 40, 40]
+Kernel size  : -
+Stride       : -
+Padding      : -
+Groups       : -
+Bias         : -
+Parameters   : 0
+----------------------------------------------------
+Layer 21
+Name         : features.6.block.0
+Type         : Conv2d
+Input shape  : [1, 102, 40, 40]
+Output shape : [1, 102, 20, 20]
+Kernel size  : (3, 3)
+Stride       : (2, 2)
+Padding      : (1, 1)
+Groups       : 102
+Bias         : False
+Parameters   : 918
+----------------------------------------------------
+Layer 22
+Name         : features.6.block.1
+Type         : BatchNorm2d
+Input shape  : [1, 102, 20, 20]
+Output shape : [1, 102, 20, 20]
+Kernel size  : -
+Stride       : -
+Padding      : -
+Groups       : -
+Bias         : True
+Parameters   : 204
+----------------------------------------------------
+Layer 23
+Name         : features.6.block.2
+Type         : ReLU
+Input shape  : [1, 102, 20, 20]
+Output shape : [1, 102, 20, 20]
+Kernel size  : -
+Stride       : -
+Padding      : -
+Groups       : -
+Bias         : -
+Parameters   : 0
+----------------------------------------------------
+Layer 24
+Name         : features.6.block.3
+Type         : Conv2d
+Input shape  : [1, 102, 20, 20]
+Output shape : [1, 153, 20, 20]
+Kernel size  : (1, 1)
+Stride       : (1, 1)
+Padding      : (0, 0)
+Groups       : 1
+Bias         : False
+Parameters   : 15606
+----------------------------------------------------
+Layer 25
+Name         : features.6.block.4
+Type         : BatchNorm2d
+Input shape  : [1, 153, 20, 20]
+Output shape : [1, 153, 20, 20]
+Kernel size  : -
+Stride       : -
+Padding      : -
+Groups       : -
+Bias         : True
+Parameters   : 306
+----------------------------------------------------
+Layer 26
+Name         : features.6.block.5
+Type         : ReLU
+Input shape  : [1, 153, 20, 20]
+Output shape : [1, 153, 20, 20]
+Kernel size  : -
+Stride       : -
+Padding      : -
+Groups       : -
+Bias         : -
+Parameters   : 0
+----------------------------------------------------
+Layer 27
+Name         : features.7.block.0
+Type         : Conv2d
+Input shape  : [1, 153, 20, 20]
+Output shape : [1, 153, 20, 20]
+Kernel size  : (3, 3)
+Stride       : (1, 1)
+Padding      : (1, 1)
+Groups       : 153
+Bias         : False
+Parameters   : 1377
+----------------------------------------------------
+Layer 28
+Name         : features.7.block.1
+Type         : BatchNorm2d
+Input shape  : [1, 153, 20, 20]
+Output shape : [1, 153, 20, 20]
+Kernel size  : -
+Stride       : -
+Padding      : -
+Groups       : -
+Bias         : True
+Parameters   : 306
+----------------------------------------------------
+Layer 29
+Name         : features.7.block.2
+Type         : ReLU
+Input shape  : [1, 153, 20, 20]
+Output shape : [1, 153, 20, 20]
+Kernel size  : -
+Stride       : -
+Padding      : -
+Groups       : -
+Bias         : -
+Parameters   : 0
+----------------------------------------------------
+Layer 30
+Name         : features.7.block.3
+Type         : Conv2d
+Input shape  : [1, 153, 20, 20]
+Output shape : [1, 204, 20, 20]
+Kernel size  : (1, 1)
+Stride       : (1, 1)
+Padding      : (0, 0)
+Groups       : 1
+Bias         : False
+Parameters   : 31212
+----------------------------------------------------
+Layer 31
+Name         : features.7.block.4
+Type         : BatchNorm2d
+Input shape  : [1, 204, 20, 20]
+Output shape : [1, 204, 20, 20]
+Kernel size  : -
+Stride       : -
+Padding      : -
+Groups       : -
+Bias         : True
+Parameters   : 408
+----------------------------------------------------
+Layer 32
+Name         : features.7.block.5
+Type         : ReLU
+Input shape  : [1, 204, 20, 20]
+Output shape : [1, 204, 20, 20]
+Kernel size  : -
+Stride       : -
+Padding      : -
+Groups       : -
+Bias         : -
+Parameters   : 0
+----------------------------------------------------
+Layer 33
+Name         : features.8.block.0
+Type         : Conv2d
+Input shape  : [1, 204, 20, 20]
+Output shape : [1, 204, 10, 10]
+Kernel size  : (3, 3)
+Stride       : (2, 2)
+Padding      : (1, 1)
+Groups       : 204
+Bias         : False
+Parameters   : 1836
+----------------------------------------------------
+Layer 34
+Name         : features.8.block.1
+Type         : BatchNorm2d
+Input shape  : [1, 204, 10, 10]
+Output shape : [1, 204, 10, 10]
+Kernel size  : -
+Stride       : -
+Padding      : -
+Groups       : -
+Bias         : True
+Parameters   : 408
+----------------------------------------------------
+Layer 35
+Name         : features.8.block.2
+Type         : ReLU
+Input shape  : [1, 204, 10, 10]
+Output shape : [1, 204, 10, 10]
+Kernel size  : -
+Stride       : -
+Padding      : -
+Groups       : -
+Bias         : -
+Parameters   : 0
+----------------------------------------------------
+Layer 36
+Name         : features.8.block.3
+Type         : Conv2d
+Input shape  : [1, 204, 10, 10]
+Output shape : [1, 256, 10, 10]
+Kernel size  : (1, 1)
+Stride       : (1, 1)
+Padding      : (0, 0)
+Groups       : 1
+Bias         : False
+Parameters   : 52224
+----------------------------------------------------
+Layer 37
+Name         : features.8.block.4
+Type         : BatchNorm2d
+Input shape  : [1, 256, 10, 10]
+Output shape : [1, 256, 10, 10]
+Kernel size  : -
+Stride       : -
+Padding      : -
+Groups       : -
+Bias         : True
+Parameters   : 512
+----------------------------------------------------
+Layer 38
+Name         : features.8.block.5
+Type         : ReLU
+Input shape  : [1, 256, 10, 10]
+Output shape : [1, 256, 10, 10]
+Kernel size  : -
+Stride       : -
+Padding      : -
+Groups       : -
+Bias         : -
+Parameters   : 0
+----------------------------------------------------
+Layer 39
+Name         : features.9.block.0
+Type         : Conv2d
+Input shape  : [1, 256, 10, 10]
+Output shape : [1, 256, 10, 10]
+Kernel size  : (3, 3)
+Stride       : (1, 1)
+Padding      : (1, 1)
+Groups       : 256
+Bias         : False
+Parameters   : 2304
+----------------------------------------------------
+Layer 40
+Name         : features.9.block.1
+Type         : BatchNorm2d
+Input shape  : [1, 256, 10, 10]
+Output shape : [1, 256, 10, 10]
+Kernel size  : -
+Stride       : -
+Padding      : -
+Groups       : -
+Bias         : True
+Parameters   : 512
+----------------------------------------------------
+Layer 41
+Name         : features.9.block.2
+Type         : ReLU
+Input shape  : [1, 256, 10, 10]
+Output shape : [1, 256, 10, 10]
+Kernel size  : -
+Stride       : -
+Padding      : -
+Groups       : -
+Bias         : -
+Parameters   : 0
+----------------------------------------------------
+Layer 42
+Name         : features.9.block.3
+Type         : Conv2d
+Input shape  : [1, 256, 10, 10]
+Output shape : [1, 307, 10, 10]
+Kernel size  : (1, 1)
+Stride       : (1, 1)
+Padding      : (0, 0)
+Groups       : 1
+Bias         : False
+Parameters   : 78592
+----------------------------------------------------
+Layer 43
+Name         : features.9.block.4
+Type         : BatchNorm2d
+Input shape  : [1, 307, 10, 10]
+Output shape : [1, 307, 10, 10]
+Kernel size  : -
+Stride       : -
+Padding      : -
+Groups       : -
+Bias         : True
+Parameters   : 614
+----------------------------------------------------
+Layer 44
+Name         : features.9.block.5
+Type         : ReLU
+Input shape  : [1, 307, 10, 10]
+Output shape : [1, 307, 10, 10]
+Kernel size  : -
+Stride       : -
+Padding      : -
+Groups       : -
+Bias         : -
+Parameters   : 0
+----------------------------------------------------
+Layer 45
+Name         : pool
+Type         : AdaptiveAvgPool2d
+Input shape  : [1, 307, 10, 10]
+Output shape : [1, 307, 1, 1]
+Kernel size  : -
+Stride       : -
+Padding      : -
+Groups       : -
+Bias         : -
+Parameters   : 0
+----------------------------------------------------
+Layer 46
+Name         : classifier.0
+Type         : Flatten
+Input shape  : [1, 307, 1, 1]
+Output shape : [1, 307]
+Kernel size  : -
+Stride       : -
+Padding      : -
+Groups       : -
+Bias         : -
+Parameters   : 0
+----------------------------------------------------
+Layer 47
+Name         : classifier.1
+Type         : Linear
+Input shape  : [1, 307]
+Output shape : [1, 10]
+Kernel size  : -
+Stride       : -
+Padding      : -
+Groups       : -
+Bias         : True
+Parameters   : 3080
+----------------------------------------------------
+Layer 48
+Name         : softmax
+Type         : Softmax
+Input shape  : [1, 10]
+Output shape : [1, 10]
+Kernel size  : -
+Stride       : -
+Padding      : -
+Groups       : -
+Bias         : -
+Parameters   : 0
+----------------------------------------------------
+
+TOTAL PARAMETERS = 206177

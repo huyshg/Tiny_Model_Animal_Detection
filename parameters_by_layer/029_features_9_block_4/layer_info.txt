@@ -1,0 +1,17 @@
+========================================
+LAYER INFO
+========================================
+
+Layer index : 29
+Layer name  : features.9.block.4
+Folder name : 029_features_9_block_4
+
+Tensors:
+- weight               | full name = features.9.block.4.weight                     | shape = [307] | values = 307
+- bias                 | full name = features.9.block.4.bias                       | shape = [307] | values = 307
+- running_mean         | full name = features.9.block.4.running_mean               | shape = [307] | values = 307
+- running_var          | full name = features.9.block.4.running_var                | shape = [307] | values = 307
+- num_batches_tracked  | full name = features.9.block.4.num_batches_tracked        | shape = [] | values = 1
+
+Total tensors in this layer : 5
+Total values in this layer  : 1229

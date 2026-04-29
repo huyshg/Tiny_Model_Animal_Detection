@@ -1,0 +1,8 @@
+========================================
+PYTHON OUTPUT LAYER INFO
+========================================
+
+Output index : 33
+Layer name   : softmax
+Layer type   : Softmax
+Shape        : [1, 10]

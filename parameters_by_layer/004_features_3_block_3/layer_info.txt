@@ -1,0 +1,13 @@
+========================================
+LAYER INFO
+========================================
+
+Layer index : 4
+Layer name  : features.3.block.3
+Folder name : 004_features_3_block_3
+
+Tensors:
+- weight               | full name = features.3.block.3.weight                     | shape = [51, 25, 1, 1] | values = 1275
+
+Total tensors in this layer : 1
+Total values in this layer  : 1275

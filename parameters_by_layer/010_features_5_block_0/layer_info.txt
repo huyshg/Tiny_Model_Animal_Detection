@@ -1,0 +1,13 @@
+========================================
+LAYER INFO
+========================================
+
+Layer index : 10
+Layer name  : features.5.block.0
+Folder name : 010_features_5_block_0
+
+Tensors:
+- weight               | full name = features.5.block.0.weight                     | shape = [76, 1, 3, 3] | values = 684
+
+Total tensors in this layer : 1
+Total values in this layer  : 684

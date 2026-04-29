@@ -1,0 +1,8 @@
+========================================
+PYTHON OUTPUT LAYER INFO
+========================================
+
+Output index : 32
+Layer name   : classifier.1
+Layer type   : Linear
+Shape        : [1, 10]

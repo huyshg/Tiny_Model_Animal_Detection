@@ -1,0 +1,17 @@
+========================================
+LAYER INFO
+========================================
+
+Layer index : 15
+Layer name  : features.6.block.1
+Folder name : 015_features_6_block_1
+
+Tensors:
+- weight               | full name = features.6.block.1.weight                     | shape = [102] | values = 102
+- bias                 | full name = features.6.block.1.bias                       | shape = [102] | values = 102
+- running_mean         | full name = features.6.block.1.running_mean               | shape = [102] | values = 102
+- running_var          | full name = features.6.block.1.running_var                | shape = [102] | values = 102
+- num_batches_tracked  | full name = features.6.block.1.num_batches_tracked        | shape = [] | values = 1
+
+Total tensors in this layer : 5
+Total values in this layer  : 409

@@ -1,0 +1,11 @@
+========================================
+TENSOR DATA
+========================================
+
+Tensor name : features.8.block.1.num_batches_tracked
+Shape       : []
+Num values  : 1
+Dtype       : torch.int64
+
+Values:
+0: 10824

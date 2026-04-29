@@ -1,0 +1,13 @@
+========================================
+LAYER INFO
+========================================
+
+Layer index : 26
+Layer name  : features.9.block.0
+Folder name : 026_features_9_block_0
+
+Tensors:
+- weight               | full name = features.9.block.0.weight                     | shape = [256, 1, 3, 3] | values = 2304
+
+Total tensors in this layer : 1
+Total values in this layer  : 2304

@@ -1,0 +1,15 @@
+Image      : C:\Users\NguyenHuy\Downloads\SoC_NewModel\input_test_picture\anh-che-cho-hai-huoc-cho-dien-thoai-14.jpg
+Top index  : 0
+Top class  : cane
+Top prob   : 0.9079954624
+Probabilities:
+0: cane: 0.9079954624
+1: cavallo: 0.0008518344
+2: elefante: 0.0004637176
+3: farfalla: 0.0121935261
+4: gallina: 0.0029692813
+5: gatto: 0.0110650240
+6: mucca: 0.0303673986
+7: pecora: 0.0318605676
+8: ragno: 0.0016484928
+9: scoiattolo: 0.0005847104

@@ -1,0 +1,20 @@
+========================================
+LAYER INFO
+========================================
+
+Layer index : 9
+Layer name  : features.7.block.0_fused_features.7.block.1
+Folder name : 009_features_7_block_0_conv_bn_fused
+Layer type  : Conv2d + BatchNorm2d fused
+Source conv : 018_features_7_block_0 (features.7.block.0)
+Source bn   : 019_features_7_block_1 (features.7.block.1)
+BatchNorm eps used for fusion : 1e-05
+Fusion formula : fused_weight = conv_weight * gamma / sqrt(running_var + eps)
+Fusion formula : fused_bias = beta + (conv_bias - running_mean) * gamma / sqrt(running_var + eps)
+
+Tensors:
+- weight               | full name = features.7.block.0_fused_features.7.block.1.weight | shape = [153, 1, 3, 3] | values = 1377
+- bias                 | full name = features.7.block.0_fused_features.7.block.1.bias | shape = [153] | values = 153
+
+Total tensors in this layer : 2
+Total values in this layer  : 1530

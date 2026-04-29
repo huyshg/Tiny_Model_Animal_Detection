@@ -1,0 +1,7 @@
+========================================
+CPP OUTPUT LAYER INFO
+========================================
+
+Layer name   : features.3.block.2
+Layer type   : ReLU
+Shape        : [1, 25, 80, 80]

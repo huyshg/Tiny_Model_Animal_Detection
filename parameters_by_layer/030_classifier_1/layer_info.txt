@@ -1,0 +1,14 @@
+========================================
+LAYER INFO
+========================================
+
+Layer index : 30
+Layer name  : classifier.1
+Folder name : 030_classifier_1
+
+Tensors:
+- weight               | full name = classifier.1.weight                           | shape = [10, 307] | values = 3070
+- bias                 | full name = classifier.1.bias                             | shape = [10] | values = 10
+
+Total tensors in this layer : 2
+Total values in this layer  : 3080

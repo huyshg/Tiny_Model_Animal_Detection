@@ -1,0 +1,39 @@
+========================================
+MODEL PARAMETERS BY LAYER SUMMARY
+========================================
+
+Total layers  : 31
+Total tensors : 92
+Total values  : 210274
+
+000 | features.0                                    | tensors =  1 | values = 675
+001 | features.1                                    | tensors =  5 | values = 101
+002 | features.3.block.0                            | tensors =  1 | values = 225
+003 | features.3.block.1                            | tensors =  5 | values = 101
+004 | features.3.block.3                            | tensors =  1 | values = 1275
+005 | features.3.block.4                            | tensors =  5 | values = 205
+006 | features.4.block.0                            | tensors =  1 | values = 459
+007 | features.4.block.1                            | tensors =  5 | values = 205
+008 | features.4.block.3                            | tensors =  1 | values = 3876
+009 | features.4.block.4                            | tensors =  5 | values = 305
+010 | features.5.block.0                            | tensors =  1 | values = 684
+011 | features.5.block.1                            | tensors =  5 | values = 305
+012 | features.5.block.3                            | tensors =  1 | values = 7752
+013 | features.5.block.4                            | tensors =  5 | values = 409
+014 | features.6.block.0                            | tensors =  1 | values = 918
+015 | features.6.block.1                            | tensors =  5 | values = 409
+016 | features.6.block.3                            | tensors =  1 | values = 15606
+017 | features.6.block.4                            | tensors =  5 | values = 613
+018 | features.7.block.0                            | tensors =  1 | values = 1377
+019 | features.7.block.1                            | tensors =  5 | values = 613
+020 | features.7.block.3                            | tensors =  1 | values = 31212
+021 | features.7.block.4                            | tensors =  5 | values = 817
+022 | features.8.block.0                            | tensors =  1 | values = 1836
+023 | features.8.block.1                            | tensors =  5 | values = 817
+024 | features.8.block.3                            | tensors =  1 | values = 52224
+025 | features.8.block.4                            | tensors =  5 | values = 1025
+026 | features.9.block.0                            | tensors =  1 | values = 2304
+027 | features.9.block.1                            | tensors =  5 | values = 1025
+028 | features.9.block.3                            | tensors =  1 | values = 78592
+029 | features.9.block.4                            | tensors =  5 | values = 1229
+030 | classifier.1                                  | tensors =  2 | values = 3080

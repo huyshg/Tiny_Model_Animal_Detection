@@ -1,0 +1,8 @@
+========================================
+PYTHON OUTPUT LAYER INFO
+========================================
+
+Output index : 23
+Layer name   : features.8.block.2
+Layer type   : ReLU
+Shape        : [1, 204, 10, 10]

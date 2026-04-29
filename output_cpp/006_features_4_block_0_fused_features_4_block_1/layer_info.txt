@@ -1,0 +1,7 @@
+========================================
+CPP OUTPUT LAYER INFO
+========================================
+
+Layer name   : features.4.block.0_fused_features.4.block.1
+Layer type   : Conv2d + BatchNorm2d fused
+Shape        : [1, 51, 40, 40]

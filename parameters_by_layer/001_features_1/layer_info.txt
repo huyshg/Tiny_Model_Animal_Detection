@@ -1,0 +1,17 @@
+========================================
+LAYER INFO
+========================================
+
+Layer index : 1
+Layer name  : features.1
+Folder name : 001_features_1
+
+Tensors:
+- weight               | full name = features.1.weight                             | shape = [25] | values = 25
+- bias                 | full name = features.1.bias                               | shape = [25] | values = 25
+- running_mean         | full name = features.1.running_mean                       | shape = [25] | values = 25
+- running_var          | full name = features.1.running_var                        | shape = [25] | values = 25
+- num_batches_tracked  | full name = features.1.num_batches_tracked                | shape = [] | values = 1
+
+Total tensors in this layer : 5
+Total values in this layer  : 101

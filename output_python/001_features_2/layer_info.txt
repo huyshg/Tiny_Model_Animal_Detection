@@ -1,0 +1,8 @@
+========================================
+PYTHON OUTPUT LAYER INFO
+========================================
+
+Output index : 1
+Layer name   : features.2
+Layer type   : ReLU
+Shape        : [1, 25, 80, 80]

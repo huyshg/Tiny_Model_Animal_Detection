@@ -1,0 +1,8 @@
+========================================
+PYTHON OUTPUT LAYER INFO
+========================================
+
+Output index : 13
+Layer name   : features.5.block.5
+Layer type   : ReLU
+Shape        : [1, 102, 40, 40]
