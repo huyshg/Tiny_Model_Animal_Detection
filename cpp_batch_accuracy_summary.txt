@@ -1,0 +1,4 @@
+Total images : 1000
+Correct      : 871
+Accuracy     : 87.1000%
+Elapsed sec  : 211.536

@@ -18,4 +18,15 @@
 .\scripts\run_all.ps1
 ```
 
+## Run C++ Accuracy On `images`
+
+```powershell
+.\scripts\run_cpp_batch_accuracy.ps1
+```
+
+This preprocesses every image listed in `labels.csv`, runs the C++ model over all generated inputs, and writes:
+
+- `cpp_batch_accuracy_summary.txt`
+- `cpp_batch_accuracy_report.csv`
+
 The C++ code intentionally uses explicit loops for convolution, ReLU, average pooling, flatten, linear, and softmax so the algorithm is easier to translate to Verilog later. The files are split by responsibility: `layers.*` is arithmetic, `tensor_io.*` is text IO, `model_config.*` is layer metadata, and `inference.*` is execution order.

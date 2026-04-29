@@ -23,6 +23,24 @@ Generate `.mem` files:
 python .\scripts\export_verilog_mem.py
 ```
 
+Set Verilog tool PATH for the current PowerShell session:
+
+```powershell
+.\scripts\setup_verilog_tools.ps1
+```
+
+Run a syntax check with Icarus Verilog:
+
+```powershell
+.\scripts\check_verilog_syntax.ps1
+```
+
+Run Verilator lint:
+
+```powershell
+.\scripts\lint_verilog_verilator.ps1
+```
+
 ## Notes
 
 The C++ model computes final `softmax`, but hardware classifiers usually only need the largest logit. The Verilog folder therefore provides `argmax.v` instead of a full exponential/division softmax. If exact probabilities are required in hardware, add a LUT or piecewise approximation softmax after `linear_sequential.v`.
