@@ -1,0 +1,1108 @@
+Copyright 1986-2022 Xilinx, Inc. All Rights Reserved. Copyright 2022-2024 Advanced Micro Devices, Inc. All Rights Reserved.
+---------------------------------------------------------------------------------------------------------------------------------------------
+| Tool Version : Vivado v.2024.2 (win64) Build 5239630 Fri Nov 08 22:35:27 MST 2024
+| Date         : Sun May 10 21:33:27 2026
+| Host         : DESKTOP-SVALI2U running 64-bit major release  (build 9200)
+| Command      : report_drc -file design_1_wrapper_drc_opted.rpt -pb design_1_wrapper_drc_opted.pb -rpx design_1_wrapper_drc_opted.rpx
+| Design       : design_1_wrapper
+| Device       : xck26-sfvc784-2LV-c
+| Speed File   : -2LV
+| Design State : Synthesized
+---------------------------------------------------------------------------------------------------------------------------------------------
+
+Report DRC
+
+Table of Contents
+-----------------
+1. REPORT SUMMARY
+2. REPORT DETAILS
+
+1. REPORT SUMMARY
+-----------------
+            Netlist: netlist
+          Floorplan: design_1
+      Design limits: <entire design considered>
+           Ruledeck: default
+             Max checks: <unlimited>
+             Checks found: 214
++--------+----------+------------------------+--------+
+| Rule   | Severity | Description            | Checks |
++--------+----------+------------------------+--------+
+| DPIP-2 | Warning  | Input pipelining       | 50     |
+| DPOP-3 | Warning  | PREG Output pipelining | 85     |
+| DPOP-4 | Warning  | MREG Output pipelining | 79     |
++--------+----------+------------------------+--------+
+
+2. REPORT DETAILS
+-----------------
+DPIP-2#1 Warning
+Input pipelining  
+DSP design_1_i/animalnet_axi_lite_0/inst/u_animalnet_top/u_conv0/gen_regular.u_conv/input_addr0 input design_1_i/animalnet_axi_lite_0/inst/u_animalnet_top/u_conv0/gen_regular.u_conv/input_addr0/A[29:0] is not pipelined. Pipelining DSP48 input will improve performance.
+Related violations: <none>
+
+DPIP-2#2 Warning
+Input pipelining  
+DSP design_1_i/animalnet_axi_lite_0/inst/u_animalnet_top/u_conv0/gen_regular.u_conv/input_addr0 input design_1_i/animalnet_axi_lite_0/inst/u_animalnet_top/u_conv0/gen_regular.u_conv/input_addr0/C[47:0] is not pipelined. Pipelining DSP48 input will improve performance.
+Related violations: <none>
+
+DPIP-2#3 Warning
+Input pipelining  
+DSP design_1_i/animalnet_axi_lite_0/inst/u_animalnet_top/u_conv0/gen_regular.u_conv/input_addr2 input design_1_i/animalnet_axi_lite_0/inst/u_animalnet_top/u_conv0/gen_regular.u_conv/input_addr2/A[29:0] is not pipelined. Pipelining DSP48 input will improve performance.
+Related violations: <none>
+
+DPIP-2#4 Warning
+Input pipelining  
+DSP design_1_i/animalnet_axi_lite_0/inst/u_animalnet_top/u_conv0/gen_regular.u_conv/output_addr0 input design_1_i/animalnet_axi_lite_0/inst/u_animalnet_top/u_conv0/gen_regular.u_conv/output_addr0/A[29:0] is not pipelined. Pipelining DSP48 input will improve performance.
+Related violations: <none>
+
+DPIP-2#5 Warning
+Input pipelining  
+DSP design_1_i/animalnet_axi_lite_0/inst/u_animalnet_top/u_conv0/gen_regular.u_conv/output_addr0 input design_1_i/animalnet_axi_lite_0/inst/u_animalnet_top/u_conv0/gen_regular.u_conv/output_addr0/C[47:0] is not pipelined. Pipelining DSP48 input will improve performance.
+Related violations: <none>
+
+DPIP-2#6 Warning
+Input pipelining  
+DSP design_1_i/animalnet_axi_lite_0/inst/u_animalnet_top/u_conv1/gen_depthwise.u_conv/input_addr0 input design_1_i/animalnet_axi_lite_0/inst/u_animalnet_top/u_conv1/gen_depthwise.u_conv/input_addr0/A[29:0] is not pipelined. Pipelining DSP48 input will improve performance.
+Related violations: <none>
+
+DPIP-2#7 Warning
+Input pipelining  
+DSP design_1_i/animalnet_axi_lite_0/inst/u_animalnet_top/u_conv1/gen_depthwise.u_conv/input_addr0 input design_1_i/animalnet_axi_lite_0/inst/u_animalnet_top/u_conv1/gen_depthwise.u_conv/input_addr0/C[47:0] is not pipelined. Pipelining DSP48 input will improve performance.
+Related violations: <none>
+
+DPIP-2#8 Warning
+Input pipelining  
+DSP design_1_i/animalnet_axi_lite_0/inst/u_animalnet_top/u_conv1/gen_depthwise.u_conv/input_addr2 input design_1_i/animalnet_axi_lite_0/inst/u_animalnet_top/u_conv1/gen_depthwise.u_conv/input_addr2/A[29:0] is not pipelined. Pipelining DSP48 input will improve performance.
+Related violations: <none>
+
+DPIP-2#9 Warning
+Input pipelining  
+DSP design_1_i/animalnet_axi_lite_0/inst/u_animalnet_top/u_conv1/gen_depthwise.u_conv/output_addr0 input design_1_i/animalnet_axi_lite_0/inst/u_animalnet_top/u_conv1/gen_depthwise.u_conv/output_addr0/C[47:0] is not pipelined. Pipelining DSP48 input will improve performance.
+Related violations: <none>
+
+DPIP-2#10 Warning
+Input pipelining  
+DSP design_1_i/animalnet_axi_lite_0/inst/u_animalnet_top/u_conv10/gen_regular.u_conv/input_addr0 input design_1_i/animalnet_axi_lite_0/inst/u_animalnet_top/u_conv10/gen_regular.u_conv/input_addr0/A[29:0] is not pipelined. Pipelining DSP48 input will improve performance.
+Related violations: <none>
+
+DPIP-2#11 Warning
+Input pipelining  
+DSP design_1_i/animalnet_axi_lite_0/inst/u_animalnet_top/u_conv10/gen_regular.u_conv/input_addr0 input design_1_i/animalnet_axi_lite_0/inst/u_animalnet_top/u_conv10/gen_regular.u_conv/input_addr0/C[47:0] is not pipelined. Pipelining DSP48 input will improve performance.
+Related violations: <none>
+
+DPIP-2#12 Warning
+Input pipelining  
+DSP design_1_i/animalnet_axi_lite_0/inst/u_animalnet_top/u_conv10/gen_regular.u_conv/output_addr0 input design_1_i/animalnet_axi_lite_0/inst/u_animalnet_top/u_conv10/gen_regular.u_conv/output_addr0/A[29:0] is not pipelined. Pipelining DSP48 input will improve performance.
+Related violations: <none>
+
+DPIP-2#13 Warning
+Input pipelining  
+DSP design_1_i/animalnet_axi_lite_0/inst/u_animalnet_top/u_conv10/gen_regular.u_conv/output_addr0 input design_1_i/animalnet_axi_lite_0/inst/u_animalnet_top/u_conv10/gen_regular.u_conv/output_addr0/C[47:0] is not pipelined. Pipelining DSP48 input will improve performance.
+Related violations: <none>
+
+DPIP-2#14 Warning
+Input pipelining  
+DSP design_1_i/animalnet_axi_lite_0/inst/u_animalnet_top/u_conv11/gen_depthwise.u_conv/input_addr0 input design_1_i/animalnet_axi_lite_0/inst/u_animalnet_top/u_conv11/gen_depthwise.u_conv/input_addr0/A[29:0] is not pipelined. Pipelining DSP48 input will improve performance.
+Related violations: <none>
+
+DPIP-2#15 Warning
+Input pipelining  
+DSP design_1_i/animalnet_axi_lite_0/inst/u_animalnet_top/u_conv11/gen_depthwise.u_conv/input_addr0 input design_1_i/animalnet_axi_lite_0/inst/u_animalnet_top/u_conv11/gen_depthwise.u_conv/input_addr0/C[47:0] is not pipelined. Pipelining DSP48 input will improve performance.
+Related violations: <none>
+
+DPIP-2#16 Warning
+Input pipelining  
+DSP design_1_i/animalnet_axi_lite_0/inst/u_animalnet_top/u_conv11/gen_depthwise.u_conv/input_addr2 input design_1_i/animalnet_axi_lite_0/inst/u_animalnet_top/u_conv11/gen_depthwise.u_conv/input_addr2/A[29:0] is not pipelined. Pipelining DSP48 input will improve performance.
+Related violations: <none>
+
+DPIP-2#17 Warning
+Input pipelining  
+DSP design_1_i/animalnet_axi_lite_0/inst/u_animalnet_top/u_conv2/gen_regular.u_conv/input_addr0 input design_1_i/animalnet_axi_lite_0/inst/u_animalnet_top/u_conv2/gen_regular.u_conv/input_addr0/A[29:0] is not pipelined. Pipelining DSP48 input will improve performance.
+Related violations: <none>
+
+DPIP-2#18 Warning
+Input pipelining  
+DSP design_1_i/animalnet_axi_lite_0/inst/u_animalnet_top/u_conv2/gen_regular.u_conv/input_addr0 input design_1_i/animalnet_axi_lite_0/inst/u_animalnet_top/u_conv2/gen_regular.u_conv/input_addr0/C[47:0] is not pipelined. Pipelining DSP48 input will improve performance.
+Related violations: <none>
+
+DPIP-2#19 Warning
+Input pipelining  
+DSP design_1_i/animalnet_axi_lite_0/inst/u_animalnet_top/u_conv2/gen_regular.u_conv/output_addr0 input design_1_i/animalnet_axi_lite_0/inst/u_animalnet_top/u_conv2/gen_regular.u_conv/output_addr0/A[29:0] is not pipelined. Pipelining DSP48 input will improve performance.
+Related violations: <none>
+
+DPIP-2#20 Warning
+Input pipelining  
+DSP design_1_i/animalnet_axi_lite_0/inst/u_animalnet_top/u_conv2/gen_regular.u_conv/output_addr0 input design_1_i/animalnet_axi_lite_0/inst/u_animalnet_top/u_conv2/gen_regular.u_conv/output_addr0/C[47:0] is not pipelined. Pipelining DSP48 input will improve performance.
+Related violations: <none>
+
+DPIP-2#21 Warning
+Input pipelining  
+DSP design_1_i/animalnet_axi_lite_0/inst/u_animalnet_top/u_conv3/gen_depthwise.u_conv/input_addr0 input design_1_i/animalnet_axi_lite_0/inst/u_animalnet_top/u_conv3/gen_depthwise.u_conv/input_addr0/A[29:0] is not pipelined. Pipelining DSP48 input will improve performance.
+Related violations: <none>
+
+DPIP-2#22 Warning
+Input pipelining  
+DSP design_1_i/animalnet_axi_lite_0/inst/u_animalnet_top/u_conv3/gen_depthwise.u_conv/input_addr0 input design_1_i/animalnet_axi_lite_0/inst/u_animalnet_top/u_conv3/gen_depthwise.u_conv/input_addr0/C[47:0] is not pipelined. Pipelining DSP48 input will improve performance.
+Related violations: <none>
+
+DPIP-2#23 Warning
+Input pipelining  
+DSP design_1_i/animalnet_axi_lite_0/inst/u_animalnet_top/u_conv3/gen_depthwise.u_conv/input_addr2 input design_1_i/animalnet_axi_lite_0/inst/u_animalnet_top/u_conv3/gen_depthwise.u_conv/input_addr2/A[29:0] is not pipelined. Pipelining DSP48 input will improve performance.
+Related violations: <none>
+
+DPIP-2#24 Warning
+Input pipelining  
+DSP design_1_i/animalnet_axi_lite_0/inst/u_animalnet_top/u_conv3/gen_depthwise.u_conv/output_addr0 input design_1_i/animalnet_axi_lite_0/inst/u_animalnet_top/u_conv3/gen_depthwise.u_conv/output_addr0/A[29:0] is not pipelined. Pipelining DSP48 input will improve performance.
+Related violations: <none>
+
+DPIP-2#25 Warning
+Input pipelining  
+DSP design_1_i/animalnet_axi_lite_0/inst/u_animalnet_top/u_conv3/gen_depthwise.u_conv/output_addr0 input design_1_i/animalnet_axi_lite_0/inst/u_animalnet_top/u_conv3/gen_depthwise.u_conv/output_addr0/C[47:0] is not pipelined. Pipelining DSP48 input will improve performance.
+Related violations: <none>
+
+DPIP-2#26 Warning
+Input pipelining  
+DSP design_1_i/animalnet_axi_lite_0/inst/u_animalnet_top/u_conv4/gen_regular.u_conv/input_addr0 input design_1_i/animalnet_axi_lite_0/inst/u_animalnet_top/u_conv4/gen_regular.u_conv/input_addr0/A[29:0] is not pipelined. Pipelining DSP48 input will improve performance.
+Related violations: <none>
+
+DPIP-2#27 Warning
+Input pipelining  
+DSP design_1_i/animalnet_axi_lite_0/inst/u_animalnet_top/u_conv4/gen_regular.u_conv/input_addr0 input design_1_i/animalnet_axi_lite_0/inst/u_animalnet_top/u_conv4/gen_regular.u_conv/input_addr0/C[47:0] is not pipelined. Pipelining DSP48 input will improve performance.
+Related violations: <none>
+
+DPIP-2#28 Warning
+Input pipelining  
+DSP design_1_i/animalnet_axi_lite_0/inst/u_animalnet_top/u_conv4/gen_regular.u_conv/output_addr0 input design_1_i/animalnet_axi_lite_0/inst/u_animalnet_top/u_conv4/gen_regular.u_conv/output_addr0/A[29:0] is not pipelined. Pipelining DSP48 input will improve performance.
+Related violations: <none>
+
+DPIP-2#29 Warning
+Input pipelining  
+DSP design_1_i/animalnet_axi_lite_0/inst/u_animalnet_top/u_conv4/gen_regular.u_conv/output_addr0 input design_1_i/animalnet_axi_lite_0/inst/u_animalnet_top/u_conv4/gen_regular.u_conv/output_addr0/C[47:0] is not pipelined. Pipelining DSP48 input will improve performance.
+Related violations: <none>
+
+DPIP-2#30 Warning
+Input pipelining  
+DSP design_1_i/animalnet_axi_lite_0/inst/u_animalnet_top/u_conv5/gen_depthwise.u_conv/input_addr0 input design_1_i/animalnet_axi_lite_0/inst/u_animalnet_top/u_conv5/gen_depthwise.u_conv/input_addr0/A[29:0] is not pipelined. Pipelining DSP48 input will improve performance.
+Related violations: <none>
+
+DPIP-2#31 Warning
+Input pipelining  
+DSP design_1_i/animalnet_axi_lite_0/inst/u_animalnet_top/u_conv5/gen_depthwise.u_conv/input_addr0 input design_1_i/animalnet_axi_lite_0/inst/u_animalnet_top/u_conv5/gen_depthwise.u_conv/input_addr0/C[47:0] is not pipelined. Pipelining DSP48 input will improve performance.
+Related violations: <none>
+
+DPIP-2#32 Warning
+Input pipelining  
+DSP design_1_i/animalnet_axi_lite_0/inst/u_animalnet_top/u_conv5/gen_depthwise.u_conv/input_addr2 input design_1_i/animalnet_axi_lite_0/inst/u_animalnet_top/u_conv5/gen_depthwise.u_conv/input_addr2/A[29:0] is not pipelined. Pipelining DSP48 input will improve performance.
+Related violations: <none>
+
+DPIP-2#33 Warning
+Input pipelining  
+DSP design_1_i/animalnet_axi_lite_0/inst/u_animalnet_top/u_conv5/gen_depthwise.u_conv/output_addr0 input design_1_i/animalnet_axi_lite_0/inst/u_animalnet_top/u_conv5/gen_depthwise.u_conv/output_addr0/C[47:0] is not pipelined. Pipelining DSP48 input will improve performance.
+Related violations: <none>
+
+DPIP-2#34 Warning
+Input pipelining  
+DSP design_1_i/animalnet_axi_lite_0/inst/u_animalnet_top/u_conv6/gen_regular.u_conv/input_addr0 input design_1_i/animalnet_axi_lite_0/inst/u_animalnet_top/u_conv6/gen_regular.u_conv/input_addr0/A[29:0] is not pipelined. Pipelining DSP48 input will improve performance.
+Related violations: <none>
+
+DPIP-2#35 Warning
+Input pipelining  
+DSP design_1_i/animalnet_axi_lite_0/inst/u_animalnet_top/u_conv6/gen_regular.u_conv/input_addr0 input design_1_i/animalnet_axi_lite_0/inst/u_animalnet_top/u_conv6/gen_regular.u_conv/input_addr0/C[47:0] is not pipelined. Pipelining DSP48 input will improve performance.
+Related violations: <none>
+
+DPIP-2#36 Warning
+Input pipelining  
+DSP design_1_i/animalnet_axi_lite_0/inst/u_animalnet_top/u_conv6/gen_regular.u_conv/output_addr0 input design_1_i/animalnet_axi_lite_0/inst/u_animalnet_top/u_conv6/gen_regular.u_conv/output_addr0/A[29:0] is not pipelined. Pipelining DSP48 input will improve performance.
+Related violations: <none>
+
+DPIP-2#37 Warning
+Input pipelining  
+DSP design_1_i/animalnet_axi_lite_0/inst/u_animalnet_top/u_conv6/gen_regular.u_conv/output_addr0 input design_1_i/animalnet_axi_lite_0/inst/u_animalnet_top/u_conv6/gen_regular.u_conv/output_addr0/C[47:0] is not pipelined. Pipelining DSP48 input will improve performance.
+Related violations: <none>
+
+DPIP-2#38 Warning
+Input pipelining  
+DSP design_1_i/animalnet_axi_lite_0/inst/u_animalnet_top/u_conv7/gen_depthwise.u_conv/input_addr0 input design_1_i/animalnet_axi_lite_0/inst/u_animalnet_top/u_conv7/gen_depthwise.u_conv/input_addr0/A[29:0] is not pipelined. Pipelining DSP48 input will improve performance.
+Related violations: <none>
+
+DPIP-2#39 Warning
+Input pipelining  
+DSP design_1_i/animalnet_axi_lite_0/inst/u_animalnet_top/u_conv7/gen_depthwise.u_conv/input_addr0 input design_1_i/animalnet_axi_lite_0/inst/u_animalnet_top/u_conv7/gen_depthwise.u_conv/input_addr0/C[47:0] is not pipelined. Pipelining DSP48 input will improve performance.
+Related violations: <none>
+
+DPIP-2#40 Warning
+Input pipelining  
+DSP design_1_i/animalnet_axi_lite_0/inst/u_animalnet_top/u_conv7/gen_depthwise.u_conv/input_addr2 input design_1_i/animalnet_axi_lite_0/inst/u_animalnet_top/u_conv7/gen_depthwise.u_conv/input_addr2/A[29:0] is not pipelined. Pipelining DSP48 input will improve performance.
+Related violations: <none>
+
+DPIP-2#41 Warning
+Input pipelining  
+DSP design_1_i/animalnet_axi_lite_0/inst/u_animalnet_top/u_conv7/gen_depthwise.u_conv/output_addr0 input design_1_i/animalnet_axi_lite_0/inst/u_animalnet_top/u_conv7/gen_depthwise.u_conv/output_addr0/A[29:0] is not pipelined. Pipelining DSP48 input will improve performance.
+Related violations: <none>
+
+DPIP-2#42 Warning
+Input pipelining  
+DSP design_1_i/animalnet_axi_lite_0/inst/u_animalnet_top/u_conv7/gen_depthwise.u_conv/output_addr0 input design_1_i/animalnet_axi_lite_0/inst/u_animalnet_top/u_conv7/gen_depthwise.u_conv/output_addr0/C[47:0] is not pipelined. Pipelining DSP48 input will improve performance.
+Related violations: <none>
+
+DPIP-2#43 Warning
+Input pipelining  
+DSP design_1_i/animalnet_axi_lite_0/inst/u_animalnet_top/u_conv8/gen_regular.u_conv/input_addr0 input design_1_i/animalnet_axi_lite_0/inst/u_animalnet_top/u_conv8/gen_regular.u_conv/input_addr0/A[29:0] is not pipelined. Pipelining DSP48 input will improve performance.
+Related violations: <none>
+
+DPIP-2#44 Warning
+Input pipelining  
+DSP design_1_i/animalnet_axi_lite_0/inst/u_animalnet_top/u_conv8/gen_regular.u_conv/input_addr0 input design_1_i/animalnet_axi_lite_0/inst/u_animalnet_top/u_conv8/gen_regular.u_conv/input_addr0/C[47:0] is not pipelined. Pipelining DSP48 input will improve performance.
+Related violations: <none>
+
+DPIP-2#45 Warning
+Input pipelining  
+DSP design_1_i/animalnet_axi_lite_0/inst/u_animalnet_top/u_conv8/gen_regular.u_conv/output_addr0 input design_1_i/animalnet_axi_lite_0/inst/u_animalnet_top/u_conv8/gen_regular.u_conv/output_addr0/A[29:0] is not pipelined. Pipelining DSP48 input will improve performance.
+Related violations: <none>
+
+DPIP-2#46 Warning
+Input pipelining  
+DSP design_1_i/animalnet_axi_lite_0/inst/u_animalnet_top/u_conv8/gen_regular.u_conv/output_addr0 input design_1_i/animalnet_axi_lite_0/inst/u_animalnet_top/u_conv8/gen_regular.u_conv/output_addr0/C[47:0] is not pipelined. Pipelining DSP48 input will improve performance.
+Related violations: <none>
+
+DPIP-2#47 Warning
+Input pipelining  
+DSP design_1_i/animalnet_axi_lite_0/inst/u_animalnet_top/u_conv9/gen_depthwise.u_conv/input_addr0 input design_1_i/animalnet_axi_lite_0/inst/u_animalnet_top/u_conv9/gen_depthwise.u_conv/input_addr0/A[29:0] is not pipelined. Pipelining DSP48 input will improve performance.
+Related violations: <none>
+
+DPIP-2#48 Warning
+Input pipelining  
+DSP design_1_i/animalnet_axi_lite_0/inst/u_animalnet_top/u_conv9/gen_depthwise.u_conv/input_addr0 input design_1_i/animalnet_axi_lite_0/inst/u_animalnet_top/u_conv9/gen_depthwise.u_conv/input_addr0/C[47:0] is not pipelined. Pipelining DSP48 input will improve performance.
+Related violations: <none>
+
+DPIP-2#49 Warning
+Input pipelining  
+DSP design_1_i/animalnet_axi_lite_0/inst/u_animalnet_top/u_conv9/gen_depthwise.u_conv/input_addr2 input design_1_i/animalnet_axi_lite_0/inst/u_animalnet_top/u_conv9/gen_depthwise.u_conv/input_addr2/A[29:0] is not pipelined. Pipelining DSP48 input will improve performance.
+Related violations: <none>
+
+DPIP-2#50 Warning
+Input pipelining  
+DSP design_1_i/animalnet_axi_lite_0/inst/u_animalnet_top/u_conv9/gen_depthwise.u_conv/output_addr0 input design_1_i/animalnet_axi_lite_0/inst/u_animalnet_top/u_conv9/gen_depthwise.u_conv/output_addr0/C[47:0] is not pipelined. Pipelining DSP48 input will improve performance.
+Related violations: <none>
+
+DPOP-3#1 Warning
+PREG Output pipelining  
+DSP design_1_i/animalnet_axi_lite_0/inst/u_animalnet_top/u_conv0/gen_regular.u_conv/input_addr0 output design_1_i/animalnet_axi_lite_0/inst/u_animalnet_top/u_conv0/gen_regular.u_conv/input_addr0/P[47:0] is not pipelined (PREG=0). Pipelining the DSP48 output will improve performance and often saves power so it is suggested whenever possible to fully pipeline this function.  If this DSP48 function was inferred, it is suggested to describe an additional register stage after this function.  If the DSP48 was instantiated in the design, it is suggested to set the PREG attribute to 1.
+Related violations: <none>
+
+DPOP-3#2 Warning
+PREG Output pipelining  
+DSP design_1_i/animalnet_axi_lite_0/inst/u_animalnet_top/u_conv0/gen_regular.u_conv/input_addr2 output design_1_i/animalnet_axi_lite_0/inst/u_animalnet_top/u_conv0/gen_regular.u_conv/input_addr2/P[47:0] is not pipelined (PREG=0). Pipelining the DSP48 output will improve performance and often saves power so it is suggested whenever possible to fully pipeline this function.  If this DSP48 function was inferred, it is suggested to describe an additional register stage after this function.  If the DSP48 was instantiated in the design, it is suggested to set the PREG attribute to 1.
+Related violations: <none>
+
+DPOP-3#3 Warning
+PREG Output pipelining  
+DSP design_1_i/animalnet_axi_lite_0/inst/u_animalnet_top/u_conv0/gen_regular.u_conv/input_addr3 output design_1_i/animalnet_axi_lite_0/inst/u_animalnet_top/u_conv0/gen_regular.u_conv/input_addr3/P[47:0] is not pipelined (PREG=0). Pipelining the DSP48 output will improve performance and often saves power so it is suggested whenever possible to fully pipeline this function.  If this DSP48 function was inferred, it is suggested to describe an additional register stage after this function.  If the DSP48 was instantiated in the design, it is suggested to set the PREG attribute to 1.
+Related violations: <none>
+
+DPOP-3#4 Warning
+PREG Output pipelining  
+DSP design_1_i/animalnet_axi_lite_0/inst/u_animalnet_top/u_conv0/gen_regular.u_conv/output_addr0 output design_1_i/animalnet_axi_lite_0/inst/u_animalnet_top/u_conv0/gen_regular.u_conv/output_addr0/P[47:0] is not pipelined (PREG=0). Pipelining the DSP48 output will improve performance and often saves power so it is suggested whenever possible to fully pipeline this function.  If this DSP48 function was inferred, it is suggested to describe an additional register stage after this function.  If the DSP48 was instantiated in the design, it is suggested to set the PREG attribute to 1.
+Related violations: <none>
+
+DPOP-3#5 Warning
+PREG Output pipelining  
+DSP design_1_i/animalnet_axi_lite_0/inst/u_animalnet_top/u_conv0/gen_regular.u_conv/output_addr2 output design_1_i/animalnet_axi_lite_0/inst/u_animalnet_top/u_conv0/gen_regular.u_conv/output_addr2/P[47:0] is not pipelined (PREG=0). Pipelining the DSP48 output will improve performance and often saves power so it is suggested whenever possible to fully pipeline this function.  If this DSP48 function was inferred, it is suggested to describe an additional register stage after this function.  If the DSP48 was instantiated in the design, it is suggested to set the PREG attribute to 1.
+Related violations: <none>
+
+DPOP-3#6 Warning
+PREG Output pipelining  
+DSP design_1_i/animalnet_axi_lite_0/inst/u_animalnet_top/u_conv0/gen_regular.u_conv/output_addr3 output design_1_i/animalnet_axi_lite_0/inst/u_animalnet_top/u_conv0/gen_regular.u_conv/output_addr3/P[47:0] is not pipelined (PREG=0). Pipelining the DSP48 output will improve performance and often saves power so it is suggested whenever possible to fully pipeline this function.  If this DSP48 function was inferred, it is suggested to describe an additional register stage after this function.  If the DSP48 was instantiated in the design, it is suggested to set the PREG attribute to 1.
+Related violations: <none>
+
+DPOP-3#7 Warning
+PREG Output pipelining  
+DSP design_1_i/animalnet_axi_lite_0/inst/u_animalnet_top/u_conv0/gen_regular.u_conv/product output design_1_i/animalnet_axi_lite_0/inst/u_animalnet_top/u_conv0/gen_regular.u_conv/product/P[47:0] is not pipelined (PREG=0). Pipelining the DSP48 output will improve performance and often saves power so it is suggested whenever possible to fully pipeline this function.  If this DSP48 function was inferred, it is suggested to describe an additional register stage after this function.  If the DSP48 was instantiated in the design, it is suggested to set the PREG attribute to 1.
+Related violations: <none>
+
+DPOP-3#8 Warning
+PREG Output pipelining  
+DSP design_1_i/animalnet_axi_lite_0/inst/u_animalnet_top/u_conv1/gen_depthwise.u_conv/input_addr0 output design_1_i/animalnet_axi_lite_0/inst/u_animalnet_top/u_conv1/gen_depthwise.u_conv/input_addr0/P[47:0] is not pipelined (PREG=0). Pipelining the DSP48 output will improve performance and often saves power so it is suggested whenever possible to fully pipeline this function.  If this DSP48 function was inferred, it is suggested to describe an additional register stage after this function.  If the DSP48 was instantiated in the design, it is suggested to set the PREG attribute to 1.
+Related violations: <none>
+
+DPOP-3#9 Warning
+PREG Output pipelining  
+DSP design_1_i/animalnet_axi_lite_0/inst/u_animalnet_top/u_conv1/gen_depthwise.u_conv/input_addr2 output design_1_i/animalnet_axi_lite_0/inst/u_animalnet_top/u_conv1/gen_depthwise.u_conv/input_addr2/P[47:0] is not pipelined (PREG=0). Pipelining the DSP48 output will improve performance and often saves power so it is suggested whenever possible to fully pipeline this function.  If this DSP48 function was inferred, it is suggested to describe an additional register stage after this function.  If the DSP48 was instantiated in the design, it is suggested to set the PREG attribute to 1.
+Related violations: <none>
+
+DPOP-3#10 Warning
+PREG Output pipelining  
+DSP design_1_i/animalnet_axi_lite_0/inst/u_animalnet_top/u_conv1/gen_depthwise.u_conv/input_addr3 output design_1_i/animalnet_axi_lite_0/inst/u_animalnet_top/u_conv1/gen_depthwise.u_conv/input_addr3/P[47:0] is not pipelined (PREG=0). Pipelining the DSP48 output will improve performance and often saves power so it is suggested whenever possible to fully pipeline this function.  If this DSP48 function was inferred, it is suggested to describe an additional register stage after this function.  If the DSP48 was instantiated in the design, it is suggested to set the PREG attribute to 1.
+Related violations: <none>
+
+DPOP-3#11 Warning
+PREG Output pipelining  
+DSP design_1_i/animalnet_axi_lite_0/inst/u_animalnet_top/u_conv1/gen_depthwise.u_conv/output_addr0 output design_1_i/animalnet_axi_lite_0/inst/u_animalnet_top/u_conv1/gen_depthwise.u_conv/output_addr0/P[47:0] is not pipelined (PREG=0). Pipelining the DSP48 output will improve performance and often saves power so it is suggested whenever possible to fully pipeline this function.  If this DSP48 function was inferred, it is suggested to describe an additional register stage after this function.  If the DSP48 was instantiated in the design, it is suggested to set the PREG attribute to 1.
+Related violations: <none>
+
+DPOP-3#12 Warning
+PREG Output pipelining  
+DSP design_1_i/animalnet_axi_lite_0/inst/u_animalnet_top/u_conv1/gen_depthwise.u_conv/product output design_1_i/animalnet_axi_lite_0/inst/u_animalnet_top/u_conv1/gen_depthwise.u_conv/product/P[47:0] is not pipelined (PREG=0). Pipelining the DSP48 output will improve performance and often saves power so it is suggested whenever possible to fully pipeline this function.  If this DSP48 function was inferred, it is suggested to describe an additional register stage after this function.  If the DSP48 was instantiated in the design, it is suggested to set the PREG attribute to 1.
+Related violations: <none>
+
+DPOP-3#13 Warning
+PREG Output pipelining  
+DSP design_1_i/animalnet_axi_lite_0/inst/u_animalnet_top/u_conv10/gen_regular.u_conv/input_addr0 output design_1_i/animalnet_axi_lite_0/inst/u_animalnet_top/u_conv10/gen_regular.u_conv/input_addr0/P[47:0] is not pipelined (PREG=0). Pipelining the DSP48 output will improve performance and often saves power so it is suggested whenever possible to fully pipeline this function.  If this DSP48 function was inferred, it is suggested to describe an additional register stage after this function.  If the DSP48 was instantiated in the design, it is suggested to set the PREG attribute to 1.
+Related violations: <none>
+
+DPOP-3#14 Warning
+PREG Output pipelining  
+DSP design_1_i/animalnet_axi_lite_0/inst/u_animalnet_top/u_conv10/gen_regular.u_conv/input_addr2 output design_1_i/animalnet_axi_lite_0/inst/u_animalnet_top/u_conv10/gen_regular.u_conv/input_addr2/P[47:0] is not pipelined (PREG=0). Pipelining the DSP48 output will improve performance and often saves power so it is suggested whenever possible to fully pipeline this function.  If this DSP48 function was inferred, it is suggested to describe an additional register stage after this function.  If the DSP48 was instantiated in the design, it is suggested to set the PREG attribute to 1.
+Related violations: <none>
+
+DPOP-3#15 Warning
+PREG Output pipelining  
+DSP design_1_i/animalnet_axi_lite_0/inst/u_animalnet_top/u_conv10/gen_regular.u_conv/input_addr3 output design_1_i/animalnet_axi_lite_0/inst/u_animalnet_top/u_conv10/gen_regular.u_conv/input_addr3/P[47:0] is not pipelined (PREG=0). Pipelining the DSP48 output will improve performance and often saves power so it is suggested whenever possible to fully pipeline this function.  If this DSP48 function was inferred, it is suggested to describe an additional register stage after this function.  If the DSP48 was instantiated in the design, it is suggested to set the PREG attribute to 1.
+Related violations: <none>
+
+DPOP-3#16 Warning
+PREG Output pipelining  
+DSP design_1_i/animalnet_axi_lite_0/inst/u_animalnet_top/u_conv10/gen_regular.u_conv/output_addr0 output design_1_i/animalnet_axi_lite_0/inst/u_animalnet_top/u_conv10/gen_regular.u_conv/output_addr0/P[47:0] is not pipelined (PREG=0). Pipelining the DSP48 output will improve performance and often saves power so it is suggested whenever possible to fully pipeline this function.  If this DSP48 function was inferred, it is suggested to describe an additional register stage after this function.  If the DSP48 was instantiated in the design, it is suggested to set the PREG attribute to 1.
+Related violations: <none>
+
+DPOP-3#17 Warning
+PREG Output pipelining  
+DSP design_1_i/animalnet_axi_lite_0/inst/u_animalnet_top/u_conv10/gen_regular.u_conv/output_addr2 output design_1_i/animalnet_axi_lite_0/inst/u_animalnet_top/u_conv10/gen_regular.u_conv/output_addr2/P[47:0] is not pipelined (PREG=0). Pipelining the DSP48 output will improve performance and often saves power so it is suggested whenever possible to fully pipeline this function.  If this DSP48 function was inferred, it is suggested to describe an additional register stage after this function.  If the DSP48 was instantiated in the design, it is suggested to set the PREG attribute to 1.
+Related violations: <none>
+
+DPOP-3#18 Warning
+PREG Output pipelining  
+DSP design_1_i/animalnet_axi_lite_0/inst/u_animalnet_top/u_conv10/gen_regular.u_conv/output_addr3 output design_1_i/animalnet_axi_lite_0/inst/u_animalnet_top/u_conv10/gen_regular.u_conv/output_addr3/P[47:0] is not pipelined (PREG=0). Pipelining the DSP48 output will improve performance and often saves power so it is suggested whenever possible to fully pipeline this function.  If this DSP48 function was inferred, it is suggested to describe an additional register stage after this function.  If the DSP48 was instantiated in the design, it is suggested to set the PREG attribute to 1.
+Related violations: <none>
+
+DPOP-3#19 Warning
+PREG Output pipelining  
+DSP design_1_i/animalnet_axi_lite_0/inst/u_animalnet_top/u_conv10/gen_regular.u_conv/product output design_1_i/animalnet_axi_lite_0/inst/u_animalnet_top/u_conv10/gen_regular.u_conv/product/P[47:0] is not pipelined (PREG=0). Pipelining the DSP48 output will improve performance and often saves power so it is suggested whenever possible to fully pipeline this function.  If this DSP48 function was inferred, it is suggested to describe an additional register stage after this function.  If the DSP48 was instantiated in the design, it is suggested to set the PREG attribute to 1.
+Related violations: <none>
+
+DPOP-3#20 Warning
+PREG Output pipelining  
+DSP design_1_i/animalnet_axi_lite_0/inst/u_animalnet_top/u_conv10/gen_regular.u_conv/weight_addr0 output design_1_i/animalnet_axi_lite_0/inst/u_animalnet_top/u_conv10/gen_regular.u_conv/weight_addr0/P[47:0] is not pipelined (PREG=0). Pipelining the DSP48 output will improve performance and often saves power so it is suggested whenever possible to fully pipeline this function.  If this DSP48 function was inferred, it is suggested to describe an additional register stage after this function.  If the DSP48 was instantiated in the design, it is suggested to set the PREG attribute to 1.
+Related violations: <none>
+
+DPOP-3#21 Warning
+PREG Output pipelining  
+DSP design_1_i/animalnet_axi_lite_0/inst/u_animalnet_top/u_conv11/gen_depthwise.u_conv/input_addr0 output design_1_i/animalnet_axi_lite_0/inst/u_animalnet_top/u_conv11/gen_depthwise.u_conv/input_addr0/P[47:0] is not pipelined (PREG=0). Pipelining the DSP48 output will improve performance and often saves power so it is suggested whenever possible to fully pipeline this function.  If this DSP48 function was inferred, it is suggested to describe an additional register stage after this function.  If the DSP48 was instantiated in the design, it is suggested to set the PREG attribute to 1.
+Related violations: <none>
+
+DPOP-3#22 Warning
+PREG Output pipelining  
+DSP design_1_i/animalnet_axi_lite_0/inst/u_animalnet_top/u_conv11/gen_depthwise.u_conv/input_addr2 output design_1_i/animalnet_axi_lite_0/inst/u_animalnet_top/u_conv11/gen_depthwise.u_conv/input_addr2/P[47:0] is not pipelined (PREG=0). Pipelining the DSP48 output will improve performance and often saves power so it is suggested whenever possible to fully pipeline this function.  If this DSP48 function was inferred, it is suggested to describe an additional register stage after this function.  If the DSP48 was instantiated in the design, it is suggested to set the PREG attribute to 1.
+Related violations: <none>
+
+DPOP-3#23 Warning
+PREG Output pipelining  
+DSP design_1_i/animalnet_axi_lite_0/inst/u_animalnet_top/u_conv11/gen_depthwise.u_conv/input_addr3 output design_1_i/animalnet_axi_lite_0/inst/u_animalnet_top/u_conv11/gen_depthwise.u_conv/input_addr3/P[47:0] is not pipelined (PREG=0). Pipelining the DSP48 output will improve performance and often saves power so it is suggested whenever possible to fully pipeline this function.  If this DSP48 function was inferred, it is suggested to describe an additional register stage after this function.  If the DSP48 was instantiated in the design, it is suggested to set the PREG attribute to 1.
+Related violations: <none>
+
+DPOP-3#24 Warning
+PREG Output pipelining  
+DSP design_1_i/animalnet_axi_lite_0/inst/u_animalnet_top/u_conv11/gen_depthwise.u_conv/product output design_1_i/animalnet_axi_lite_0/inst/u_animalnet_top/u_conv11/gen_depthwise.u_conv/product/P[47:0] is not pipelined (PREG=0). Pipelining the DSP48 output will improve performance and often saves power so it is suggested whenever possible to fully pipeline this function.  If this DSP48 function was inferred, it is suggested to describe an additional register stage after this function.  If the DSP48 was instantiated in the design, it is suggested to set the PREG attribute to 1.
+Related violations: <none>
+
+DPOP-3#25 Warning
+PREG Output pipelining  
+DSP design_1_i/animalnet_axi_lite_0/inst/u_animalnet_top/u_conv12/gen_regular.u_conv/product output design_1_i/animalnet_axi_lite_0/inst/u_animalnet_top/u_conv12/gen_regular.u_conv/product/P[47:0] is not pipelined (PREG=0). Pipelining the DSP48 output will improve performance and often saves power so it is suggested whenever possible to fully pipeline this function.  If this DSP48 function was inferred, it is suggested to describe an additional register stage after this function.  If the DSP48 was instantiated in the design, it is suggested to set the PREG attribute to 1.
+Related violations: <none>
+
+DPOP-3#26 Warning
+PREG Output pipelining  
+DSP design_1_i/animalnet_axi_lite_0/inst/u_animalnet_top/u_conv12/gen_regular.u_conv/weight_addr0 output design_1_i/animalnet_axi_lite_0/inst/u_animalnet_top/u_conv12/gen_regular.u_conv/weight_addr0/P[47:0] is not pipelined (PREG=0). Pipelining the DSP48 output will improve performance and often saves power so it is suggested whenever possible to fully pipeline this function.  If this DSP48 function was inferred, it is suggested to describe an additional register stage after this function.  If the DSP48 was instantiated in the design, it is suggested to set the PREG attribute to 1.
+Related violations: <none>
+
+DPOP-3#27 Warning
+PREG Output pipelining  
+DSP design_1_i/animalnet_axi_lite_0/inst/u_animalnet_top/u_conv13/gen_depthwise.u_conv/product output design_1_i/animalnet_axi_lite_0/inst/u_animalnet_top/u_conv13/gen_depthwise.u_conv/product/P[47:0] is not pipelined (PREG=0). Pipelining the DSP48 output will improve performance and often saves power so it is suggested whenever possible to fully pipeline this function.  If this DSP48 function was inferred, it is suggested to describe an additional register stage after this function.  If the DSP48 was instantiated in the design, it is suggested to set the PREG attribute to 1.
+Related violations: <none>
+
+DPOP-3#28 Warning
+PREG Output pipelining  
+DSP design_1_i/animalnet_axi_lite_0/inst/u_animalnet_top/u_conv14/gen_regular.u_conv/product output design_1_i/animalnet_axi_lite_0/inst/u_animalnet_top/u_conv14/gen_regular.u_conv/product/P[47:0] is not pipelined (PREG=0). Pipelining the DSP48 output will improve performance and often saves power so it is suggested whenever possible to fully pipeline this function.  If this DSP48 function was inferred, it is suggested to describe an additional register stage after this function.  If the DSP48 was instantiated in the design, it is suggested to set the PREG attribute to 1.
+Related violations: <none>
+
+DPOP-3#29 Warning
+PREG Output pipelining  
+DSP design_1_i/animalnet_axi_lite_0/inst/u_animalnet_top/u_conv2/gen_regular.u_conv/input_addr0 output design_1_i/animalnet_axi_lite_0/inst/u_animalnet_top/u_conv2/gen_regular.u_conv/input_addr0/P[47:0] is not pipelined (PREG=0). Pipelining the DSP48 output will improve performance and often saves power so it is suggested whenever possible to fully pipeline this function.  If this DSP48 function was inferred, it is suggested to describe an additional register stage after this function.  If the DSP48 was instantiated in the design, it is suggested to set the PREG attribute to 1.
+Related violations: <none>
+
+DPOP-3#30 Warning
+PREG Output pipelining  
+DSP design_1_i/animalnet_axi_lite_0/inst/u_animalnet_top/u_conv2/gen_regular.u_conv/input_addr2 output design_1_i/animalnet_axi_lite_0/inst/u_animalnet_top/u_conv2/gen_regular.u_conv/input_addr2/P[47:0] is not pipelined (PREG=0). Pipelining the DSP48 output will improve performance and often saves power so it is suggested whenever possible to fully pipeline this function.  If this DSP48 function was inferred, it is suggested to describe an additional register stage after this function.  If the DSP48 was instantiated in the design, it is suggested to set the PREG attribute to 1.
+Related violations: <none>
+
+DPOP-3#31 Warning
+PREG Output pipelining  
+DSP design_1_i/animalnet_axi_lite_0/inst/u_animalnet_top/u_conv2/gen_regular.u_conv/input_addr3 output design_1_i/animalnet_axi_lite_0/inst/u_animalnet_top/u_conv2/gen_regular.u_conv/input_addr3/P[47:0] is not pipelined (PREG=0). Pipelining the DSP48 output will improve performance and often saves power so it is suggested whenever possible to fully pipeline this function.  If this DSP48 function was inferred, it is suggested to describe an additional register stage after this function.  If the DSP48 was instantiated in the design, it is suggested to set the PREG attribute to 1.
+Related violations: <none>
+
+DPOP-3#32 Warning
+PREG Output pipelining  
+DSP design_1_i/animalnet_axi_lite_0/inst/u_animalnet_top/u_conv2/gen_regular.u_conv/output_addr0 output design_1_i/animalnet_axi_lite_0/inst/u_animalnet_top/u_conv2/gen_regular.u_conv/output_addr0/P[47:0] is not pipelined (PREG=0). Pipelining the DSP48 output will improve performance and often saves power so it is suggested whenever possible to fully pipeline this function.  If this DSP48 function was inferred, it is suggested to describe an additional register stage after this function.  If the DSP48 was instantiated in the design, it is suggested to set the PREG attribute to 1.
+Related violations: <none>
+
+DPOP-3#33 Warning
+PREG Output pipelining  
+DSP design_1_i/animalnet_axi_lite_0/inst/u_animalnet_top/u_conv2/gen_regular.u_conv/output_addr2 output design_1_i/animalnet_axi_lite_0/inst/u_animalnet_top/u_conv2/gen_regular.u_conv/output_addr2/P[47:0] is not pipelined (PREG=0). Pipelining the DSP48 output will improve performance and often saves power so it is suggested whenever possible to fully pipeline this function.  If this DSP48 function was inferred, it is suggested to describe an additional register stage after this function.  If the DSP48 was instantiated in the design, it is suggested to set the PREG attribute to 1.
+Related violations: <none>
+
+DPOP-3#34 Warning
+PREG Output pipelining  
+DSP design_1_i/animalnet_axi_lite_0/inst/u_animalnet_top/u_conv2/gen_regular.u_conv/output_addr3 output design_1_i/animalnet_axi_lite_0/inst/u_animalnet_top/u_conv2/gen_regular.u_conv/output_addr3/P[47:0] is not pipelined (PREG=0). Pipelining the DSP48 output will improve performance and often saves power so it is suggested whenever possible to fully pipeline this function.  If this DSP48 function was inferred, it is suggested to describe an additional register stage after this function.  If the DSP48 was instantiated in the design, it is suggested to set the PREG attribute to 1.
+Related violations: <none>
+
+DPOP-3#35 Warning
+PREG Output pipelining  
+DSP design_1_i/animalnet_axi_lite_0/inst/u_animalnet_top/u_conv2/gen_regular.u_conv/product output design_1_i/animalnet_axi_lite_0/inst/u_animalnet_top/u_conv2/gen_regular.u_conv/product/P[47:0] is not pipelined (PREG=0). Pipelining the DSP48 output will improve performance and often saves power so it is suggested whenever possible to fully pipeline this function.  If this DSP48 function was inferred, it is suggested to describe an additional register stage after this function.  If the DSP48 was instantiated in the design, it is suggested to set the PREG attribute to 1.
+Related violations: <none>
+
+DPOP-3#36 Warning
+PREG Output pipelining  
+DSP design_1_i/animalnet_axi_lite_0/inst/u_animalnet_top/u_conv2/gen_regular.u_conv/weight_addr0 output design_1_i/animalnet_axi_lite_0/inst/u_animalnet_top/u_conv2/gen_regular.u_conv/weight_addr0/P[47:0] is not pipelined (PREG=0). Pipelining the DSP48 output will improve performance and often saves power so it is suggested whenever possible to fully pipeline this function.  If this DSP48 function was inferred, it is suggested to describe an additional register stage after this function.  If the DSP48 was instantiated in the design, it is suggested to set the PREG attribute to 1.
+Related violations: <none>
+
+DPOP-3#37 Warning
+PREG Output pipelining  
+DSP design_1_i/animalnet_axi_lite_0/inst/u_animalnet_top/u_conv3/gen_depthwise.u_conv/input_addr0 output design_1_i/animalnet_axi_lite_0/inst/u_animalnet_top/u_conv3/gen_depthwise.u_conv/input_addr0/P[47:0] is not pipelined (PREG=0). Pipelining the DSP48 output will improve performance and often saves power so it is suggested whenever possible to fully pipeline this function.  If this DSP48 function was inferred, it is suggested to describe an additional register stage after this function.  If the DSP48 was instantiated in the design, it is suggested to set the PREG attribute to 1.
+Related violations: <none>
+
+DPOP-3#38 Warning
+PREG Output pipelining  
+DSP design_1_i/animalnet_axi_lite_0/inst/u_animalnet_top/u_conv3/gen_depthwise.u_conv/input_addr2 output design_1_i/animalnet_axi_lite_0/inst/u_animalnet_top/u_conv3/gen_depthwise.u_conv/input_addr2/P[47:0] is not pipelined (PREG=0). Pipelining the DSP48 output will improve performance and often saves power so it is suggested whenever possible to fully pipeline this function.  If this DSP48 function was inferred, it is suggested to describe an additional register stage after this function.  If the DSP48 was instantiated in the design, it is suggested to set the PREG attribute to 1.
+Related violations: <none>
+
+DPOP-3#39 Warning
+PREG Output pipelining  
+DSP design_1_i/animalnet_axi_lite_0/inst/u_animalnet_top/u_conv3/gen_depthwise.u_conv/input_addr3 output design_1_i/animalnet_axi_lite_0/inst/u_animalnet_top/u_conv3/gen_depthwise.u_conv/input_addr3/P[47:0] is not pipelined (PREG=0). Pipelining the DSP48 output will improve performance and often saves power so it is suggested whenever possible to fully pipeline this function.  If this DSP48 function was inferred, it is suggested to describe an additional register stage after this function.  If the DSP48 was instantiated in the design, it is suggested to set the PREG attribute to 1.
+Related violations: <none>
+
+DPOP-3#40 Warning
+PREG Output pipelining  
+DSP design_1_i/animalnet_axi_lite_0/inst/u_animalnet_top/u_conv3/gen_depthwise.u_conv/output_addr0 output design_1_i/animalnet_axi_lite_0/inst/u_animalnet_top/u_conv3/gen_depthwise.u_conv/output_addr0/P[47:0] is not pipelined (PREG=0). Pipelining the DSP48 output will improve performance and often saves power so it is suggested whenever possible to fully pipeline this function.  If this DSP48 function was inferred, it is suggested to describe an additional register stage after this function.  If the DSP48 was instantiated in the design, it is suggested to set the PREG attribute to 1.
+Related violations: <none>
+
+DPOP-3#41 Warning
+PREG Output pipelining  
+DSP design_1_i/animalnet_axi_lite_0/inst/u_animalnet_top/u_conv3/gen_depthwise.u_conv/output_addr2 output design_1_i/animalnet_axi_lite_0/inst/u_animalnet_top/u_conv3/gen_depthwise.u_conv/output_addr2/P[47:0] is not pipelined (PREG=0). Pipelining the DSP48 output will improve performance and often saves power so it is suggested whenever possible to fully pipeline this function.  If this DSP48 function was inferred, it is suggested to describe an additional register stage after this function.  If the DSP48 was instantiated in the design, it is suggested to set the PREG attribute to 1.
+Related violations: <none>
+
+DPOP-3#42 Warning
+PREG Output pipelining  
+DSP design_1_i/animalnet_axi_lite_0/inst/u_animalnet_top/u_conv3/gen_depthwise.u_conv/output_addr3 output design_1_i/animalnet_axi_lite_0/inst/u_animalnet_top/u_conv3/gen_depthwise.u_conv/output_addr3/P[47:0] is not pipelined (PREG=0). Pipelining the DSP48 output will improve performance and often saves power so it is suggested whenever possible to fully pipeline this function.  If this DSP48 function was inferred, it is suggested to describe an additional register stage after this function.  If the DSP48 was instantiated in the design, it is suggested to set the PREG attribute to 1.
+Related violations: <none>
+
+DPOP-3#43 Warning
+PREG Output pipelining  
+DSP design_1_i/animalnet_axi_lite_0/inst/u_animalnet_top/u_conv3/gen_depthwise.u_conv/product output design_1_i/animalnet_axi_lite_0/inst/u_animalnet_top/u_conv3/gen_depthwise.u_conv/product/P[47:0] is not pipelined (PREG=0). Pipelining the DSP48 output will improve performance and often saves power so it is suggested whenever possible to fully pipeline this function.  If this DSP48 function was inferred, it is suggested to describe an additional register stage after this function.  If the DSP48 was instantiated in the design, it is suggested to set the PREG attribute to 1.
+Related violations: <none>
+
+DPOP-3#44 Warning
+PREG Output pipelining  
+DSP design_1_i/animalnet_axi_lite_0/inst/u_animalnet_top/u_conv4/gen_regular.u_conv/input_addr0 output design_1_i/animalnet_axi_lite_0/inst/u_animalnet_top/u_conv4/gen_regular.u_conv/input_addr0/P[47:0] is not pipelined (PREG=0). Pipelining the DSP48 output will improve performance and often saves power so it is suggested whenever possible to fully pipeline this function.  If this DSP48 function was inferred, it is suggested to describe an additional register stage after this function.  If the DSP48 was instantiated in the design, it is suggested to set the PREG attribute to 1.
+Related violations: <none>
+
+DPOP-3#45 Warning
+PREG Output pipelining  
+DSP design_1_i/animalnet_axi_lite_0/inst/u_animalnet_top/u_conv4/gen_regular.u_conv/input_addr2 output design_1_i/animalnet_axi_lite_0/inst/u_animalnet_top/u_conv4/gen_regular.u_conv/input_addr2/P[47:0] is not pipelined (PREG=0). Pipelining the DSP48 output will improve performance and often saves power so it is suggested whenever possible to fully pipeline this function.  If this DSP48 function was inferred, it is suggested to describe an additional register stage after this function.  If the DSP48 was instantiated in the design, it is suggested to set the PREG attribute to 1.
+Related violations: <none>
+
+DPOP-3#46 Warning
+PREG Output pipelining  
+DSP design_1_i/animalnet_axi_lite_0/inst/u_animalnet_top/u_conv4/gen_regular.u_conv/input_addr3 output design_1_i/animalnet_axi_lite_0/inst/u_animalnet_top/u_conv4/gen_regular.u_conv/input_addr3/P[47:0] is not pipelined (PREG=0). Pipelining the DSP48 output will improve performance and often saves power so it is suggested whenever possible to fully pipeline this function.  If this DSP48 function was inferred, it is suggested to describe an additional register stage after this function.  If the DSP48 was instantiated in the design, it is suggested to set the PREG attribute to 1.
+Related violations: <none>
+
+DPOP-3#47 Warning
+PREG Output pipelining  
+DSP design_1_i/animalnet_axi_lite_0/inst/u_animalnet_top/u_conv4/gen_regular.u_conv/output_addr0 output design_1_i/animalnet_axi_lite_0/inst/u_animalnet_top/u_conv4/gen_regular.u_conv/output_addr0/P[47:0] is not pipelined (PREG=0). Pipelining the DSP48 output will improve performance and often saves power so it is suggested whenever possible to fully pipeline this function.  If this DSP48 function was inferred, it is suggested to describe an additional register stage after this function.  If the DSP48 was instantiated in the design, it is suggested to set the PREG attribute to 1.
+Related violations: <none>
+
+DPOP-3#48 Warning
+PREG Output pipelining  
+DSP design_1_i/animalnet_axi_lite_0/inst/u_animalnet_top/u_conv4/gen_regular.u_conv/output_addr2 output design_1_i/animalnet_axi_lite_0/inst/u_animalnet_top/u_conv4/gen_regular.u_conv/output_addr2/P[47:0] is not pipelined (PREG=0). Pipelining the DSP48 output will improve performance and often saves power so it is suggested whenever possible to fully pipeline this function.  If this DSP48 function was inferred, it is suggested to describe an additional register stage after this function.  If the DSP48 was instantiated in the design, it is suggested to set the PREG attribute to 1.
+Related violations: <none>
+
+DPOP-3#49 Warning
+PREG Output pipelining  
+DSP design_1_i/animalnet_axi_lite_0/inst/u_animalnet_top/u_conv4/gen_regular.u_conv/output_addr3 output design_1_i/animalnet_axi_lite_0/inst/u_animalnet_top/u_conv4/gen_regular.u_conv/output_addr3/P[47:0] is not pipelined (PREG=0). Pipelining the DSP48 output will improve performance and often saves power so it is suggested whenever possible to fully pipeline this function.  If this DSP48 function was inferred, it is suggested to describe an additional register stage after this function.  If the DSP48 was instantiated in the design, it is suggested to set the PREG attribute to 1.
+Related violations: <none>
+
+DPOP-3#50 Warning
+PREG Output pipelining  
+DSP design_1_i/animalnet_axi_lite_0/inst/u_animalnet_top/u_conv4/gen_regular.u_conv/product output design_1_i/animalnet_axi_lite_0/inst/u_animalnet_top/u_conv4/gen_regular.u_conv/product/P[47:0] is not pipelined (PREG=0). Pipelining the DSP48 output will improve performance and often saves power so it is suggested whenever possible to fully pipeline this function.  If this DSP48 function was inferred, it is suggested to describe an additional register stage after this function.  If the DSP48 was instantiated in the design, it is suggested to set the PREG attribute to 1.
+Related violations: <none>
+
+DPOP-3#51 Warning
+PREG Output pipelining  
+DSP design_1_i/animalnet_axi_lite_0/inst/u_animalnet_top/u_conv4/gen_regular.u_conv/weight_addr0 output design_1_i/animalnet_axi_lite_0/inst/u_animalnet_top/u_conv4/gen_regular.u_conv/weight_addr0/P[47:0] is not pipelined (PREG=0). Pipelining the DSP48 output will improve performance and often saves power so it is suggested whenever possible to fully pipeline this function.  If this DSP48 function was inferred, it is suggested to describe an additional register stage after this function.  If the DSP48 was instantiated in the design, it is suggested to set the PREG attribute to 1.
+Related violations: <none>
+
+DPOP-3#52 Warning
+PREG Output pipelining  
+DSP design_1_i/animalnet_axi_lite_0/inst/u_animalnet_top/u_conv5/gen_depthwise.u_conv/input_addr0 output design_1_i/animalnet_axi_lite_0/inst/u_animalnet_top/u_conv5/gen_depthwise.u_conv/input_addr0/P[47:0] is not pipelined (PREG=0). Pipelining the DSP48 output will improve performance and often saves power so it is suggested whenever possible to fully pipeline this function.  If this DSP48 function was inferred, it is suggested to describe an additional register stage after this function.  If the DSP48 was instantiated in the design, it is suggested to set the PREG attribute to 1.
+Related violations: <none>
+
+DPOP-3#53 Warning
+PREG Output pipelining  
+DSP design_1_i/animalnet_axi_lite_0/inst/u_animalnet_top/u_conv5/gen_depthwise.u_conv/input_addr2 output design_1_i/animalnet_axi_lite_0/inst/u_animalnet_top/u_conv5/gen_depthwise.u_conv/input_addr2/P[47:0] is not pipelined (PREG=0). Pipelining the DSP48 output will improve performance and often saves power so it is suggested whenever possible to fully pipeline this function.  If this DSP48 function was inferred, it is suggested to describe an additional register stage after this function.  If the DSP48 was instantiated in the design, it is suggested to set the PREG attribute to 1.
+Related violations: <none>
+
+DPOP-3#54 Warning
+PREG Output pipelining  
+DSP design_1_i/animalnet_axi_lite_0/inst/u_animalnet_top/u_conv5/gen_depthwise.u_conv/input_addr3 output design_1_i/animalnet_axi_lite_0/inst/u_animalnet_top/u_conv5/gen_depthwise.u_conv/input_addr3/P[47:0] is not pipelined (PREG=0). Pipelining the DSP48 output will improve performance and often saves power so it is suggested whenever possible to fully pipeline this function.  If this DSP48 function was inferred, it is suggested to describe an additional register stage after this function.  If the DSP48 was instantiated in the design, it is suggested to set the PREG attribute to 1.
+Related violations: <none>
+
+DPOP-3#55 Warning
+PREG Output pipelining  
+DSP design_1_i/animalnet_axi_lite_0/inst/u_animalnet_top/u_conv5/gen_depthwise.u_conv/output_addr0 output design_1_i/animalnet_axi_lite_0/inst/u_animalnet_top/u_conv5/gen_depthwise.u_conv/output_addr0/P[47:0] is not pipelined (PREG=0). Pipelining the DSP48 output will improve performance and often saves power so it is suggested whenever possible to fully pipeline this function.  If this DSP48 function was inferred, it is suggested to describe an additional register stage after this function.  If the DSP48 was instantiated in the design, it is suggested to set the PREG attribute to 1.
+Related violations: <none>
+
+DPOP-3#56 Warning
+PREG Output pipelining  
+DSP design_1_i/animalnet_axi_lite_0/inst/u_animalnet_top/u_conv5/gen_depthwise.u_conv/product output design_1_i/animalnet_axi_lite_0/inst/u_animalnet_top/u_conv5/gen_depthwise.u_conv/product/P[47:0] is not pipelined (PREG=0). Pipelining the DSP48 output will improve performance and often saves power so it is suggested whenever possible to fully pipeline this function.  If this DSP48 function was inferred, it is suggested to describe an additional register stage after this function.  If the DSP48 was instantiated in the design, it is suggested to set the PREG attribute to 1.
+Related violations: <none>
+
+DPOP-3#57 Warning
+PREG Output pipelining  
+DSP design_1_i/animalnet_axi_lite_0/inst/u_animalnet_top/u_conv6/gen_regular.u_conv/input_addr0 output design_1_i/animalnet_axi_lite_0/inst/u_animalnet_top/u_conv6/gen_regular.u_conv/input_addr0/P[47:0] is not pipelined (PREG=0). Pipelining the DSP48 output will improve performance and often saves power so it is suggested whenever possible to fully pipeline this function.  If this DSP48 function was inferred, it is suggested to describe an additional register stage after this function.  If the DSP48 was instantiated in the design, it is suggested to set the PREG attribute to 1.
+Related violations: <none>
+
+DPOP-3#58 Warning
+PREG Output pipelining  
+DSP design_1_i/animalnet_axi_lite_0/inst/u_animalnet_top/u_conv6/gen_regular.u_conv/input_addr2 output design_1_i/animalnet_axi_lite_0/inst/u_animalnet_top/u_conv6/gen_regular.u_conv/input_addr2/P[47:0] is not pipelined (PREG=0). Pipelining the DSP48 output will improve performance and often saves power so it is suggested whenever possible to fully pipeline this function.  If this DSP48 function was inferred, it is suggested to describe an additional register stage after this function.  If the DSP48 was instantiated in the design, it is suggested to set the PREG attribute to 1.
+Related violations: <none>
+
+DPOP-3#59 Warning
+PREG Output pipelining  
+DSP design_1_i/animalnet_axi_lite_0/inst/u_animalnet_top/u_conv6/gen_regular.u_conv/input_addr3 output design_1_i/animalnet_axi_lite_0/inst/u_animalnet_top/u_conv6/gen_regular.u_conv/input_addr3/P[47:0] is not pipelined (PREG=0). Pipelining the DSP48 output will improve performance and often saves power so it is suggested whenever possible to fully pipeline this function.  If this DSP48 function was inferred, it is suggested to describe an additional register stage after this function.  If the DSP48 was instantiated in the design, it is suggested to set the PREG attribute to 1.
+Related violations: <none>
+
+DPOP-3#60 Warning
+PREG Output pipelining  
+DSP design_1_i/animalnet_axi_lite_0/inst/u_animalnet_top/u_conv6/gen_regular.u_conv/output_addr0 output design_1_i/animalnet_axi_lite_0/inst/u_animalnet_top/u_conv6/gen_regular.u_conv/output_addr0/P[47:0] is not pipelined (PREG=0). Pipelining the DSP48 output will improve performance and often saves power so it is suggested whenever possible to fully pipeline this function.  If this DSP48 function was inferred, it is suggested to describe an additional register stage after this function.  If the DSP48 was instantiated in the design, it is suggested to set the PREG attribute to 1.
+Related violations: <none>
+
+DPOP-3#61 Warning
+PREG Output pipelining  
+DSP design_1_i/animalnet_axi_lite_0/inst/u_animalnet_top/u_conv6/gen_regular.u_conv/output_addr2 output design_1_i/animalnet_axi_lite_0/inst/u_animalnet_top/u_conv6/gen_regular.u_conv/output_addr2/P[47:0] is not pipelined (PREG=0). Pipelining the DSP48 output will improve performance and often saves power so it is suggested whenever possible to fully pipeline this function.  If this DSP48 function was inferred, it is suggested to describe an additional register stage after this function.  If the DSP48 was instantiated in the design, it is suggested to set the PREG attribute to 1.
+Related violations: <none>
+
+DPOP-3#62 Warning
+PREG Output pipelining  
+DSP design_1_i/animalnet_axi_lite_0/inst/u_animalnet_top/u_conv6/gen_regular.u_conv/output_addr3 output design_1_i/animalnet_axi_lite_0/inst/u_animalnet_top/u_conv6/gen_regular.u_conv/output_addr3/P[47:0] is not pipelined (PREG=0). Pipelining the DSP48 output will improve performance and often saves power so it is suggested whenever possible to fully pipeline this function.  If this DSP48 function was inferred, it is suggested to describe an additional register stage after this function.  If the DSP48 was instantiated in the design, it is suggested to set the PREG attribute to 1.
+Related violations: <none>
+
+DPOP-3#63 Warning
+PREG Output pipelining  
+DSP design_1_i/animalnet_axi_lite_0/inst/u_animalnet_top/u_conv6/gen_regular.u_conv/product output design_1_i/animalnet_axi_lite_0/inst/u_animalnet_top/u_conv6/gen_regular.u_conv/product/P[47:0] is not pipelined (PREG=0). Pipelining the DSP48 output will improve performance and often saves power so it is suggested whenever possible to fully pipeline this function.  If this DSP48 function was inferred, it is suggested to describe an additional register stage after this function.  If the DSP48 was instantiated in the design, it is suggested to set the PREG attribute to 1.
+Related violations: <none>
+
+DPOP-3#64 Warning
+PREG Output pipelining  
+DSP design_1_i/animalnet_axi_lite_0/inst/u_animalnet_top/u_conv6/gen_regular.u_conv/weight_addr0 output design_1_i/animalnet_axi_lite_0/inst/u_animalnet_top/u_conv6/gen_regular.u_conv/weight_addr0/P[47:0] is not pipelined (PREG=0). Pipelining the DSP48 output will improve performance and often saves power so it is suggested whenever possible to fully pipeline this function.  If this DSP48 function was inferred, it is suggested to describe an additional register stage after this function.  If the DSP48 was instantiated in the design, it is suggested to set the PREG attribute to 1.
+Related violations: <none>
+
+DPOP-3#65 Warning
+PREG Output pipelining  
+DSP design_1_i/animalnet_axi_lite_0/inst/u_animalnet_top/u_conv7/gen_depthwise.u_conv/input_addr0 output design_1_i/animalnet_axi_lite_0/inst/u_animalnet_top/u_conv7/gen_depthwise.u_conv/input_addr0/P[47:0] is not pipelined (PREG=0). Pipelining the DSP48 output will improve performance and often saves power so it is suggested whenever possible to fully pipeline this function.  If this DSP48 function was inferred, it is suggested to describe an additional register stage after this function.  If the DSP48 was instantiated in the design, it is suggested to set the PREG attribute to 1.
+Related violations: <none>
+
+DPOP-3#66 Warning
+PREG Output pipelining  
+DSP design_1_i/animalnet_axi_lite_0/inst/u_animalnet_top/u_conv7/gen_depthwise.u_conv/input_addr2 output design_1_i/animalnet_axi_lite_0/inst/u_animalnet_top/u_conv7/gen_depthwise.u_conv/input_addr2/P[47:0] is not pipelined (PREG=0). Pipelining the DSP48 output will improve performance and often saves power so it is suggested whenever possible to fully pipeline this function.  If this DSP48 function was inferred, it is suggested to describe an additional register stage after this function.  If the DSP48 was instantiated in the design, it is suggested to set the PREG attribute to 1.
+Related violations: <none>
+
+DPOP-3#67 Warning
+PREG Output pipelining  
+DSP design_1_i/animalnet_axi_lite_0/inst/u_animalnet_top/u_conv7/gen_depthwise.u_conv/input_addr3 output design_1_i/animalnet_axi_lite_0/inst/u_animalnet_top/u_conv7/gen_depthwise.u_conv/input_addr3/P[47:0] is not pipelined (PREG=0). Pipelining the DSP48 output will improve performance and often saves power so it is suggested whenever possible to fully pipeline this function.  If this DSP48 function was inferred, it is suggested to describe an additional register stage after this function.  If the DSP48 was instantiated in the design, it is suggested to set the PREG attribute to 1.
+Related violations: <none>
+
+DPOP-3#68 Warning
+PREG Output pipelining  
+DSP design_1_i/animalnet_axi_lite_0/inst/u_animalnet_top/u_conv7/gen_depthwise.u_conv/output_addr0 output design_1_i/animalnet_axi_lite_0/inst/u_animalnet_top/u_conv7/gen_depthwise.u_conv/output_addr0/P[47:0] is not pipelined (PREG=0). Pipelining the DSP48 output will improve performance and often saves power so it is suggested whenever possible to fully pipeline this function.  If this DSP48 function was inferred, it is suggested to describe an additional register stage after this function.  If the DSP48 was instantiated in the design, it is suggested to set the PREG attribute to 1.
+Related violations: <none>
+
+DPOP-3#69 Warning
+PREG Output pipelining  
+DSP design_1_i/animalnet_axi_lite_0/inst/u_animalnet_top/u_conv7/gen_depthwise.u_conv/output_addr2 output design_1_i/animalnet_axi_lite_0/inst/u_animalnet_top/u_conv7/gen_depthwise.u_conv/output_addr2/P[47:0] is not pipelined (PREG=0). Pipelining the DSP48 output will improve performance and often saves power so it is suggested whenever possible to fully pipeline this function.  If this DSP48 function was inferred, it is suggested to describe an additional register stage after this function.  If the DSP48 was instantiated in the design, it is suggested to set the PREG attribute to 1.
+Related violations: <none>
+
+DPOP-3#70 Warning
+PREG Output pipelining  
+DSP design_1_i/animalnet_axi_lite_0/inst/u_animalnet_top/u_conv7/gen_depthwise.u_conv/output_addr3 output design_1_i/animalnet_axi_lite_0/inst/u_animalnet_top/u_conv7/gen_depthwise.u_conv/output_addr3/P[47:0] is not pipelined (PREG=0). Pipelining the DSP48 output will improve performance and often saves power so it is suggested whenever possible to fully pipeline this function.  If this DSP48 function was inferred, it is suggested to describe an additional register stage after this function.  If the DSP48 was instantiated in the design, it is suggested to set the PREG attribute to 1.
+Related violations: <none>
+
+DPOP-3#71 Warning
+PREG Output pipelining  
+DSP design_1_i/animalnet_axi_lite_0/inst/u_animalnet_top/u_conv7/gen_depthwise.u_conv/product output design_1_i/animalnet_axi_lite_0/inst/u_animalnet_top/u_conv7/gen_depthwise.u_conv/product/P[47:0] is not pipelined (PREG=0). Pipelining the DSP48 output will improve performance and often saves power so it is suggested whenever possible to fully pipeline this function.  If this DSP48 function was inferred, it is suggested to describe an additional register stage after this function.  If the DSP48 was instantiated in the design, it is suggested to set the PREG attribute to 1.
+Related violations: <none>
+
+DPOP-3#72 Warning
+PREG Output pipelining  
+DSP design_1_i/animalnet_axi_lite_0/inst/u_animalnet_top/u_conv8/gen_regular.u_conv/input_addr0 output design_1_i/animalnet_axi_lite_0/inst/u_animalnet_top/u_conv8/gen_regular.u_conv/input_addr0/P[47:0] is not pipelined (PREG=0). Pipelining the DSP48 output will improve performance and often saves power so it is suggested whenever possible to fully pipeline this function.  If this DSP48 function was inferred, it is suggested to describe an additional register stage after this function.  If the DSP48 was instantiated in the design, it is suggested to set the PREG attribute to 1.
+Related violations: <none>
+
+DPOP-3#73 Warning
+PREG Output pipelining  
+DSP design_1_i/animalnet_axi_lite_0/inst/u_animalnet_top/u_conv8/gen_regular.u_conv/input_addr2 output design_1_i/animalnet_axi_lite_0/inst/u_animalnet_top/u_conv8/gen_regular.u_conv/input_addr2/P[47:0] is not pipelined (PREG=0). Pipelining the DSP48 output will improve performance and often saves power so it is suggested whenever possible to fully pipeline this function.  If this DSP48 function was inferred, it is suggested to describe an additional register stage after this function.  If the DSP48 was instantiated in the design, it is suggested to set the PREG attribute to 1.
+Related violations: <none>
+
+DPOP-3#74 Warning
+PREG Output pipelining  
+DSP design_1_i/animalnet_axi_lite_0/inst/u_animalnet_top/u_conv8/gen_regular.u_conv/input_addr3 output design_1_i/animalnet_axi_lite_0/inst/u_animalnet_top/u_conv8/gen_regular.u_conv/input_addr3/P[47:0] is not pipelined (PREG=0). Pipelining the DSP48 output will improve performance and often saves power so it is suggested whenever possible to fully pipeline this function.  If this DSP48 function was inferred, it is suggested to describe an additional register stage after this function.  If the DSP48 was instantiated in the design, it is suggested to set the PREG attribute to 1.
+Related violations: <none>
+
+DPOP-3#75 Warning
+PREG Output pipelining  
+DSP design_1_i/animalnet_axi_lite_0/inst/u_animalnet_top/u_conv8/gen_regular.u_conv/output_addr0 output design_1_i/animalnet_axi_lite_0/inst/u_animalnet_top/u_conv8/gen_regular.u_conv/output_addr0/P[47:0] is not pipelined (PREG=0). Pipelining the DSP48 output will improve performance and often saves power so it is suggested whenever possible to fully pipeline this function.  If this DSP48 function was inferred, it is suggested to describe an additional register stage after this function.  If the DSP48 was instantiated in the design, it is suggested to set the PREG attribute to 1.
+Related violations: <none>
+
+DPOP-3#76 Warning
+PREG Output pipelining  
+DSP design_1_i/animalnet_axi_lite_0/inst/u_animalnet_top/u_conv8/gen_regular.u_conv/output_addr2 output design_1_i/animalnet_axi_lite_0/inst/u_animalnet_top/u_conv8/gen_regular.u_conv/output_addr2/P[47:0] is not pipelined (PREG=0). Pipelining the DSP48 output will improve performance and often saves power so it is suggested whenever possible to fully pipeline this function.  If this DSP48 function was inferred, it is suggested to describe an additional register stage after this function.  If the DSP48 was instantiated in the design, it is suggested to set the PREG attribute to 1.
+Related violations: <none>
+
+DPOP-3#77 Warning
+PREG Output pipelining  
+DSP design_1_i/animalnet_axi_lite_0/inst/u_animalnet_top/u_conv8/gen_regular.u_conv/output_addr3 output design_1_i/animalnet_axi_lite_0/inst/u_animalnet_top/u_conv8/gen_regular.u_conv/output_addr3/P[47:0] is not pipelined (PREG=0). Pipelining the DSP48 output will improve performance and often saves power so it is suggested whenever possible to fully pipeline this function.  If this DSP48 function was inferred, it is suggested to describe an additional register stage after this function.  If the DSP48 was instantiated in the design, it is suggested to set the PREG attribute to 1.
+Related violations: <none>
+
+DPOP-3#78 Warning
+PREG Output pipelining  
+DSP design_1_i/animalnet_axi_lite_0/inst/u_animalnet_top/u_conv8/gen_regular.u_conv/product output design_1_i/animalnet_axi_lite_0/inst/u_animalnet_top/u_conv8/gen_regular.u_conv/product/P[47:0] is not pipelined (PREG=0). Pipelining the DSP48 output will improve performance and often saves power so it is suggested whenever possible to fully pipeline this function.  If this DSP48 function was inferred, it is suggested to describe an additional register stage after this function.  If the DSP48 was instantiated in the design, it is suggested to set the PREG attribute to 1.
+Related violations: <none>
+
+DPOP-3#79 Warning
+PREG Output pipelining  
+DSP design_1_i/animalnet_axi_lite_0/inst/u_animalnet_top/u_conv8/gen_regular.u_conv/weight_addr0 output design_1_i/animalnet_axi_lite_0/inst/u_animalnet_top/u_conv8/gen_regular.u_conv/weight_addr0/P[47:0] is not pipelined (PREG=0). Pipelining the DSP48 output will improve performance and often saves power so it is suggested whenever possible to fully pipeline this function.  If this DSP48 function was inferred, it is suggested to describe an additional register stage after this function.  If the DSP48 was instantiated in the design, it is suggested to set the PREG attribute to 1.
+Related violations: <none>
+
+DPOP-3#80 Warning
+PREG Output pipelining  
+DSP design_1_i/animalnet_axi_lite_0/inst/u_animalnet_top/u_conv9/gen_depthwise.u_conv/input_addr0 output design_1_i/animalnet_axi_lite_0/inst/u_animalnet_top/u_conv9/gen_depthwise.u_conv/input_addr0/P[47:0] is not pipelined (PREG=0). Pipelining the DSP48 output will improve performance and often saves power so it is suggested whenever possible to fully pipeline this function.  If this DSP48 function was inferred, it is suggested to describe an additional register stage after this function.  If the DSP48 was instantiated in the design, it is suggested to set the PREG attribute to 1.
+Related violations: <none>
+
+DPOP-3#81 Warning
+PREG Output pipelining  
+DSP design_1_i/animalnet_axi_lite_0/inst/u_animalnet_top/u_conv9/gen_depthwise.u_conv/input_addr2 output design_1_i/animalnet_axi_lite_0/inst/u_animalnet_top/u_conv9/gen_depthwise.u_conv/input_addr2/P[47:0] is not pipelined (PREG=0). Pipelining the DSP48 output will improve performance and often saves power so it is suggested whenever possible to fully pipeline this function.  If this DSP48 function was inferred, it is suggested to describe an additional register stage after this function.  If the DSP48 was instantiated in the design, it is suggested to set the PREG attribute to 1.
+Related violations: <none>
+
+DPOP-3#82 Warning
+PREG Output pipelining  
+DSP design_1_i/animalnet_axi_lite_0/inst/u_animalnet_top/u_conv9/gen_depthwise.u_conv/input_addr3 output design_1_i/animalnet_axi_lite_0/inst/u_animalnet_top/u_conv9/gen_depthwise.u_conv/input_addr3/P[47:0] is not pipelined (PREG=0). Pipelining the DSP48 output will improve performance and often saves power so it is suggested whenever possible to fully pipeline this function.  If this DSP48 function was inferred, it is suggested to describe an additional register stage after this function.  If the DSP48 was instantiated in the design, it is suggested to set the PREG attribute to 1.
+Related violations: <none>
+
+DPOP-3#83 Warning
+PREG Output pipelining  
+DSP design_1_i/animalnet_axi_lite_0/inst/u_animalnet_top/u_conv9/gen_depthwise.u_conv/output_addr0 output design_1_i/animalnet_axi_lite_0/inst/u_animalnet_top/u_conv9/gen_depthwise.u_conv/output_addr0/P[47:0] is not pipelined (PREG=0). Pipelining the DSP48 output will improve performance and often saves power so it is suggested whenever possible to fully pipeline this function.  If this DSP48 function was inferred, it is suggested to describe an additional register stage after this function.  If the DSP48 was instantiated in the design, it is suggested to set the PREG attribute to 1.
+Related violations: <none>
+
+DPOP-3#84 Warning
+PREG Output pipelining  
+DSP design_1_i/animalnet_axi_lite_0/inst/u_animalnet_top/u_conv9/gen_depthwise.u_conv/product output design_1_i/animalnet_axi_lite_0/inst/u_animalnet_top/u_conv9/gen_depthwise.u_conv/product/P[47:0] is not pipelined (PREG=0). Pipelining the DSP48 output will improve performance and often saves power so it is suggested whenever possible to fully pipeline this function.  If this DSP48 function was inferred, it is suggested to describe an additional register stage after this function.  If the DSP48 was instantiated in the design, it is suggested to set the PREG attribute to 1.
+Related violations: <none>
+
+DPOP-3#85 Warning
+PREG Output pipelining  
+DSP design_1_i/animalnet_axi_lite_0/inst/u_animalnet_top/u_linear/product output design_1_i/animalnet_axi_lite_0/inst/u_animalnet_top/u_linear/product/P[47:0] is not pipelined (PREG=0). Pipelining the DSP48 output will improve performance and often saves power so it is suggested whenever possible to fully pipeline this function.  If this DSP48 function was inferred, it is suggested to describe an additional register stage after this function.  If the DSP48 was instantiated in the design, it is suggested to set the PREG attribute to 1.
+Related violations: <none>
+
+DPOP-4#1 Warning
+MREG Output pipelining  
+DSP design_1_i/animalnet_axi_lite_0/inst/u_animalnet_top/u_conv0/gen_regular.u_conv/input_addr0 multiplier stage design_1_i/animalnet_axi_lite_0/inst/u_animalnet_top/u_conv0/gen_regular.u_conv/input_addr0/P[47:0] is not pipelined (MREG=0). Pipelining the multiplier function will improve performance and will save significant power so it is suggested whenever possible to fully pipeline this function.  If this multiplier was inferred, it is suggested to describe an additional register stage after this function.  If there is no registered adder/accumulator following the multiply function, two pipeline stages are suggested to allow both the MREG and PREG registers to be used.  If the DSP48 was instantiated in the design, it is suggested to set both the MREG and PREG attributes to 1 when performing multiply functions.
+Related violations: <none>
+
+DPOP-4#2 Warning
+MREG Output pipelining  
+DSP design_1_i/animalnet_axi_lite_0/inst/u_animalnet_top/u_conv0/gen_regular.u_conv/input_addr2 multiplier stage design_1_i/animalnet_axi_lite_0/inst/u_animalnet_top/u_conv0/gen_regular.u_conv/input_addr2/P[47:0] is not pipelined (MREG=0). Pipelining the multiplier function will improve performance and will save significant power so it is suggested whenever possible to fully pipeline this function.  If this multiplier was inferred, it is suggested to describe an additional register stage after this function.  If there is no registered adder/accumulator following the multiply function, two pipeline stages are suggested to allow both the MREG and PREG registers to be used.  If the DSP48 was instantiated in the design, it is suggested to set both the MREG and PREG attributes to 1 when performing multiply functions.
+Related violations: <none>
+
+DPOP-4#3 Warning
+MREG Output pipelining  
+DSP design_1_i/animalnet_axi_lite_0/inst/u_animalnet_top/u_conv0/gen_regular.u_conv/input_addr3 multiplier stage design_1_i/animalnet_axi_lite_0/inst/u_animalnet_top/u_conv0/gen_regular.u_conv/input_addr3/P[47:0] is not pipelined (MREG=0). Pipelining the multiplier function will improve performance and will save significant power so it is suggested whenever possible to fully pipeline this function.  If this multiplier was inferred, it is suggested to describe an additional register stage after this function.  If there is no registered adder/accumulator following the multiply function, two pipeline stages are suggested to allow both the MREG and PREG registers to be used.  If the DSP48 was instantiated in the design, it is suggested to set both the MREG and PREG attributes to 1 when performing multiply functions.
+Related violations: <none>
+
+DPOP-4#4 Warning
+MREG Output pipelining  
+DSP design_1_i/animalnet_axi_lite_0/inst/u_animalnet_top/u_conv0/gen_regular.u_conv/output_addr0 multiplier stage design_1_i/animalnet_axi_lite_0/inst/u_animalnet_top/u_conv0/gen_regular.u_conv/output_addr0/P[47:0] is not pipelined (MREG=0). Pipelining the multiplier function will improve performance and will save significant power so it is suggested whenever possible to fully pipeline this function.  If this multiplier was inferred, it is suggested to describe an additional register stage after this function.  If there is no registered adder/accumulator following the multiply function, two pipeline stages are suggested to allow both the MREG and PREG registers to be used.  If the DSP48 was instantiated in the design, it is suggested to set both the MREG and PREG attributes to 1 when performing multiply functions.
+Related violations: <none>
+
+DPOP-4#5 Warning
+MREG Output pipelining  
+DSP design_1_i/animalnet_axi_lite_0/inst/u_animalnet_top/u_conv0/gen_regular.u_conv/output_addr2 multiplier stage design_1_i/animalnet_axi_lite_0/inst/u_animalnet_top/u_conv0/gen_regular.u_conv/output_addr2/P[47:0] is not pipelined (MREG=0). Pipelining the multiplier function will improve performance and will save significant power so it is suggested whenever possible to fully pipeline this function.  If this multiplier was inferred, it is suggested to describe an additional register stage after this function.  If there is no registered adder/accumulator following the multiply function, two pipeline stages are suggested to allow both the MREG and PREG registers to be used.  If the DSP48 was instantiated in the design, it is suggested to set both the MREG and PREG attributes to 1 when performing multiply functions.
+Related violations: <none>
+
+DPOP-4#6 Warning
+MREG Output pipelining  
+DSP design_1_i/animalnet_axi_lite_0/inst/u_animalnet_top/u_conv0/gen_regular.u_conv/output_addr3 multiplier stage design_1_i/animalnet_axi_lite_0/inst/u_animalnet_top/u_conv0/gen_regular.u_conv/output_addr3/P[47:0] is not pipelined (MREG=0). Pipelining the multiplier function will improve performance and will save significant power so it is suggested whenever possible to fully pipeline this function.  If this multiplier was inferred, it is suggested to describe an additional register stage after this function.  If there is no registered adder/accumulator following the multiply function, two pipeline stages are suggested to allow both the MREG and PREG registers to be used.  If the DSP48 was instantiated in the design, it is suggested to set both the MREG and PREG attributes to 1 when performing multiply functions.
+Related violations: <none>
+
+DPOP-4#7 Warning
+MREG Output pipelining  
+DSP design_1_i/animalnet_axi_lite_0/inst/u_animalnet_top/u_conv0/gen_regular.u_conv/product multiplier stage design_1_i/animalnet_axi_lite_0/inst/u_animalnet_top/u_conv0/gen_regular.u_conv/product/P[47:0] is not pipelined (MREG=0). Pipelining the multiplier function will improve performance and will save significant power so it is suggested whenever possible to fully pipeline this function.  If this multiplier was inferred, it is suggested to describe an additional register stage after this function.  If there is no registered adder/accumulator following the multiply function, two pipeline stages are suggested to allow both the MREG and PREG registers to be used.  If the DSP48 was instantiated in the design, it is suggested to set both the MREG and PREG attributes to 1 when performing multiply functions.
+Related violations: <none>
+
+DPOP-4#8 Warning
+MREG Output pipelining  
+DSP design_1_i/animalnet_axi_lite_0/inst/u_animalnet_top/u_conv1/gen_depthwise.u_conv/input_addr0 multiplier stage design_1_i/animalnet_axi_lite_0/inst/u_animalnet_top/u_conv1/gen_depthwise.u_conv/input_addr0/P[47:0] is not pipelined (MREG=0). Pipelining the multiplier function will improve performance and will save significant power so it is suggested whenever possible to fully pipeline this function.  If this multiplier was inferred, it is suggested to describe an additional register stage after this function.  If there is no registered adder/accumulator following the multiply function, two pipeline stages are suggested to allow both the MREG and PREG registers to be used.  If the DSP48 was instantiated in the design, it is suggested to set both the MREG and PREG attributes to 1 when performing multiply functions.
+Related violations: <none>
+
+DPOP-4#9 Warning
+MREG Output pipelining  
+DSP design_1_i/animalnet_axi_lite_0/inst/u_animalnet_top/u_conv1/gen_depthwise.u_conv/input_addr2 multiplier stage design_1_i/animalnet_axi_lite_0/inst/u_animalnet_top/u_conv1/gen_depthwise.u_conv/input_addr2/P[47:0] is not pipelined (MREG=0). Pipelining the multiplier function will improve performance and will save significant power so it is suggested whenever possible to fully pipeline this function.  If this multiplier was inferred, it is suggested to describe an additional register stage after this function.  If there is no registered adder/accumulator following the multiply function, two pipeline stages are suggested to allow both the MREG and PREG registers to be used.  If the DSP48 was instantiated in the design, it is suggested to set both the MREG and PREG attributes to 1 when performing multiply functions.
+Related violations: <none>
+
+DPOP-4#10 Warning
+MREG Output pipelining  
+DSP design_1_i/animalnet_axi_lite_0/inst/u_animalnet_top/u_conv1/gen_depthwise.u_conv/input_addr3 multiplier stage design_1_i/animalnet_axi_lite_0/inst/u_animalnet_top/u_conv1/gen_depthwise.u_conv/input_addr3/P[47:0] is not pipelined (MREG=0). Pipelining the multiplier function will improve performance and will save significant power so it is suggested whenever possible to fully pipeline this function.  If this multiplier was inferred, it is suggested to describe an additional register stage after this function.  If there is no registered adder/accumulator following the multiply function, two pipeline stages are suggested to allow both the MREG and PREG registers to be used.  If the DSP48 was instantiated in the design, it is suggested to set both the MREG and PREG attributes to 1 when performing multiply functions.
+Related violations: <none>
+
+DPOP-4#11 Warning
+MREG Output pipelining  
+DSP design_1_i/animalnet_axi_lite_0/inst/u_animalnet_top/u_conv1/gen_depthwise.u_conv/output_addr0 multiplier stage design_1_i/animalnet_axi_lite_0/inst/u_animalnet_top/u_conv1/gen_depthwise.u_conv/output_addr0/P[47:0] is not pipelined (MREG=0). Pipelining the multiplier function will improve performance and will save significant power so it is suggested whenever possible to fully pipeline this function.  If this multiplier was inferred, it is suggested to describe an additional register stage after this function.  If there is no registered adder/accumulator following the multiply function, two pipeline stages are suggested to allow both the MREG and PREG registers to be used.  If the DSP48 was instantiated in the design, it is suggested to set both the MREG and PREG attributes to 1 when performing multiply functions.
+Related violations: <none>
+
+DPOP-4#12 Warning
+MREG Output pipelining  
+DSP design_1_i/animalnet_axi_lite_0/inst/u_animalnet_top/u_conv1/gen_depthwise.u_conv/product multiplier stage design_1_i/animalnet_axi_lite_0/inst/u_animalnet_top/u_conv1/gen_depthwise.u_conv/product/P[47:0] is not pipelined (MREG=0). Pipelining the multiplier function will improve performance and will save significant power so it is suggested whenever possible to fully pipeline this function.  If this multiplier was inferred, it is suggested to describe an additional register stage after this function.  If there is no registered adder/accumulator following the multiply function, two pipeline stages are suggested to allow both the MREG and PREG registers to be used.  If the DSP48 was instantiated in the design, it is suggested to set both the MREG and PREG attributes to 1 when performing multiply functions.
+Related violations: <none>
+
+DPOP-4#13 Warning
+MREG Output pipelining  
+DSP design_1_i/animalnet_axi_lite_0/inst/u_animalnet_top/u_conv10/gen_regular.u_conv/input_addr0 multiplier stage design_1_i/animalnet_axi_lite_0/inst/u_animalnet_top/u_conv10/gen_regular.u_conv/input_addr0/P[47:0] is not pipelined (MREG=0). Pipelining the multiplier function will improve performance and will save significant power so it is suggested whenever possible to fully pipeline this function.  If this multiplier was inferred, it is suggested to describe an additional register stage after this function.  If there is no registered adder/accumulator following the multiply function, two pipeline stages are suggested to allow both the MREG and PREG registers to be used.  If the DSP48 was instantiated in the design, it is suggested to set both the MREG and PREG attributes to 1 when performing multiply functions.
+Related violations: <none>
+
+DPOP-4#14 Warning
+MREG Output pipelining  
+DSP design_1_i/animalnet_axi_lite_0/inst/u_animalnet_top/u_conv10/gen_regular.u_conv/input_addr2 multiplier stage design_1_i/animalnet_axi_lite_0/inst/u_animalnet_top/u_conv10/gen_regular.u_conv/input_addr2/P[47:0] is not pipelined (MREG=0). Pipelining the multiplier function will improve performance and will save significant power so it is suggested whenever possible to fully pipeline this function.  If this multiplier was inferred, it is suggested to describe an additional register stage after this function.  If there is no registered adder/accumulator following the multiply function, two pipeline stages are suggested to allow both the MREG and PREG registers to be used.  If the DSP48 was instantiated in the design, it is suggested to set both the MREG and PREG attributes to 1 when performing multiply functions.
+Related violations: <none>
+
+DPOP-4#15 Warning
+MREG Output pipelining  
+DSP design_1_i/animalnet_axi_lite_0/inst/u_animalnet_top/u_conv10/gen_regular.u_conv/input_addr3 multiplier stage design_1_i/animalnet_axi_lite_0/inst/u_animalnet_top/u_conv10/gen_regular.u_conv/input_addr3/P[47:0] is not pipelined (MREG=0). Pipelining the multiplier function will improve performance and will save significant power so it is suggested whenever possible to fully pipeline this function.  If this multiplier was inferred, it is suggested to describe an additional register stage after this function.  If there is no registered adder/accumulator following the multiply function, two pipeline stages are suggested to allow both the MREG and PREG registers to be used.  If the DSP48 was instantiated in the design, it is suggested to set both the MREG and PREG attributes to 1 when performing multiply functions.
+Related violations: <none>
+
+DPOP-4#16 Warning
+MREG Output pipelining  
+DSP design_1_i/animalnet_axi_lite_0/inst/u_animalnet_top/u_conv10/gen_regular.u_conv/output_addr0 multiplier stage design_1_i/animalnet_axi_lite_0/inst/u_animalnet_top/u_conv10/gen_regular.u_conv/output_addr0/P[47:0] is not pipelined (MREG=0). Pipelining the multiplier function will improve performance and will save significant power so it is suggested whenever possible to fully pipeline this function.  If this multiplier was inferred, it is suggested to describe an additional register stage after this function.  If there is no registered adder/accumulator following the multiply function, two pipeline stages are suggested to allow both the MREG and PREG registers to be used.  If the DSP48 was instantiated in the design, it is suggested to set both the MREG and PREG attributes to 1 when performing multiply functions.
+Related violations: <none>
+
+DPOP-4#17 Warning
+MREG Output pipelining  
+DSP design_1_i/animalnet_axi_lite_0/inst/u_animalnet_top/u_conv10/gen_regular.u_conv/output_addr2 multiplier stage design_1_i/animalnet_axi_lite_0/inst/u_animalnet_top/u_conv10/gen_regular.u_conv/output_addr2/P[47:0] is not pipelined (MREG=0). Pipelining the multiplier function will improve performance and will save significant power so it is suggested whenever possible to fully pipeline this function.  If this multiplier was inferred, it is suggested to describe an additional register stage after this function.  If there is no registered adder/accumulator following the multiply function, two pipeline stages are suggested to allow both the MREG and PREG registers to be used.  If the DSP48 was instantiated in the design, it is suggested to set both the MREG and PREG attributes to 1 when performing multiply functions.
+Related violations: <none>
+
+DPOP-4#18 Warning
+MREG Output pipelining  
+DSP design_1_i/animalnet_axi_lite_0/inst/u_animalnet_top/u_conv10/gen_regular.u_conv/output_addr3 multiplier stage design_1_i/animalnet_axi_lite_0/inst/u_animalnet_top/u_conv10/gen_regular.u_conv/output_addr3/P[47:0] is not pipelined (MREG=0). Pipelining the multiplier function will improve performance and will save significant power so it is suggested whenever possible to fully pipeline this function.  If this multiplier was inferred, it is suggested to describe an additional register stage after this function.  If there is no registered adder/accumulator following the multiply function, two pipeline stages are suggested to allow both the MREG and PREG registers to be used.  If the DSP48 was instantiated in the design, it is suggested to set both the MREG and PREG attributes to 1 when performing multiply functions.
+Related violations: <none>
+
+DPOP-4#19 Warning
+MREG Output pipelining  
+DSP design_1_i/animalnet_axi_lite_0/inst/u_animalnet_top/u_conv10/gen_regular.u_conv/product multiplier stage design_1_i/animalnet_axi_lite_0/inst/u_animalnet_top/u_conv10/gen_regular.u_conv/product/P[47:0] is not pipelined (MREG=0). Pipelining the multiplier function will improve performance and will save significant power so it is suggested whenever possible to fully pipeline this function.  If this multiplier was inferred, it is suggested to describe an additional register stage after this function.  If there is no registered adder/accumulator following the multiply function, two pipeline stages are suggested to allow both the MREG and PREG registers to be used.  If the DSP48 was instantiated in the design, it is suggested to set both the MREG and PREG attributes to 1 when performing multiply functions.
+Related violations: <none>
+
+DPOP-4#20 Warning
+MREG Output pipelining  
+DSP design_1_i/animalnet_axi_lite_0/inst/u_animalnet_top/u_conv11/gen_depthwise.u_conv/input_addr0 multiplier stage design_1_i/animalnet_axi_lite_0/inst/u_animalnet_top/u_conv11/gen_depthwise.u_conv/input_addr0/P[47:0] is not pipelined (MREG=0). Pipelining the multiplier function will improve performance and will save significant power so it is suggested whenever possible to fully pipeline this function.  If this multiplier was inferred, it is suggested to describe an additional register stage after this function.  If there is no registered adder/accumulator following the multiply function, two pipeline stages are suggested to allow both the MREG and PREG registers to be used.  If the DSP48 was instantiated in the design, it is suggested to set both the MREG and PREG attributes to 1 when performing multiply functions.
+Related violations: <none>
+
+DPOP-4#21 Warning
+MREG Output pipelining  
+DSP design_1_i/animalnet_axi_lite_0/inst/u_animalnet_top/u_conv11/gen_depthwise.u_conv/input_addr2 multiplier stage design_1_i/animalnet_axi_lite_0/inst/u_animalnet_top/u_conv11/gen_depthwise.u_conv/input_addr2/P[47:0] is not pipelined (MREG=0). Pipelining the multiplier function will improve performance and will save significant power so it is suggested whenever possible to fully pipeline this function.  If this multiplier was inferred, it is suggested to describe an additional register stage after this function.  If there is no registered adder/accumulator following the multiply function, two pipeline stages are suggested to allow both the MREG and PREG registers to be used.  If the DSP48 was instantiated in the design, it is suggested to set both the MREG and PREG attributes to 1 when performing multiply functions.
+Related violations: <none>
+
+DPOP-4#22 Warning
+MREG Output pipelining  
+DSP design_1_i/animalnet_axi_lite_0/inst/u_animalnet_top/u_conv11/gen_depthwise.u_conv/input_addr3 multiplier stage design_1_i/animalnet_axi_lite_0/inst/u_animalnet_top/u_conv11/gen_depthwise.u_conv/input_addr3/P[47:0] is not pipelined (MREG=0). Pipelining the multiplier function will improve performance and will save significant power so it is suggested whenever possible to fully pipeline this function.  If this multiplier was inferred, it is suggested to describe an additional register stage after this function.  If there is no registered adder/accumulator following the multiply function, two pipeline stages are suggested to allow both the MREG and PREG registers to be used.  If the DSP48 was instantiated in the design, it is suggested to set both the MREG and PREG attributes to 1 when performing multiply functions.
+Related violations: <none>
+
+DPOP-4#23 Warning
+MREG Output pipelining  
+DSP design_1_i/animalnet_axi_lite_0/inst/u_animalnet_top/u_conv11/gen_depthwise.u_conv/product multiplier stage design_1_i/animalnet_axi_lite_0/inst/u_animalnet_top/u_conv11/gen_depthwise.u_conv/product/P[47:0] is not pipelined (MREG=0). Pipelining the multiplier function will improve performance and will save significant power so it is suggested whenever possible to fully pipeline this function.  If this multiplier was inferred, it is suggested to describe an additional register stage after this function.  If there is no registered adder/accumulator following the multiply function, two pipeline stages are suggested to allow both the MREG and PREG registers to be used.  If the DSP48 was instantiated in the design, it is suggested to set both the MREG and PREG attributes to 1 when performing multiply functions.
+Related violations: <none>
+
+DPOP-4#24 Warning
+MREG Output pipelining  
+DSP design_1_i/animalnet_axi_lite_0/inst/u_animalnet_top/u_conv12/gen_regular.u_conv/product multiplier stage design_1_i/animalnet_axi_lite_0/inst/u_animalnet_top/u_conv12/gen_regular.u_conv/product/P[47:0] is not pipelined (MREG=0). Pipelining the multiplier function will improve performance and will save significant power so it is suggested whenever possible to fully pipeline this function.  If this multiplier was inferred, it is suggested to describe an additional register stage after this function.  If there is no registered adder/accumulator following the multiply function, two pipeline stages are suggested to allow both the MREG and PREG registers to be used.  If the DSP48 was instantiated in the design, it is suggested to set both the MREG and PREG attributes to 1 when performing multiply functions.
+Related violations: <none>
+
+DPOP-4#25 Warning
+MREG Output pipelining  
+DSP design_1_i/animalnet_axi_lite_0/inst/u_animalnet_top/u_conv13/gen_depthwise.u_conv/product multiplier stage design_1_i/animalnet_axi_lite_0/inst/u_animalnet_top/u_conv13/gen_depthwise.u_conv/product/P[47:0] is not pipelined (MREG=0). Pipelining the multiplier function will improve performance and will save significant power so it is suggested whenever possible to fully pipeline this function.  If this multiplier was inferred, it is suggested to describe an additional register stage after this function.  If there is no registered adder/accumulator following the multiply function, two pipeline stages are suggested to allow both the MREG and PREG registers to be used.  If the DSP48 was instantiated in the design, it is suggested to set both the MREG and PREG attributes to 1 when performing multiply functions.
+Related violations: <none>
+
+DPOP-4#26 Warning
+MREG Output pipelining  
+DSP design_1_i/animalnet_axi_lite_0/inst/u_animalnet_top/u_conv14/gen_regular.u_conv/product multiplier stage design_1_i/animalnet_axi_lite_0/inst/u_animalnet_top/u_conv14/gen_regular.u_conv/product/P[47:0] is not pipelined (MREG=0). Pipelining the multiplier function will improve performance and will save significant power so it is suggested whenever possible to fully pipeline this function.  If this multiplier was inferred, it is suggested to describe an additional register stage after this function.  If there is no registered adder/accumulator following the multiply function, two pipeline stages are suggested to allow both the MREG and PREG registers to be used.  If the DSP48 was instantiated in the design, it is suggested to set both the MREG and PREG attributes to 1 when performing multiply functions.
+Related violations: <none>
+
+DPOP-4#27 Warning
+MREG Output pipelining  
+DSP design_1_i/animalnet_axi_lite_0/inst/u_animalnet_top/u_conv2/gen_regular.u_conv/input_addr0 multiplier stage design_1_i/animalnet_axi_lite_0/inst/u_animalnet_top/u_conv2/gen_regular.u_conv/input_addr0/P[47:0] is not pipelined (MREG=0). Pipelining the multiplier function will improve performance and will save significant power so it is suggested whenever possible to fully pipeline this function.  If this multiplier was inferred, it is suggested to describe an additional register stage after this function.  If there is no registered adder/accumulator following the multiply function, two pipeline stages are suggested to allow both the MREG and PREG registers to be used.  If the DSP48 was instantiated in the design, it is suggested to set both the MREG and PREG attributes to 1 when performing multiply functions.
+Related violations: <none>
+
+DPOP-4#28 Warning
+MREG Output pipelining  
+DSP design_1_i/animalnet_axi_lite_0/inst/u_animalnet_top/u_conv2/gen_regular.u_conv/input_addr2 multiplier stage design_1_i/animalnet_axi_lite_0/inst/u_animalnet_top/u_conv2/gen_regular.u_conv/input_addr2/P[47:0] is not pipelined (MREG=0). Pipelining the multiplier function will improve performance and will save significant power so it is suggested whenever possible to fully pipeline this function.  If this multiplier was inferred, it is suggested to describe an additional register stage after this function.  If there is no registered adder/accumulator following the multiply function, two pipeline stages are suggested to allow both the MREG and PREG registers to be used.  If the DSP48 was instantiated in the design, it is suggested to set both the MREG and PREG attributes to 1 when performing multiply functions.
+Related violations: <none>
+
+DPOP-4#29 Warning
+MREG Output pipelining  
+DSP design_1_i/animalnet_axi_lite_0/inst/u_animalnet_top/u_conv2/gen_regular.u_conv/input_addr3 multiplier stage design_1_i/animalnet_axi_lite_0/inst/u_animalnet_top/u_conv2/gen_regular.u_conv/input_addr3/P[47:0] is not pipelined (MREG=0). Pipelining the multiplier function will improve performance and will save significant power so it is suggested whenever possible to fully pipeline this function.  If this multiplier was inferred, it is suggested to describe an additional register stage after this function.  If there is no registered adder/accumulator following the multiply function, two pipeline stages are suggested to allow both the MREG and PREG registers to be used.  If the DSP48 was instantiated in the design, it is suggested to set both the MREG and PREG attributes to 1 when performing multiply functions.
+Related violations: <none>
+
+DPOP-4#30 Warning
+MREG Output pipelining  
+DSP design_1_i/animalnet_axi_lite_0/inst/u_animalnet_top/u_conv2/gen_regular.u_conv/output_addr0 multiplier stage design_1_i/animalnet_axi_lite_0/inst/u_animalnet_top/u_conv2/gen_regular.u_conv/output_addr0/P[47:0] is not pipelined (MREG=0). Pipelining the multiplier function will improve performance and will save significant power so it is suggested whenever possible to fully pipeline this function.  If this multiplier was inferred, it is suggested to describe an additional register stage after this function.  If there is no registered adder/accumulator following the multiply function, two pipeline stages are suggested to allow both the MREG and PREG registers to be used.  If the DSP48 was instantiated in the design, it is suggested to set both the MREG and PREG attributes to 1 when performing multiply functions.
+Related violations: <none>
+
+DPOP-4#31 Warning
+MREG Output pipelining  
+DSP design_1_i/animalnet_axi_lite_0/inst/u_animalnet_top/u_conv2/gen_regular.u_conv/output_addr2 multiplier stage design_1_i/animalnet_axi_lite_0/inst/u_animalnet_top/u_conv2/gen_regular.u_conv/output_addr2/P[47:0] is not pipelined (MREG=0). Pipelining the multiplier function will improve performance and will save significant power so it is suggested whenever possible to fully pipeline this function.  If this multiplier was inferred, it is suggested to describe an additional register stage after this function.  If there is no registered adder/accumulator following the multiply function, two pipeline stages are suggested to allow both the MREG and PREG registers to be used.  If the DSP48 was instantiated in the design, it is suggested to set both the MREG and PREG attributes to 1 when performing multiply functions.
+Related violations: <none>
+
+DPOP-4#32 Warning
+MREG Output pipelining  
+DSP design_1_i/animalnet_axi_lite_0/inst/u_animalnet_top/u_conv2/gen_regular.u_conv/output_addr3 multiplier stage design_1_i/animalnet_axi_lite_0/inst/u_animalnet_top/u_conv2/gen_regular.u_conv/output_addr3/P[47:0] is not pipelined (MREG=0). Pipelining the multiplier function will improve performance and will save significant power so it is suggested whenever possible to fully pipeline this function.  If this multiplier was inferred, it is suggested to describe an additional register stage after this function.  If there is no registered adder/accumulator following the multiply function, two pipeline stages are suggested to allow both the MREG and PREG registers to be used.  If the DSP48 was instantiated in the design, it is suggested to set both the MREG and PREG attributes to 1 when performing multiply functions.
+Related violations: <none>
+
+DPOP-4#33 Warning
+MREG Output pipelining  
+DSP design_1_i/animalnet_axi_lite_0/inst/u_animalnet_top/u_conv2/gen_regular.u_conv/product multiplier stage design_1_i/animalnet_axi_lite_0/inst/u_animalnet_top/u_conv2/gen_regular.u_conv/product/P[47:0] is not pipelined (MREG=0). Pipelining the multiplier function will improve performance and will save significant power so it is suggested whenever possible to fully pipeline this function.  If this multiplier was inferred, it is suggested to describe an additional register stage after this function.  If there is no registered adder/accumulator following the multiply function, two pipeline stages are suggested to allow both the MREG and PREG registers to be used.  If the DSP48 was instantiated in the design, it is suggested to set both the MREG and PREG attributes to 1 when performing multiply functions.
+Related violations: <none>
+
+DPOP-4#34 Warning
+MREG Output pipelining  
+DSP design_1_i/animalnet_axi_lite_0/inst/u_animalnet_top/u_conv3/gen_depthwise.u_conv/input_addr0 multiplier stage design_1_i/animalnet_axi_lite_0/inst/u_animalnet_top/u_conv3/gen_depthwise.u_conv/input_addr0/P[47:0] is not pipelined (MREG=0). Pipelining the multiplier function will improve performance and will save significant power so it is suggested whenever possible to fully pipeline this function.  If this multiplier was inferred, it is suggested to describe an additional register stage after this function.  If there is no registered adder/accumulator following the multiply function, two pipeline stages are suggested to allow both the MREG and PREG registers to be used.  If the DSP48 was instantiated in the design, it is suggested to set both the MREG and PREG attributes to 1 when performing multiply functions.
+Related violations: <none>
+
+DPOP-4#35 Warning
+MREG Output pipelining  
+DSP design_1_i/animalnet_axi_lite_0/inst/u_animalnet_top/u_conv3/gen_depthwise.u_conv/input_addr2 multiplier stage design_1_i/animalnet_axi_lite_0/inst/u_animalnet_top/u_conv3/gen_depthwise.u_conv/input_addr2/P[47:0] is not pipelined (MREG=0). Pipelining the multiplier function will improve performance and will save significant power so it is suggested whenever possible to fully pipeline this function.  If this multiplier was inferred, it is suggested to describe an additional register stage after this function.  If there is no registered adder/accumulator following the multiply function, two pipeline stages are suggested to allow both the MREG and PREG registers to be used.  If the DSP48 was instantiated in the design, it is suggested to set both the MREG and PREG attributes to 1 when performing multiply functions.
+Related violations: <none>
+
+DPOP-4#36 Warning
+MREG Output pipelining  
+DSP design_1_i/animalnet_axi_lite_0/inst/u_animalnet_top/u_conv3/gen_depthwise.u_conv/input_addr3 multiplier stage design_1_i/animalnet_axi_lite_0/inst/u_animalnet_top/u_conv3/gen_depthwise.u_conv/input_addr3/P[47:0] is not pipelined (MREG=0). Pipelining the multiplier function will improve performance and will save significant power so it is suggested whenever possible to fully pipeline this function.  If this multiplier was inferred, it is suggested to describe an additional register stage after this function.  If there is no registered adder/accumulator following the multiply function, two pipeline stages are suggested to allow both the MREG and PREG registers to be used.  If the DSP48 was instantiated in the design, it is suggested to set both the MREG and PREG attributes to 1 when performing multiply functions.
+Related violations: <none>
+
+DPOP-4#37 Warning
+MREG Output pipelining  
+DSP design_1_i/animalnet_axi_lite_0/inst/u_animalnet_top/u_conv3/gen_depthwise.u_conv/output_addr0 multiplier stage design_1_i/animalnet_axi_lite_0/inst/u_animalnet_top/u_conv3/gen_depthwise.u_conv/output_addr0/P[47:0] is not pipelined (MREG=0). Pipelining the multiplier function will improve performance and will save significant power so it is suggested whenever possible to fully pipeline this function.  If this multiplier was inferred, it is suggested to describe an additional register stage after this function.  If there is no registered adder/accumulator following the multiply function, two pipeline stages are suggested to allow both the MREG and PREG registers to be used.  If the DSP48 was instantiated in the design, it is suggested to set both the MREG and PREG attributes to 1 when performing multiply functions.
+Related violations: <none>
+
+DPOP-4#38 Warning
+MREG Output pipelining  
+DSP design_1_i/animalnet_axi_lite_0/inst/u_animalnet_top/u_conv3/gen_depthwise.u_conv/output_addr2 multiplier stage design_1_i/animalnet_axi_lite_0/inst/u_animalnet_top/u_conv3/gen_depthwise.u_conv/output_addr2/P[47:0] is not pipelined (MREG=0). Pipelining the multiplier function will improve performance and will save significant power so it is suggested whenever possible to fully pipeline this function.  If this multiplier was inferred, it is suggested to describe an additional register stage after this function.  If there is no registered adder/accumulator following the multiply function, two pipeline stages are suggested to allow both the MREG and PREG registers to be used.  If the DSP48 was instantiated in the design, it is suggested to set both the MREG and PREG attributes to 1 when performing multiply functions.
+Related violations: <none>
+
+DPOP-4#39 Warning
+MREG Output pipelining  
+DSP design_1_i/animalnet_axi_lite_0/inst/u_animalnet_top/u_conv3/gen_depthwise.u_conv/output_addr3 multiplier stage design_1_i/animalnet_axi_lite_0/inst/u_animalnet_top/u_conv3/gen_depthwise.u_conv/output_addr3/P[47:0] is not pipelined (MREG=0). Pipelining the multiplier function will improve performance and will save significant power so it is suggested whenever possible to fully pipeline this function.  If this multiplier was inferred, it is suggested to describe an additional register stage after this function.  If there is no registered adder/accumulator following the multiply function, two pipeline stages are suggested to allow both the MREG and PREG registers to be used.  If the DSP48 was instantiated in the design, it is suggested to set both the MREG and PREG attributes to 1 when performing multiply functions.
+Related violations: <none>
+
+DPOP-4#40 Warning
+MREG Output pipelining  
+DSP design_1_i/animalnet_axi_lite_0/inst/u_animalnet_top/u_conv3/gen_depthwise.u_conv/product multiplier stage design_1_i/animalnet_axi_lite_0/inst/u_animalnet_top/u_conv3/gen_depthwise.u_conv/product/P[47:0] is not pipelined (MREG=0). Pipelining the multiplier function will improve performance and will save significant power so it is suggested whenever possible to fully pipeline this function.  If this multiplier was inferred, it is suggested to describe an additional register stage after this function.  If there is no registered adder/accumulator following the multiply function, two pipeline stages are suggested to allow both the MREG and PREG registers to be used.  If the DSP48 was instantiated in the design, it is suggested to set both the MREG and PREG attributes to 1 when performing multiply functions.
+Related violations: <none>
+
+DPOP-4#41 Warning
+MREG Output pipelining  
+DSP design_1_i/animalnet_axi_lite_0/inst/u_animalnet_top/u_conv4/gen_regular.u_conv/input_addr0 multiplier stage design_1_i/animalnet_axi_lite_0/inst/u_animalnet_top/u_conv4/gen_regular.u_conv/input_addr0/P[47:0] is not pipelined (MREG=0). Pipelining the multiplier function will improve performance and will save significant power so it is suggested whenever possible to fully pipeline this function.  If this multiplier was inferred, it is suggested to describe an additional register stage after this function.  If there is no registered adder/accumulator following the multiply function, two pipeline stages are suggested to allow both the MREG and PREG registers to be used.  If the DSP48 was instantiated in the design, it is suggested to set both the MREG and PREG attributes to 1 when performing multiply functions.
+Related violations: <none>
+
+DPOP-4#42 Warning
+MREG Output pipelining  
+DSP design_1_i/animalnet_axi_lite_0/inst/u_animalnet_top/u_conv4/gen_regular.u_conv/input_addr2 multiplier stage design_1_i/animalnet_axi_lite_0/inst/u_animalnet_top/u_conv4/gen_regular.u_conv/input_addr2/P[47:0] is not pipelined (MREG=0). Pipelining the multiplier function will improve performance and will save significant power so it is suggested whenever possible to fully pipeline this function.  If this multiplier was inferred, it is suggested to describe an additional register stage after this function.  If there is no registered adder/accumulator following the multiply function, two pipeline stages are suggested to allow both the MREG and PREG registers to be used.  If the DSP48 was instantiated in the design, it is suggested to set both the MREG and PREG attributes to 1 when performing multiply functions.
+Related violations: <none>
+
+DPOP-4#43 Warning
+MREG Output pipelining  
+DSP design_1_i/animalnet_axi_lite_0/inst/u_animalnet_top/u_conv4/gen_regular.u_conv/input_addr3 multiplier stage design_1_i/animalnet_axi_lite_0/inst/u_animalnet_top/u_conv4/gen_regular.u_conv/input_addr3/P[47:0] is not pipelined (MREG=0). Pipelining the multiplier function will improve performance and will save significant power so it is suggested whenever possible to fully pipeline this function.  If this multiplier was inferred, it is suggested to describe an additional register stage after this function.  If there is no registered adder/accumulator following the multiply function, two pipeline stages are suggested to allow both the MREG and PREG registers to be used.  If the DSP48 was instantiated in the design, it is suggested to set both the MREG and PREG attributes to 1 when performing multiply functions.
+Related violations: <none>
+
+DPOP-4#44 Warning
+MREG Output pipelining  
+DSP design_1_i/animalnet_axi_lite_0/inst/u_animalnet_top/u_conv4/gen_regular.u_conv/output_addr0 multiplier stage design_1_i/animalnet_axi_lite_0/inst/u_animalnet_top/u_conv4/gen_regular.u_conv/output_addr0/P[47:0] is not pipelined (MREG=0). Pipelining the multiplier function will improve performance and will save significant power so it is suggested whenever possible to fully pipeline this function.  If this multiplier was inferred, it is suggested to describe an additional register stage after this function.  If there is no registered adder/accumulator following the multiply function, two pipeline stages are suggested to allow both the MREG and PREG registers to be used.  If the DSP48 was instantiated in the design, it is suggested to set both the MREG and PREG attributes to 1 when performing multiply functions.
+Related violations: <none>
+
+DPOP-4#45 Warning
+MREG Output pipelining  
+DSP design_1_i/animalnet_axi_lite_0/inst/u_animalnet_top/u_conv4/gen_regular.u_conv/output_addr2 multiplier stage design_1_i/animalnet_axi_lite_0/inst/u_animalnet_top/u_conv4/gen_regular.u_conv/output_addr2/P[47:0] is not pipelined (MREG=0). Pipelining the multiplier function will improve performance and will save significant power so it is suggested whenever possible to fully pipeline this function.  If this multiplier was inferred, it is suggested to describe an additional register stage after this function.  If there is no registered adder/accumulator following the multiply function, two pipeline stages are suggested to allow both the MREG and PREG registers to be used.  If the DSP48 was instantiated in the design, it is suggested to set both the MREG and PREG attributes to 1 when performing multiply functions.
+Related violations: <none>
+
+DPOP-4#46 Warning
+MREG Output pipelining  
+DSP design_1_i/animalnet_axi_lite_0/inst/u_animalnet_top/u_conv4/gen_regular.u_conv/output_addr3 multiplier stage design_1_i/animalnet_axi_lite_0/inst/u_animalnet_top/u_conv4/gen_regular.u_conv/output_addr3/P[47:0] is not pipelined (MREG=0). Pipelining the multiplier function will improve performance and will save significant power so it is suggested whenever possible to fully pipeline this function.  If this multiplier was inferred, it is suggested to describe an additional register stage after this function.  If there is no registered adder/accumulator following the multiply function, two pipeline stages are suggested to allow both the MREG and PREG registers to be used.  If the DSP48 was instantiated in the design, it is suggested to set both the MREG and PREG attributes to 1 when performing multiply functions.
+Related violations: <none>
+
+DPOP-4#47 Warning
+MREG Output pipelining  
+DSP design_1_i/animalnet_axi_lite_0/inst/u_animalnet_top/u_conv4/gen_regular.u_conv/product multiplier stage design_1_i/animalnet_axi_lite_0/inst/u_animalnet_top/u_conv4/gen_regular.u_conv/product/P[47:0] is not pipelined (MREG=0). Pipelining the multiplier function will improve performance and will save significant power so it is suggested whenever possible to fully pipeline this function.  If this multiplier was inferred, it is suggested to describe an additional register stage after this function.  If there is no registered adder/accumulator following the multiply function, two pipeline stages are suggested to allow both the MREG and PREG registers to be used.  If the DSP48 was instantiated in the design, it is suggested to set both the MREG and PREG attributes to 1 when performing multiply functions.
+Related violations: <none>
+
+DPOP-4#48 Warning
+MREG Output pipelining  
+DSP design_1_i/animalnet_axi_lite_0/inst/u_animalnet_top/u_conv5/gen_depthwise.u_conv/input_addr0 multiplier stage design_1_i/animalnet_axi_lite_0/inst/u_animalnet_top/u_conv5/gen_depthwise.u_conv/input_addr0/P[47:0] is not pipelined (MREG=0). Pipelining the multiplier function will improve performance and will save significant power so it is suggested whenever possible to fully pipeline this function.  If this multiplier was inferred, it is suggested to describe an additional register stage after this function.  If there is no registered adder/accumulator following the multiply function, two pipeline stages are suggested to allow both the MREG and PREG registers to be used.  If the DSP48 was instantiated in the design, it is suggested to set both the MREG and PREG attributes to 1 when performing multiply functions.
+Related violations: <none>
+
+DPOP-4#49 Warning
+MREG Output pipelining  
+DSP design_1_i/animalnet_axi_lite_0/inst/u_animalnet_top/u_conv5/gen_depthwise.u_conv/input_addr2 multiplier stage design_1_i/animalnet_axi_lite_0/inst/u_animalnet_top/u_conv5/gen_depthwise.u_conv/input_addr2/P[47:0] is not pipelined (MREG=0). Pipelining the multiplier function will improve performance and will save significant power so it is suggested whenever possible to fully pipeline this function.  If this multiplier was inferred, it is suggested to describe an additional register stage after this function.  If there is no registered adder/accumulator following the multiply function, two pipeline stages are suggested to allow both the MREG and PREG registers to be used.  If the DSP48 was instantiated in the design, it is suggested to set both the MREG and PREG attributes to 1 when performing multiply functions.
+Related violations: <none>
+
+DPOP-4#50 Warning
+MREG Output pipelining  
+DSP design_1_i/animalnet_axi_lite_0/inst/u_animalnet_top/u_conv5/gen_depthwise.u_conv/input_addr3 multiplier stage design_1_i/animalnet_axi_lite_0/inst/u_animalnet_top/u_conv5/gen_depthwise.u_conv/input_addr3/P[47:0] is not pipelined (MREG=0). Pipelining the multiplier function will improve performance and will save significant power so it is suggested whenever possible to fully pipeline this function.  If this multiplier was inferred, it is suggested to describe an additional register stage after this function.  If there is no registered adder/accumulator following the multiply function, two pipeline stages are suggested to allow both the MREG and PREG registers to be used.  If the DSP48 was instantiated in the design, it is suggested to set both the MREG and PREG attributes to 1 when performing multiply functions.
+Related violations: <none>
+
+DPOP-4#51 Warning
+MREG Output pipelining  
+DSP design_1_i/animalnet_axi_lite_0/inst/u_animalnet_top/u_conv5/gen_depthwise.u_conv/output_addr0 multiplier stage design_1_i/animalnet_axi_lite_0/inst/u_animalnet_top/u_conv5/gen_depthwise.u_conv/output_addr0/P[47:0] is not pipelined (MREG=0). Pipelining the multiplier function will improve performance and will save significant power so it is suggested whenever possible to fully pipeline this function.  If this multiplier was inferred, it is suggested to describe an additional register stage after this function.  If there is no registered adder/accumulator following the multiply function, two pipeline stages are suggested to allow both the MREG and PREG registers to be used.  If the DSP48 was instantiated in the design, it is suggested to set both the MREG and PREG attributes to 1 when performing multiply functions.
+Related violations: <none>
+
+DPOP-4#52 Warning
+MREG Output pipelining  
+DSP design_1_i/animalnet_axi_lite_0/inst/u_animalnet_top/u_conv5/gen_depthwise.u_conv/product multiplier stage design_1_i/animalnet_axi_lite_0/inst/u_animalnet_top/u_conv5/gen_depthwise.u_conv/product/P[47:0] is not pipelined (MREG=0). Pipelining the multiplier function will improve performance and will save significant power so it is suggested whenever possible to fully pipeline this function.  If this multiplier was inferred, it is suggested to describe an additional register stage after this function.  If there is no registered adder/accumulator following the multiply function, two pipeline stages are suggested to allow both the MREG and PREG registers to be used.  If the DSP48 was instantiated in the design, it is suggested to set both the MREG and PREG attributes to 1 when performing multiply functions.
+Related violations: <none>
+
+DPOP-4#53 Warning
+MREG Output pipelining  
+DSP design_1_i/animalnet_axi_lite_0/inst/u_animalnet_top/u_conv6/gen_regular.u_conv/input_addr0 multiplier stage design_1_i/animalnet_axi_lite_0/inst/u_animalnet_top/u_conv6/gen_regular.u_conv/input_addr0/P[47:0] is not pipelined (MREG=0). Pipelining the multiplier function will improve performance and will save significant power so it is suggested whenever possible to fully pipeline this function.  If this multiplier was inferred, it is suggested to describe an additional register stage after this function.  If there is no registered adder/accumulator following the multiply function, two pipeline stages are suggested to allow both the MREG and PREG registers to be used.  If the DSP48 was instantiated in the design, it is suggested to set both the MREG and PREG attributes to 1 when performing multiply functions.
+Related violations: <none>
+
+DPOP-4#54 Warning
+MREG Output pipelining  
+DSP design_1_i/animalnet_axi_lite_0/inst/u_animalnet_top/u_conv6/gen_regular.u_conv/input_addr2 multiplier stage design_1_i/animalnet_axi_lite_0/inst/u_animalnet_top/u_conv6/gen_regular.u_conv/input_addr2/P[47:0] is not pipelined (MREG=0). Pipelining the multiplier function will improve performance and will save significant power so it is suggested whenever possible to fully pipeline this function.  If this multiplier was inferred, it is suggested to describe an additional register stage after this function.  If there is no registered adder/accumulator following the multiply function, two pipeline stages are suggested to allow both the MREG and PREG registers to be used.  If the DSP48 was instantiated in the design, it is suggested to set both the MREG and PREG attributes to 1 when performing multiply functions.
+Related violations: <none>
+
+DPOP-4#55 Warning
+MREG Output pipelining  
+DSP design_1_i/animalnet_axi_lite_0/inst/u_animalnet_top/u_conv6/gen_regular.u_conv/input_addr3 multiplier stage design_1_i/animalnet_axi_lite_0/inst/u_animalnet_top/u_conv6/gen_regular.u_conv/input_addr3/P[47:0] is not pipelined (MREG=0). Pipelining the multiplier function will improve performance and will save significant power so it is suggested whenever possible to fully pipeline this function.  If this multiplier was inferred, it is suggested to describe an additional register stage after this function.  If there is no registered adder/accumulator following the multiply function, two pipeline stages are suggested to allow both the MREG and PREG registers to be used.  If the DSP48 was instantiated in the design, it is suggested to set both the MREG and PREG attributes to 1 when performing multiply functions.
+Related violations: <none>
+
+DPOP-4#56 Warning
+MREG Output pipelining  
+DSP design_1_i/animalnet_axi_lite_0/inst/u_animalnet_top/u_conv6/gen_regular.u_conv/output_addr0 multiplier stage design_1_i/animalnet_axi_lite_0/inst/u_animalnet_top/u_conv6/gen_regular.u_conv/output_addr0/P[47:0] is not pipelined (MREG=0). Pipelining the multiplier function will improve performance and will save significant power so it is suggested whenever possible to fully pipeline this function.  If this multiplier was inferred, it is suggested to describe an additional register stage after this function.  If there is no registered adder/accumulator following the multiply function, two pipeline stages are suggested to allow both the MREG and PREG registers to be used.  If the DSP48 was instantiated in the design, it is suggested to set both the MREG and PREG attributes to 1 when performing multiply functions.
+Related violations: <none>
+
+DPOP-4#57 Warning
+MREG Output pipelining  
+DSP design_1_i/animalnet_axi_lite_0/inst/u_animalnet_top/u_conv6/gen_regular.u_conv/output_addr2 multiplier stage design_1_i/animalnet_axi_lite_0/inst/u_animalnet_top/u_conv6/gen_regular.u_conv/output_addr2/P[47:0] is not pipelined (MREG=0). Pipelining the multiplier function will improve performance and will save significant power so it is suggested whenever possible to fully pipeline this function.  If this multiplier was inferred, it is suggested to describe an additional register stage after this function.  If there is no registered adder/accumulator following the multiply function, two pipeline stages are suggested to allow both the MREG and PREG registers to be used.  If the DSP48 was instantiated in the design, it is suggested to set both the MREG and PREG attributes to 1 when performing multiply functions.
+Related violations: <none>
+
+DPOP-4#58 Warning
+MREG Output pipelining  
+DSP design_1_i/animalnet_axi_lite_0/inst/u_animalnet_top/u_conv6/gen_regular.u_conv/output_addr3 multiplier stage design_1_i/animalnet_axi_lite_0/inst/u_animalnet_top/u_conv6/gen_regular.u_conv/output_addr3/P[47:0] is not pipelined (MREG=0). Pipelining the multiplier function will improve performance and will save significant power so it is suggested whenever possible to fully pipeline this function.  If this multiplier was inferred, it is suggested to describe an additional register stage after this function.  If there is no registered adder/accumulator following the multiply function, two pipeline stages are suggested to allow both the MREG and PREG registers to be used.  If the DSP48 was instantiated in the design, it is suggested to set both the MREG and PREG attributes to 1 when performing multiply functions.
+Related violations: <none>
+
+DPOP-4#59 Warning
+MREG Output pipelining  
+DSP design_1_i/animalnet_axi_lite_0/inst/u_animalnet_top/u_conv6/gen_regular.u_conv/product multiplier stage design_1_i/animalnet_axi_lite_0/inst/u_animalnet_top/u_conv6/gen_regular.u_conv/product/P[47:0] is not pipelined (MREG=0). Pipelining the multiplier function will improve performance and will save significant power so it is suggested whenever possible to fully pipeline this function.  If this multiplier was inferred, it is suggested to describe an additional register stage after this function.  If there is no registered adder/accumulator following the multiply function, two pipeline stages are suggested to allow both the MREG and PREG registers to be used.  If the DSP48 was instantiated in the design, it is suggested to set both the MREG and PREG attributes to 1 when performing multiply functions.
+Related violations: <none>
+
+DPOP-4#60 Warning
+MREG Output pipelining  
+DSP design_1_i/animalnet_axi_lite_0/inst/u_animalnet_top/u_conv7/gen_depthwise.u_conv/input_addr0 multiplier stage design_1_i/animalnet_axi_lite_0/inst/u_animalnet_top/u_conv7/gen_depthwise.u_conv/input_addr0/P[47:0] is not pipelined (MREG=0). Pipelining the multiplier function will improve performance and will save significant power so it is suggested whenever possible to fully pipeline this function.  If this multiplier was inferred, it is suggested to describe an additional register stage after this function.  If there is no registered adder/accumulator following the multiply function, two pipeline stages are suggested to allow both the MREG and PREG registers to be used.  If the DSP48 was instantiated in the design, it is suggested to set both the MREG and PREG attributes to 1 when performing multiply functions.
+Related violations: <none>
+
+DPOP-4#61 Warning
+MREG Output pipelining  
+DSP design_1_i/animalnet_axi_lite_0/inst/u_animalnet_top/u_conv7/gen_depthwise.u_conv/input_addr2 multiplier stage design_1_i/animalnet_axi_lite_0/inst/u_animalnet_top/u_conv7/gen_depthwise.u_conv/input_addr2/P[47:0] is not pipelined (MREG=0). Pipelining the multiplier function will improve performance and will save significant power so it is suggested whenever possible to fully pipeline this function.  If this multiplier was inferred, it is suggested to describe an additional register stage after this function.  If there is no registered adder/accumulator following the multiply function, two pipeline stages are suggested to allow both the MREG and PREG registers to be used.  If the DSP48 was instantiated in the design, it is suggested to set both the MREG and PREG attributes to 1 when performing multiply functions.
+Related violations: <none>
+
+DPOP-4#62 Warning
+MREG Output pipelining  
+DSP design_1_i/animalnet_axi_lite_0/inst/u_animalnet_top/u_conv7/gen_depthwise.u_conv/input_addr3 multiplier stage design_1_i/animalnet_axi_lite_0/inst/u_animalnet_top/u_conv7/gen_depthwise.u_conv/input_addr3/P[47:0] is not pipelined (MREG=0). Pipelining the multiplier function will improve performance and will save significant power so it is suggested whenever possible to fully pipeline this function.  If this multiplier was inferred, it is suggested to describe an additional register stage after this function.  If there is no registered adder/accumulator following the multiply function, two pipeline stages are suggested to allow both the MREG and PREG registers to be used.  If the DSP48 was instantiated in the design, it is suggested to set both the MREG and PREG attributes to 1 when performing multiply functions.
+Related violations: <none>
+
+DPOP-4#63 Warning
+MREG Output pipelining  
+DSP design_1_i/animalnet_axi_lite_0/inst/u_animalnet_top/u_conv7/gen_depthwise.u_conv/output_addr0 multiplier stage design_1_i/animalnet_axi_lite_0/inst/u_animalnet_top/u_conv7/gen_depthwise.u_conv/output_addr0/P[47:0] is not pipelined (MREG=0). Pipelining the multiplier function will improve performance and will save significant power so it is suggested whenever possible to fully pipeline this function.  If this multiplier was inferred, it is suggested to describe an additional register stage after this function.  If there is no registered adder/accumulator following the multiply function, two pipeline stages are suggested to allow both the MREG and PREG registers to be used.  If the DSP48 was instantiated in the design, it is suggested to set both the MREG and PREG attributes to 1 when performing multiply functions.
+Related violations: <none>
+
+DPOP-4#64 Warning
+MREG Output pipelining  
+DSP design_1_i/animalnet_axi_lite_0/inst/u_animalnet_top/u_conv7/gen_depthwise.u_conv/output_addr2 multiplier stage design_1_i/animalnet_axi_lite_0/inst/u_animalnet_top/u_conv7/gen_depthwise.u_conv/output_addr2/P[47:0] is not pipelined (MREG=0). Pipelining the multiplier function will improve performance and will save significant power so it is suggested whenever possible to fully pipeline this function.  If this multiplier was inferred, it is suggested to describe an additional register stage after this function.  If there is no registered adder/accumulator following the multiply function, two pipeline stages are suggested to allow both the MREG and PREG registers to be used.  If the DSP48 was instantiated in the design, it is suggested to set both the MREG and PREG attributes to 1 when performing multiply functions.
+Related violations: <none>
+
+DPOP-4#65 Warning
+MREG Output pipelining  
+DSP design_1_i/animalnet_axi_lite_0/inst/u_animalnet_top/u_conv7/gen_depthwise.u_conv/output_addr3 multiplier stage design_1_i/animalnet_axi_lite_0/inst/u_animalnet_top/u_conv7/gen_depthwise.u_conv/output_addr3/P[47:0] is not pipelined (MREG=0). Pipelining the multiplier function will improve performance and will save significant power so it is suggested whenever possible to fully pipeline this function.  If this multiplier was inferred, it is suggested to describe an additional register stage after this function.  If there is no registered adder/accumulator following the multiply function, two pipeline stages are suggested to allow both the MREG and PREG registers to be used.  If the DSP48 was instantiated in the design, it is suggested to set both the MREG and PREG attributes to 1 when performing multiply functions.
+Related violations: <none>
+
+DPOP-4#66 Warning
+MREG Output pipelining  
+DSP design_1_i/animalnet_axi_lite_0/inst/u_animalnet_top/u_conv7/gen_depthwise.u_conv/product multiplier stage design_1_i/animalnet_axi_lite_0/inst/u_animalnet_top/u_conv7/gen_depthwise.u_conv/product/P[47:0] is not pipelined (MREG=0). Pipelining the multiplier function will improve performance and will save significant power so it is suggested whenever possible to fully pipeline this function.  If this multiplier was inferred, it is suggested to describe an additional register stage after this function.  If there is no registered adder/accumulator following the multiply function, two pipeline stages are suggested to allow both the MREG and PREG registers to be used.  If the DSP48 was instantiated in the design, it is suggested to set both the MREG and PREG attributes to 1 when performing multiply functions.
+Related violations: <none>
+
+DPOP-4#67 Warning
+MREG Output pipelining  
+DSP design_1_i/animalnet_axi_lite_0/inst/u_animalnet_top/u_conv8/gen_regular.u_conv/input_addr0 multiplier stage design_1_i/animalnet_axi_lite_0/inst/u_animalnet_top/u_conv8/gen_regular.u_conv/input_addr0/P[47:0] is not pipelined (MREG=0). Pipelining the multiplier function will improve performance and will save significant power so it is suggested whenever possible to fully pipeline this function.  If this multiplier was inferred, it is suggested to describe an additional register stage after this function.  If there is no registered adder/accumulator following the multiply function, two pipeline stages are suggested to allow both the MREG and PREG registers to be used.  If the DSP48 was instantiated in the design, it is suggested to set both the MREG and PREG attributes to 1 when performing multiply functions.
+Related violations: <none>
+
+DPOP-4#68 Warning
+MREG Output pipelining  
+DSP design_1_i/animalnet_axi_lite_0/inst/u_animalnet_top/u_conv8/gen_regular.u_conv/input_addr2 multiplier stage design_1_i/animalnet_axi_lite_0/inst/u_animalnet_top/u_conv8/gen_regular.u_conv/input_addr2/P[47:0] is not pipelined (MREG=0). Pipelining the multiplier function will improve performance and will save significant power so it is suggested whenever possible to fully pipeline this function.  If this multiplier was inferred, it is suggested to describe an additional register stage after this function.  If there is no registered adder/accumulator following the multiply function, two pipeline stages are suggested to allow both the MREG and PREG registers to be used.  If the DSP48 was instantiated in the design, it is suggested to set both the MREG and PREG attributes to 1 when performing multiply functions.
+Related violations: <none>
+
+DPOP-4#69 Warning
+MREG Output pipelining  
+DSP design_1_i/animalnet_axi_lite_0/inst/u_animalnet_top/u_conv8/gen_regular.u_conv/input_addr3 multiplier stage design_1_i/animalnet_axi_lite_0/inst/u_animalnet_top/u_conv8/gen_regular.u_conv/input_addr3/P[47:0] is not pipelined (MREG=0). Pipelining the multiplier function will improve performance and will save significant power so it is suggested whenever possible to fully pipeline this function.  If this multiplier was inferred, it is suggested to describe an additional register stage after this function.  If there is no registered adder/accumulator following the multiply function, two pipeline stages are suggested to allow both the MREG and PREG registers to be used.  If the DSP48 was instantiated in the design, it is suggested to set both the MREG and PREG attributes to 1 when performing multiply functions.
+Related violations: <none>
+
+DPOP-4#70 Warning
+MREG Output pipelining  
+DSP design_1_i/animalnet_axi_lite_0/inst/u_animalnet_top/u_conv8/gen_regular.u_conv/output_addr0 multiplier stage design_1_i/animalnet_axi_lite_0/inst/u_animalnet_top/u_conv8/gen_regular.u_conv/output_addr0/P[47:0] is not pipelined (MREG=0). Pipelining the multiplier function will improve performance and will save significant power so it is suggested whenever possible to fully pipeline this function.  If this multiplier was inferred, it is suggested to describe an additional register stage after this function.  If there is no registered adder/accumulator following the multiply function, two pipeline stages are suggested to allow both the MREG and PREG registers to be used.  If the DSP48 was instantiated in the design, it is suggested to set both the MREG and PREG attributes to 1 when performing multiply functions.
+Related violations: <none>
+
+DPOP-4#71 Warning
+MREG Output pipelining  
+DSP design_1_i/animalnet_axi_lite_0/inst/u_animalnet_top/u_conv8/gen_regular.u_conv/output_addr2 multiplier stage design_1_i/animalnet_axi_lite_0/inst/u_animalnet_top/u_conv8/gen_regular.u_conv/output_addr2/P[47:0] is not pipelined (MREG=0). Pipelining the multiplier function will improve performance and will save significant power so it is suggested whenever possible to fully pipeline this function.  If this multiplier was inferred, it is suggested to describe an additional register stage after this function.  If there is no registered adder/accumulator following the multiply function, two pipeline stages are suggested to allow both the MREG and PREG registers to be used.  If the DSP48 was instantiated in the design, it is suggested to set both the MREG and PREG attributes to 1 when performing multiply functions.
+Related violations: <none>
+
+DPOP-4#72 Warning
+MREG Output pipelining  
+DSP design_1_i/animalnet_axi_lite_0/inst/u_animalnet_top/u_conv8/gen_regular.u_conv/output_addr3 multiplier stage design_1_i/animalnet_axi_lite_0/inst/u_animalnet_top/u_conv8/gen_regular.u_conv/output_addr3/P[47:0] is not pipelined (MREG=0). Pipelining the multiplier function will improve performance and will save significant power so it is suggested whenever possible to fully pipeline this function.  If this multiplier was inferred, it is suggested to describe an additional register stage after this function.  If there is no registered adder/accumulator following the multiply function, two pipeline stages are suggested to allow both the MREG and PREG registers to be used.  If the DSP48 was instantiated in the design, it is suggested to set both the MREG and PREG attributes to 1 when performing multiply functions.
+Related violations: <none>
+
+DPOP-4#73 Warning
+MREG Output pipelining  
+DSP design_1_i/animalnet_axi_lite_0/inst/u_animalnet_top/u_conv8/gen_regular.u_conv/product multiplier stage design_1_i/animalnet_axi_lite_0/inst/u_animalnet_top/u_conv8/gen_regular.u_conv/product/P[47:0] is not pipelined (MREG=0). Pipelining the multiplier function will improve performance and will save significant power so it is suggested whenever possible to fully pipeline this function.  If this multiplier was inferred, it is suggested to describe an additional register stage after this function.  If there is no registered adder/accumulator following the multiply function, two pipeline stages are suggested to allow both the MREG and PREG registers to be used.  If the DSP48 was instantiated in the design, it is suggested to set both the MREG and PREG attributes to 1 when performing multiply functions.
+Related violations: <none>
+
+DPOP-4#74 Warning
+MREG Output pipelining  
+DSP design_1_i/animalnet_axi_lite_0/inst/u_animalnet_top/u_conv9/gen_depthwise.u_conv/input_addr0 multiplier stage design_1_i/animalnet_axi_lite_0/inst/u_animalnet_top/u_conv9/gen_depthwise.u_conv/input_addr0/P[47:0] is not pipelined (MREG=0). Pipelining the multiplier function will improve performance and will save significant power so it is suggested whenever possible to fully pipeline this function.  If this multiplier was inferred, it is suggested to describe an additional register stage after this function.  If there is no registered adder/accumulator following the multiply function, two pipeline stages are suggested to allow both the MREG and PREG registers to be used.  If the DSP48 was instantiated in the design, it is suggested to set both the MREG and PREG attributes to 1 when performing multiply functions.
+Related violations: <none>
+
+DPOP-4#75 Warning
+MREG Output pipelining  
+DSP design_1_i/animalnet_axi_lite_0/inst/u_animalnet_top/u_conv9/gen_depthwise.u_conv/input_addr2 multiplier stage design_1_i/animalnet_axi_lite_0/inst/u_animalnet_top/u_conv9/gen_depthwise.u_conv/input_addr2/P[47:0] is not pipelined (MREG=0). Pipelining the multiplier function will improve performance and will save significant power so it is suggested whenever possible to fully pipeline this function.  If this multiplier was inferred, it is suggested to describe an additional register stage after this function.  If there is no registered adder/accumulator following the multiply function, two pipeline stages are suggested to allow both the MREG and PREG registers to be used.  If the DSP48 was instantiated in the design, it is suggested to set both the MREG and PREG attributes to 1 when performing multiply functions.
+Related violations: <none>
+
+DPOP-4#76 Warning
+MREG Output pipelining  
+DSP design_1_i/animalnet_axi_lite_0/inst/u_animalnet_top/u_conv9/gen_depthwise.u_conv/input_addr3 multiplier stage design_1_i/animalnet_axi_lite_0/inst/u_animalnet_top/u_conv9/gen_depthwise.u_conv/input_addr3/P[47:0] is not pipelined (MREG=0). Pipelining the multiplier function will improve performance and will save significant power so it is suggested whenever possible to fully pipeline this function.  If this multiplier was inferred, it is suggested to describe an additional register stage after this function.  If there is no registered adder/accumulator following the multiply function, two pipeline stages are suggested to allow both the MREG and PREG registers to be used.  If the DSP48 was instantiated in the design, it is suggested to set both the MREG and PREG attributes to 1 when performing multiply functions.
+Related violations: <none>
+
+DPOP-4#77 Warning
+MREG Output pipelining  
+DSP design_1_i/animalnet_axi_lite_0/inst/u_animalnet_top/u_conv9/gen_depthwise.u_conv/output_addr0 multiplier stage design_1_i/animalnet_axi_lite_0/inst/u_animalnet_top/u_conv9/gen_depthwise.u_conv/output_addr0/P[47:0] is not pipelined (MREG=0). Pipelining the multiplier function will improve performance and will save significant power so it is suggested whenever possible to fully pipeline this function.  If this multiplier was inferred, it is suggested to describe an additional register stage after this function.  If there is no registered adder/accumulator following the multiply function, two pipeline stages are suggested to allow both the MREG and PREG registers to be used.  If the DSP48 was instantiated in the design, it is suggested to set both the MREG and PREG attributes to 1 when performing multiply functions.
+Related violations: <none>
+
+DPOP-4#78 Warning
+MREG Output pipelining  
+DSP design_1_i/animalnet_axi_lite_0/inst/u_animalnet_top/u_conv9/gen_depthwise.u_conv/product multiplier stage design_1_i/animalnet_axi_lite_0/inst/u_animalnet_top/u_conv9/gen_depthwise.u_conv/product/P[47:0] is not pipelined (MREG=0). Pipelining the multiplier function will improve performance and will save significant power so it is suggested whenever possible to fully pipeline this function.  If this multiplier was inferred, it is suggested to describe an additional register stage after this function.  If there is no registered adder/accumulator following the multiply function, two pipeline stages are suggested to allow both the MREG and PREG registers to be used.  If the DSP48 was instantiated in the design, it is suggested to set both the MREG and PREG attributes to 1 when performing multiply functions.
+Related violations: <none>
+
+DPOP-4#79 Warning
+MREG Output pipelining  
+DSP design_1_i/animalnet_axi_lite_0/inst/u_animalnet_top/u_linear/product multiplier stage design_1_i/animalnet_axi_lite_0/inst/u_animalnet_top/u_linear/product/P[47:0] is not pipelined (MREG=0). Pipelining the multiplier function will improve performance and will save significant power so it is suggested whenever possible to fully pipeline this function.  If this multiplier was inferred, it is suggested to describe an additional register stage after this function.  If there is no registered adder/accumulator following the multiply function, two pipeline stages are suggested to allow both the MREG and PREG registers to be used.  If the DSP48 was instantiated in the design, it is suggested to set both the MREG and PREG attributes to 1 when performing multiply functions.
+Related violations: <none>
+
+

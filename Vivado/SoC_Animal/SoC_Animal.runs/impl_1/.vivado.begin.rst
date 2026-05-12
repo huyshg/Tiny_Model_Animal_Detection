@@ -1,0 +1,35 @@
+<?xml version="1.0"?>
+<ProcessHandle Version="1" Minor="0">
+    <Process Command="vivado.bat" Owner="NguyenHuy" Host="DESKTOP-SVALI2U" Pid="2760" HostCore="12" HostMemory="016849256448">
+    </Process>
+</ProcessHandle>
+<?xml version="1.0"?>
+<ProcessHandle Version="1" Minor="0">
+    <Process Command="vivado.bat" Owner="NguyenHuy" Host="DESKTOP-SVALI2U" Pid="11048" HostCore="12" HostMemory="016849256448">
+    </Process>
+</ProcessHandle>
+<?xml version="1.0"?>
+<ProcessHandle Version="1" Minor="0">
+    <Process Command="vivado.bat" Owner="NguyenHuy" Host="DESKTOP-SVALI2U" Pid="24828" HostCore="12" HostMemory="016849256448">
+    </Process>
+</ProcessHandle>
+<?xml version="1.0"?>
+<ProcessHandle Version="1" Minor="0">
+    <Process Command="vivado.bat" Owner="NguyenHuy" Host="DESKTOP-SVALI2U" Pid="1000" HostCore="12" HostMemory="016849256448">
+    </Process>
+</ProcessHandle>
+<?xml version="1.0"?>
+<ProcessHandle Version="1" Minor="0">
+    <Process Command="vivado.bat" Owner="NguyenHuy" Host="DESKTOP-SVALI2U" Pid="11232" HostCore="12" HostMemory="016849256448">
+    </Process>
+</ProcessHandle>
+<?xml version="1.0"?>
+<ProcessHandle Version="1" Minor="0">
+    <Process Command="vivado.bat" Owner="NguyenHuy" Host="DESKTOP-SVALI2U" Pid="15880" HostCore="12" HostMemory="016849256448">
+    </Process>
+</ProcessHandle>
+<?xml version="1.0"?>
+<ProcessHandle Version="1" Minor="0">
+    <Process Command="vivado.bat" Owner="NguyenHuy" Host="DESKTOP-SVALI2U" Pid="24152" HostCore="12" HostMemory="016849256448">
+    </Process>
+</ProcessHandle>

@@ -1,0 +1,8 @@
+# vsim -do {run -all; quit} -c tb_conv2d_sequential 
+# Loading work.tb_conv2d_sequential
+# Loading work.conv2d_sequential
+# Loading work.conv2d_regular_sequential
+# run -all 
+# tb_conv2d_sequential passed
+# ** Note: $finish    : tb_conv2d_sequential.v(164)
+#    Time: 4765 ns  Iteration: 1  Instance: /tb_conv2d_sequential

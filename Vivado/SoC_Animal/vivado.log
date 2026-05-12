@@ -1,0 +1,91 @@
+#-----------------------------------------------------------
+# Vivado v2024.2 (64-bit)
+# SW Build 5239630 on Fri Nov 08 22:35:27 MST 2024
+# IP Build 5239520 on Sun Nov 10 16:12:51 MST 2024
+# SharedData Build 5239561 on Fri Nov 08 14:39:27 MST 2024
+# Start of session at: Mon May 11 06:39:54 2026
+# Process ID         : 3532
+# Current directory  : C:/Users/NguyenHuy/Downloads/SoC_Animal
+# Command line       : vivado.exe -gui_launcher_event rodinguilauncherevent33628 C:\Users\NguyenHuy\Downloads\SoC_Animal\SoC_Animal.xpr
+# Log file           : C:/Users/NguyenHuy/Downloads/SoC_Animal/vivado.log
+# Journal file       : C:/Users/NguyenHuy/Downloads/SoC_Animal\vivado.jou
+# Running On         : DESKTOP-SVALI2U
+# Platform           : Windows Server 2016 or Windows 10
+# Operating System   : 26200
+# Processor Detail   : 13th Gen Intel(R) Core(TM) i7-1355U
+# CPU Frequency      : 2611 MHz
+# CPU Physical cores : 10
+# CPU Logical cores  : 12
+# Host memory        : 16849 MB
+# Swap memory        : 23866 MB
+# Total Virtual      : 40715 MB
+# Available Virtual  : 19829 MB
+#-----------------------------------------------------------
+start_gui
+oopen_project C:/Users/NguyenHuy/Downloads/SoC_Animal/SoC_Animal.xprWWARNING: [Board 49-26] cannot add Board Part xilinx.com:zcu208ld:part0:2.0 available at C:/Xilinx/Vivado/2024.2/data/xhub/boards/XilinxBoardStore/boards/Xilinx/zcu208ld/production/2.0/board.xml as part xczu58dr-fsvg1517-2-i specified in board_part file is either invalid or not available
+WARNING: [Board 49-26] cannot add Board Part xilinx.com:zcu216ld:part0:2.0 available at C:/Xilinx/Vivado/2024.2/data/xhub/boards/XilinxBoardStore/boards/Xilinx/zcu216ld/production/2.0/board.xml as part xczu59dr-ffvf1760-2-i specified in board_part file is either invalid or not available
+WARNING: [Board 49-26] cannot add Board Part xilinx.com:zcu670ld:part0:1.0 available at C:/Xilinx/Vivado/2024.2/data/xhub/boards/XilinxBoardStore/boards/Xilinx/zcu670ld/1.0/board.xml as part xczu57dr-fsve1156-2-i specified in board_part file is either invalid or not available
+Scanning sources...
+Finished scanning sources
+INFO: [IP_Flow 19-234] Refreshing IP repositories
+INFO: [IP_Flow 19-1700] Loaded user IP repository 'c:/Users/NguyenHuy/AppData/Roaming/Xilinx/ip_repo'.
+INFO: [IP_Flow 19-2313] Loaded Vivado IP repository 'C:/Xilinx/Vivado/2024.2/data/ip'.
+INFO: [Project 1-5579] Found utility IPs instantiated in one or more block designs which have equivalent inline hdl with improved performance and reduced diskspace. It is recommended to migrate these utility IPs to inline hdl using the command upgrade_project -migrate_to_inline_hdl. The utility IPs may be deprecated in future releases. More information on inline hdl is available in UG994.
+open_project: Time (s): cpu = 00:00:37 ; elapsed = 00:00:21 . Memory (MB): peak = 1412.887 ; gain = 289.336
+update_compile_order -fileset sources_1oexit
+INFO: [Common 17-206] Exiting Vivado at Mon May 11 07:32:09 2026...
+urces_1/bd/design_1/design_1.bd}
+Reading block design file <C:/Users/NguyenHuy/Downloads/SoC_Animal/SoC_Animal.srcs/sources_1/bd/design_1/design_1.bd>...
+Adding component instance block -- xilinx.com:user:animalnet_axi_lite:1.0 - animalnet_axi_lite_0
+Adding component instance block -- xilinx.com:ip:zynq_ultra_ps_e:3.5 - zynq_ultra_ps_e_0
+Adding component instance block -- xilinx.com:ip:smartconnect:1.0 - smartconnect_0
+Adding component instance block -- xilinx.com:ip:proc_sys_reset:5.0 - proc_sys_reset_0
+Successfully read diagram <design_1> from block design file <C:/Users/NguyenHuy/Downloads/SoC_Animal/SoC_Animal.srcs/sources_1/bd/design_1/design_1.bd>
+open_bd_design: Time (s): cpu = 00:00:04 ; elapsed = 00:00:07 . Memory (MB): peak = 1581.129 ; gain = 118.012
+open_run impl_1
+INFO: [Device 21-403] Loading part xck26-sfvc784-2LV-c
+Netlist sorting complete. Time (s): cpu = 00:00:01 ; elapsed = 00:00:00.263 . Memory (MB): peak = 2631.914 ; gain = 0.000
+INFO: [Netlist 29-17] Analyzing 1574 Unisim elements for replacement
+INFO: [Netlist 29-28] Unisim Transformation completed in 1 CPU seconds
+INFO: [Project 1-479] Netlist was created with Vivado 2024.2
+INFO: [Project 1-570] Preparing netlist for logic optimization
+Read ShapeDB Complete: Time (s): cpu = 00:00:00 ; elapsed = 00:00:00.061 . Memory (MB): peak = 2631.914 ; gain = 0.000
+INFO: [Timing 38-478] Restoring timing data from binary archive.
+INFO: [Timing 38-479] Binary timing data restore complete.
+INFO: [Project 1-856] Restoring constraints from binary archive.
+INFO: [Project 1-853] Binary constraint restore complete.
+INFO: [Designutils 20-5722] Start Reading Physical Databases.
+Reading placement.
+Read Netlist Cache: Time (s): cpu = 00:00:00 ; elapsed = 00:00:00.041 . Memory (MB): peak = 2983.090 ; gain = 0.000
+Reading placer database...
+Read Device Cache: Time (s): cpu = 00:00:00 ; elapsed = 00:00:00.053 . Memory (MB): peak = 2983.090 ; gain = 0.000
+Read PlaceDB: Time (s): cpu = 00:00:02 ; elapsed = 00:00:03 . Memory (MB): peak = 3025.887 ; gain = 42.797
+Read PulsedLatchDB: Time (s): cpu = 00:00:00 ; elapsed = 00:00:00 . Memory (MB): peak = 3025.887 ; gain = 0.000
+Reading routing.
+Read RouteStorage: Time (s): cpu = 00:00:08 ; elapsed = 00:00:08 . Memory (MB): peak = 3546.398 ; gain = 520.512
+Read Physdb Files: Time (s): cpu = 00:00:10 ; elapsed = 00:00:11 . Memory (MB): peak = 3546.398 ; gain = 563.309
+Restored from archive | CPU: 11.000000 secs | Memory: 0.000000 MB |
+Finished XDEF File Restore: Time (s): cpu = 00:00:10 ; elapsed = 00:00:11 . Memory (MB): peak = 3546.398 ; gain = 563.309
+Netlist sorting complete. Time (s): cpu = 00:00:00 ; elapsed = 00:00:00.003 . Memory (MB): peak = 3546.398 ; gain = 0.000
+INFO: [Project 1-111] Unisim Transformation Summary:
+  A total of 91 instances were transformed.
+  DSP48E2 => DSP48E2 (DSP_ALU, DSP_A_B_DATA, DSP_C_DATA, DSP_MULTIPLIER, DSP_M_DATA, DSP_OUTPUT, DSP_PREADD, DSP_PREADD_DATA): 91 instances
+
+open_run: Time (s): cpu = 00:00:59 ; elapsed = 00:00:54 . Memory (MB): peak = 4149.000 ; gain = 2541.734
+open_report: Time (s): cpu = 00:00:17 ; elapsed = 00:00:08 . Memory (MB): peak = 4321.359 ; gain = 118.945
+report_power -name {power_1}
+Command: report_power -name power_1
+Running Vector-less Activity Propagation...
+
+Finished Running Vector-less Activity Propagation
+WARNING: [Power 33-332] Found switching activity that implies high-fanout reset nets being asserted for excessive periods of time which may result in inaccurate power analysis.
+Resolution: To review and fix problems, please run Power Constraints Advisor in the GUI from Tools > Power Constraints Advisor or run report_power with the -advisory option to generate a text report.
+0 Infos, 1 Warnings, 0 Critical Warnings and 0 Errors encountered.
+report_power completed successfully
+report_power: Time (s): cpu = 00:00:30 ; elapsed = 00:00:16 . Memory (MB): peak = 5217.691 ; gain = 195.227
+open_bd_design {C:/Users/NguyenHuy/Downloads/SoC_Animal/SoC_Animal.srcs/sources_1/bd/design_1/design_1.bd}
+open_bd_design {C:/Users/NguyenHuy/Downloads/SoC_Animal/SoC_Animal.srcs/sources_1/bd/design_1/design_1.bd}
+open_bd_design {C:/Users/NguyenHuy/Downloads/SoC_Animal/SoC_Animal.srcs/sources_1/bd/design_1/design_1.bd}
+open_bd_design {C:/Users/NguyenHuy/Downloads/SoC_Animal/SoC_Animal.srcs/sources_1/bd/design_1/design_1.bd}
+exit
+INFO: [Common 17-206] Exiting Vivado at Mon May 11 23:33:02 2026...

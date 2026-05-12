@@ -1,0 +1,1617 @@
+
+*** Running vivado
+    with args -log design_1_animalnet_axi_lite_0_0.vds -m64 -product Vivado -mode batch -messageDb vivado.pb -notrace -source design_1_animalnet_axi_lite_0_0.tcl
+
+
+
+****** Vivado v2024.2 (64-bit)
+  **** SW Build 5239630 on Fri Nov 08 22:35:27 MST 2024
+  **** IP Build 5239520 on Sun Nov 10 16:12:51 MST 2024
+  **** SharedData Build 5239561 on Fri Nov 08 14:39:27 MST 2024
+  **** Start of session at: Sun May 10 20:58:32 2026
+    ** Copyright 1986-2022 Xilinx, Inc. All Rights Reserved.
+    ** Copyright 2022-2024 Advanced Micro Devices, Inc. All Rights Reserved.
+
+source design_1_animalnet_axi_lite_0_0.tcl -notrace
+create_project: Time (s): cpu = 00:00:04 ; elapsed = 00:00:05 . Memory (MB): peak = 446.934 ; gain = 123.742
+
+*** Running vivado
+    with args -log design_1_animalnet_axi_lite_0_0.vds -m64 -product Vivado -mode batch -messageDb vivado.pb -notrace -source design_1_animalnet_axi_lite_0_0.tcl
+
+
+
+****** Vivado v2024.2 (64-bit)
+  **** SW Build 5239630 on Fri Nov 08 22:35:27 MST 2024
+  **** IP Build 5239520 on Sun Nov 10 16:12:51 MST 2024
+  **** SharedData Build 5239561 on Fri Nov 08 14:39:27 MST 2024
+  **** Start of session at: Sun May 10 20:58:55 2026
+    ** Copyright 1986-2022 Xilinx, Inc. All Rights Reserved.
+    ** Copyright 2022-2024 Advanced Micro Devices, Inc. All Rights Reserved.
+
+source design_1_animalnet_axi_lite_0_0.tcl -notrace
+INFO: [IP_Flow 19-234] Refreshing IP repositories
+INFO: [IP_Flow 19-1700] Loaded user IP repository 'c:/Users/NguyenHuy/AppData/Roaming/Xilinx/ip_repo'.
+INFO: [IP_Flow 19-2313] Loaded Vivado IP repository 'C:/Xilinx/Vivado/2024.2/data/ip'.
+INFO: [IP_Flow 19-6924] IPCACHE: Running cache check for IP inst: design_1_animalnet_axi_lite_0_0
+Command: synth_design -top design_1_animalnet_axi_lite_0_0 -part xck26-sfvc784-2LV-c -incremental_mode off -mode out_of_context
+Starting synth_design
+Attempting to get a license for feature 'Synthesis' and/or device 'xck26'
+INFO: [Common 17-349] Got license for feature 'Synthesis' and/or device 'xck26'
+INFO: [Device 21-403] Loading part xck26-sfvc784-2LV-c
+INFO: [Synth 8-7079] Multithreading enabled for synth_design using a maximum of 2 processes.
+INFO: [Synth 8-7078] Launching helper process for spawning children vivado processes
+INFO: [Synth 8-7075] Helper process launched with PID 15628
+---------------------------------------------------------------------------------
+Starting RTL Elaboration : Time (s): cpu = 00:00:05 ; elapsed = 00:00:05 . Memory (MB): peak = 1677.938 ; gain = 179.195
+---------------------------------------------------------------------------------
+INFO: [Synth 8-6157] synthesizing module 'design_1_animalnet_axi_lite_0_0' [c:/Users/NguyenHuy/Downloads/SoC_Animal/SoC_Animal.gen/sources_1/bd/design_1/ip/design_1_animalnet_axi_lite_0_0/synth/design_1_animalnet_axi_lite_0_0.v:53]
+INFO: [Synth 8-6157] synthesizing module 'animalnet_axi_lite' [c:/Users/NguyenHuy/Downloads/SoC_Animal/SoC_Animal.gen/sources_1/bd/design_1/ipshared/9fe2/src/animalnet_axi_lite.v:3]
+INFO: [Synth 8-6157] synthesizing module 'animalnet_top' [c:/Users/NguyenHuy/Downloads/SoC_Animal/SoC_Animal.gen/sources_1/bd/design_1/ipshared/9fe2/src/animalnet_top.v:1]
+INFO: [Synth 8-6157] synthesizing module 'sync_ram_1p' [c:/Users/NguyenHuy/Downloads/SoC_Animal/SoC_Animal.gen/sources_1/bd/design_1/ipshared/9fe2/src/sync_ram_1p.v:3]
+INFO: [Synth 8-226] default block is never used [c:/Users/NguyenHuy/Downloads/SoC_Animal/SoC_Animal.gen/sources_1/bd/design_1/ipshared/9fe2/src/sync_ram_1p.v:35]
+INFO: [Synth 8-6155] done synthesizing module 'sync_ram_1p' (0#1) [c:/Users/NguyenHuy/Downloads/SoC_Animal/SoC_Animal.gen/sources_1/bd/design_1/ipshared/9fe2/src/sync_ram_1p.v:3]
+INFO: [Synth 8-6157] synthesizing module 'sync_ram_1p__parameterized0' [c:/Users/NguyenHuy/Downloads/SoC_Animal/SoC_Animal.gen/sources_1/bd/design_1/ipshared/9fe2/src/sync_ram_1p.v:3]
+INFO: [Synth 8-226] default block is never used [c:/Users/NguyenHuy/Downloads/SoC_Animal/SoC_Animal.gen/sources_1/bd/design_1/ipshared/9fe2/src/sync_ram_1p.v:35]
+INFO: [Synth 8-6155] done synthesizing module 'sync_ram_1p__parameterized0' (0#1) [c:/Users/NguyenHuy/Downloads/SoC_Animal/SoC_Animal.gen/sources_1/bd/design_1/ipshared/9fe2/src/sync_ram_1p.v:3]
+INFO: [Synth 8-6157] synthesizing module 'sync_ram_1p__parameterized1' [c:/Users/NguyenHuy/Downloads/SoC_Animal/SoC_Animal.gen/sources_1/bd/design_1/ipshared/9fe2/src/sync_ram_1p.v:3]
+INFO: [Synth 8-3876] $readmem data file 'C:/Users/NguyenHuy/Downloads/all_weights_q6_9.mem' is read successfully [c:/Users/NguyenHuy/Downloads/SoC_Animal/SoC_Animal.gen/sources_1/bd/design_1/ipshared/9fe2/src/sync_ram_1p.v:65]
+INFO: [Synth 8-6155] done synthesizing module 'sync_ram_1p__parameterized1' (0#1) [c:/Users/NguyenHuy/Downloads/SoC_Animal/SoC_Animal.gen/sources_1/bd/design_1/ipshared/9fe2/src/sync_ram_1p.v:3]
+INFO: [Synth 8-6157] synthesizing module 'sync_ram_1p__parameterized2' [c:/Users/NguyenHuy/Downloads/SoC_Animal/SoC_Animal.gen/sources_1/bd/design_1/ipshared/9fe2/src/sync_ram_1p.v:3]
+INFO: [Synth 8-3876] $readmem data file 'C:/Users/NguyenHuy/Downloads/all_bias_q6_9.mem' is read successfully [c:/Users/NguyenHuy/Downloads/SoC_Animal/SoC_Animal.gen/sources_1/bd/design_1/ipshared/9fe2/src/sync_ram_1p.v:65]
+INFO: [Synth 8-6155] done synthesizing module 'sync_ram_1p__parameterized2' (0#1) [c:/Users/NguyenHuy/Downloads/SoC_Animal/SoC_Animal.gen/sources_1/bd/design_1/ipshared/9fe2/src/sync_ram_1p.v:3]
+INFO: [Synth 8-6157] synthesizing module 'conv2d_sequential' [c:/Users/NguyenHuy/Downloads/SoC_Animal/SoC_Animal.gen/sources_1/bd/design_1/ipshared/9fe2/src/conv2d_sequential.v:1]
+INFO: [Synth 8-6157] synthesizing module 'conv2d_regular_sequential' [c:/Users/NguyenHuy/Downloads/SoC_Animal/SoC_Animal.gen/sources_1/bd/design_1/ipshared/9fe2/src/conv2d_regular_sequential.v:1]
+INFO: [Synth 8-226] default block is never used [c:/Users/NguyenHuy/Downloads/SoC_Animal/SoC_Animal.gen/sources_1/bd/design_1/ipshared/9fe2/src/conv2d_regular_sequential.v:159]
+INFO: [Synth 8-6155] done synthesizing module 'conv2d_regular_sequential' (0#1) [c:/Users/NguyenHuy/Downloads/SoC_Animal/SoC_Animal.gen/sources_1/bd/design_1/ipshared/9fe2/src/conv2d_regular_sequential.v:1]
+INFO: [Synth 8-6155] done synthesizing module 'conv2d_sequential' (0#1) [c:/Users/NguyenHuy/Downloads/SoC_Animal/SoC_Animal.gen/sources_1/bd/design_1/ipshared/9fe2/src/conv2d_sequential.v:1]
+INFO: [Synth 8-6157] synthesizing module 'conv2d_sequential__parameterized0' [c:/Users/NguyenHuy/Downloads/SoC_Animal/SoC_Animal.gen/sources_1/bd/design_1/ipshared/9fe2/src/conv2d_sequential.v:1]
+INFO: [Synth 8-6157] synthesizing module 'conv2d_depthwise_sequential' [c:/Users/NguyenHuy/Downloads/SoC_Animal/SoC_Animal.gen/sources_1/bd/design_1/ipshared/9fe2/src/conv2d_depthwise_sequential.v:1]
+INFO: [Synth 8-226] default block is never used [c:/Users/NguyenHuy/Downloads/SoC_Animal/SoC_Animal.gen/sources_1/bd/design_1/ipshared/9fe2/src/conv2d_depthwise_sequential.v:151]
+INFO: [Synth 8-6155] done synthesizing module 'conv2d_depthwise_sequential' (0#1) [c:/Users/NguyenHuy/Downloads/SoC_Animal/SoC_Animal.gen/sources_1/bd/design_1/ipshared/9fe2/src/conv2d_depthwise_sequential.v:1]
+INFO: [Synth 8-6155] done synthesizing module 'conv2d_sequential__parameterized0' (0#1) [c:/Users/NguyenHuy/Downloads/SoC_Animal/SoC_Animal.gen/sources_1/bd/design_1/ipshared/9fe2/src/conv2d_sequential.v:1]
+INFO: [Synth 8-6157] synthesizing module 'conv2d_sequential__parameterized1' [c:/Users/NguyenHuy/Downloads/SoC_Animal/SoC_Animal.gen/sources_1/bd/design_1/ipshared/9fe2/src/conv2d_sequential.v:1]
+INFO: [Synth 8-6157] synthesizing module 'conv2d_regular_sequential__parameterized0' [c:/Users/NguyenHuy/Downloads/SoC_Animal/SoC_Animal.gen/sources_1/bd/design_1/ipshared/9fe2/src/conv2d_regular_sequential.v:1]
+INFO: [Synth 8-226] default block is never used [c:/Users/NguyenHuy/Downloads/SoC_Animal/SoC_Animal.gen/sources_1/bd/design_1/ipshared/9fe2/src/conv2d_regular_sequential.v:159]
+INFO: [Synth 8-6155] done synthesizing module 'conv2d_regular_sequential__parameterized0' (0#1) [c:/Users/NguyenHuy/Downloads/SoC_Animal/SoC_Animal.gen/sources_1/bd/design_1/ipshared/9fe2/src/conv2d_regular_sequential.v:1]
+INFO: [Synth 8-6155] done synthesizing module 'conv2d_sequential__parameterized1' (0#1) [c:/Users/NguyenHuy/Downloads/SoC_Animal/SoC_Animal.gen/sources_1/bd/design_1/ipshared/9fe2/src/conv2d_sequential.v:1]
+INFO: [Synth 8-6157] synthesizing module 'conv2d_sequential__parameterized2' [c:/Users/NguyenHuy/Downloads/SoC_Animal/SoC_Animal.gen/sources_1/bd/design_1/ipshared/9fe2/src/conv2d_sequential.v:1]
+INFO: [Synth 8-6157] synthesizing module 'conv2d_depthwise_sequential__parameterized0' [c:/Users/NguyenHuy/Downloads/SoC_Animal/SoC_Animal.gen/sources_1/bd/design_1/ipshared/9fe2/src/conv2d_depthwise_sequential.v:1]
+INFO: [Synth 8-226] default block is never used [c:/Users/NguyenHuy/Downloads/SoC_Animal/SoC_Animal.gen/sources_1/bd/design_1/ipshared/9fe2/src/conv2d_depthwise_sequential.v:151]
+INFO: [Synth 8-6155] done synthesizing module 'conv2d_depthwise_sequential__parameterized0' (0#1) [c:/Users/NguyenHuy/Downloads/SoC_Animal/SoC_Animal.gen/sources_1/bd/design_1/ipshared/9fe2/src/conv2d_depthwise_sequential.v:1]
+INFO: [Synth 8-6155] done synthesizing module 'conv2d_sequential__parameterized2' (0#1) [c:/Users/NguyenHuy/Downloads/SoC_Animal/SoC_Animal.gen/sources_1/bd/design_1/ipshared/9fe2/src/conv2d_sequential.v:1]
+INFO: [Synth 8-6157] synthesizing module 'conv2d_sequential__parameterized3' [c:/Users/NguyenHuy/Downloads/SoC_Animal/SoC_Animal.gen/sources_1/bd/design_1/ipshared/9fe2/src/conv2d_sequential.v:1]
+INFO: [Synth 8-6157] synthesizing module 'conv2d_regular_sequential__parameterized1' [c:/Users/NguyenHuy/Downloads/SoC_Animal/SoC_Animal.gen/sources_1/bd/design_1/ipshared/9fe2/src/conv2d_regular_sequential.v:1]
+INFO: [Synth 8-226] default block is never used [c:/Users/NguyenHuy/Downloads/SoC_Animal/SoC_Animal.gen/sources_1/bd/design_1/ipshared/9fe2/src/conv2d_regular_sequential.v:159]
+INFO: [Synth 8-6155] done synthesizing module 'conv2d_regular_sequential__parameterized1' (0#1) [c:/Users/NguyenHuy/Downloads/SoC_Animal/SoC_Animal.gen/sources_1/bd/design_1/ipshared/9fe2/src/conv2d_regular_sequential.v:1]
+INFO: [Synth 8-6155] done synthesizing module 'conv2d_sequential__parameterized3' (0#1) [c:/Users/NguyenHuy/Downloads/SoC_Animal/SoC_Animal.gen/sources_1/bd/design_1/ipshared/9fe2/src/conv2d_sequential.v:1]
+INFO: [Synth 8-6157] synthesizing module 'conv2d_sequential__parameterized4' [c:/Users/NguyenHuy/Downloads/SoC_Animal/SoC_Animal.gen/sources_1/bd/design_1/ipshared/9fe2/src/conv2d_sequential.v:1]
+INFO: [Synth 8-6157] synthesizing module 'conv2d_depthwise_sequential__parameterized1' [c:/Users/NguyenHuy/Downloads/SoC_Animal/SoC_Animal.gen/sources_1/bd/design_1/ipshared/9fe2/src/conv2d_depthwise_sequential.v:1]
+INFO: [Synth 8-226] default block is never used [c:/Users/NguyenHuy/Downloads/SoC_Animal/SoC_Animal.gen/sources_1/bd/design_1/ipshared/9fe2/src/conv2d_depthwise_sequential.v:151]
+INFO: [Synth 8-6155] done synthesizing module 'conv2d_depthwise_sequential__parameterized1' (0#1) [c:/Users/NguyenHuy/Downloads/SoC_Animal/SoC_Animal.gen/sources_1/bd/design_1/ipshared/9fe2/src/conv2d_depthwise_sequential.v:1]
+INFO: [Synth 8-6155] done synthesizing module 'conv2d_sequential__parameterized4' (0#1) [c:/Users/NguyenHuy/Downloads/SoC_Animal/SoC_Animal.gen/sources_1/bd/design_1/ipshared/9fe2/src/conv2d_sequential.v:1]
+INFO: [Synth 8-6157] synthesizing module 'conv2d_sequential__parameterized5' [c:/Users/NguyenHuy/Downloads/SoC_Animal/SoC_Animal.gen/sources_1/bd/design_1/ipshared/9fe2/src/conv2d_sequential.v:1]
+INFO: [Synth 8-6157] synthesizing module 'conv2d_regular_sequential__parameterized2' [c:/Users/NguyenHuy/Downloads/SoC_Animal/SoC_Animal.gen/sources_1/bd/design_1/ipshared/9fe2/src/conv2d_regular_sequential.v:1]
+INFO: [Synth 8-226] default block is never used [c:/Users/NguyenHuy/Downloads/SoC_Animal/SoC_Animal.gen/sources_1/bd/design_1/ipshared/9fe2/src/conv2d_regular_sequential.v:159]
+INFO: [Synth 8-6155] done synthesizing module 'conv2d_regular_sequential__parameterized2' (0#1) [c:/Users/NguyenHuy/Downloads/SoC_Animal/SoC_Animal.gen/sources_1/bd/design_1/ipshared/9fe2/src/conv2d_regular_sequential.v:1]
+INFO: [Synth 8-6155] done synthesizing module 'conv2d_sequential__parameterized5' (0#1) [c:/Users/NguyenHuy/Downloads/SoC_Animal/SoC_Animal.gen/sources_1/bd/design_1/ipshared/9fe2/src/conv2d_sequential.v:1]
+INFO: [Synth 8-6157] synthesizing module 'conv2d_sequential__parameterized6' [c:/Users/NguyenHuy/Downloads/SoC_Animal/SoC_Animal.gen/sources_1/bd/design_1/ipshared/9fe2/src/conv2d_sequential.v:1]
+INFO: [Synth 8-6157] synthesizing module 'conv2d_depthwise_sequential__parameterized2' [c:/Users/NguyenHuy/Downloads/SoC_Animal/SoC_Animal.gen/sources_1/bd/design_1/ipshared/9fe2/src/conv2d_depthwise_sequential.v:1]
+INFO: [Synth 8-226] default block is never used [c:/Users/NguyenHuy/Downloads/SoC_Animal/SoC_Animal.gen/sources_1/bd/design_1/ipshared/9fe2/src/conv2d_depthwise_sequential.v:151]
+INFO: [Synth 8-6155] done synthesizing module 'conv2d_depthwise_sequential__parameterized2' (0#1) [c:/Users/NguyenHuy/Downloads/SoC_Animal/SoC_Animal.gen/sources_1/bd/design_1/ipshared/9fe2/src/conv2d_depthwise_sequential.v:1]
+INFO: [Synth 8-6155] done synthesizing module 'conv2d_sequential__parameterized6' (0#1) [c:/Users/NguyenHuy/Downloads/SoC_Animal/SoC_Animal.gen/sources_1/bd/design_1/ipshared/9fe2/src/conv2d_sequential.v:1]
+INFO: [Synth 8-6157] synthesizing module 'conv2d_sequential__parameterized7' [c:/Users/NguyenHuy/Downloads/SoC_Animal/SoC_Animal.gen/sources_1/bd/design_1/ipshared/9fe2/src/conv2d_sequential.v:1]
+INFO: [Synth 8-6157] synthesizing module 'conv2d_regular_sequential__parameterized3' [c:/Users/NguyenHuy/Downloads/SoC_Animal/SoC_Animal.gen/sources_1/bd/design_1/ipshared/9fe2/src/conv2d_regular_sequential.v:1]
+INFO: [Synth 8-226] default block is never used [c:/Users/NguyenHuy/Downloads/SoC_Animal/SoC_Animal.gen/sources_1/bd/design_1/ipshared/9fe2/src/conv2d_regular_sequential.v:159]
+INFO: [Synth 8-6155] done synthesizing module 'conv2d_regular_sequential__parameterized3' (0#1) [c:/Users/NguyenHuy/Downloads/SoC_Animal/SoC_Animal.gen/sources_1/bd/design_1/ipshared/9fe2/src/conv2d_regular_sequential.v:1]
+INFO: [Synth 8-6155] done synthesizing module 'conv2d_sequential__parameterized7' (0#1) [c:/Users/NguyenHuy/Downloads/SoC_Animal/SoC_Animal.gen/sources_1/bd/design_1/ipshared/9fe2/src/conv2d_sequential.v:1]
+INFO: [Synth 8-6157] synthesizing module 'conv2d_sequential__parameterized8' [c:/Users/NguyenHuy/Downloads/SoC_Animal/SoC_Animal.gen/sources_1/bd/design_1/ipshared/9fe2/src/conv2d_sequential.v:1]
+INFO: [Synth 8-6157] synthesizing module 'conv2d_depthwise_sequential__parameterized3' [c:/Users/NguyenHuy/Downloads/SoC_Animal/SoC_Animal.gen/sources_1/bd/design_1/ipshared/9fe2/src/conv2d_depthwise_sequential.v:1]
+INFO: [Synth 8-226] default block is never used [c:/Users/NguyenHuy/Downloads/SoC_Animal/SoC_Animal.gen/sources_1/bd/design_1/ipshared/9fe2/src/conv2d_depthwise_sequential.v:151]
+INFO: [Synth 8-6155] done synthesizing module 'conv2d_depthwise_sequential__parameterized3' (0#1) [c:/Users/NguyenHuy/Downloads/SoC_Animal/SoC_Animal.gen/sources_1/bd/design_1/ipshared/9fe2/src/conv2d_depthwise_sequential.v:1]
+INFO: [Synth 8-6155] done synthesizing module 'conv2d_sequential__parameterized8' (0#1) [c:/Users/NguyenHuy/Downloads/SoC_Animal/SoC_Animal.gen/sources_1/bd/design_1/ipshared/9fe2/src/conv2d_sequential.v:1]
+INFO: [Synth 8-6157] synthesizing module 'conv2d_sequential__parameterized9' [c:/Users/NguyenHuy/Downloads/SoC_Animal/SoC_Animal.gen/sources_1/bd/design_1/ipshared/9fe2/src/conv2d_sequential.v:1]
+INFO: [Synth 8-6157] synthesizing module 'conv2d_regular_sequential__parameterized4' [c:/Users/NguyenHuy/Downloads/SoC_Animal/SoC_Animal.gen/sources_1/bd/design_1/ipshared/9fe2/src/conv2d_regular_sequential.v:1]
+INFO: [Synth 8-226] default block is never used [c:/Users/NguyenHuy/Downloads/SoC_Animal/SoC_Animal.gen/sources_1/bd/design_1/ipshared/9fe2/src/conv2d_regular_sequential.v:159]
+INFO: [Synth 8-6155] done synthesizing module 'conv2d_regular_sequential__parameterized4' (0#1) [c:/Users/NguyenHuy/Downloads/SoC_Animal/SoC_Animal.gen/sources_1/bd/design_1/ipshared/9fe2/src/conv2d_regular_sequential.v:1]
+INFO: [Synth 8-6155] done synthesizing module 'conv2d_sequential__parameterized9' (0#1) [c:/Users/NguyenHuy/Downloads/SoC_Animal/SoC_Animal.gen/sources_1/bd/design_1/ipshared/9fe2/src/conv2d_sequential.v:1]
+INFO: [Synth 8-6157] synthesizing module 'conv2d_sequential__parameterized10' [c:/Users/NguyenHuy/Downloads/SoC_Animal/SoC_Animal.gen/sources_1/bd/design_1/ipshared/9fe2/src/conv2d_sequential.v:1]
+INFO: [Synth 8-6157] synthesizing module 'conv2d_depthwise_sequential__parameterized4' [c:/Users/NguyenHuy/Downloads/SoC_Animal/SoC_Animal.gen/sources_1/bd/design_1/ipshared/9fe2/src/conv2d_depthwise_sequential.v:1]
+INFO: [Synth 8-226] default block is never used [c:/Users/NguyenHuy/Downloads/SoC_Animal/SoC_Animal.gen/sources_1/bd/design_1/ipshared/9fe2/src/conv2d_depthwise_sequential.v:151]
+INFO: [Synth 8-6155] done synthesizing module 'conv2d_depthwise_sequential__parameterized4' (0#1) [c:/Users/NguyenHuy/Downloads/SoC_Animal/SoC_Animal.gen/sources_1/bd/design_1/ipshared/9fe2/src/conv2d_depthwise_sequential.v:1]
+INFO: [Synth 8-6155] done synthesizing module 'conv2d_sequential__parameterized10' (0#1) [c:/Users/NguyenHuy/Downloads/SoC_Animal/SoC_Animal.gen/sources_1/bd/design_1/ipshared/9fe2/src/conv2d_sequential.v:1]
+INFO: [Synth 8-6157] synthesizing module 'conv2d_sequential__parameterized11' [c:/Users/NguyenHuy/Downloads/SoC_Animal/SoC_Animal.gen/sources_1/bd/design_1/ipshared/9fe2/src/conv2d_sequential.v:1]
+INFO: [Synth 8-6157] synthesizing module 'conv2d_regular_sequential__parameterized5' [c:/Users/NguyenHuy/Downloads/SoC_Animal/SoC_Animal.gen/sources_1/bd/design_1/ipshared/9fe2/src/conv2d_regular_sequential.v:1]
+INFO: [Synth 8-226] default block is never used [c:/Users/NguyenHuy/Downloads/SoC_Animal/SoC_Animal.gen/sources_1/bd/design_1/ipshared/9fe2/src/conv2d_regular_sequential.v:159]
+INFO: [Synth 8-6155] done synthesizing module 'conv2d_regular_sequential__parameterized5' (0#1) [c:/Users/NguyenHuy/Downloads/SoC_Animal/SoC_Animal.gen/sources_1/bd/design_1/ipshared/9fe2/src/conv2d_regular_sequential.v:1]
+INFO: [Synth 8-6155] done synthesizing module 'conv2d_sequential__parameterized11' (0#1) [c:/Users/NguyenHuy/Downloads/SoC_Animal/SoC_Animal.gen/sources_1/bd/design_1/ipshared/9fe2/src/conv2d_sequential.v:1]
+INFO: [Synth 8-6157] synthesizing module 'conv2d_sequential__parameterized12' [c:/Users/NguyenHuy/Downloads/SoC_Animal/SoC_Animal.gen/sources_1/bd/design_1/ipshared/9fe2/src/conv2d_sequential.v:1]
+INFO: [Synth 8-6157] synthesizing module 'conv2d_depthwise_sequential__parameterized5' [c:/Users/NguyenHuy/Downloads/SoC_Animal/SoC_Animal.gen/sources_1/bd/design_1/ipshared/9fe2/src/conv2d_depthwise_sequential.v:1]
+INFO: [Synth 8-226] default block is never used [c:/Users/NguyenHuy/Downloads/SoC_Animal/SoC_Animal.gen/sources_1/bd/design_1/ipshared/9fe2/src/conv2d_depthwise_sequential.v:151]
+INFO: [Synth 8-6155] done synthesizing module 'conv2d_depthwise_sequential__parameterized5' (0#1) [c:/Users/NguyenHuy/Downloads/SoC_Animal/SoC_Animal.gen/sources_1/bd/design_1/ipshared/9fe2/src/conv2d_depthwise_sequential.v:1]
+INFO: [Synth 8-6155] done synthesizing module 'conv2d_sequential__parameterized12' (0#1) [c:/Users/NguyenHuy/Downloads/SoC_Animal/SoC_Animal.gen/sources_1/bd/design_1/ipshared/9fe2/src/conv2d_sequential.v:1]
+INFO: [Synth 8-6157] synthesizing module 'conv2d_sequential__parameterized13' [c:/Users/NguyenHuy/Downloads/SoC_Animal/SoC_Animal.gen/sources_1/bd/design_1/ipshared/9fe2/src/conv2d_sequential.v:1]
+INFO: [Synth 8-6157] synthesizing module 'conv2d_regular_sequential__parameterized6' [c:/Users/NguyenHuy/Downloads/SoC_Animal/SoC_Animal.gen/sources_1/bd/design_1/ipshared/9fe2/src/conv2d_regular_sequential.v:1]
+INFO: [Synth 8-226] default block is never used [c:/Users/NguyenHuy/Downloads/SoC_Animal/SoC_Animal.gen/sources_1/bd/design_1/ipshared/9fe2/src/conv2d_regular_sequential.v:159]
+INFO: [Synth 8-6155] done synthesizing module 'conv2d_regular_sequential__parameterized6' (0#1) [c:/Users/NguyenHuy/Downloads/SoC_Animal/SoC_Animal.gen/sources_1/bd/design_1/ipshared/9fe2/src/conv2d_regular_sequential.v:1]
+INFO: [Synth 8-6155] done synthesizing module 'conv2d_sequential__parameterized13' (0#1) [c:/Users/NguyenHuy/Downloads/SoC_Animal/SoC_Animal.gen/sources_1/bd/design_1/ipshared/9fe2/src/conv2d_sequential.v:1]
+INFO: [Synth 8-6157] synthesizing module 'avgpool_1x1' [c:/Users/NguyenHuy/Downloads/SoC_Animal/SoC_Animal.gen/sources_1/bd/design_1/ipshared/9fe2/src/avgpool_1x1.v:1]
+INFO: [Synth 8-226] default block is never used [c:/Users/NguyenHuy/Downloads/SoC_Animal/SoC_Animal.gen/sources_1/bd/design_1/ipshared/9fe2/src/avgpool_1x1.v:74]
+INFO: [Synth 8-6155] done synthesizing module 'avgpool_1x1' (0#1) [c:/Users/NguyenHuy/Downloads/SoC_Animal/SoC_Animal.gen/sources_1/bd/design_1/ipshared/9fe2/src/avgpool_1x1.v:1]
+INFO: [Synth 8-6157] synthesizing module 'linear_sequential' [c:/Users/NguyenHuy/Downloads/SoC_Animal/SoC_Animal.gen/sources_1/bd/design_1/ipshared/9fe2/src/linear_sequential.v:1]
+INFO: [Synth 8-226] default block is never used [c:/Users/NguyenHuy/Downloads/SoC_Animal/SoC_Animal.gen/sources_1/bd/design_1/ipshared/9fe2/src/linear_sequential.v:94]
+INFO: [Synth 8-6155] done synthesizing module 'linear_sequential' (0#1) [c:/Users/NguyenHuy/Downloads/SoC_Animal/SoC_Animal.gen/sources_1/bd/design_1/ipshared/9fe2/src/linear_sequential.v:1]
+INFO: [Synth 8-6157] synthesizing module 'argmax' [c:/Users/NguyenHuy/Downloads/SoC_Animal/SoC_Animal.gen/sources_1/bd/design_1/ipshared/9fe2/src/argmax.v:1]
+INFO: [Synth 8-6155] done synthesizing module 'argmax' (0#1) [c:/Users/NguyenHuy/Downloads/SoC_Animal/SoC_Animal.gen/sources_1/bd/design_1/ipshared/9fe2/src/argmax.v:1]
+INFO: [Synth 8-6155] done synthesizing module 'animalnet_top' (0#1) [c:/Users/NguyenHuy/Downloads/SoC_Animal/SoC_Animal.gen/sources_1/bd/design_1/ipshared/9fe2/src/animalnet_top.v:1]
+INFO: [Synth 8-6155] done synthesizing module 'animalnet_axi_lite' (0#1) [c:/Users/NguyenHuy/Downloads/SoC_Animal/SoC_Animal.gen/sources_1/bd/design_1/ipshared/9fe2/src/animalnet_axi_lite.v:3]
+INFO: [Synth 8-6155] done synthesizing module 'design_1_animalnet_axi_lite_0_0' (0#1) [c:/Users/NguyenHuy/Downloads/SoC_Animal/SoC_Animal.gen/sources_1/bd/design_1/ip/design_1_animalnet_axi_lite_0_0/synth/design_1_animalnet_axi_lite_0_0.v:53]
+WARNING: [Synth 8-6014] Unused sequential element rounded_reg was removed.  [c:/Users/NguyenHuy/Downloads/SoC_Animal/SoC_Animal.gen/sources_1/bd/design_1/ipshared/9fe2/src/conv2d_regular_sequential.v:153]
+WARNING: [Synth 8-6014] Unused sequential element clipped_reg was removed.  [c:/Users/NguyenHuy/Downloads/SoC_Animal/SoC_Animal.gen/sources_1/bd/design_1/ipshared/9fe2/src/conv2d_regular_sequential.v:154]
+WARNING: [Synth 8-6014] Unused sequential element rounded_reg was removed.  [c:/Users/NguyenHuy/Downloads/SoC_Animal/SoC_Animal.gen/sources_1/bd/design_1/ipshared/9fe2/src/conv2d_depthwise_sequential.v:145]
+WARNING: [Synth 8-6014] Unused sequential element clipped_reg was removed.  [c:/Users/NguyenHuy/Downloads/SoC_Animal/SoC_Animal.gen/sources_1/bd/design_1/ipshared/9fe2/src/conv2d_depthwise_sequential.v:146]
+WARNING: [Synth 8-6014] Unused sequential element rounded_reg was removed.  [c:/Users/NguyenHuy/Downloads/SoC_Animal/SoC_Animal.gen/sources_1/bd/design_1/ipshared/9fe2/src/conv2d_regular_sequential.v:153]
+WARNING: [Synth 8-6014] Unused sequential element clipped_reg was removed.  [c:/Users/NguyenHuy/Downloads/SoC_Animal/SoC_Animal.gen/sources_1/bd/design_1/ipshared/9fe2/src/conv2d_regular_sequential.v:154]
+WARNING: [Synth 8-6014] Unused sequential element rounded_reg was removed.  [c:/Users/NguyenHuy/Downloads/SoC_Animal/SoC_Animal.gen/sources_1/bd/design_1/ipshared/9fe2/src/conv2d_depthwise_sequential.v:145]
+WARNING: [Synth 8-6014] Unused sequential element clipped_reg was removed.  [c:/Users/NguyenHuy/Downloads/SoC_Animal/SoC_Animal.gen/sources_1/bd/design_1/ipshared/9fe2/src/conv2d_depthwise_sequential.v:146]
+WARNING: [Synth 8-6014] Unused sequential element rounded_reg was removed.  [c:/Users/NguyenHuy/Downloads/SoC_Animal/SoC_Animal.gen/sources_1/bd/design_1/ipshared/9fe2/src/conv2d_regular_sequential.v:153]
+WARNING: [Synth 8-6014] Unused sequential element clipped_reg was removed.  [c:/Users/NguyenHuy/Downloads/SoC_Animal/SoC_Animal.gen/sources_1/bd/design_1/ipshared/9fe2/src/conv2d_regular_sequential.v:154]
+WARNING: [Synth 8-6014] Unused sequential element rounded_reg was removed.  [c:/Users/NguyenHuy/Downloads/SoC_Animal/SoC_Animal.gen/sources_1/bd/design_1/ipshared/9fe2/src/conv2d_depthwise_sequential.v:145]
+WARNING: [Synth 8-6014] Unused sequential element clipped_reg was removed.  [c:/Users/NguyenHuy/Downloads/SoC_Animal/SoC_Animal.gen/sources_1/bd/design_1/ipshared/9fe2/src/conv2d_depthwise_sequential.v:146]
+WARNING: [Synth 8-6014] Unused sequential element rounded_reg was removed.  [c:/Users/NguyenHuy/Downloads/SoC_Animal/SoC_Animal.gen/sources_1/bd/design_1/ipshared/9fe2/src/conv2d_regular_sequential.v:153]
+WARNING: [Synth 8-6014] Unused sequential element clipped_reg was removed.  [c:/Users/NguyenHuy/Downloads/SoC_Animal/SoC_Animal.gen/sources_1/bd/design_1/ipshared/9fe2/src/conv2d_regular_sequential.v:154]
+WARNING: [Synth 8-6014] Unused sequential element rounded_reg was removed.  [c:/Users/NguyenHuy/Downloads/SoC_Animal/SoC_Animal.gen/sources_1/bd/design_1/ipshared/9fe2/src/conv2d_depthwise_sequential.v:145]
+WARNING: [Synth 8-6014] Unused sequential element clipped_reg was removed.  [c:/Users/NguyenHuy/Downloads/SoC_Animal/SoC_Animal.gen/sources_1/bd/design_1/ipshared/9fe2/src/conv2d_depthwise_sequential.v:146]
+WARNING: [Synth 8-6014] Unused sequential element rounded_reg was removed.  [c:/Users/NguyenHuy/Downloads/SoC_Animal/SoC_Animal.gen/sources_1/bd/design_1/ipshared/9fe2/src/conv2d_regular_sequential.v:153]
+WARNING: [Synth 8-6014] Unused sequential element clipped_reg was removed.  [c:/Users/NguyenHuy/Downloads/SoC_Animal/SoC_Animal.gen/sources_1/bd/design_1/ipshared/9fe2/src/conv2d_regular_sequential.v:154]
+WARNING: [Synth 8-6014] Unused sequential element rounded_reg was removed.  [c:/Users/NguyenHuy/Downloads/SoC_Animal/SoC_Animal.gen/sources_1/bd/design_1/ipshared/9fe2/src/conv2d_depthwise_sequential.v:145]
+WARNING: [Synth 8-6014] Unused sequential element clipped_reg was removed.  [c:/Users/NguyenHuy/Downloads/SoC_Animal/SoC_Animal.gen/sources_1/bd/design_1/ipshared/9fe2/src/conv2d_depthwise_sequential.v:146]
+WARNING: [Synth 8-6014] Unused sequential element rounded_reg was removed.  [c:/Users/NguyenHuy/Downloads/SoC_Animal/SoC_Animal.gen/sources_1/bd/design_1/ipshared/9fe2/src/conv2d_regular_sequential.v:153]
+WARNING: [Synth 8-6014] Unused sequential element clipped_reg was removed.  [c:/Users/NguyenHuy/Downloads/SoC_Animal/SoC_Animal.gen/sources_1/bd/design_1/ipshared/9fe2/src/conv2d_regular_sequential.v:154]
+WARNING: [Synth 8-6014] Unused sequential element rounded_reg was removed.  [c:/Users/NguyenHuy/Downloads/SoC_Animal/SoC_Animal.gen/sources_1/bd/design_1/ipshared/9fe2/src/conv2d_depthwise_sequential.v:145]
+WARNING: [Synth 8-6014] Unused sequential element clipped_reg was removed.  [c:/Users/NguyenHuy/Downloads/SoC_Animal/SoC_Animal.gen/sources_1/bd/design_1/ipshared/9fe2/src/conv2d_depthwise_sequential.v:146]
+WARNING: [Synth 8-6014] Unused sequential element rounded_reg was removed.  [c:/Users/NguyenHuy/Downloads/SoC_Animal/SoC_Animal.gen/sources_1/bd/design_1/ipshared/9fe2/src/conv2d_regular_sequential.v:153]
+WARNING: [Synth 8-6014] Unused sequential element clipped_reg was removed.  [c:/Users/NguyenHuy/Downloads/SoC_Animal/SoC_Animal.gen/sources_1/bd/design_1/ipshared/9fe2/src/conv2d_regular_sequential.v:154]
+WARNING: [Synth 8-6014] Unused sequential element rounded_reg was removed.  [c:/Users/NguyenHuy/Downloads/SoC_Animal/SoC_Animal.gen/sources_1/bd/design_1/ipshared/9fe2/src/conv2d_depthwise_sequential.v:145]
+WARNING: [Synth 8-6014] Unused sequential element clipped_reg was removed.  [c:/Users/NguyenHuy/Downloads/SoC_Animal/SoC_Animal.gen/sources_1/bd/design_1/ipshared/9fe2/src/conv2d_depthwise_sequential.v:146]
+WARNING: [Synth 8-6014] Unused sequential element rounded_reg was removed.  [c:/Users/NguyenHuy/Downloads/SoC_Animal/SoC_Animal.gen/sources_1/bd/design_1/ipshared/9fe2/src/conv2d_regular_sequential.v:153]
+WARNING: [Synth 8-6014] Unused sequential element clipped_reg was removed.  [c:/Users/NguyenHuy/Downloads/SoC_Animal/SoC_Animal.gen/sources_1/bd/design_1/ipshared/9fe2/src/conv2d_regular_sequential.v:154]
+WARNING: [Synth 8-7129] Port S_AXI_AWPROT[2] in module animalnet_axi_lite is either unconnected or has no load
+WARNING: [Synth 8-7129] Port S_AXI_AWPROT[1] in module animalnet_axi_lite is either unconnected or has no load
+WARNING: [Synth 8-7129] Port S_AXI_AWPROT[0] in module animalnet_axi_lite is either unconnected or has no load
+WARNING: [Synth 8-7129] Port S_AXI_WSTRB[3] in module animalnet_axi_lite is either unconnected or has no load
+WARNING: [Synth 8-7129] Port S_AXI_WSTRB[2] in module animalnet_axi_lite is either unconnected or has no load
+WARNING: [Synth 8-7129] Port S_AXI_WSTRB[1] in module animalnet_axi_lite is either unconnected or has no load
+WARNING: [Synth 8-7129] Port S_AXI_WSTRB[0] in module animalnet_axi_lite is either unconnected or has no load
+WARNING: [Synth 8-7129] Port S_AXI_ARPROT[2] in module animalnet_axi_lite is either unconnected or has no load
+WARNING: [Synth 8-7129] Port S_AXI_ARPROT[1] in module animalnet_axi_lite is either unconnected or has no load
+WARNING: [Synth 8-7129] Port S_AXI_ARPROT[0] in module animalnet_axi_lite is either unconnected or has no load
+---------------------------------------------------------------------------------
+Finished RTL Elaboration : Time (s): cpu = 00:00:09 ; elapsed = 00:00:11 . Memory (MB): peak = 1967.414 ; gain = 468.672
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Handling Custom Attributes
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished Handling Custom Attributes : Time (s): cpu = 00:00:09 ; elapsed = 00:00:11 . Memory (MB): peak = 1967.414 ; gain = 468.672
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished RTL Optimization Phase 1 : Time (s): cpu = 00:00:09 ; elapsed = 00:00:11 . Memory (MB): peak = 1967.414 ; gain = 468.672
+---------------------------------------------------------------------------------
+Netlist sorting complete. Time (s): cpu = 00:00:00 ; elapsed = 00:00:00.128 . Memory (MB): peak = 1967.414 ; gain = 0.000
+INFO: [Project 1-570] Preparing netlist for logic optimization
+
+Processing XDC Constraints
+Initializing timing engine
+Parsing XDC File [c:/Users/NguyenHuy/Downloads/SoC_Animal/SoC_Animal.gen/sources_1/bd/design_1/ip/design_1_animalnet_axi_lite_0_0/src/Fmax.xdc] for cell 'inst'
+WARNING: [Vivado 12-508] No pins matched 'design_1_i/zynq_ultra_ps_e_0/pl_clk0'. [c:/Users/NguyenHuy/Downloads/SoC_Animal/SoC_Animal.gen/sources_1/bd/design_1/ip/design_1_animalnet_axi_lite_0_0/src/Fmax.xdc:1]
+CRITICAL WARNING: [Vivado 12-4739] create_clock:No valid object(s) found for '-objects [get_pins design_1_i/zynq_ultra_ps_e_0/pl_clk0]'. [c:/Users/NguyenHuy/Downloads/SoC_Animal/SoC_Animal.gen/sources_1/bd/design_1/ip/design_1_animalnet_axi_lite_0_0/src/Fmax.xdc:1]
+Resolution: Check if the specified object(s) exists in the current design. If it does, ensure that the correct design hierarchy was specified for the object. If you are working with clocks, make sure create_clock was used to create the clock object before it is referenced.
+Finished Parsing XDC File [c:/Users/NguyenHuy/Downloads/SoC_Animal/SoC_Animal.gen/sources_1/bd/design_1/ip/design_1_animalnet_axi_lite_0_0/src/Fmax.xdc] for cell 'inst'
+Parsing XDC File [C:/Users/NguyenHuy/Downloads/SoC_Animal/SoC_Animal.runs/design_1_animalnet_axi_lite_0_0_synth_1/dont_touch.xdc]
+Finished Parsing XDC File [C:/Users/NguyenHuy/Downloads/SoC_Animal/SoC_Animal.runs/design_1_animalnet_axi_lite_0_0_synth_1/dont_touch.xdc]
+Completed Processing XDC Constraints
+
+Netlist sorting complete. Time (s): cpu = 00:00:00 ; elapsed = 00:00:00.002 . Memory (MB): peak = 2027.023 ; gain = 0.000
+INFO: [Project 1-111] Unisim Transformation Summary:
+No Unisim elements were transformed.
+
+Constraint Validation Runtime : Time (s): cpu = 00:00:00 ; elapsed = 00:00:00.154 . Memory (MB): peak = 2028.531 ; gain = 1.508
+INFO: [Designutils 20-5008] Incremental synthesis strategy off
+---------------------------------------------------------------------------------
+Finished Constraint Validation : Time (s): cpu = 00:00:17 ; elapsed = 00:00:20 . Memory (MB): peak = 2028.531 ; gain = 529.789
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Loading Part and Timing Information
+---------------------------------------------------------------------------------
+Loading part: xck26-sfvc784-2LV-c
+INFO: [Synth 8-6742] Reading net delay rules and data
+---------------------------------------------------------------------------------
+Finished Loading Part and Timing Information : Time (s): cpu = 00:00:17 ; elapsed = 00:00:20 . Memory (MB): peak = 2028.531 ; gain = 529.789
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Applying 'set_property' XDC Constraints
+---------------------------------------------------------------------------------
+Applied set_property KEEP_HIERARCHY = SOFT for inst. (constraint file  C:/Users/NguyenHuy/Downloads/SoC_Animal/SoC_Animal.runs/design_1_animalnet_axi_lite_0_0_synth_1/dont_touch.xdc, line 9).
+---------------------------------------------------------------------------------
+Finished applying 'set_property' XDC Constraints : Time (s): cpu = 00:00:17 ; elapsed = 00:00:20 . Memory (MB): peak = 2028.531 ; gain = 529.789
+---------------------------------------------------------------------------------
+INFO: [Synth 8-802] inferred FSM for state register 'state_reg' in module 'conv2d_regular_sequential'
+INFO: [Synth 8-802] inferred FSM for state register 'state_reg' in module 'conv2d_depthwise_sequential'
+INFO: [Synth 8-802] inferred FSM for state register 'state_reg' in module 'conv2d_regular_sequential__parameterized0'
+INFO: [Synth 8-802] inferred FSM for state register 'state_reg' in module 'conv2d_depthwise_sequential__parameterized0'
+INFO: [Synth 8-802] inferred FSM for state register 'state_reg' in module 'conv2d_regular_sequential__parameterized1'
+INFO: [Synth 8-802] inferred FSM for state register 'state_reg' in module 'conv2d_depthwise_sequential__parameterized1'
+INFO: [Synth 8-802] inferred FSM for state register 'state_reg' in module 'conv2d_regular_sequential__parameterized2'
+INFO: [Synth 8-802] inferred FSM for state register 'state_reg' in module 'conv2d_depthwise_sequential__parameterized2'
+INFO: [Synth 8-802] inferred FSM for state register 'state_reg' in module 'conv2d_regular_sequential__parameterized3'
+INFO: [Synth 8-802] inferred FSM for state register 'state_reg' in module 'conv2d_depthwise_sequential__parameterized3'
+INFO: [Synth 8-802] inferred FSM for state register 'state_reg' in module 'conv2d_regular_sequential__parameterized4'
+INFO: [Synth 8-802] inferred FSM for state register 'state_reg' in module 'conv2d_depthwise_sequential__parameterized4'
+INFO: [Synth 8-802] inferred FSM for state register 'state_reg' in module 'conv2d_regular_sequential__parameterized5'
+INFO: [Synth 8-802] inferred FSM for state register 'state_reg' in module 'conv2d_depthwise_sequential__parameterized5'
+INFO: [Synth 8-802] inferred FSM for state register 'state_reg' in module 'conv2d_regular_sequential__parameterized6'
+INFO: [Synth 8-802] inferred FSM for state register 'state_reg' in module 'avgpool_1x1'
+INFO: [Synth 8-802] inferred FSM for state register 'state_reg' in module 'linear_sequential'
+INFO: [Synth 8-802] inferred FSM for state register 'state_reg' in module 'argmax'
+INFO: [Synth 8-802] inferred FSM for state register 'state_reg' in module 'animalnet_top'
+INFO: [Synth 8-5759] Cascade height of 0 specified for RAM '"sync_ram_1p:/gen_inferred_ultra.mem_reg"'. This RAM won't be implemented using URAM cascade chain
+INFO: [Synth 8-5759] Cascade height of 0 specified for RAM '"sync_ram_1p:/gen_inferred_ultra.mem_reg"'. This RAM won't be implemented using URAM cascade chain
+INFO: [Synth 8-5759] Cascade height of 0 specified for RAM '"sync_ram_1p:/gen_inferred_ultra.mem_reg"'. This RAM won't be implemented using URAM cascade chain
+INFO: [Synth 8-5782] User specified cascade height of 0 will be used for URAM '"sync_ram_1p:/gen_inferred_ultra.mem_reg"'.
+INFO: [Synth 8-5759] Cascade height of 0 specified for RAM '"sync_ram_1p__parameterized0:/gen_inferred_ultra.mem_reg"'. This RAM won't be implemented using URAM cascade chain
+INFO: [Synth 8-5759] Cascade height of 0 specified for RAM '"sync_ram_1p__parameterized0:/gen_inferred_ultra.mem_reg"'. This RAM won't be implemented using URAM cascade chain
+INFO: [Synth 8-5759] Cascade height of 0 specified for RAM '"sync_ram_1p__parameterized0:/gen_inferred_ultra.mem_reg"'. This RAM won't be implemented using URAM cascade chain
+INFO: [Synth 8-5782] User specified cascade height of 0 will be used for URAM '"sync_ram_1p__parameterized0:/gen_inferred_ultra.mem_reg"'.
+INFO: [Synth 8-5800] Cascade chain of height 4 reduced to 2 because memory depth for RAM "sync_ram_1p__parameterized1:/gen_bram.mem_reg" is not power of 2. 
+INFO: [Synth 8-5800] Cascade chain of height 8 reduced to 1 because memory depth for RAM "sync_ram_1p__parameterized1:/gen_bram.mem_reg" is not power of 2. 
+INFO: [Synth 8-5800] Cascade chain of height 8 reduced to 5 because memory depth for RAM "sync_ram_1p__parameterized1:/gen_bram.mem_reg" is not power of 2. 
+INFO: [Synth 8-5800] Cascade chain of height 8 reduced to 7 because memory depth for RAM "sync_ram_1p__parameterized1:/gen_bram.mem_reg" is not power of 2. 
+---------------------------------------------------------------------------------------------------
+                   State |                     New Encoding |                Previous Encoding 
+---------------------------------------------------------------------------------------------------
+                  S_IDLE |                              000 |                              000
+             S_BIAS_ADDR |                              001 |                              001
+             S_BIAS_WAIT |                              010 |                              010
+            S_BIAS_WAIT2 |                              011 |                              011
+             S_BIAS_LOAD |                              100 |                              100
+                   S_MAC |                              101 |                              101
+                 S_WRITE |                              110 |                              110
+                  S_DONE |                              111 |                              111
+---------------------------------------------------------------------------------------------------
+INFO: [Synth 8-3354] encoded FSM with state register 'state_reg' using encoding 'sequential' in module 'conv2d_regular_sequential'
+---------------------------------------------------------------------------------------------------
+                   State |                     New Encoding |                Previous Encoding 
+---------------------------------------------------------------------------------------------------
+                  S_IDLE |                              000 |                              000
+             S_BIAS_ADDR |                              001 |                              001
+             S_BIAS_WAIT |                              010 |                              010
+            S_BIAS_WAIT2 |                              011 |                              011
+             S_BIAS_LOAD |                              100 |                              100
+                   S_MAC |                              101 |                              101
+                 S_WRITE |                              110 |                              110
+                  S_DONE |                              111 |                              111
+---------------------------------------------------------------------------------------------------
+INFO: [Synth 8-3354] encoded FSM with state register 'state_reg' using encoding 'sequential' in module 'conv2d_depthwise_sequential'
+---------------------------------------------------------------------------------------------------
+                   State |                     New Encoding |                Previous Encoding 
+---------------------------------------------------------------------------------------------------
+                  S_IDLE |                              000 |                              000
+             S_BIAS_ADDR |                              001 |                              001
+             S_BIAS_WAIT |                              010 |                              010
+            S_BIAS_WAIT2 |                              011 |                              011
+             S_BIAS_LOAD |                              100 |                              100
+                   S_MAC |                              101 |                              101
+                 S_WRITE |                              110 |                              110
+                  S_DONE |                              111 |                              111
+---------------------------------------------------------------------------------------------------
+INFO: [Synth 8-3354] encoded FSM with state register 'state_reg' using encoding 'sequential' in module 'conv2d_regular_sequential__parameterized0'
+---------------------------------------------------------------------------------------------------
+                   State |                     New Encoding |                Previous Encoding 
+---------------------------------------------------------------------------------------------------
+                  S_IDLE |                              000 |                              000
+             S_BIAS_ADDR |                              001 |                              001
+             S_BIAS_WAIT |                              010 |                              010
+            S_BIAS_WAIT2 |                              011 |                              011
+             S_BIAS_LOAD |                              100 |                              100
+                   S_MAC |                              101 |                              101
+                 S_WRITE |                              110 |                              110
+                  S_DONE |                              111 |                              111
+---------------------------------------------------------------------------------------------------
+INFO: [Synth 8-3354] encoded FSM with state register 'state_reg' using encoding 'sequential' in module 'conv2d_depthwise_sequential__parameterized0'
+---------------------------------------------------------------------------------------------------
+                   State |                     New Encoding |                Previous Encoding 
+---------------------------------------------------------------------------------------------------
+                  S_IDLE |                              000 |                              000
+             S_BIAS_ADDR |                              001 |                              001
+             S_BIAS_WAIT |                              010 |                              010
+            S_BIAS_WAIT2 |                              011 |                              011
+             S_BIAS_LOAD |                              100 |                              100
+                   S_MAC |                              101 |                              101
+                 S_WRITE |                              110 |                              110
+                  S_DONE |                              111 |                              111
+---------------------------------------------------------------------------------------------------
+INFO: [Synth 8-3354] encoded FSM with state register 'state_reg' using encoding 'sequential' in module 'conv2d_regular_sequential__parameterized1'
+---------------------------------------------------------------------------------------------------
+                   State |                     New Encoding |                Previous Encoding 
+---------------------------------------------------------------------------------------------------
+                  S_IDLE |                              000 |                              000
+             S_BIAS_ADDR |                              001 |                              001
+             S_BIAS_WAIT |                              010 |                              010
+            S_BIAS_WAIT2 |                              011 |                              011
+             S_BIAS_LOAD |                              100 |                              100
+                   S_MAC |                              101 |                              101
+                 S_WRITE |                              110 |                              110
+                  S_DONE |                              111 |                              111
+---------------------------------------------------------------------------------------------------
+INFO: [Synth 8-3354] encoded FSM with state register 'state_reg' using encoding 'sequential' in module 'conv2d_depthwise_sequential__parameterized1'
+---------------------------------------------------------------------------------------------------
+                   State |                     New Encoding |                Previous Encoding 
+---------------------------------------------------------------------------------------------------
+                  S_IDLE |                              000 |                              000
+             S_BIAS_ADDR |                              001 |                              001
+             S_BIAS_WAIT |                              010 |                              010
+            S_BIAS_WAIT2 |                              011 |                              011
+             S_BIAS_LOAD |                              100 |                              100
+                   S_MAC |                              101 |                              101
+                 S_WRITE |                              110 |                              110
+                  S_DONE |                              111 |                              111
+---------------------------------------------------------------------------------------------------
+INFO: [Synth 8-3354] encoded FSM with state register 'state_reg' using encoding 'sequential' in module 'conv2d_regular_sequential__parameterized2'
+---------------------------------------------------------------------------------------------------
+                   State |                     New Encoding |                Previous Encoding 
+---------------------------------------------------------------------------------------------------
+                  S_IDLE |                              000 |                              000
+             S_BIAS_ADDR |                              001 |                              001
+             S_BIAS_WAIT |                              010 |                              010
+            S_BIAS_WAIT2 |                              011 |                              011
+             S_BIAS_LOAD |                              100 |                              100
+                   S_MAC |                              101 |                              101
+                 S_WRITE |                              110 |                              110
+                  S_DONE |                              111 |                              111
+---------------------------------------------------------------------------------------------------
+INFO: [Synth 8-3354] encoded FSM with state register 'state_reg' using encoding 'sequential' in module 'conv2d_depthwise_sequential__parameterized2'
+---------------------------------------------------------------------------------------------------
+                   State |                     New Encoding |                Previous Encoding 
+---------------------------------------------------------------------------------------------------
+                  S_IDLE |                              000 |                              000
+             S_BIAS_ADDR |                              001 |                              001
+             S_BIAS_WAIT |                              010 |                              010
+            S_BIAS_WAIT2 |                              011 |                              011
+             S_BIAS_LOAD |                              100 |                              100
+                   S_MAC |                              101 |                              101
+                 S_WRITE |                              110 |                              110
+                  S_DONE |                              111 |                              111
+---------------------------------------------------------------------------------------------------
+INFO: [Synth 8-3354] encoded FSM with state register 'state_reg' using encoding 'sequential' in module 'conv2d_regular_sequential__parameterized3'
+---------------------------------------------------------------------------------------------------
+                   State |                     New Encoding |                Previous Encoding 
+---------------------------------------------------------------------------------------------------
+                  S_IDLE |                              000 |                              000
+             S_BIAS_ADDR |                              001 |                              001
+             S_BIAS_WAIT |                              010 |                              010
+            S_BIAS_WAIT2 |                              011 |                              011
+             S_BIAS_LOAD |                              100 |                              100
+                   S_MAC |                              101 |                              101
+                 S_WRITE |                              110 |                              110
+                  S_DONE |                              111 |                              111
+---------------------------------------------------------------------------------------------------
+INFO: [Synth 8-3354] encoded FSM with state register 'state_reg' using encoding 'sequential' in module 'conv2d_depthwise_sequential__parameterized3'
+---------------------------------------------------------------------------------------------------
+                   State |                     New Encoding |                Previous Encoding 
+---------------------------------------------------------------------------------------------------
+                  S_IDLE |                              000 |                              000
+             S_BIAS_ADDR |                              001 |                              001
+             S_BIAS_WAIT |                              010 |                              010
+            S_BIAS_WAIT2 |                              011 |                              011
+             S_BIAS_LOAD |                              100 |                              100
+                   S_MAC |                              101 |                              101
+                 S_WRITE |                              110 |                              110
+                  S_DONE |                              111 |                              111
+---------------------------------------------------------------------------------------------------
+INFO: [Synth 8-3354] encoded FSM with state register 'state_reg' using encoding 'sequential' in module 'conv2d_regular_sequential__parameterized4'
+---------------------------------------------------------------------------------------------------
+                   State |                     New Encoding |                Previous Encoding 
+---------------------------------------------------------------------------------------------------
+                  S_IDLE |                              000 |                              000
+             S_BIAS_ADDR |                              001 |                              001
+             S_BIAS_WAIT |                              010 |                              010
+            S_BIAS_WAIT2 |                              011 |                              011
+             S_BIAS_LOAD |                              100 |                              100
+                   S_MAC |                              101 |                              101
+                 S_WRITE |                              110 |                              110
+                  S_DONE |                              111 |                              111
+---------------------------------------------------------------------------------------------------
+INFO: [Synth 8-3354] encoded FSM with state register 'state_reg' using encoding 'sequential' in module 'conv2d_depthwise_sequential__parameterized4'
+---------------------------------------------------------------------------------------------------
+                   State |                     New Encoding |                Previous Encoding 
+---------------------------------------------------------------------------------------------------
+                  S_IDLE |                              000 |                              000
+             S_BIAS_ADDR |                              001 |                              001
+             S_BIAS_WAIT |                              010 |                              010
+            S_BIAS_WAIT2 |                              011 |                              011
+             S_BIAS_LOAD |                              100 |                              100
+                   S_MAC |                              101 |                              101
+                 S_WRITE |                              110 |                              110
+                  S_DONE |                              111 |                              111
+---------------------------------------------------------------------------------------------------
+INFO: [Synth 8-3354] encoded FSM with state register 'state_reg' using encoding 'sequential' in module 'conv2d_regular_sequential__parameterized5'
+---------------------------------------------------------------------------------------------------
+                   State |                     New Encoding |                Previous Encoding 
+---------------------------------------------------------------------------------------------------
+                  S_IDLE |                              000 |                              000
+             S_BIAS_ADDR |                              001 |                              001
+             S_BIAS_WAIT |                              010 |                              010
+            S_BIAS_WAIT2 |                              011 |                              011
+             S_BIAS_LOAD |                              100 |                              100
+                   S_MAC |                              101 |                              101
+                 S_WRITE |                              110 |                              110
+                  S_DONE |                              111 |                              111
+---------------------------------------------------------------------------------------------------
+INFO: [Synth 8-3354] encoded FSM with state register 'state_reg' using encoding 'sequential' in module 'conv2d_depthwise_sequential__parameterized5'
+---------------------------------------------------------------------------------------------------
+                   State |                     New Encoding |                Previous Encoding 
+---------------------------------------------------------------------------------------------------
+                  S_IDLE |                              000 |                              000
+             S_BIAS_ADDR |                              001 |                              001
+             S_BIAS_WAIT |                              010 |                              010
+            S_BIAS_WAIT2 |                              011 |                              011
+             S_BIAS_LOAD |                              100 |                              100
+                   S_MAC |                              101 |                              101
+                 S_WRITE |                              110 |                              110
+                  S_DONE |                              111 |                              111
+---------------------------------------------------------------------------------------------------
+INFO: [Synth 8-3354] encoded FSM with state register 'state_reg' using encoding 'sequential' in module 'conv2d_regular_sequential__parameterized6'
+---------------------------------------------------------------------------------------------------
+                   State |                     New Encoding |                Previous Encoding 
+---------------------------------------------------------------------------------------------------
+                  S_IDLE |                             0001 |                               00
+                  S_POOL |                             0010 |                               01
+                 S_WRITE |                             0100 |                               10
+                  S_DONE |                             1000 |                               11
+---------------------------------------------------------------------------------------------------
+INFO: [Synth 8-3354] encoded FSM with state register 'state_reg' using encoding 'one-hot' in module 'avgpool_1x1'
+---------------------------------------------------------------------------------------------------
+                   State |                     New Encoding |                Previous Encoding 
+---------------------------------------------------------------------------------------------------
+                  S_IDLE |                              000 |                              000
+             S_BIAS_ADDR |                              001 |                              001
+             S_BIAS_WAIT |                              010 |                              010
+            S_BIAS_WAIT2 |                              011 |                              011
+             S_BIAS_LOAD |                              100 |                              100
+                   S_MAC |                              101 |                              101
+                 S_WRITE |                              110 |                              110
+                  S_DONE |                              111 |                              111
+---------------------------------------------------------------------------------------------------
+INFO: [Synth 8-3354] encoded FSM with state register 'state_reg' using encoding 'sequential' in module 'linear_sequential'
+---------------------------------------------------------------------------------------------------
+                   State |                     New Encoding |                Previous Encoding 
+---------------------------------------------------------------------------------------------------
+                  S_IDLE |                          0000001 |                              000
+                  S_ADDR |                          0000010 |                              001
+                  S_WAIT |                          0000100 |                              010
+                 S_WAIT2 |                          0001000 |                              011
+                 S_LATCH |                          0010000 |                              100
+               S_COMPARE |                          0100000 |                              101
+                  S_DONE |                          1000000 |                              110
+---------------------------------------------------------------------------------------------------
+INFO: [Synth 8-3354] encoded FSM with state register 'state_reg' using encoding 'one-hot' in module 'argmax'
+---------------------------------------------------------------------------------------------------
+                   State |                     New Encoding |                Previous Encoding 
+---------------------------------------------------------------------------------------------------
+                  S_IDLE |                            00000 |                           000000
+                 S_CONV0 |                            00001 |                           000001
+                 S_CONV1 |                            00010 |                           000010
+                 S_CONV2 |                            00011 |                           000011
+                 S_CONV3 |                            00100 |                           000100
+                 S_CONV4 |                            00101 |                           000101
+                 S_CONV5 |                            00110 |                           000110
+                 S_CONV6 |                            00111 |                           000111
+                 S_CONV7 |                            01000 |                           001000
+                 S_CONV8 |                            01001 |                           001001
+                 S_CONV9 |                            01010 |                           001010
+                S_CONV10 |                            01011 |                           001011
+                S_CONV11 |                            01100 |                           001100
+                S_CONV12 |                            01101 |                           001101
+                S_CONV13 |                            01110 |                           001110
+                S_CONV14 |                            01111 |                           001111
+                  S_POOL |                            10000 |                           010000
+                S_LINEAR |                            10001 |                           010001
+                S_ARGMAX |                            10010 |                           010010
+                  S_DONE |                            10011 |                           010011
+---------------------------------------------------------------------------------------------------
+INFO: [Synth 8-3354] encoded FSM with state register 'state_reg' using encoding 'sequential' in module 'animalnet_top'
+WARNING: [Synth 8-327] inferring latch for variable 'weight_rom_addr_reg' [c:/Users/NguyenHuy/Downloads/SoC_Animal/SoC_Animal.gen/sources_1/bd/design_1/ipshared/9fe2/src/animalnet_top.v:322]
+WARNING: [Synth 8-327] inferring latch for variable 'bias_rom_addr_reg' [c:/Users/NguyenHuy/Downloads/SoC_Animal/SoC_Animal.gen/sources_1/bd/design_1/ipshared/9fe2/src/animalnet_top.v:328]
+---------------------------------------------------------------------------------
+Finished RTL Optimization Phase 2 : Time (s): cpu = 00:00:22 ; elapsed = 00:00:25 . Memory (MB): peak = 2028.531 ; gain = 529.789
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start RTL Component Statistics 
+---------------------------------------------------------------------------------
+Detailed RTL Component Info : 
++---Adders : 
+	   2 Input   64 Bit       Adders := 64    
+	   3 Input   32 Bit       Adders := 16    
+	   2 Input   32 Bit       Adders := 104   
+	   2 Input   25 Bit       Adders := 1     
+	   2 Input   24 Bit       Adders := 2     
+	   2 Input   18 Bit       Adders := 3     
+	   2 Input   17 Bit       Adders := 3     
+	   2 Input   16 Bit       Adders := 3     
+	   2 Input   15 Bit       Adders := 1     
+	   2 Input   14 Bit       Adders := 2     
+	   2 Input   13 Bit       Adders := 2     
+	   2 Input   12 Bit       Adders := 5     
+	   2 Input   11 Bit       Adders := 4     
+	   2 Input   10 Bit       Adders := 4     
+	   2 Input    9 Bit       Adders := 3     
+	   2 Input    8 Bit       Adders := 1     
+	   2 Input    7 Bit       Adders := 1     
+	   2 Input    6 Bit       Adders := 1     
+	   2 Input    4 Bit       Adders := 1     
++---Registers : 
+	               64 Bit    Registers := 19    
+	               32 Bit    Registers := 162   
+	               24 Bit    Registers := 1     
+	               19 Bit    Registers := 1     
+	               18 Bit    Registers := 37    
+	               17 Bit    Registers := 5     
+	               16 Bit    Registers := 30    
+	               15 Bit    Registers := 3     
+	               12 Bit    Registers := 1     
+	                9 Bit    Registers := 3     
+	                8 Bit    Registers := 6     
+	                7 Bit    Registers := 4     
+	                6 Bit    Registers := 3     
+	                5 Bit    Registers := 2     
+	                4 Bit    Registers := 7     
+	                2 Bit    Registers := 3     
+	                1 Bit    Registers := 208   
++---RAMs : 
+	            5100K Bit	(81600 X 64 bit)          RAMs := 2     
+	            3157K Bit	(202085 X 16 bit)          RAMs := 1     
+	            1200K Bit	(19200 X 64 bit)          RAMs := 1     
+	              32K Bit	(2051 X 16 bit)          RAMs := 1     
++---Muxes : 
+	   8 Input   64 Bit        Muxes := 16    
+	   2 Input   64 Bit        Muxes := 16    
+	   4 Input   64 Bit        Muxes := 3     
+	   2 Input   32 Bit        Muxes := 70    
+	   8 Input   32 Bit        Muxes := 86    
+	   4 Input   32 Bit        Muxes := 3     
+	   4 Input   24 Bit        Muxes := 1     
+	   2 Input   24 Bit        Muxes := 1     
+	  19 Input   19 Bit        Muxes := 1     
+	   2 Input   19 Bit        Muxes := 1     
+	  17 Input   18 Bit        Muxes := 1     
+	  19 Input   18 Bit        Muxes := 1     
+	   2 Input   16 Bit        Muxes := 49    
+	  19 Input   16 Bit        Muxes := 2     
+	   7 Input   16 Bit        Muxes := 1     
+	   4 Input   16 Bit        Muxes := 3     
+	  17 Input   12 Bit        Muxes := 1     
+	   7 Input    7 Bit        Muxes := 1     
+	   2 Input    7 Bit        Muxes := 1     
+	  20 Input    5 Bit        Muxes := 1     
+	   2 Input    5 Bit        Muxes := 1     
+	   4 Input    4 Bit        Muxes := 1     
+	   2 Input    4 Bit        Muxes := 1     
+	   7 Input    4 Bit        Muxes := 2     
+	   8 Input    3 Bit        Muxes := 16    
+	   2 Input    3 Bit        Muxes := 16    
+	   8 Input    1 Bit        Muxes := 433   
+	  17 Input    1 Bit        Muxes := 1     
+	  19 Input    1 Bit        Muxes := 3     
+	  20 Input    1 Bit        Muxes := 4     
+	   4 Input    1 Bit        Muxes := 22    
+	   2 Input    1 Bit        Muxes := 16    
+	   7 Input    1 Bit        Muxes := 4     
+---------------------------------------------------------------------------------
+Finished RTL Component Statistics 
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Part Resource Summary
+---------------------------------------------------------------------------------
+Part Resources:
+DSPs: 1248 (col length:96)
+BRAMs: 288 (col length: RAMB18 96 RAMB36 48)
+---------------------------------------------------------------------------------
+Finished Part Resource Summary
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Cross Boundary and Area Optimization
+---------------------------------------------------------------------------------
+DSP Report: Generating DSP input_addr2, operation Mode is: A*(B:0x28).
+DSP Report: operator input_addr2 is absorbed into DSP input_addr2.
+DSP Report: Generating DSP input_addr3, operation Mode is: A2*(B:0x28).
+DSP Report: register ic_reg is absorbed into DSP input_addr3.
+DSP Report: operator input_addr3 is absorbed into DSP input_addr3.
+DSP Report: Generating DSP input_addr0, operation Mode is: C+A*(B:0x28).
+DSP Report: operator input_addr0 is absorbed into DSP input_addr0.
+DSP Report: operator input_addr2 is absorbed into DSP input_addr0.
+DSP Report: Generating DSP weight_addr3, operation Mode is: A2*(B:0x33).
+DSP Report: register oc_reg is absorbed into DSP weight_addr3.
+DSP Report: operator weight_addr3 is absorbed into DSP weight_addr3.
+DSP Report: Generating DSP weight_addr0, operation Mode is: PCIN+A2:B2+C'.
+DSP Report: register weight_addr0 is absorbed into DSP weight_addr0.
+DSP Report: register weight_addr0 is absorbed into DSP weight_addr0.
+DSP Report: register weight_addr0 is absorbed into DSP weight_addr0.
+DSP Report: operator weight_addr0 is absorbed into DSP weight_addr0.
+DSP Report: Generating DSP output_addr2, operation Mode is: A2*(B:0x28).
+DSP Report: register oy_reg is absorbed into DSP output_addr2.
+DSP Report: operator output_addr2 is absorbed into DSP output_addr2.
+DSP Report: Generating DSP output_addr3, operation Mode is: A2*(B:0x28).
+DSP Report: register oc_reg is absorbed into DSP output_addr3.
+DSP Report: operator output_addr3 is absorbed into DSP output_addr3.
+DSP Report: Generating DSP output_addr0, operation Mode is: C+A*(B:0x28).
+DSP Report: operator output_addr0 is absorbed into DSP output_addr0.
+DSP Report: operator output_addr2 is absorbed into DSP output_addr0.
+DSP Report: Generating DSP product, operation Mode is: A*B.
+DSP Report: operator product is absorbed into DSP product.
+DSP Report: Generating DSP input_addr2, operation Mode is: A*(B:0x50).
+DSP Report: operator input_addr2 is absorbed into DSP input_addr2.
+DSP Report: Generating DSP input_addr3, operation Mode is: A2*(B:0x50).
+DSP Report: register ic_reg is absorbed into DSP input_addr3.
+DSP Report: operator input_addr3 is absorbed into DSP input_addr3.
+DSP Report: Generating DSP input_addr0, operation Mode is: C+A*(B:0x50).
+DSP Report: operator input_addr0 is absorbed into DSP input_addr0.
+DSP Report: operator input_addr2 is absorbed into DSP input_addr0.
+DSP Report: Generating DSP weight_addr3, operation Mode is: A2*(B:0x19).
+DSP Report: register oc_reg is absorbed into DSP weight_addr3.
+DSP Report: operator weight_addr3 is absorbed into DSP weight_addr3.
+DSP Report: Generating DSP weight_addr0, operation Mode is: PCIN+A2:B2+C'.
+DSP Report: register weight_addr0 is absorbed into DSP weight_addr0.
+DSP Report: register weight_addr0 is absorbed into DSP weight_addr0.
+DSP Report: register weight_addr0 is absorbed into DSP weight_addr0.
+DSP Report: operator weight_addr0 is absorbed into DSP weight_addr0.
+DSP Report: Generating DSP output_addr2, operation Mode is: A2*(B:0x50).
+DSP Report: register oy_reg is absorbed into DSP output_addr2.
+DSP Report: operator output_addr2 is absorbed into DSP output_addr2.
+DSP Report: Generating DSP output_addr3, operation Mode is: A2*(B:0x50).
+DSP Report: register oc_reg is absorbed into DSP output_addr3.
+DSP Report: operator output_addr3 is absorbed into DSP output_addr3.
+DSP Report: Generating DSP output_addr0, operation Mode is: C+A*(B:0x50).
+DSP Report: operator output_addr0 is absorbed into DSP output_addr0.
+DSP Report: operator output_addr2 is absorbed into DSP output_addr0.
+DSP Report: Generating DSP product, operation Mode is: A*B.
+DSP Report: operator product is absorbed into DSP product.
+WARNING: [Synth 8-7129] Port S_AXI_AWPROT[2] in module animalnet_axi_lite is either unconnected or has no load
+WARNING: [Synth 8-7129] Port S_AXI_AWPROT[1] in module animalnet_axi_lite is either unconnected or has no load
+WARNING: [Synth 8-7129] Port S_AXI_AWPROT[0] in module animalnet_axi_lite is either unconnected or has no load
+WARNING: [Synth 8-7129] Port S_AXI_WSTRB[3] in module animalnet_axi_lite is either unconnected or has no load
+WARNING: [Synth 8-7129] Port S_AXI_WSTRB[2] in module animalnet_axi_lite is either unconnected or has no load
+WARNING: [Synth 8-7129] Port S_AXI_WSTRB[1] in module animalnet_axi_lite is either unconnected or has no load
+WARNING: [Synth 8-7129] Port S_AXI_WSTRB[0] in module animalnet_axi_lite is either unconnected or has no load
+WARNING: [Synth 8-7129] Port S_AXI_ARPROT[2] in module animalnet_axi_lite is either unconnected or has no load
+WARNING: [Synth 8-7129] Port S_AXI_ARPROT[1] in module animalnet_axi_lite is either unconnected or has no load
+WARNING: [Synth 8-7129] Port S_AXI_ARPROT[0] in module animalnet_axi_lite is either unconnected or has no load
+INFO: [Synth 8-4471] merging register 'gen_depthwise.u_conv/oc_reg[31:0]' into 'gen_depthwise.u_conv/oc_reg[31:0]' [c:/Users/NguyenHuy/Downloads/SoC_Animal/SoC_Animal.gen/sources_1/bd/design_1/ipshared/9fe2/src/conv2d_depthwise_sequential.v:106]
+INFO: [Synth 8-4471] merging register 'gen_depthwise.u_conv/oc_reg[31:0]' into 'gen_depthwise.u_conv/oc_reg[31:0]' [c:/Users/NguyenHuy/Downloads/SoC_Animal/SoC_Animal.gen/sources_1/bd/design_1/ipshared/9fe2/src/conv2d_depthwise_sequential.v:106]
+INFO: [Synth 8-4471] merging register 'gen_depthwise.u_conv/ky_reg[31:0]' into 'gen_depthwise.u_conv/ky_reg[31:0]' [c:/Users/NguyenHuy/Downloads/SoC_Animal/SoC_Animal.gen/sources_1/bd/design_1/ipshared/9fe2/src/conv2d_depthwise_sequential.v:87]
+INFO: [Synth 8-4471] merging register 'gen_depthwise.u_conv/oc_reg[31:0]' into 'gen_depthwise.u_conv/oc_reg[31:0]' [c:/Users/NguyenHuy/Downloads/SoC_Animal/SoC_Animal.gen/sources_1/bd/design_1/ipshared/9fe2/src/conv2d_depthwise_sequential.v:106]
+INFO: [Synth 8-4471] merging register 'gen_depthwise.u_conv/oy_reg[31:0]' into 'gen_depthwise.u_conv/oy_reg[31:0]' [c:/Users/NguyenHuy/Downloads/SoC_Animal/SoC_Animal.gen/sources_1/bd/design_1/ipshared/9fe2/src/conv2d_depthwise_sequential.v:102]
+DSP Report: Generating DSP gen_depthwise.u_conv/input_addr2, operation Mode is: A*(B:0x50).
+DSP Report: operator gen_depthwise.u_conv/input_addr2 is absorbed into DSP gen_depthwise.u_conv/input_addr2.
+DSP Report: Generating DSP gen_depthwise.u_conv/input_addr3, operation Mode is: A2*(B:0x50).
+DSP Report: register gen_depthwise.u_conv/oc_reg is absorbed into DSP gen_depthwise.u_conv/input_addr3.
+DSP Report: operator gen_depthwise.u_conv/input_addr3 is absorbed into DSP gen_depthwise.u_conv/input_addr3.
+DSP Report: Generating DSP gen_depthwise.u_conv/input_addr0, operation Mode is: C+A*(B:0x50).
+DSP Report: operator gen_depthwise.u_conv/input_addr0 is absorbed into DSP gen_depthwise.u_conv/input_addr0.
+DSP Report: operator gen_depthwise.u_conv/input_addr2 is absorbed into DSP gen_depthwise.u_conv/input_addr0.
+DSP Report: Generating DSP gen_depthwise.u_conv/output_addr2, operation Mode is: A2*(B:0x28).
+DSP Report: register gen_depthwise.u_conv/oy_reg is absorbed into DSP gen_depthwise.u_conv/output_addr2.
+DSP Report: operator gen_depthwise.u_conv/output_addr2 is absorbed into DSP gen_depthwise.u_conv/output_addr2.
+DSP Report: Generating DSP gen_depthwise.u_conv/output_addr3, operation Mode is: A2*(B:0x28).
+DSP Report: register gen_depthwise.u_conv/oc_reg is absorbed into DSP gen_depthwise.u_conv/output_addr3.
+DSP Report: operator gen_depthwise.u_conv/output_addr3 is absorbed into DSP gen_depthwise.u_conv/output_addr3.
+DSP Report: Generating DSP gen_depthwise.u_conv/output_addr0, operation Mode is: C+A*(B:0x28).
+DSP Report: operator gen_depthwise.u_conv/output_addr0 is absorbed into DSP gen_depthwise.u_conv/output_addr0.
+DSP Report: operator gen_depthwise.u_conv/output_addr2 is absorbed into DSP gen_depthwise.u_conv/output_addr0.
+DSP Report: Generating DSP gen_depthwise.u_conv/product, operation Mode is: A*B.
+DSP Report: operator gen_depthwise.u_conv/product is absorbed into DSP gen_depthwise.u_conv/product.
+INFO: [Synth 8-4471] merging register 'gen_depthwise.u_conv/oc_reg[31:0]' into 'gen_depthwise.u_conv/oc_reg[31:0]' [c:/Users/NguyenHuy/Downloads/SoC_Animal/SoC_Animal.gen/sources_1/bd/design_1/ipshared/9fe2/src/conv2d_depthwise_sequential.v:106]
+INFO: [Synth 8-4471] merging register 'gen_depthwise.u_conv/oc_reg[31:0]' into 'gen_depthwise.u_conv/oc_reg[31:0]' [c:/Users/NguyenHuy/Downloads/SoC_Animal/SoC_Animal.gen/sources_1/bd/design_1/ipshared/9fe2/src/conv2d_depthwise_sequential.v:106]
+INFO: [Synth 8-4471] merging register 'gen_depthwise.u_conv/ky_reg[31:0]' into 'gen_depthwise.u_conv/ky_reg[31:0]' [c:/Users/NguyenHuy/Downloads/SoC_Animal/SoC_Animal.gen/sources_1/bd/design_1/ipshared/9fe2/src/conv2d_depthwise_sequential.v:87]
+INFO: [Synth 8-4471] merging register 'gen_depthwise.u_conv/oc_reg[31:0]' into 'gen_depthwise.u_conv/oc_reg[31:0]' [c:/Users/NguyenHuy/Downloads/SoC_Animal/SoC_Animal.gen/sources_1/bd/design_1/ipshared/9fe2/src/conv2d_depthwise_sequential.v:106]
+INFO: [Synth 8-4471] merging register 'gen_depthwise.u_conv/oy_reg[31:0]' into 'gen_depthwise.u_conv/oy_reg[31:0]' [c:/Users/NguyenHuy/Downloads/SoC_Animal/SoC_Animal.gen/sources_1/bd/design_1/ipshared/9fe2/src/conv2d_depthwise_sequential.v:102]
+DSP Report: Generating DSP gen_depthwise.u_conv/input_addr2, operation Mode is: A*(B:0x14).
+DSP Report: operator gen_depthwise.u_conv/input_addr2 is absorbed into DSP gen_depthwise.u_conv/input_addr2.
+DSP Report: Generating DSP gen_depthwise.u_conv/input_addr3, operation Mode is: A2*(B:0x14).
+DSP Report: register gen_depthwise.u_conv/oc_reg is absorbed into DSP gen_depthwise.u_conv/input_addr3.
+DSP Report: operator gen_depthwise.u_conv/input_addr3 is absorbed into DSP gen_depthwise.u_conv/input_addr3.
+DSP Report: Generating DSP gen_depthwise.u_conv/input_addr0, operation Mode is: C+A*(B:0x14).
+DSP Report: operator gen_depthwise.u_conv/input_addr0 is absorbed into DSP gen_depthwise.u_conv/input_addr0.
+DSP Report: operator gen_depthwise.u_conv/input_addr2 is absorbed into DSP gen_depthwise.u_conv/input_addr0.
+DSP Report: Generating DSP gen_depthwise.u_conv/product, operation Mode is: A*B.
+DSP Report: operator gen_depthwise.u_conv/product is absorbed into DSP gen_depthwise.u_conv/product.
+INFO: [Synth 8-4471] merging register 'gen_depthwise.u_conv/oc_reg[31:0]' into 'gen_depthwise.u_conv/oc_reg[31:0]' [c:/Users/NguyenHuy/Downloads/SoC_Animal/SoC_Animal.gen/sources_1/bd/design_1/ipshared/9fe2/src/conv2d_depthwise_sequential.v:106]
+INFO: [Synth 8-4471] merging register 'gen_depthwise.u_conv/oc_reg[31:0]' into 'gen_depthwise.u_conv/oc_reg[31:0]' [c:/Users/NguyenHuy/Downloads/SoC_Animal/SoC_Animal.gen/sources_1/bd/design_1/ipshared/9fe2/src/conv2d_depthwise_sequential.v:106]
+INFO: [Synth 8-4471] merging register 'gen_depthwise.u_conv/ky_reg[31:0]' into 'gen_depthwise.u_conv/ky_reg[31:0]' [c:/Users/NguyenHuy/Downloads/SoC_Animal/SoC_Animal.gen/sources_1/bd/design_1/ipshared/9fe2/src/conv2d_depthwise_sequential.v:87]
+INFO: [Synth 8-4471] merging register 'gen_depthwise.u_conv/oc_reg[31:0]' into 'gen_depthwise.u_conv/oc_reg[31:0]' [c:/Users/NguyenHuy/Downloads/SoC_Animal/SoC_Animal.gen/sources_1/bd/design_1/ipshared/9fe2/src/conv2d_depthwise_sequential.v:106]
+INFO: [Synth 8-4471] merging register 'gen_depthwise.u_conv/oy_reg[31:0]' into 'gen_depthwise.u_conv/oy_reg[31:0]' [c:/Users/NguyenHuy/Downloads/SoC_Animal/SoC_Animal.gen/sources_1/bd/design_1/ipshared/9fe2/src/conv2d_depthwise_sequential.v:102]
+DSP Report: Generating DSP gen_depthwise.u_conv/input_addr2, operation Mode is: A*(B:0x28).
+DSP Report: operator gen_depthwise.u_conv/input_addr2 is absorbed into DSP gen_depthwise.u_conv/input_addr2.
+DSP Report: Generating DSP gen_depthwise.u_conv/input_addr3, operation Mode is: A2*(B:0x28).
+DSP Report: register gen_depthwise.u_conv/oc_reg is absorbed into DSP gen_depthwise.u_conv/input_addr3.
+DSP Report: operator gen_depthwise.u_conv/input_addr3 is absorbed into DSP gen_depthwise.u_conv/input_addr3.
+DSP Report: Generating DSP gen_depthwise.u_conv/input_addr0, operation Mode is: C+A*(B:0x28).
+DSP Report: operator gen_depthwise.u_conv/input_addr0 is absorbed into DSP gen_depthwise.u_conv/input_addr0.
+DSP Report: operator gen_depthwise.u_conv/input_addr2 is absorbed into DSP gen_depthwise.u_conv/input_addr0.
+DSP Report: Generating DSP gen_depthwise.u_conv/output_addr2, operation Mode is: A2*(B:0x14).
+DSP Report: register gen_depthwise.u_conv/oy_reg is absorbed into DSP gen_depthwise.u_conv/output_addr2.
+DSP Report: operator gen_depthwise.u_conv/output_addr2 is absorbed into DSP gen_depthwise.u_conv/output_addr2.
+DSP Report: Generating DSP gen_depthwise.u_conv/output_addr3, operation Mode is: A2*(B:0x14).
+DSP Report: register gen_depthwise.u_conv/oc_reg is absorbed into DSP gen_depthwise.u_conv/output_addr3.
+DSP Report: operator gen_depthwise.u_conv/output_addr3 is absorbed into DSP gen_depthwise.u_conv/output_addr3.
+DSP Report: Generating DSP gen_depthwise.u_conv/output_addr0, operation Mode is: C+A*(B:0x14).
+DSP Report: operator gen_depthwise.u_conv/output_addr0 is absorbed into DSP gen_depthwise.u_conv/output_addr0.
+DSP Report: operator gen_depthwise.u_conv/output_addr2 is absorbed into DSP gen_depthwise.u_conv/output_addr0.
+DSP Report: Generating DSP gen_depthwise.u_conv/product, operation Mode is: A*B.
+DSP Report: operator gen_depthwise.u_conv/product is absorbed into DSP gen_depthwise.u_conv/product.
+INFO: [Synth 8-4471] merging register 'gen_regular.u_conv/ic_reg[31:0]' into 'gen_regular.u_conv/ic_reg[31:0]' [c:/Users/NguyenHuy/Downloads/SoC_Animal/SoC_Animal.gen/sources_1/bd/design_1/ipshared/9fe2/src/conv2d_regular_sequential.v:93]
+INFO: [Synth 8-4471] merging register 'gen_regular.u_conv/oc_reg[31:0]' into 'gen_regular.u_conv/oc_reg[31:0]' [c:/Users/NguyenHuy/Downloads/SoC_Animal/SoC_Animal.gen/sources_1/bd/design_1/ipshared/9fe2/src/conv2d_regular_sequential.v:113]
+INFO: [Synth 8-4471] merging register 'gen_regular.u_conv/oc_reg[31:0]' into 'gen_regular.u_conv/oc_reg[31:0]' [c:/Users/NguyenHuy/Downloads/SoC_Animal/SoC_Animal.gen/sources_1/bd/design_1/ipshared/9fe2/src/conv2d_regular_sequential.v:113]
+INFO: [Synth 8-4471] merging register 'gen_regular.u_conv/oy_reg[31:0]' into 'gen_regular.u_conv/oy_reg[31:0]' [c:/Users/NguyenHuy/Downloads/SoC_Animal/SoC_Animal.gen/sources_1/bd/design_1/ipshared/9fe2/src/conv2d_regular_sequential.v:109]
+INFO: [Synth 8-4471] merging register 'gen_regular.u_conv/ox_reg[31:0]' into 'gen_regular.u_conv/ox_reg[31:0]' [c:/Users/NguyenHuy/Downloads/SoC_Animal/SoC_Animal.gen/sources_1/bd/design_1/ipshared/9fe2/src/conv2d_regular_sequential.v:105]
+DSP Report: Generating DSP gen_regular.u_conv/input_addr2, operation Mode is: A*(B:0x28).
+DSP Report: operator gen_regular.u_conv/input_addr2 is absorbed into DSP gen_regular.u_conv/input_addr2.
+DSP Report: Generating DSP gen_regular.u_conv/input_addr3, operation Mode is: A2*(B:0x28).
+DSP Report: register gen_regular.u_conv/ic_reg is absorbed into DSP gen_regular.u_conv/input_addr3.
+DSP Report: operator gen_regular.u_conv/input_addr3 is absorbed into DSP gen_regular.u_conv/input_addr3.
+DSP Report: Generating DSP gen_regular.u_conv/input_addr0, operation Mode is: C+A*(B:0x28).
+DSP Report: operator gen_regular.u_conv/input_addr0 is absorbed into DSP gen_regular.u_conv/input_addr0.
+DSP Report: operator gen_regular.u_conv/input_addr2 is absorbed into DSP gen_regular.u_conv/input_addr0.
+DSP Report: Generating DSP gen_regular.u_conv/weight_addr3, operation Mode is: A2*(B:0x4c).
+DSP Report: register gen_regular.u_conv/oc_reg is absorbed into DSP gen_regular.u_conv/weight_addr3.
+DSP Report: operator gen_regular.u_conv/weight_addr3 is absorbed into DSP gen_regular.u_conv/weight_addr3.
+DSP Report: Generating DSP gen_regular.u_conv/weight_addr0, operation Mode is: PCIN+A2:B2+C'.
+DSP Report: register gen_regular.u_conv/weight_addr0 is absorbed into DSP gen_regular.u_conv/weight_addr0.
+DSP Report: register gen_regular.u_conv/weight_addr0 is absorbed into DSP gen_regular.u_conv/weight_addr0.
+DSP Report: register gen_regular.u_conv/weight_addr0 is absorbed into DSP gen_regular.u_conv/weight_addr0.
+DSP Report: operator gen_regular.u_conv/weight_addr0 is absorbed into DSP gen_regular.u_conv/weight_addr0.
+DSP Report: Generating DSP gen_regular.u_conv/output_addr2, operation Mode is: A2*(B:0x28).
+DSP Report: register gen_regular.u_conv/oy_reg is absorbed into DSP gen_regular.u_conv/output_addr2.
+DSP Report: operator gen_regular.u_conv/output_addr2 is absorbed into DSP gen_regular.u_conv/output_addr2.
+DSP Report: Generating DSP gen_regular.u_conv/output_addr3, operation Mode is: A2*(B:0x28).
+DSP Report: register gen_regular.u_conv/oc_reg is absorbed into DSP gen_regular.u_conv/output_addr3.
+DSP Report: operator gen_regular.u_conv/output_addr3 is absorbed into DSP gen_regular.u_conv/output_addr3.
+DSP Report: Generating DSP gen_regular.u_conv/output_addr0, operation Mode is: C+A*(B:0x28).
+DSP Report: operator gen_regular.u_conv/output_addr0 is absorbed into DSP gen_regular.u_conv/output_addr0.
+DSP Report: operator gen_regular.u_conv/output_addr2 is absorbed into DSP gen_regular.u_conv/output_addr0.
+DSP Report: Generating DSP gen_regular.u_conv/product, operation Mode is: A*B.
+DSP Report: operator gen_regular.u_conv/product is absorbed into DSP gen_regular.u_conv/product.
+INFO: [Synth 8-3886] merging instance 'u_conv6/gen_regular.u_conv/ic_reg[0]' (FDRE) to 'u_conv6/gen_regular.u_conv/weight_addr_reg[-1111111111]'
+INFO: [Synth 8-3886] merging instance 'u_conv6/gen_regular.u_conv/ic_reg[1]' (FDRE) to 'u_conv6/gen_regular.u_conv/weight_addr_reg[-1111111110]'
+INFO: [Synth 8-3886] merging instance 'u_conv6/gen_regular.u_conv/ic_reg[2]' (FDRE) to 'u_conv6/gen_regular.u_conv/weight_addr_reg[-1111111109]'
+INFO: [Synth 8-3886] merging instance 'u_conv6/gen_regular.u_conv/ic_reg[3]' (FDRE) to 'u_conv6/gen_regular.u_conv/weight_addr_reg[-1111111108]'
+INFO: [Synth 8-3886] merging instance 'u_conv6/gen_regular.u_conv/ic_reg[4]' (FDRE) to 'u_conv6/gen_regular.u_conv/weight_addr_reg[-1111111107]'
+INFO: [Synth 8-3886] merging instance 'u_conv6/gen_regular.u_conv/ic_reg[5]' (FDRE) to 'u_conv6/gen_regular.u_conv/weight_addr_reg[-1111111106]'
+INFO: [Synth 8-3886] merging instance 'u_conv6/gen_regular.u_conv/ic_reg[6]' (FDRE) to 'u_conv6/gen_regular.u_conv/weight_addr_reg[-1111111105]'
+INFO: [Synth 8-3886] merging instance 'u_conv6/gen_regular.u_conv/ic_reg[7]' (FDRE) to 'u_conv6/gen_regular.u_conv/weight_addr_reg[-1111111104]'
+INFO: [Synth 8-3886] merging instance 'u_conv6/gen_regular.u_conv/ic_reg[8]' (FDRE) to 'u_conv6/gen_regular.u_conv/weight_addr_reg[-1111111103]'
+INFO: [Synth 8-3886] merging instance 'u_conv6/gen_regular.u_conv/ic_reg[9]' (FDRE) to 'u_conv6/gen_regular.u_conv/weight_addr_reg[-1111111102]'
+INFO: [Synth 8-3886] merging instance 'u_conv6/gen_regular.u_conv/ic_reg[10]' (FDRE) to 'u_conv6/gen_regular.u_conv/weight_addr_reg[-1111111101]'
+INFO: [Synth 8-3886] merging instance 'u_conv6/gen_regular.u_conv/ic_reg[11]' (FDRE) to 'u_conv6/gen_regular.u_conv/weight_addr_reg[-1111111100]'
+INFO: [Synth 8-3886] merging instance 'u_conv6/gen_regular.u_conv/ic_reg[12]' (FDRE) to 'u_conv6/gen_regular.u_conv/weight_addr_reg[-1111111099]'
+INFO: [Synth 8-3886] merging instance 'u_conv11/gen_depthwise.u_conv/output_addr_reg[-1111111097]' (FDRE) to 'u_conv11/gen_depthwise.u_conv/ox_reg[14]'
+INFO: [Synth 8-3886] merging instance 'u_conv11/gen_depthwise.u_conv/output_addr_reg[-1111111111]' (FDRE) to 'u_conv11/gen_depthwise.u_conv/ox_reg[0]'
+INFO: [Synth 8-3886] merging instance 'u_conv11/gen_depthwise.u_conv/output_addr_reg[-1111111110]' (FDRE) to 'u_conv11/gen_depthwise.u_conv/ox_reg[1]'
+INFO: [Synth 8-3886] merging instance 'u_conv11/gen_depthwise.u_conv/output_addr_reg[-1111111109]' (FDRE) to 'u_conv11/gen_depthwise.u_conv/ox_reg[2]'
+INFO: [Synth 8-3886] merging instance 'u_conv11/gen_depthwise.u_conv/output_addr_reg[-1111111108]' (FDRE) to 'u_conv11/gen_depthwise.u_conv/ox_reg[3]'
+INFO: [Synth 8-3886] merging instance 'u_conv11/gen_depthwise.u_conv/output_addr_reg[-1111111107]' (FDRE) to 'u_conv11/gen_depthwise.u_conv/ox_reg[4]'
+INFO: [Synth 8-3886] merging instance 'u_conv11/gen_depthwise.u_conv/output_addr_reg[-1111111106]' (FDRE) to 'u_conv11/gen_depthwise.u_conv/ox_reg[5]'
+INFO: [Synth 8-3886] merging instance 'u_conv11/gen_depthwise.u_conv/output_addr_reg[-1111111105]' (FDRE) to 'u_conv11/gen_depthwise.u_conv/ox_reg[6]'
+INFO: [Synth 8-3886] merging instance 'u_conv11/gen_depthwise.u_conv/output_addr_reg[-1111111104]' (FDRE) to 'u_conv11/gen_depthwise.u_conv/ox_reg[7]'
+INFO: [Synth 8-3886] merging instance 'u_conv11/gen_depthwise.u_conv/output_addr_reg[-1111111103]' (FDRE) to 'u_conv11/gen_depthwise.u_conv/ox_reg[8]'
+INFO: [Synth 8-3886] merging instance 'u_conv11/gen_depthwise.u_conv/output_addr_reg[-1111111102]' (FDRE) to 'u_conv11/gen_depthwise.u_conv/ox_reg[9]'
+INFO: [Synth 8-3886] merging instance 'u_conv11/gen_depthwise.u_conv/output_addr_reg[-1111111101]' (FDRE) to 'u_conv11/gen_depthwise.u_conv/ox_reg[10]'
+INFO: [Synth 8-3886] merging instance 'u_conv11/gen_depthwise.u_conv/output_addr_reg[-1111111100]' (FDRE) to 'u_conv11/gen_depthwise.u_conv/ox_reg[11]'
+INFO: [Synth 8-3886] merging instance 'u_conv11/gen_depthwise.u_conv/output_addr_reg[-1111111099]' (FDRE) to 'u_conv11/gen_depthwise.u_conv/ox_reg[12]'
+INFO: [Synth 8-3886] merging instance 'u_conv11/gen_depthwise.u_conv/output_addr_reg[-1111111098]' (FDRE) to 'u_conv11/gen_depthwise.u_conv/ox_reg[13]'
+INFO: [Synth 8-3886] merging instance 'u_conv7/gen_depthwise.u_conv/output_addr_reg[-1111111096]' (FDRE) to 'u_conv7/gen_depthwise.u_conv/ox_reg[15]'
+INFO: [Synth 8-3886] merging instance 'u_conv7/gen_depthwise.u_conv/output_addr_reg[-1111111111]' (FDRE) to 'u_conv7/gen_depthwise.u_conv/ox_reg[0]'
+INFO: [Synth 8-3886] merging instance 'u_conv7/gen_depthwise.u_conv/output_addr_reg[-1111111110]' (FDRE) to 'u_conv7/gen_depthwise.u_conv/ox_reg[1]'
+INFO: [Synth 8-3886] merging instance 'u_conv7/gen_depthwise.u_conv/output_addr_reg[-1111111109]' (FDRE) to 'u_conv7/gen_depthwise.u_conv/ox_reg[2]'
+INFO: [Synth 8-3886] merging instance 'u_conv7/gen_depthwise.u_conv/output_addr_reg[-1111111108]' (FDRE) to 'u_conv7/gen_depthwise.u_conv/ox_reg[3]'
+INFO: [Synth 8-3886] merging instance 'u_conv7/gen_depthwise.u_conv/output_addr_reg[-1111111107]' (FDRE) to 'u_conv7/gen_depthwise.u_conv/ox_reg[4]'
+INFO: [Synth 8-3886] merging instance 'u_conv7/gen_depthwise.u_conv/output_addr_reg[-1111111106]' (FDRE) to 'u_conv7/gen_depthwise.u_conv/ox_reg[5]'
+INFO: [Synth 8-3886] merging instance 'u_conv7/gen_depthwise.u_conv/output_addr_reg[-1111111105]' (FDRE) to 'u_conv7/gen_depthwise.u_conv/ox_reg[6]'
+INFO: [Synth 8-3886] merging instance 'u_conv7/gen_depthwise.u_conv/output_addr_reg[-1111111104]' (FDRE) to 'u_conv7/gen_depthwise.u_conv/ox_reg[7]'
+INFO: [Synth 8-3886] merging instance 'u_conv7/gen_depthwise.u_conv/output_addr_reg[-1111111103]' (FDRE) to 'u_conv7/gen_depthwise.u_conv/ox_reg[8]'
+INFO: [Synth 8-3886] merging instance 'u_conv7/gen_depthwise.u_conv/output_addr_reg[-1111111102]' (FDRE) to 'u_conv7/gen_depthwise.u_conv/ox_reg[9]'
+INFO: [Synth 8-3886] merging instance 'u_conv7/gen_depthwise.u_conv/output_addr_reg[-1111111101]' (FDRE) to 'u_conv7/gen_depthwise.u_conv/ox_reg[10]'
+INFO: [Synth 8-3886] merging instance 'u_conv7/gen_depthwise.u_conv/output_addr_reg[-1111111100]' (FDRE) to 'u_conv7/gen_depthwise.u_conv/ox_reg[11]'
+INFO: [Synth 8-3886] merging instance 'u_conv7/gen_depthwise.u_conv/output_addr_reg[-1111111099]' (FDRE) to 'u_conv7/gen_depthwise.u_conv/ox_reg[12]'
+INFO: [Synth 8-3886] merging instance 'u_conv7/gen_depthwise.u_conv/output_addr_reg[-1111111098]' (FDRE) to 'u_conv7/gen_depthwise.u_conv/ox_reg[13]'
+INFO: [Synth 8-3886] merging instance 'u_conv7/gen_depthwise.u_conv/output_addr_reg[-1111111097]' (FDRE) to 'u_conv7/gen_depthwise.u_conv/ox_reg[14]'
+INFO: [Synth 8-3886] merging instance 'u_conv3/gen_depthwise.u_conv/output_addr_reg[-1111111095]' (FDRE) to 'u_conv3/gen_depthwise.u_conv/ox_reg[16]'
+INFO: [Synth 8-3886] merging instance 'u_conv3/gen_depthwise.u_conv/output_addr_reg[-1111111111]' (FDRE) to 'u_conv3/gen_depthwise.u_conv/ox_reg[0]'
+INFO: [Synth 8-3886] merging instance 'u_conv3/gen_depthwise.u_conv/output_addr_reg[-1111111110]' (FDRE) to 'u_conv3/gen_depthwise.u_conv/ox_reg[1]'
+INFO: [Synth 8-3886] merging instance 'u_conv3/gen_depthwise.u_conv/output_addr_reg[-1111111109]' (FDRE) to 'u_conv3/gen_depthwise.u_conv/ox_reg[2]'
+INFO: [Synth 8-3886] merging instance 'u_conv3/gen_depthwise.u_conv/output_addr_reg[-1111111108]' (FDRE) to 'u_conv3/gen_depthwise.u_conv/ox_reg[3]'
+INFO: [Synth 8-3886] merging instance 'u_conv3/gen_depthwise.u_conv/output_addr_reg[-1111111107]' (FDRE) to 'u_conv3/gen_depthwise.u_conv/ox_reg[4]'
+INFO: [Synth 8-3886] merging instance 'u_conv3/gen_depthwise.u_conv/output_addr_reg[-1111111106]' (FDRE) to 'u_conv3/gen_depthwise.u_conv/ox_reg[5]'
+INFO: [Synth 8-3886] merging instance 'u_conv3/gen_depthwise.u_conv/output_addr_reg[-1111111105]' (FDRE) to 'u_conv3/gen_depthwise.u_conv/ox_reg[6]'
+INFO: [Synth 8-3886] merging instance 'u_conv3/gen_depthwise.u_conv/output_addr_reg[-1111111104]' (FDRE) to 'u_conv3/gen_depthwise.u_conv/ox_reg[7]'
+INFO: [Synth 8-3886] merging instance 'u_conv3/gen_depthwise.u_conv/output_addr_reg[-1111111103]' (FDRE) to 'u_conv3/gen_depthwise.u_conv/ox_reg[8]'
+INFO: [Synth 8-3886] merging instance 'u_conv3/gen_depthwise.u_conv/output_addr_reg[-1111111102]' (FDRE) to 'u_conv3/gen_depthwise.u_conv/ox_reg[9]'
+INFO: [Synth 8-3886] merging instance 'u_conv3/gen_depthwise.u_conv/output_addr_reg[-1111111101]' (FDRE) to 'u_conv3/gen_depthwise.u_conv/ox_reg[10]'
+INFO: [Synth 8-3886] merging instance 'u_conv3/gen_depthwise.u_conv/output_addr_reg[-1111111100]' (FDRE) to 'u_conv3/gen_depthwise.u_conv/ox_reg[11]'
+INFO: [Synth 8-3886] merging instance 'u_conv3/gen_depthwise.u_conv/output_addr_reg[-1111111099]' (FDRE) to 'u_conv3/gen_depthwise.u_conv/ox_reg[12]'
+INFO: [Synth 8-3886] merging instance 'u_conv3/gen_depthwise.u_conv/output_addr_reg[-1111111098]' (FDRE) to 'u_conv3/gen_depthwise.u_conv/ox_reg[13]'
+INFO: [Synth 8-3886] merging instance 'u_conv3/gen_depthwise.u_conv/output_addr_reg[-1111111097]' (FDRE) to 'u_conv3/gen_depthwise.u_conv/ox_reg[14]'
+INFO: [Synth 8-3886] merging instance 'u_conv3/gen_depthwise.u_conv/output_addr_reg[-1111111096]' (FDRE) to 'u_conv3/gen_depthwise.u_conv/ox_reg[15]'
+INFO: [Synth 8-3886] merging instance 'u_conv11/gen_depthwise.u_conv/kx_reg[0]' (FDRE) to 'u_conv11/gen_depthwise.u_conv/weight_addr_reg[-1111111111]'
+INFO: [Synth 8-3886] merging instance 'u_conv11/gen_depthwise.u_conv/kx_reg[1]' (FDRE) to 'u_conv11/gen_depthwise.u_conv/weight_addr_reg[-1111111110]'
+INFO: [Synth 8-3886] merging instance 'u_conv11/gen_depthwise.u_conv/kx_reg[2]' (FDRE) to 'u_conv11/gen_depthwise.u_conv/weight_addr_reg[-1111111109]'
+INFO: [Synth 8-3886] merging instance 'u_conv11/gen_depthwise.u_conv/kx_reg[3]' (FDRE) to 'u_conv11/gen_depthwise.u_conv/weight_addr_reg[-1111111108]'
+INFO: [Synth 8-3886] merging instance 'u_conv11/gen_depthwise.u_conv/kx_reg[4]' (FDRE) to 'u_conv11/gen_depthwise.u_conv/weight_addr_reg[-1111111107]'
+INFO: [Synth 8-3886] merging instance 'u_conv11/gen_depthwise.u_conv/kx_reg[5]' (FDRE) to 'u_conv11/gen_depthwise.u_conv/weight_addr_reg[-1111111106]'
+INFO: [Synth 8-3886] merging instance 'u_conv11/gen_depthwise.u_conv/kx_reg[6]' (FDRE) to 'u_conv11/gen_depthwise.u_conv/weight_addr_reg[-1111111105]'
+INFO: [Synth 8-3886] merging instance 'u_conv11/gen_depthwise.u_conv/kx_reg[7]' (FDRE) to 'u_conv11/gen_depthwise.u_conv/weight_addr_reg[-1111111104]'
+INFO: [Synth 8-3886] merging instance 'u_conv11/gen_depthwise.u_conv/kx_reg[8]' (FDRE) to 'u_conv11/gen_depthwise.u_conv/weight_addr_reg[-1111111103]'
+INFO: [Synth 8-3886] merging instance 'u_conv11/gen_depthwise.u_conv/kx_reg[9]' (FDRE) to 'u_conv11/gen_depthwise.u_conv/weight_addr_reg[-1111111102]'
+INFO: [Synth 8-3886] merging instance 'u_conv11/gen_depthwise.u_conv/kx_reg[10]' (FDRE) to 'u_conv11/gen_depthwise.u_conv/weight_addr_reg[-1111111101]'
+INFO: [Synth 8-3886] merging instance 'u_conv7/gen_depthwise.u_conv/kx_reg[0]' (FDRE) to 'u_conv7/gen_depthwise.u_conv/weight_addr_reg[-1111111111]'
+INFO: [Synth 8-3886] merging instance 'u_conv7/gen_depthwise.u_conv/kx_reg[1]' (FDRE) to 'u_conv7/gen_depthwise.u_conv/weight_addr_reg[-1111111110]'
+INFO: [Synth 8-3886] merging instance 'u_conv7/gen_depthwise.u_conv/kx_reg[2]' (FDRE) to 'u_conv7/gen_depthwise.u_conv/weight_addr_reg[-1111111109]'
+INFO: [Synth 8-3886] merging instance 'u_conv7/gen_depthwise.u_conv/kx_reg[3]' (FDRE) to 'u_conv7/gen_depthwise.u_conv/weight_addr_reg[-1111111108]'
+INFO: [Synth 8-3886] merging instance 'u_conv7/gen_depthwise.u_conv/kx_reg[4]' (FDRE) to 'u_conv7/gen_depthwise.u_conv/weight_addr_reg[-1111111107]'
+INFO: [Synth 8-3886] merging instance 'u_conv7/gen_depthwise.u_conv/kx_reg[5]' (FDRE) to 'u_conv7/gen_depthwise.u_conv/weight_addr_reg[-1111111106]'
+INFO: [Synth 8-3886] merging instance 'u_conv7/gen_depthwise.u_conv/kx_reg[6]' (FDRE) to 'u_conv7/gen_depthwise.u_conv/weight_addr_reg[-1111111105]'
+INFO: [Synth 8-3886] merging instance 'u_conv7/gen_depthwise.u_conv/kx_reg[7]' (FDRE) to 'u_conv7/gen_depthwise.u_conv/weight_addr_reg[-1111111104]'
+INFO: [Synth 8-3886] merging instance 'u_conv7/gen_depthwise.u_conv/kx_reg[8]' (FDRE) to 'u_conv7/gen_depthwise.u_conv/weight_addr_reg[-1111111103]'
+INFO: [Synth 8-3886] merging instance 'u_conv7/gen_depthwise.u_conv/kx_reg[9]' (FDRE) to 'u_conv7/gen_depthwise.u_conv/weight_addr_reg[-1111111102]'
+INFO: [Synth 8-3886] merging instance 'u_conv3/gen_depthwise.u_conv/kx_reg[0]' (FDRE) to 'u_conv3/gen_depthwise.u_conv/weight_addr_reg[-1111111111]'
+INFO: [Synth 8-3886] merging instance 'u_conv3/gen_depthwise.u_conv/kx_reg[1]' (FDRE) to 'u_conv3/gen_depthwise.u_conv/weight_addr_reg[-1111111110]'
+INFO: [Synth 8-3886] merging instance 'u_conv3/gen_depthwise.u_conv/kx_reg[2]' (FDRE) to 'u_conv3/gen_depthwise.u_conv/weight_addr_reg[-1111111109]'
+INFO: [Synth 8-3886] merging instance 'u_conv3/gen_depthwise.u_conv/kx_reg[3]' (FDRE) to 'u_conv3/gen_depthwise.u_conv/weight_addr_reg[-1111111108]'
+INFO: [Synth 8-3886] merging instance 'u_conv3/gen_depthwise.u_conv/kx_reg[4]' (FDRE) to 'u_conv3/gen_depthwise.u_conv/weight_addr_reg[-1111111107]'
+INFO: [Synth 8-3886] merging instance 'u_conv3/gen_depthwise.u_conv/kx_reg[5]' (FDRE) to 'u_conv3/gen_depthwise.u_conv/weight_addr_reg[-1111111106]'
+INFO: [Synth 8-3886] merging instance 'u_conv3/gen_depthwise.u_conv/kx_reg[6]' (FDRE) to 'u_conv3/gen_depthwise.u_conv/weight_addr_reg[-1111111105]'
+INFO: [Synth 8-3886] merging instance 'u_conv3/gen_depthwise.u_conv/kx_reg[7]' (FDRE) to 'u_conv3/gen_depthwise.u_conv/weight_addr_reg[-1111111104]'
+INFO: [Synth 8-3886] merging instance 'u_conv3/gen_depthwise.u_conv/kx_reg[8]' (FDRE) to 'u_conv3/gen_depthwise.u_conv/weight_addr_reg[-1111111103]'
+INFO: [Synth 8-4471] merging register 'oc_reg[31:0]' into 'oc_reg[31:0]' [c:/Users/NguyenHuy/Downloads/SoC_Animal/SoC_Animal.gen/sources_1/bd/design_1/ipshared/9fe2/src/conv2d_depthwise_sequential.v:106]
+INFO: [Synth 8-4471] merging register 'oc_reg[31:0]' into 'oc_reg[31:0]' [c:/Users/NguyenHuy/Downloads/SoC_Animal/SoC_Animal.gen/sources_1/bd/design_1/ipshared/9fe2/src/conv2d_depthwise_sequential.v:106]
+INFO: [Synth 8-4471] merging register 'ky_reg[31:0]' into 'ky_reg[31:0]' [c:/Users/NguyenHuy/Downloads/SoC_Animal/SoC_Animal.gen/sources_1/bd/design_1/ipshared/9fe2/src/conv2d_depthwise_sequential.v:87]
+INFO: [Synth 8-4471] merging register 'oy_reg[31:0]' into 'oy_reg[31:0]' [c:/Users/NguyenHuy/Downloads/SoC_Animal/SoC_Animal.gen/sources_1/bd/design_1/ipshared/9fe2/src/conv2d_depthwise_sequential.v:102]
+DSP Debug: swapped A/B pins for adder 000001E66CB4D830
+DSP Debug: swapped A/B pins for adder 000001E67AB7CD60
+DSP Report: Generating DSP input_addr3, operation Mode is: A2*(B:0x28).
+DSP Report: register oc_reg is absorbed into DSP input_addr3.
+DSP Report: operator input_addr3 is absorbed into DSP input_addr3.
+DSP Report: Generating DSP input_addr2, operation Mode is: A*(B:0x28).
+DSP Report: operator input_addr2 is absorbed into DSP input_addr2.
+DSP Report: Generating DSP input_addr0, operation Mode is: C+A*(B:0x28).
+DSP Report: operator input_addr0 is absorbed into DSP input_addr0.
+DSP Report: operator input_addr2 is absorbed into DSP input_addr0.
+DSP Report: Generating DSP output_addr0, operation Mode is: C+A2*(B:0x28).
+DSP Report: register oy_reg is absorbed into DSP output_addr0.
+DSP Report: operator output_addr0 is absorbed into DSP output_addr0.
+DSP Report: operator output_addr2 is absorbed into DSP output_addr0.
+DSP Report: Generating DSP product, operation Mode is: A*B.
+DSP Report: operator product is absorbed into DSP product.
+INFO: [Synth 8-4471] merging register 'oc_reg[31:0]' into 'oc_reg[31:0]' [c:/Users/NguyenHuy/Downloads/SoC_Animal/SoC_Animal.gen/sources_1/bd/design_1/ipshared/9fe2/src/conv2d_depthwise_sequential.v:106]
+INFO: [Synth 8-4471] merging register 'oc_reg[31:0]' into 'oc_reg[31:0]' [c:/Users/NguyenHuy/Downloads/SoC_Animal/SoC_Animal.gen/sources_1/bd/design_1/ipshared/9fe2/src/conv2d_depthwise_sequential.v:106]
+INFO: [Synth 8-4471] merging register 'ky_reg[31:0]' into 'ky_reg[31:0]' [c:/Users/NguyenHuy/Downloads/SoC_Animal/SoC_Animal.gen/sources_1/bd/design_1/ipshared/9fe2/src/conv2d_depthwise_sequential.v:87]
+INFO: [Synth 8-4471] merging register 'oy_reg[31:0]' into 'oy_reg[31:0]' [c:/Users/NguyenHuy/Downloads/SoC_Animal/SoC_Animal.gen/sources_1/bd/design_1/ipshared/9fe2/src/conv2d_depthwise_sequential.v:102]
+DSP Debug: swapped A/B pins for adder 000001E66C86E110
+DSP Debug: swapped A/B pins for adder 000001E67AB6FC20
+DSP Report: Generating DSP product, operation Mode is: A*B.
+DSP Report: operator product is absorbed into DSP product.
+INFO: [Synth 8-4471] merging register 'c_reg[31:0]' into 'c_reg[31:0]' [c:/Users/NguyenHuy/Downloads/SoC_Animal/SoC_Animal.gen/sources_1/bd/design_1/ipshared/9fe2/src/avgpool_1x1.v:59]
+INFO: [Synth 8-4471] merging register 'y_reg[31:0]' into 'y_reg[31:0]' [c:/Users/NguyenHuy/Downloads/SoC_Animal/SoC_Animal.gen/sources_1/bd/design_1/ipshared/9fe2/src/avgpool_1x1.v:60]
+INFO: [Synth 8-3333] propagating constant 0 across sequential element (\state_reg[5] )
+DSP Report: Generating DSP product, operation Mode is: A*B.
+DSP Report: operator product is absorbed into DSP product.
+INFO: [Synth 8-4471] merging register 'ic_reg[31:0]' into 'ic_reg[31:0]' [c:/Users/NguyenHuy/Downloads/SoC_Animal/SoC_Animal.gen/sources_1/bd/design_1/ipshared/9fe2/src/conv2d_regular_sequential.v:93]
+INFO: [Synth 8-4471] merging register 'oc_reg[31:0]' into 'oc_reg[31:0]' [c:/Users/NguyenHuy/Downloads/SoC_Animal/SoC_Animal.gen/sources_1/bd/design_1/ipshared/9fe2/src/conv2d_regular_sequential.v:113]
+INFO: [Synth 8-4471] merging register 'oc_reg[31:0]' into 'oc_reg[31:0]' [c:/Users/NguyenHuy/Downloads/SoC_Animal/SoC_Animal.gen/sources_1/bd/design_1/ipshared/9fe2/src/conv2d_regular_sequential.v:113]
+INFO: [Synth 8-4471] merging register 'oy_reg[31:0]' into 'oy_reg[31:0]' [c:/Users/NguyenHuy/Downloads/SoC_Animal/SoC_Animal.gen/sources_1/bd/design_1/ipshared/9fe2/src/conv2d_regular_sequential.v:109]
+DSP Report: Generating DSP input_addr2, operation Mode is: A*(B:0x14).
+DSP Report: operator input_addr2 is absorbed into DSP input_addr2.
+DSP Report: Generating DSP input_addr3, operation Mode is: A2*(B:0x14).
+DSP Report: register ic_reg is absorbed into DSP input_addr3.
+DSP Report: operator input_addr3 is absorbed into DSP input_addr3.
+DSP Report: Generating DSP input_addr0, operation Mode is: C+A*(B:0x14).
+DSP Report: operator input_addr0 is absorbed into DSP input_addr0.
+DSP Report: operator input_addr2 is absorbed into DSP input_addr0.
+DSP Report: Generating DSP weight_addr3, operation Mode is: A2*(B:0x99).
+DSP Report: register oc_reg is absorbed into DSP weight_addr3.
+DSP Report: operator weight_addr3 is absorbed into DSP weight_addr3.
+DSP Report: Generating DSP weight_addr0, operation Mode is: PCIN+A2:B2+C'.
+DSP Report: register weight_addr0 is absorbed into DSP weight_addr0.
+DSP Report: register weight_addr0 is absorbed into DSP weight_addr0.
+DSP Report: register weight_addr0 is absorbed into DSP weight_addr0.
+DSP Report: operator weight_addr0 is absorbed into DSP weight_addr0.
+DSP Report: Generating DSP output_addr2, operation Mode is: A2*(B:0x14).
+DSP Report: register oy_reg is absorbed into DSP output_addr2.
+DSP Report: operator output_addr2 is absorbed into DSP output_addr2.
+DSP Report: Generating DSP output_addr3, operation Mode is: A2*(B:0x14).
+DSP Report: register oc_reg is absorbed into DSP output_addr3.
+DSP Report: operator output_addr3 is absorbed into DSP output_addr3.
+DSP Report: Generating DSP output_addr0, operation Mode is: C+A*(B:0x14).
+DSP Report: operator output_addr0 is absorbed into DSP output_addr0.
+DSP Report: operator output_addr2 is absorbed into DSP output_addr0.
+DSP Report: Generating DSP product, operation Mode is: A*B.
+DSP Report: operator product is absorbed into DSP product.
+INFO: [Synth 8-4471] merging register 'ic_reg[31:0]' into 'ic_reg[31:0]' [c:/Users/NguyenHuy/Downloads/SoC_Animal/SoC_Animal.gen/sources_1/bd/design_1/ipshared/9fe2/src/conv2d_regular_sequential.v:93]
+INFO: [Synth 8-4471] merging register 'oc_reg[31:0]' into 'oc_reg[31:0]' [c:/Users/NguyenHuy/Downloads/SoC_Animal/SoC_Animal.gen/sources_1/bd/design_1/ipshared/9fe2/src/conv2d_regular_sequential.v:113]
+INFO: [Synth 8-4471] merging register 'oc_reg[31:0]' into 'oc_reg[31:0]' [c:/Users/NguyenHuy/Downloads/SoC_Animal/SoC_Animal.gen/sources_1/bd/design_1/ipshared/9fe2/src/conv2d_regular_sequential.v:113]
+INFO: [Synth 8-4471] merging register 'oy_reg[31:0]' into 'oy_reg[31:0]' [c:/Users/NguyenHuy/Downloads/SoC_Animal/SoC_Animal.gen/sources_1/bd/design_1/ipshared/9fe2/src/conv2d_regular_sequential.v:109]
+DSP Report: Generating DSP input_addr2, operation Mode is: A*(B:0x14).
+DSP Report: operator input_addr2 is absorbed into DSP input_addr2.
+DSP Report: Generating DSP input_addr3, operation Mode is: A2*(B:0x14).
+DSP Report: register ic_reg is absorbed into DSP input_addr3.
+DSP Report: operator input_addr3 is absorbed into DSP input_addr3.
+DSP Report: Generating DSP input_addr0, operation Mode is: C+A*(B:0x14).
+DSP Report: operator input_addr0 is absorbed into DSP input_addr0.
+DSP Report: operator input_addr2 is absorbed into DSP input_addr0.
+DSP Report: Generating DSP weight_addr3, operation Mode is: A2*(B:0x66).
+DSP Report: register oc_reg is absorbed into DSP weight_addr3.
+DSP Report: operator weight_addr3 is absorbed into DSP weight_addr3.
+DSP Report: Generating DSP weight_addr0, operation Mode is: PCIN+A2:B2+C'.
+DSP Report: register weight_addr0 is absorbed into DSP weight_addr0.
+DSP Report: register weight_addr0 is absorbed into DSP weight_addr0.
+DSP Report: register weight_addr0 is absorbed into DSP weight_addr0.
+DSP Report: operator weight_addr0 is absorbed into DSP weight_addr0.
+DSP Report: Generating DSP output_addr2, operation Mode is: A2*(B:0x14).
+DSP Report: register oy_reg is absorbed into DSP output_addr2.
+DSP Report: operator output_addr2 is absorbed into DSP output_addr2.
+DSP Report: Generating DSP output_addr3, operation Mode is: A2*(B:0x14).
+DSP Report: register oc_reg is absorbed into DSP output_addr3.
+DSP Report: operator output_addr3 is absorbed into DSP output_addr3.
+DSP Report: Generating DSP output_addr0, operation Mode is: C+A*(B:0x14).
+DSP Report: operator output_addr0 is absorbed into DSP output_addr0.
+DSP Report: operator output_addr2 is absorbed into DSP output_addr0.
+DSP Report: Generating DSP product, operation Mode is: A*B.
+DSP Report: operator product is absorbed into DSP product.
+INFO: [Synth 8-3886] merging instance 'u_conv8/gen_regular.u_conv/ic_reg[0]' (FDRE) to 'u_conv8/gen_regular.u_conv/weight_addr_reg[-1111111111]'
+INFO: [Synth 8-3886] merging instance 'u_conv8/gen_regular.u_conv/ic_reg[1]' (FDRE) to 'u_conv8/gen_regular.u_conv/weight_addr_reg[-1111111110]'
+INFO: [Synth 8-3886] merging instance 'u_conv8/gen_regular.u_conv/ic_reg[2]' (FDRE) to 'u_conv8/gen_regular.u_conv/weight_addr_reg[-1111111109]'
+INFO: [Synth 8-3886] merging instance 'u_conv8/gen_regular.u_conv/ic_reg[3]' (FDRE) to 'u_conv8/gen_regular.u_conv/weight_addr_reg[-1111111108]'
+INFO: [Synth 8-3886] merging instance 'u_conv8/gen_regular.u_conv/ic_reg[4]' (FDRE) to 'u_conv8/gen_regular.u_conv/weight_addr_reg[-1111111107]'
+INFO: [Synth 8-3886] merging instance 'u_conv8/gen_regular.u_conv/ic_reg[5]' (FDRE) to 'u_conv8/gen_regular.u_conv/weight_addr_reg[-1111111106]'
+INFO: [Synth 8-3886] merging instance 'u_conv8/gen_regular.u_conv/ic_reg[6]' (FDRE) to 'u_conv8/gen_regular.u_conv/weight_addr_reg[-1111111105]'
+INFO: [Synth 8-3886] merging instance 'u_conv8/gen_regular.u_conv/ic_reg[7]' (FDRE) to 'u_conv8/gen_regular.u_conv/weight_addr_reg[-1111111104]'
+INFO: [Synth 8-3886] merging instance 'u_conv8/gen_regular.u_conv/ic_reg[8]' (FDRE) to 'u_conv8/gen_regular.u_conv/weight_addr_reg[-1111111103]'
+INFO: [Common 17-14] Message 'Synth 8-3886' appears 100 times and further instances of the messages will be disabled. Use the Tcl command set_msg_config to change the current settings.
+INFO: [Common 17-14] Message 'Synth 8-3886' appears 100 times and further instances of the messages will be disabled. Use the Tcl command set_msg_config to change the current settings.
+INFO: [Synth 8-4471] merging register 'oc_reg[31:0]' into 'oc_reg[31:0]' [c:/Users/NguyenHuy/Downloads/SoC_Animal/SoC_Animal.gen/sources_1/bd/design_1/ipshared/9fe2/src/conv2d_depthwise_sequential.v:106]
+INFO: [Synth 8-4471] merging register 'oc_reg[31:0]' into 'oc_reg[31:0]' [c:/Users/NguyenHuy/Downloads/SoC_Animal/SoC_Animal.gen/sources_1/bd/design_1/ipshared/9fe2/src/conv2d_depthwise_sequential.v:106]
+INFO: [Synth 8-4471] merging register 'ky_reg[31:0]' into 'ky_reg[31:0]' [c:/Users/NguyenHuy/Downloads/SoC_Animal/SoC_Animal.gen/sources_1/bd/design_1/ipshared/9fe2/src/conv2d_depthwise_sequential.v:87]
+INFO: [Synth 8-4471] merging register 'oy_reg[31:0]' into 'oy_reg[31:0]' [c:/Users/NguyenHuy/Downloads/SoC_Animal/SoC_Animal.gen/sources_1/bd/design_1/ipshared/9fe2/src/conv2d_depthwise_sequential.v:102]
+DSP Debug: swapped A/B pins for adder 000001E67AB6ECC0
+DSP Debug: swapped A/B pins for adder 000001E6667CBF30
+DSP Report: Generating DSP input_addr3, operation Mode is: A2*(B:0x14).
+DSP Report: register oc_reg is absorbed into DSP input_addr3.
+DSP Report: operator input_addr3 is absorbed into DSP input_addr3.
+DSP Report: Generating DSP input_addr2, operation Mode is: A*(B:0x14).
+DSP Report: operator input_addr2 is absorbed into DSP input_addr2.
+DSP Report: Generating DSP input_addr0, operation Mode is: C+A*(B:0x14).
+DSP Report: operator input_addr0 is absorbed into DSP input_addr0.
+DSP Report: operator input_addr2 is absorbed into DSP input_addr0.
+DSP Report: Generating DSP output_addr0, operation Mode is: C+A2*(B:0x14).
+DSP Report: register oy_reg is absorbed into DSP output_addr0.
+DSP Report: operator output_addr0 is absorbed into DSP output_addr0.
+DSP Report: operator output_addr2 is absorbed into DSP output_addr0.
+DSP Report: Generating DSP product, operation Mode is: A*B.
+DSP Report: operator product is absorbed into DSP product.
+INFO: [Synth 8-4471] merging register 'oc_reg[31:0]' into 'oc_reg[31:0]' [c:/Users/NguyenHuy/Downloads/SoC_Animal/SoC_Animal.gen/sources_1/bd/design_1/ipshared/9fe2/src/conv2d_depthwise_sequential.v:106]
+INFO: [Synth 8-4471] merging register 'oc_reg[31:0]' into 'oc_reg[31:0]' [c:/Users/NguyenHuy/Downloads/SoC_Animal/SoC_Animal.gen/sources_1/bd/design_1/ipshared/9fe2/src/conv2d_depthwise_sequential.v:106]
+INFO: [Synth 8-4471] merging register 'ky_reg[31:0]' into 'ky_reg[31:0]' [c:/Users/NguyenHuy/Downloads/SoC_Animal/SoC_Animal.gen/sources_1/bd/design_1/ipshared/9fe2/src/conv2d_depthwise_sequential.v:87]
+INFO: [Synth 8-4471] merging register 'oy_reg[31:0]' into 'oy_reg[31:0]' [c:/Users/NguyenHuy/Downloads/SoC_Animal/SoC_Animal.gen/sources_1/bd/design_1/ipshared/9fe2/src/conv2d_depthwise_sequential.v:102]
+INFO: [Synth 8-4471] merging register 'ox_reg[31:0]' into 'ox_reg[31:0]' [c:/Users/NguyenHuy/Downloads/SoC_Animal/SoC_Animal.gen/sources_1/bd/design_1/ipshared/9fe2/src/conv2d_depthwise_sequential.v:98]
+DSP Debug: swapped A/B pins for adder 000001E66CFFF000
+DSP Debug: swapped A/B pins for adder 000001E6660B67C0
+DSP Report: Generating DSP input_addr3, operation Mode is: A2*(B:0x50).
+DSP Report: register oc_reg is absorbed into DSP input_addr3.
+DSP Report: operator input_addr3 is absorbed into DSP input_addr3.
+DSP Report: Generating DSP input_addr2, operation Mode is: A*(B:0x50).
+DSP Report: operator input_addr2 is absorbed into DSP input_addr2.
+DSP Report: Generating DSP input_addr0, operation Mode is: C+A*(B:0x50).
+DSP Report: operator input_addr0 is absorbed into DSP input_addr0.
+DSP Report: operator input_addr2 is absorbed into DSP input_addr0.
+DSP Report: Generating DSP output_addr0, operation Mode is: C+A2*(B:0x50).
+DSP Report: register oy_reg is absorbed into DSP output_addr0.
+DSP Report: operator output_addr0 is absorbed into DSP output_addr0.
+DSP Report: operator output_addr2 is absorbed into DSP output_addr0.
+DSP Report: Generating DSP product, operation Mode is: A*B.
+DSP Report: operator product is absorbed into DSP product.
+INFO: [Synth 8-5544] ROM "p_0_out" won't be mapped to Block RAM because address size (2) smaller than threshold (5)
+INFO: [Synth 8-5759] Cascade height of 0 specified for RAM '"u_act_a/gen_inferred_ultra.mem_reg"'. This RAM won't be implemented using URAM cascade chain
+INFO: [Synth 8-5759] Cascade height of 0 specified for RAM '"u_act_a/gen_inferred_ultra.mem_reg"'. This RAM won't be implemented using URAM cascade chain
+INFO: [Synth 8-5782] User specified cascade height of 0 will be used for URAM '"u_act_a/gen_inferred_ultra.mem_reg"'.
+INFO: [Synth 8-5759] Cascade height of 0 specified for RAM '"u_act_a/gen_inferred_ultra.mem_reg"'. This RAM won't be implemented using URAM cascade chain
+INFO: [Synth 8-5759] Cascade height of 0 specified for RAM '"u_act_a/gen_inferred_ultra.mem_reg"'. This RAM won't be implemented using URAM cascade chain
+INFO: [Synth 8-5782] User specified cascade height of 0 will be used for URAM '"u_act_a/gen_inferred_ultra.mem_reg"'.
+INFO: [Synth 8-4471] merging register 'gen_regular.u_conv/ic_reg[31:0]' into 'gen_regular.u_conv/ic_reg[31:0]' [c:/Users/NguyenHuy/Downloads/SoC_Animal/SoC_Animal.gen/sources_1/bd/design_1/ipshared/9fe2/src/conv2d_regular_sequential.v:93]
+INFO: [Synth 8-4471] merging register 'gen_regular.u_conv/oc_reg[31:0]' into 'gen_regular.u_conv/oc_reg[31:0]' [c:/Users/NguyenHuy/Downloads/SoC_Animal/SoC_Animal.gen/sources_1/bd/design_1/ipshared/9fe2/src/conv2d_regular_sequential.v:113]
+INFO: [Synth 8-4471] merging register 'gen_regular.u_conv/oc_reg[31:0]' into 'gen_regular.u_conv/oc_reg[31:0]' [c:/Users/NguyenHuy/Downloads/SoC_Animal/SoC_Animal.gen/sources_1/bd/design_1/ipshared/9fe2/src/conv2d_regular_sequential.v:113]
+INFO: [Synth 8-4471] merging register 'gen_regular.u_conv/oy_reg[31:0]' into 'gen_regular.u_conv/oy_reg[31:0]' [c:/Users/NguyenHuy/Downloads/SoC_Animal/SoC_Animal.gen/sources_1/bd/design_1/ipshared/9fe2/src/conv2d_regular_sequential.v:109]
+DSP Report: Generating DSP gen_regular.u_conv/product, operation Mode is: A*B.
+DSP Report: operator gen_regular.u_conv/product is absorbed into DSP gen_regular.u_conv/product.
+INFO: [Synth 8-4471] merging register 'gen_regular.u_conv/ic_reg[31:0]' into 'gen_regular.u_conv/ic_reg[31:0]' [c:/Users/NguyenHuy/Downloads/SoC_Animal/SoC_Animal.gen/sources_1/bd/design_1/ipshared/9fe2/src/conv2d_regular_sequential.v:93]
+INFO: [Synth 8-4471] merging register 'gen_regular.u_conv/oc_reg[31:0]' into 'gen_regular.u_conv/oc_reg[31:0]' [c:/Users/NguyenHuy/Downloads/SoC_Animal/SoC_Animal.gen/sources_1/bd/design_1/ipshared/9fe2/src/conv2d_regular_sequential.v:113]
+INFO: [Synth 8-4471] merging register 'gen_regular.u_conv/oc_reg[31:0]' into 'gen_regular.u_conv/oc_reg[31:0]' [c:/Users/NguyenHuy/Downloads/SoC_Animal/SoC_Animal.gen/sources_1/bd/design_1/ipshared/9fe2/src/conv2d_regular_sequential.v:113]
+INFO: [Synth 8-4471] merging register 'gen_regular.u_conv/oy_reg[31:0]' into 'gen_regular.u_conv/oy_reg[31:0]' [c:/Users/NguyenHuy/Downloads/SoC_Animal/SoC_Animal.gen/sources_1/bd/design_1/ipshared/9fe2/src/conv2d_regular_sequential.v:109]
+DSP Report: Generating DSP gen_regular.u_conv/weight_addr3, operation Mode is: A2*(B:0xcc).
+DSP Report: register gen_regular.u_conv/oc_reg is absorbed into DSP gen_regular.u_conv/weight_addr3.
+DSP Report: operator gen_regular.u_conv/weight_addr3 is absorbed into DSP gen_regular.u_conv/weight_addr3.
+DSP Report: Generating DSP gen_regular.u_conv/weight_addr0, operation Mode is: PCIN+A2:B2+C'.
+DSP Report: register gen_regular.u_conv/weight_addr0 is absorbed into DSP gen_regular.u_conv/weight_addr0.
+DSP Report: register gen_regular.u_conv/weight_addr0 is absorbed into DSP gen_regular.u_conv/weight_addr0.
+DSP Report: register gen_regular.u_conv/weight_addr0 is absorbed into DSP gen_regular.u_conv/weight_addr0.
+DSP Report: operator gen_regular.u_conv/weight_addr0 is absorbed into DSP gen_regular.u_conv/weight_addr0.
+DSP Report: Generating DSP gen_regular.u_conv/product, operation Mode is: A*B.
+DSP Report: operator gen_regular.u_conv/product is absorbed into DSP gen_regular.u_conv/product.
+INFO: [Synth 8-4471] merging register 'ic_reg[31:0]' into 'ic_reg[31:0]' [c:/Users/NguyenHuy/Downloads/SoC_Animal/SoC_Animal.gen/sources_1/bd/design_1/ipshared/9fe2/src/conv2d_regular_sequential.v:93]
+INFO: [Synth 8-4471] merging register 'oc_reg[31:0]' into 'oc_reg[31:0]' [c:/Users/NguyenHuy/Downloads/SoC_Animal/SoC_Animal.gen/sources_1/bd/design_1/ipshared/9fe2/src/conv2d_regular_sequential.v:113]
+INFO: [Synth 8-4471] merging register 'ky_reg[31:0]' into 'ky_reg[31:0]' [c:/Users/NguyenHuy/Downloads/SoC_Animal/SoC_Animal.gen/sources_1/bd/design_1/ipshared/9fe2/src/conv2d_regular_sequential.v:89]
+INFO: [Synth 8-4471] merging register 'ic_reg[31:0]' into 'ic_reg[31:0]' [c:/Users/NguyenHuy/Downloads/SoC_Animal/SoC_Animal.gen/sources_1/bd/design_1/ipshared/9fe2/src/conv2d_regular_sequential.v:93]
+INFO: [Synth 8-4471] merging register 'oc_reg[31:0]' into 'oc_reg[31:0]' [c:/Users/NguyenHuy/Downloads/SoC_Animal/SoC_Animal.gen/sources_1/bd/design_1/ipshared/9fe2/src/conv2d_regular_sequential.v:113]
+INFO: [Synth 8-4471] merging register 'oy_reg[31:0]' into 'oy_reg[31:0]' [c:/Users/NguyenHuy/Downloads/SoC_Animal/SoC_Animal.gen/sources_1/bd/design_1/ipshared/9fe2/src/conv2d_regular_sequential.v:109]
+INFO: [Synth 8-4471] merging register 'ox_reg[31:0]' into 'ox_reg[31:0]' [c:/Users/NguyenHuy/Downloads/SoC_Animal/SoC_Animal.gen/sources_1/bd/design_1/ipshared/9fe2/src/conv2d_regular_sequential.v:105]
+DSP Report: Generating DSP input_addr2, operation Mode is: A*(B:0xa0).
+DSP Report: operator input_addr2 is absorbed into DSP input_addr2.
+DSP Report: Generating DSP input_addr3, operation Mode is: A2*(B:0xa0).
+DSP Report: register ic_reg is absorbed into DSP input_addr3.
+DSP Report: operator input_addr3 is absorbed into DSP input_addr3.
+DSP Report: Generating DSP input_addr0, operation Mode is: C+A*(B:0xa0).
+DSP Report: operator input_addr0 is absorbed into DSP input_addr0.
+DSP Report: operator input_addr2 is absorbed into DSP input_addr0.
+DSP Report: Generating DSP output_addr2, operation Mode is: A2*(B:0x50).
+DSP Report: register oy_reg is absorbed into DSP output_addr2.
+DSP Report: operator output_addr2 is absorbed into DSP output_addr2.
+DSP Report: Generating DSP output_addr3, operation Mode is: A2*(B:0x50).
+DSP Report: register oc_reg is absorbed into DSP output_addr3.
+DSP Report: operator output_addr3 is absorbed into DSP output_addr3.
+DSP Report: Generating DSP output_addr0, operation Mode is: C+A*(B:0x50).
+DSP Report: operator output_addr0 is absorbed into DSP output_addr0.
+DSP Report: operator output_addr2 is absorbed into DSP output_addr0.
+DSP Report: Generating DSP product, operation Mode is: A*B.
+DSP Report: operator product is absorbed into DSP product.
+INFO: [Synth 8-5544] ROM "p_0_out" won't be mapped to Block RAM because address size (2) smaller than threshold (5)
+INFO: [Synth 8-5544] ROM "p_0_out" won't be mapped to Block RAM because address size (2) smaller than threshold (5)
+WARNING: [Synth 8-7129] Port addr[18] in module sync_ram_1p is either unconnected or has no load
+WARNING: [Synth 8-7129] Port addr[17] in module sync_ram_1p is either unconnected or has no load
+INFO: [Synth 8-5759] Cascade height of 0 specified for RAM '"u_act_b/gen_inferred_ultra.mem_reg"'. This RAM won't be implemented using URAM cascade chain
+INFO: [Synth 8-5759] Cascade height of 0 specified for RAM '"u_act_b/gen_inferred_ultra.mem_reg"'. This RAM won't be implemented using URAM cascade chain
+INFO: [Synth 8-5782] User specified cascade height of 0 will be used for URAM '"u_act_b/gen_inferred_ultra.mem_reg"'.
+INFO: [Synth 8-5759] Cascade height of 0 specified for RAM '"u_input_mem/gen_inferred_ultra.mem_reg"'. This RAM won't be implemented using URAM cascade chain
+INFO: [Synth 8-5759] Cascade height of 0 specified for RAM '"u_input_mem/gen_inferred_ultra.mem_reg"'. This RAM won't be implemented using URAM cascade chain
+INFO: [Synth 8-5782] User specified cascade height of 0 will be used for URAM '"u_input_mem/gen_inferred_ultra.mem_reg"'.
+INFO: [Synth 8-5759] Cascade height of 0 specified for RAM '"u_act_b/gen_inferred_ultra.mem_reg"'. This RAM won't be implemented using URAM cascade chain
+INFO: [Synth 8-5759] Cascade height of 0 specified for RAM '"u_act_b/gen_inferred_ultra.mem_reg"'. This RAM won't be implemented using URAM cascade chain
+INFO: [Synth 8-5782] User specified cascade height of 0 will be used for URAM '"u_act_b/gen_inferred_ultra.mem_reg"'.
+INFO: [Synth 8-5759] Cascade height of 0 specified for RAM '"u_input_mem/gen_inferred_ultra.mem_reg"'. This RAM won't be implemented using URAM cascade chain
+INFO: [Synth 8-5759] Cascade height of 0 specified for RAM '"u_input_mem/gen_inferred_ultra.mem_reg"'. This RAM won't be implemented using URAM cascade chain
+INFO: [Synth 8-5782] User specified cascade height of 0 will be used for URAM '"u_input_mem/gen_inferred_ultra.mem_reg"'.
+INFO: [Common 17-14] Message 'Synth 8-3886' appears 100 times and further instances of the messages will be disabled. Use the Tcl command set_msg_config to change the current settings.
+---------------------------------------------------------------------------------
+Finished Cross Boundary and Area Optimization : Time (s): cpu = 00:00:47 ; elapsed = 00:01:28 . Memory (MB): peak = 2028.531 ; gain = 529.789
+---------------------------------------------------------------------------------
+ Sort Area is animalnet_top__GB0 gen_depthwise.u_conv/product_13 : 0 0 : 1937 1937 : Used 1 time 0
+ Sort Area is animalnet_top__GB0 gen_depthwise.u_conv/product_1f : 0 0 : 1937 1937 : Used 1 time 0
+ Sort Area is animalnet_top__GB0 gen_depthwise.u_conv/product_b : 0 0 : 1937 1937 : Used 1 time 0
+ Sort Area is animalnet_top__GB5 gen_regular.u_conv/product_0 : 0 0 : 1937 1937 : Used 1 time 0
+ Sort Area is animalnet_top__GB0 gen_regular.u_conv/product_2a : 0 0 : 1937 1937 : Used 1 time 0
+ Sort Area is animalnet_top__GB5 gen_regular.u_conv/product_5 : 0 0 : 1937 1937 : Used 1 time 0
+ Sort Area is animalnet_top__GB3 product_0 : 0 0 : 1937 1937 : Used 1 time 0
+ Sort Area is animalnet_top__GB3 product_10 : 0 0 : 1937 1937 : Used 1 time 0
+ Sort Area is animalnet_top__GB5 product_11 : 0 0 : 1937 1937 : Used 1 time 0
+ Sort Area is animalnet_top__GB4 product_12 : 0 0 : 1937 1937 : Used 1 time 0
+ Sort Area is animalnet_top__GB3 product_19 : 0 0 : 1937 1937 : Used 1 time 0
+ Sort Area is animalnet_top__GB1 product_1b : 0 0 : 1937 1937 : Used 1 time 0
+ Sort Area is animalnet_top__GB4 product_8 : 0 0 : 1937 1937 : Used 1 time 0
+ Sort Area is animalnet_top__GB2 product_8 : 0 0 : 1937 1937 : Used 1 time 0
+ Sort Area is animalnet_top__GB2 product_a : 0 0 : 1937 1937 : Used 1 time 0
+ Sort Area is animalnet_top__GB1 product_c : 0 0 : 1937 1937 : Used 1 time 0
+ Sort Area is animalnet_top__GB5 gen_regular.u_conv/weight_addr3_2 : 0 0 : 389 609 : Used 1 time 0
+ Sort Area is animalnet_top__GB5 gen_regular.u_conv/weight_addr3_2 : 0 1 : 220 609 : Used 1 time 0
+ Sort Area is animalnet_top__GB3 weight_addr3_14 : 0 0 : 347 559 : Used 1 time 0
+ Sort Area is animalnet_top__GB3 weight_addr3_14 : 0 1 : 212 559 : Used 1 time 0
+ Sort Area is animalnet_top__GB3 weight_addr3_8 : 0 0 : 307 519 : Used 1 time 0
+ Sort Area is animalnet_top__GB3 weight_addr3_8 : 0 1 : 212 519 : Used 1 time 0
+ Sort Area is animalnet_top__GB1 weight_addr3_6 : 0 0 : 233 421 : Used 1 time 0
+ Sort Area is animalnet_top__GB1 weight_addr3_6 : 0 1 : 188 421 : Used 1 time 0
+ Sort Area is animalnet_top__GB0 gen_regular.u_conv/weight_addr3_24 : 0 0 : 218 414 : Used 1 time 0
+ Sort Area is animalnet_top__GB0 gen_regular.u_conv/weight_addr3_24 : 0 1 : 196 414 : Used 1 time 0
+ Sort Area is animalnet_top__GB1 weight_addr3_14 : 0 0 : 173 361 : Used 1 time 0
+ Sort Area is animalnet_top__GB1 weight_addr3_14 : 0 1 : 188 361 : Used 1 time 0
+ Sort Area is animalnet_top__GB4 output_addr0_10 : 0 0 : 335 335 : Used 1 time 0
+ Sort Area is animalnet_top__GB5 input_addr0_a : 0 0 : 318 318 : Used 1 time 0
+ Sort Area is animalnet_top__GB0 gen_depthwise.u_conv/input_addr0_4 : 0 0 : 315 315 : Used 1 time 0
+ Sort Area is animalnet_top__GB1 output_addr0_19 : 0 0 : 315 315 : Used 1 time 0
+ Sort Area is animalnet_top__GB1 input_addr0_12 : 0 0 : 303 303 : Used 1 time 0
+ Sort Area is animalnet_top__GB4 input_addr0_e : 0 0 : 303 303 : Used 1 time 0
+ Sort Area is animalnet_top__GB5 output_addr0_f : 0 0 : 303 303 : Used 1 time 0
+ Sort Area is animalnet_top__GB5 input_addr3_6 : 0 0 : 300 300 : Used 1 time 0
+ Sort Area is animalnet_top__GB0 gen_depthwise.u_conv/input_addr0_11 : 0 0 : 291 291 : Used 1 time 0
+ Sort Area is animalnet_top__GB0 gen_depthwise.u_conv/input_addr3_0 : 0 0 : 291 291 : Used 1 time 0
+ Sort Area is animalnet_top__GB3 output_addr0_e : 0 0 : 291 291 : Used 1 time 0
+ Sort Area is animalnet_top__GB1 output_addr2_18 : 0 0 : 291 291 : Used 1 time 0
+ Sort Area is animalnet_top__GB1 output_addr3_16 : 0 0 : 291 291 : Used 1 time 0
+ Sort Area is animalnet_top__GB4 input_addr3_a : 0 0 : 282 282 : Used 1 time 0
+ Sort Area is animalnet_top__GB1 input_addr3_e : 0 0 : 282 282 : Used 1 time 0
+ Sort Area is animalnet_top__GB5 output_addr2_e : 0 0 : 282 282 : Used 1 time 0
+ Sort Area is animalnet_top__GB5 output_addr3_c : 0 0 : 282 282 : Used 1 time 0
+ Sort Area is animalnet_top__GB0 gen_depthwise.u_conv/input_addr3_d : 0 0 : 273 273 : Used 1 time 0
+ Sort Area is animalnet_top__GB3 output_addr2_d : 0 0 : 273 273 : Used 1 time 0
+ Sort Area is animalnet_top__GB3 output_addr3_b : 0 0 : 273 273 : Used 1 time 0
+ Sort Area is animalnet_top__GB5 input_addr2_8 : 0 0 : 268 268 : Used 1 time 0
+ Sort Area is animalnet_top__GB0 gen_depthwise.u_conv/input_addr2_2 : 0 0 : 259 259 : Used 1 time 0
+ Sort Area is animalnet_top__GB1 input_addr2_10 : 0 0 : 250 250 : Used 1 time 0
+ Sort Area is animalnet_top__GB4 input_addr2_c : 0 0 : 250 250 : Used 1 time 0
+ Sort Area is animalnet_top__GB0 gen_depthwise.u_conv/input_addr2_f : 0 0 : 241 241 : Used 1 time 0
+ Sort Area is animalnet_top__GB2 output_addr0_6 : 0 0 : 225 225 : Used 1 time 0
+ Sort Area is animalnet_top__GB4 output_addr0_6 : 0 0 : 224 224 : Used 1 time 0
+ Sort Area is animalnet_top__GB0 gen_depthwise.u_conv/input_addr0_18 : 0 0 : 202 202 : Used 1 time 0
+ Sort Area is animalnet_top__GB0 gen_regular.u_conv/output_addr0_29 : 0 0 : 202 202 : Used 1 time 0
+ Sort Area is animalnet_top__GB0 gen_depthwise.u_conv/output_addr0_9 : 0 0 : 193 193 : Used 1 time 0
+ Sort Area is animalnet_top__GB0 gen_regular.u_conv/input_addr0_23 : 0 0 : 193 193 : Used 1 time 0
+ Sort Area is animalnet_top__GB1 input_addr0_4 : 0 0 : 193 193 : Used 1 time 0
+ Sort Area is animalnet_top__GB2 input_addr0_4 : 0 0 : 193 193 : Used 1 time 0
+ Sort Area is animalnet_top__GB1 output_addr0_b : 0 0 : 193 193 : Used 1 time 0
+ Sort Area is animalnet_top__GB0 gen_depthwise.u_conv/output_addr0_1d : 0 0 : 192 192 : Used 1 time 0
+ Sort Area is animalnet_top__GB3 input_addr0_13 : 0 0 : 192 192 : Used 1 time 0
+ Sort Area is animalnet_top__GB4 input_addr0_4 : 0 0 : 192 192 : Used 1 time 0
+ Sort Area is animalnet_top__GB3 input_addr0_6 : 0 0 : 192 192 : Used 1 time 0
+ Sort Area is animalnet_top__GB3 output_addr0_18 : 0 0 : 192 192 : Used 1 time 0
+ Sort Area is animalnet_top__GB0 gen_depthwise.u_conv/input_addr3_14 : 0 0 : 181 181 : Used 1 time 0
+ Sort Area is animalnet_top__GB0 gen_regular.u_conv/output_addr2_28 : 0 0 : 181 181 : Used 1 time 0
+ Sort Area is animalnet_top__GB0 gen_regular.u_conv/output_addr3_27 : 0 0 : 181 181 : Used 1 time 0
+ Sort Area is animalnet_top__GB0 gen_depthwise.u_conv/output_addr2_1c : 0 0 : 177 177 : Used 1 time 0
+ Sort Area is animalnet_top__GB0 gen_depthwise.u_conv/output_addr3_1a : 0 0 : 177 177 : Used 1 time 0
+ Sort Area is animalnet_top__GB4 input_addr3_0 : 0 0 : 177 177 : Used 1 time 0
+ Sort Area is animalnet_top__GB3 input_addr3_11 : 0 0 : 177 177 : Used 1 time 0
+ Sort Area is animalnet_top__GB3 input_addr3_2 : 0 0 : 177 177 : Used 1 time 0
+ Sort Area is animalnet_top__GB3 output_addr2_17 : 0 0 : 177 177 : Used 1 time 0
+ Sort Area is animalnet_top__GB3 output_addr3_16 : 0 0 : 177 177 : Used 1 time 0
+ Sort Area is animalnet_top__GB0 gen_depthwise.u_conv/output_addr2_8 : 0 0 : 175 175 : Used 1 time 0
+ Sort Area is animalnet_top__GB0 gen_depthwise.u_conv/output_addr3_6 : 0 0 : 175 175 : Used 1 time 0
+ Sort Area is animalnet_top__GB0 gen_regular.u_conv/input_addr3_20 : 0 0 : 175 175 : Used 1 time 0
+ Sort Area is animalnet_top__GB1 input_addr3_0 : 0 0 : 175 175 : Used 1 time 0
+ Sort Area is animalnet_top__GB2 input_addr3_0 : 0 0 : 175 175 : Used 1 time 0
+ Sort Area is animalnet_top__GB1 output_addr2_a : 0 0 : 175 175 : Used 1 time 0
+ Sort Area is animalnet_top__GB1 output_addr3_9 : 0 0 : 175 175 : Used 1 time 0
+ Sort Area is animalnet_top__GB0 gen_depthwise.u_conv/input_addr2_16 : 0 0 : 149 149 : Used 1 time 0
+ Sort Area is animalnet_top__GB3 input_addr2_12 : 0 0 : 145 145 : Used 1 time 0
+ Sort Area is animalnet_top__GB4 input_addr2_2 : 0 0 : 145 145 : Used 1 time 0
+ Sort Area is animalnet_top__GB3 input_addr2_4 : 0 0 : 145 145 : Used 1 time 0
+ Sort Area is animalnet_top__GB0 gen_regular.u_conv/input_addr2_21 : 0 0 : 143 143 : Used 1 time 0
+ Sort Area is animalnet_top__GB1 input_addr2_2 : 0 0 : 143 143 : Used 1 time 0
+ Sort Area is animalnet_top__GB2 input_addr2_2 : 0 0 : 143 143 : Used 1 time 0
+WARNING: [Synth 8-6057] Memory: "gen_inferred_ultra.mem_reg" defined in module: "u_act_a" implemented as Ultra-Ram has no pipeline registers. It is recommended to use pipeline registers to achieve high performance.
+WARNING: [Synth 8-6057] Memory: "gen_inferred_ultra.mem_reg" defined in module: "u_act_b" implemented as Ultra-Ram has no pipeline registers. It is recommended to use pipeline registers to achieve high performance.
+WARNING: [Synth 8-6057] Memory: "gen_inferred_ultra.mem_reg" defined in module: "u_input_mem" implemented as Ultra-Ram has no pipeline registers. It is recommended to use pipeline registers to achieve high performance.
+---------------------------------------------------------------------------------
+Start ROM, RAM, DSP, Shift Register and Retiming Reporting
+---------------------------------------------------------------------------------
+
+Ultra RAM: Preliminary Mapping Report (see note below)
++------------+----------------------------+------------------------+---+---+------------------------+---+---+------------------+---------+--------------+--------------------------+-------------+
+|Module Name | RTL Object                 | PORT A (Depth x Width) | W | R | PORT B (Depth x Width) | W | R | Ports driving FF | URAM288 | Matrix Shape | FF provided for Pipeline | FF absorbed | 
++------------+----------------------------+------------------------+---+---+------------------------+---+---+------------------+---------+--------------+--------------------------+-------------+
+|u_act_a     | gen_inferred_ultra.mem_reg | 79 K x 64              | W |   | 79 K x 64              |   | R | Port A and B     | 20      | 1x20         | 0                        | 0           | 
+|u_act_b     | gen_inferred_ultra.mem_reg | 79 K x 64              | W |   | 79 K x 64              |   | R | Port A and B     | 20      | 1x20         | 0                        | 0           | 
+|u_input_mem | gen_inferred_ultra.mem_reg | 18 K x 64              | W |   | 18 K x 64              |   | R | Port A and B     | 5       | 1x5          | 0                        | 0           | 
++------------+----------------------------+------------------------+---+---+------------------------+---+---+------------------+---------+--------------+--------------------------+-------------+
+
+Note: The table above is a preliminary report that shows the Ultra RAMs at the current stage of the synthesis flow. Some Ultra RAMs may be reimplemented as non Ultra RAM primitives later in the synthesis flow. Multiple instantiated Ultra RAMs are reported only once. Fields "FF provided for Pipeline" and "FF absorbed" respectively indicate number of registers available for pipelining and number of registers absorbed in the URAM matrix for pipelining. 
+
+Block RAM: Preliminary Mapping Report (see note below)
++-----------------------------+------------------+------------------------+---+---+------------------------+---+---+------------------+--------+--------+-----------------------------------------+
+|Module Name                  | RTL Object       | PORT A (Depth x Width) | W | R | PORT B (Depth x Width) | W | R | Ports driving FF | RAMB18 | RAMB36 | Cascade Heights                         | 
++-----------------------------+------------------+------------------------+---+---+------------------------+---+---+------------------+--------+--------+-----------------------------------------+
+|sync_ram_1p__parameterized2: | gen_bram.mem_reg | 2 K x 16(READ_FIRST)   | W | R |                        |   |   | Port A           | 0      | 2      | 1,1                                     | 
+|sync_ram_1p__parameterized1: | gen_bram.mem_reg | 197 K x 16(READ_FIRST) | W | R |                        |   |   | Port A           | 0      | 95     | 4,4,4,4,4,4,4,4,4,4,4,4,2,8,8,8,1,8,5,7 | 
++-----------------------------+------------------+------------------------+---+---+------------------------+---+---+------------------+--------+--------+-----------------------------------------+
+
+Note: The table above is a preliminary report that shows the Block RAMs at the current stage of the synthesis flow. Some Block RAMs may be reimplemented as non Block RAM primitives later in the synthesis flow. Multiple instantiated Block RAMs are reported only once. 
+
+DSP: Preliminary Mapping Report (see note below. The ' indicates corresponding REG is set)
++----------------------------+---------------+--------+--------+--------+--------+--------+------+------+------+------+-------+------+------+
+|Module Name                 | DSP Mapping   | A Size | B Size | C Size | D Size | P Size | AREG | BREG | CREG | DREG | ADREG | MREG | PREG | 
++----------------------------+---------------+--------+--------+--------+--------+--------+------+------+------+------+-------+------+------+
+|conv2d_regular_sequential   | A*(B:0x28)    | 17     | 7      | -      | -      | 24     | 0    | 0    | -    | -    | -     | 0    | 0    | 
+|conv2d_regular_sequential   | A2*(B:0x28)   | 17     | 7      | -      | -      | 24     | 1    | 0    | -    | -    | -     | 0    | 0    | 
+|conv2d_regular_sequential   | C+A*(B:0x28)  | 17     | 7      | 17     | -      | 17     | 0    | 0    | 0    | -    | -     | 0    | 0    | 
+|conv2d_regular_sequential   | A2*(B:0x33)   | 12     | 7      | -      | -      | 19     | 1    | 0    | -    | -    | -     | 0    | 0    | 
+|conv2d_regular_sequential   | PCIN+A2:B2+C' | 30     | 18     | 48     | -      | -1     | 1    | 1    | 1    | -    | -     | 0    | 0    | 
+|conv2d_regular_sequential   | A2*(B:0x28)   | 17     | 7      | -      | -      | 24     | 1    | 0    | -    | -    | -     | 0    | 0    | 
+|conv2d_regular_sequential   | A2*(B:0x28)   | 17     | 7      | -      | -      | 24     | 1    | 0    | -    | -    | -     | 0    | 0    | 
+|conv2d_regular_sequential   | C+A*(B:0x28)  | 17     | 7      | 17     | -      | 17     | 0    | 0    | 0    | -    | -     | 0    | 0    | 
+|conv2d_regular_sequential   | A*B           | 16     | 16     | -      | -      | 32     | 0    | 0    | -    | -    | -     | 0    | 0    | 
+|conv2d_regular_sequential   | A*(B:0x50)    | 18     | 8      | -      | -      | 26     | 0    | 0    | -    | -    | -     | 0    | 0    | 
+|conv2d_regular_sequential   | A2*(B:0x50)   | 18     | 8      | -      | -      | 26     | 1    | 0    | -    | -    | -     | 0    | 0    | 
+|conv2d_regular_sequential   | C+A*(B:0x50)  | 18     | 8      | 18     | -      | 18     | 0    | 0    | 0    | -    | -     | 0    | 0    | 
+|conv2d_regular_sequential   | A2*(B:0x19)   | 11     | 6      | -      | -      | 17     | 1    | 0    | -    | -    | -     | 0    | 0    | 
+|conv2d_regular_sequential   | PCIN+A2:B2+C' | 30     | 18     | 48     | -      | -1     | 1    | 1    | 1    | -    | -     | 0    | 0    | 
+|conv2d_regular_sequential   | A2*(B:0x50)   | 19     | 8      | -      | -      | 27     | 1    | 0    | -    | -    | -     | 0    | 0    | 
+|conv2d_regular_sequential   | A2*(B:0x50)   | 19     | 8      | -      | -      | 27     | 1    | 0    | -    | -    | -     | 0    | 0    | 
+|conv2d_regular_sequential   | C+A*(B:0x50)  | 19     | 8      | 19     | -      | 19     | 0    | 0    | 0    | -    | -     | 0    | 0    | 
+|conv2d_regular_sequential   | A*B           | 16     | 16     | -      | -      | 32     | 0    | 0    | -    | -    | -     | 0    | 0    | 
+|conv2d_depthwise_sequential | A*(B:0x50)    | 19     | 8      | -      | -      | 27     | 0    | 0    | -    | -    | -     | 0    | 0    | 
+|conv2d_sequential           | A2*(B:0x50)   | 19     | 8      | -      | -      | 27     | 1    | 0    | -    | -    | -     | 0    | 0    | 
+|conv2d_depthwise_sequential | C+A*(B:0x50)  | 19     | 8      | 19     | -      | 19     | 0    | 0    | 0    | -    | -     | 0    | 0    | 
+|conv2d_sequential           | A2*(B:0x28)   | 17     | 7      | -      | -      | 24     | 1    | 0    | -    | -    | -     | 0    | 0    | 
+|conv2d_sequential           | A2*(B:0x28)   | 17     | 7      | -      | -      | 24     | 1    | 0    | -    | -    | -     | 0    | 0    | 
+|conv2d_depthwise_sequential | C+A*(B:0x28)  | 17     | 7      | 17     | -      | 17     | 0    | 0    | 0    | -    | -     | 0    | 0    | 
+|conv2d_depthwise_sequential | A*B           | 16     | 16     | -      | -      | 32     | 0    | 0    | -    | -    | -     | 0    | 0    | 
+|conv2d_depthwise_sequential | A*(B:0x14)    | 17     | 6      | -      | -      | 23     | 0    | 0    | -    | -    | -     | 0    | 0    | 
+|conv2d_sequential           | A2*(B:0x14)   | 17     | 6      | -      | -      | 23     | 1    | 0    | -    | -    | -     | 0    | 0    | 
+|conv2d_depthwise_sequential | C+A*(B:0x14)  | 17     | 6      | 17     | -      | 17     | 0    | 0    | 0    | -    | -     | 0    | 0    | 
+|conv2d_depthwise_sequential | A*B           | 16     | 16     | -      | -      | 32     | 0    | 0    | -    | -    | -     | 0    | 0    | 
+|conv2d_depthwise_sequential | A*(B:0x28)    | 18     | 7      | -      | -      | 25     | 0    | 0    | -    | -    | -     | 0    | 0    | 
+|conv2d_sequential           | A2*(B:0x28)   | 18     | 7      | -      | -      | 25     | 1    | 0    | -    | -    | -     | 0    | 0    | 
+|conv2d_depthwise_sequential | C+A*(B:0x28)  | 18     | 7      | 18     | -      | 18     | 0    | 0    | 0    | -    | -     | 0    | 0    | 
+|conv2d_sequential           | A2*(B:0x14)   | 16     | 6      | -      | -      | 22     | 1    | 0    | -    | -    | -     | 0    | 0    | 
+|conv2d_sequential           | A2*(B:0x14)   | 16     | 6      | -      | -      | 22     | 1    | 0    | -    | -    | -     | 0    | 0    | 
+|conv2d_depthwise_sequential | C+A*(B:0x14)  | 16     | 6      | 16     | -      | 16     | 0    | 0    | 0    | -    | -     | 0    | 0    | 
+|conv2d_depthwise_sequential | A*B           | 16     | 16     | -      | -      | 32     | 0    | 0    | -    | -    | -     | 0    | 0    | 
+|conv2d_regular_sequential   | A*(B:0x28)    | 17     | 7      | -      | -      | 24     | 0    | 0    | -    | -    | -     | 0    | 0    | 
+|conv2d_sequential           | A2*(B:0x28)   | 17     | 7      | -      | -      | 24     | 1    | 0    | -    | -    | -     | 0    | 0    | 
+|conv2d_regular_sequential   | C+A*(B:0x28)  | 17     | 7      | 17     | -      | 17     | 0    | 0    | 0    | -    | -     | 0    | 0    | 
+|conv2d_sequential           | A2*(B:0x4c)   | 13     | 8      | -      | -      | 21     | 1    | 0    | -    | -    | -     | 0    | 0    | 
+|conv2d_sequential           | PCIN+A2:B2+C' | 30     | 18     | 48     | -      | -1     | 1    | 1    | 1    | -    | -     | 0    | 0    | 
+|conv2d_sequential           | A2*(B:0x28)   | 18     | 7      | -      | -      | 25     | 1    | 0    | -    | -    | -     | 0    | 0    | 
+|conv2d_sequential           | A2*(B:0x28)   | 18     | 7      | -      | -      | 25     | 1    | 0    | -    | -    | -     | 0    | 0    | 
+|conv2d_regular_sequential   | C+A*(B:0x28)  | 18     | 7      | 18     | -      | 18     | 0    | 0    | 0    | -    | -     | 0    | 0    | 
+|conv2d_regular_sequential   | A*B           | 16     | 16     | -      | -      | 32     | 0    | 0    | -    | -    | -     | 0    | 0    | 
+|conv2d_depthwise_sequential | A2*(B:0x28)   | 17     | 7      | -      | -      | 24     | 1    | 0    | -    | -    | -     | 0    | 0    | 
+|conv2d_depthwise_sequential | A*(B:0x28)    | 17     | 7      | -      | -      | 24     | 0    | 0    | -    | -    | -     | 0    | 0    | 
+|conv2d_depthwise_sequential | C+A*(B:0x28)  | 17     | 7      | 17     | -      | 17     | 0    | 0    | 0    | -    | -     | 0    | 0    | 
+|conv2d_depthwise_sequential | C+A2*(B:0x28) | 17     | 7      | 17     | -      | 17     | 1    | 0    | 0    | -    | -     | 0    | 0    | 
+|conv2d_depthwise_sequential | A*B           | 16     | 16     | -      | -      | 32     | 0    | 0    | -    | -    | -     | 0    | 0    | 
+|conv2d_depthwise_sequential | A*B           | 16     | 16     | -      | -      | 32     | 0    | 0    | -    | -    | -     | 0    | 0    | 
+|linear_sequential           | A*B           | 16     | 16     | -      | -      | 32     | 0    | 0    | -    | -    | -     | 0    | 0    | 
+|conv2d_regular_sequential   | A*(B:0x14)    | 16     | 6      | -      | -      | 22     | 0    | 0    | -    | -    | -     | 0    | 0    | 
+|conv2d_regular_sequential   | A2*(B:0x14)   | 16     | 6      | -      | -      | 22     | 1    | 0    | -    | -    | -     | 0    | 0    | 
+|conv2d_regular_sequential   | C+A*(B:0x14)  | 16     | 6      | 16     | -      | 16     | 0    | 0    | 0    | -    | -     | 0    | 0    | 
+|conv2d_regular_sequential   | A2*(B:0x99)   | 15     | 9      | -      | -      | 24     | 1    | 0    | -    | -    | -     | 0    | 0    | 
+|conv2d_regular_sequential   | PCIN+A2:B2+C' | 30     | 18     | 48     | -      | -1     | 1    | 1    | 1    | -    | -     | 0    | 0    | 
+|conv2d_regular_sequential   | A2*(B:0x14)   | 17     | 6      | -      | -      | 23     | 1    | 0    | -    | -    | -     | 0    | 0    | 
+|conv2d_regular_sequential   | A2*(B:0x14)   | 17     | 6      | -      | -      | 23     | 1    | 0    | -    | -    | -     | 0    | 0    | 
+|conv2d_regular_sequential   | C+A*(B:0x14)  | 17     | 6      | 17     | -      | 17     | 0    | 0    | 0    | -    | -     | 0    | 0    | 
+|conv2d_regular_sequential   | A*B           | 16     | 16     | -      | -      | 32     | 0    | 0    | -    | -    | -     | 0    | 0    | 
+|conv2d_regular_sequential   | A*(B:0x14)    | 16     | 6      | -      | -      | 22     | 0    | 0    | -    | -    | -     | 0    | 0    | 
+|conv2d_regular_sequential   | A2*(B:0x14)   | 16     | 6      | -      | -      | 22     | 1    | 0    | -    | -    | -     | 0    | 0    | 
+|conv2d_regular_sequential   | C+A*(B:0x14)  | 16     | 6      | 16     | -      | 16     | 0    | 0    | 0    | -    | -     | 0    | 0    | 
+|conv2d_regular_sequential   | A2*(B:0x66)   | 14     | 8      | -      | -      | 22     | 1    | 0    | -    | -    | -     | 0    | 0    | 
+|conv2d_regular_sequential   | PCIN+A2:B2+C' | 30     | 18     | 48     | -      | -1     | 1    | 1    | 1    | -    | -     | 0    | 0    | 
+|conv2d_regular_sequential   | A2*(B:0x14)   | 16     | 6      | -      | -      | 22     | 1    | 0    | -    | -    | -     | 0    | 0    | 
+|conv2d_regular_sequential   | A2*(B:0x14)   | 16     | 6      | -      | -      | 22     | 1    | 0    | -    | -    | -     | 0    | 0    | 
+|conv2d_regular_sequential   | C+A*(B:0x14)  | 16     | 6      | 16     | -      | 16     | 0    | 0    | 0    | -    | -     | 0    | 0    | 
+|conv2d_regular_sequential   | A*B           | 16     | 16     | -      | -      | 32     | 0    | 0    | -    | -    | -     | 0    | 0    | 
+|conv2d_depthwise_sequential | A2*(B:0x14)   | 16     | 6      | -      | -      | 22     | 1    | 0    | -    | -    | -     | 0    | 0    | 
+|conv2d_depthwise_sequential | A*(B:0x14)    | 16     | 6      | -      | -      | 22     | 0    | 0    | -    | -    | -     | 0    | 0    | 
+|conv2d_depthwise_sequential | C+A*(B:0x14)  | 16     | 6      | 16     | -      | 16     | 0    | 0    | 0    | -    | -     | 0    | 0    | 
+|conv2d_depthwise_sequential | C+A2*(B:0x14) | 16     | 6      | 16     | -      | 16     | 1    | 0    | 0    | -    | -     | 0    | 0    | 
+|conv2d_depthwise_sequential | A*B           | 16     | 16     | -      | -      | 32     | 0    | 0    | -    | -    | -     | 0    | 0    | 
+|conv2d_depthwise_sequential | A2*(B:0x50)   | 18     | 8      | -      | -      | 26     | 1    | 0    | -    | -    | -     | 0    | 0    | 
+|conv2d_depthwise_sequential | A*(B:0x50)    | 18     | 8      | -      | -      | 26     | 0    | 0    | -    | -    | -     | 0    | 0    | 
+|conv2d_depthwise_sequential | C+A*(B:0x50)  | 18     | 8      | 18     | -      | 18     | 0    | 0    | 0    | -    | -     | 0    | 0    | 
+|conv2d_depthwise_sequential | C+A2*(B:0x50) | 18     | 8      | 18     | -      | 18     | 1    | 0    | 0    | -    | -     | 0    | 0    | 
+|conv2d_depthwise_sequential | A*B           | 16     | 16     | -      | -      | 32     | 0    | 0    | -    | -    | -     | 0    | 0    | 
+|conv2d_regular_sequential   | A*B           | 16     | 16     | -      | -      | 32     | 0    | 0    | -    | -    | -     | 0    | 0    | 
+|conv2d_sequential           | A2*(B:0xcc)   | 16     | 9      | -      | -      | 25     | 1    | 0    | -    | -    | -     | 0    | 0    | 
+|conv2d_sequential           | PCIN+A2:B2+C' | 30     | 18     | 48     | -      | -1     | 1    | 1    | 1    | -    | -     | 0    | 0    | 
+|conv2d_regular_sequential   | A*B           | 16     | 16     | -      | -      | 32     | 0    | 0    | -    | -    | -     | 0    | 0    | 
+|conv2d_regular_sequential   | A*(B:0xa0)    | 17     | 9      | -      | -      | 26     | 0    | 0    | -    | -    | -     | 0    | 0    | 
+|conv2d_regular_sequential   | A2*(B:0xa0)   | 17     | 9      | -      | -      | 26     | 1    | 0    | -    | -    | -     | 0    | 0    | 
+|conv2d_regular_sequential   | C+A*(B:0xa0)  | 17     | 9      | 17     | -      | 17     | 0    | 0    | 0    | -    | -     | 0    | 0    | 
+|conv2d_regular_sequential   | A2*(B:0x50)   | 18     | 8      | -      | -      | 26     | 1    | 0    | -    | -    | -     | 0    | 0    | 
+|conv2d_regular_sequential   | A2*(B:0x50)   | 18     | 8      | -      | -      | 26     | 1    | 0    | -    | -    | -     | 0    | 0    | 
+|conv2d_regular_sequential   | C+A*(B:0x50)  | 18     | 8      | 18     | -      | 18     | 0    | 0    | 0    | -    | -     | 0    | 0    | 
+|conv2d_regular_sequential   | A*B           | 16     | 16     | -      | -      | 32     | 0    | 0    | -    | -    | -     | 0    | 0    | 
++----------------------------+---------------+--------+--------+--------+--------+--------+------+------+------+------+-------+------+------+
+
+Note: The table above is a preliminary report that shows the DSPs inferred at the current stage of the synthesis flow. Some DSP may be reimplemented as non DSP primitives later in the synthesis flow. Multiple instantiated DSPs are reported only once.
+---------------------------------------------------------------------------------
+Finished ROM, RAM, DSP, Shift Register and Retiming Reporting
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Applying XDC Timing Constraints
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished Applying XDC Timing Constraints : Time (s): cpu = 00:00:57 ; elapsed = 00:01:40 . Memory (MB): peak = 2886.727 ; gain = 1387.984
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Timing Optimization
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished Timing Optimization : Time (s): cpu = 00:00:58 ; elapsed = 00:01:41 . Memory (MB): peak = 2897.191 ; gain = 1398.449
+---------------------------------------------------------------------------------
+WARNING: [Synth 8-6057] Memory: "gen_inferred_ultra.mem_reg" defined in module: "u_act_a" implemented as Ultra-Ram has no pipeline registers. It is recommended to use pipeline registers to achieve high performance.
+WARNING: [Synth 8-6057] Memory: "gen_inferred_ultra.mem_reg" defined in module: "u_act_b" implemented as Ultra-Ram has no pipeline registers. It is recommended to use pipeline registers to achieve high performance.
+WARNING: [Synth 8-6057] Memory: "gen_inferred_ultra.mem_reg" defined in module: "u_input_mem" implemented as Ultra-Ram has no pipeline registers. It is recommended to use pipeline registers to achieve high performance.
+---------------------------------------------------------------------------------
+Start ROM, RAM, DSP, Shift Register and Retiming Reporting
+---------------------------------------------------------------------------------
+
+Ultra RAM: Final Mapping Report
++------------+----------------------------+------------------------+---+---+------------------------+---+---+------------------+---------+--------------+--------------------------+-------------+
+|Module Name | RTL Object                 | PORT A (Depth x Width) | W | R | PORT B (Depth x Width) | W | R | Ports driving FF | URAM288 | Matrix Shape | FF provided for Pipeline | FF absorbed | 
++------------+----------------------------+------------------------+---+---+------------------------+---+---+------------------+---------+--------------+--------------------------+-------------+
+|u_act_a     | gen_inferred_ultra.mem_reg | 79 K x 64              | W |   | 79 K x 64              |   | R | Port A and B     | 20      | 1x20         | 0                        | 0           | 
+|u_act_b     | gen_inferred_ultra.mem_reg | 79 K x 64              | W |   | 79 K x 64              |   | R | Port A and B     | 20      | 1x20         | 0                        | 0           | 
+|u_input_mem | gen_inferred_ultra.mem_reg | 18 K x 64              | W |   | 18 K x 64              |   | R | Port A and B     | 5       | 1x5          | 0                        | 0           | 
++------------+----------------------------+------------------------+---+---+------------------------+---+---+------------------+---------+--------------+--------------------------+-------------+
+
+
+Block RAM: Final Mapping Report
++-----------------------------+------------------+------------------------+---+---+------------------------+---+---+------------------+--------+--------+-----------------------------------------+
+|Module Name                  | RTL Object       | PORT A (Depth x Width) | W | R | PORT B (Depth x Width) | W | R | Ports driving FF | RAMB18 | RAMB36 | Cascade Heights                         | 
++-----------------------------+------------------+------------------------+---+---+------------------------+---+---+------------------+--------+--------+-----------------------------------------+
+|sync_ram_1p__parameterized2: | gen_bram.mem_reg | 2 K x 16(READ_FIRST)   | W | R |                        |   |   | Port A           | 0      | 2      | 1,1                                     | 
+|sync_ram_1p__parameterized1: | gen_bram.mem_reg | 197 K x 16(READ_FIRST) | W | R |                        |   |   | Port A           | 0      | 95     | 4,4,4,4,4,4,4,4,4,4,4,4,2,8,8,8,1,8,5,7 | 
++-----------------------------+------------------+------------------------+---+---+------------------------+---+---+------------------+--------+--------+-----------------------------------------+
+
+---------------------------------------------------------------------------------
+Finished ROM, RAM, DSP, Shift Register and Retiming Reporting
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Technology Mapping
+---------------------------------------------------------------------------------
+INFO: [Synth 8-7052] The timing for the instance inst/u_animalnet_topi_3/u_weight_rom/gen_bram.mem_reg_bram_3 (implemented as a Block RAM) might be sub-optimal as no optional output register could be merged into the ram block. Providing additional output register may help in improving timing.
+INFO: [Synth 8-7052] The timing for the instance inst/u_animalnet_topi_3/u_weight_rom/gen_bram.mem_reg_bram_7 (implemented as a Block RAM) might be sub-optimal as no optional output register could be merged into the ram block. Providing additional output register may help in improving timing.
+INFO: [Synth 8-7052] The timing for the instance inst/u_animalnet_topi_3/u_weight_rom/gen_bram.mem_reg_bram_11 (implemented as a Block RAM) might be sub-optimal as no optional output register could be merged into the ram block. Providing additional output register may help in improving timing.
+INFO: [Synth 8-7052] The timing for the instance inst/u_animalnet_topi_3/u_weight_rom/gen_bram.mem_reg_bram_15 (implemented as a Block RAM) might be sub-optimal as no optional output register could be merged into the ram block. Providing additional output register may help in improving timing.
+INFO: [Synth 8-7052] The timing for the instance inst/u_animalnet_topi_3/u_weight_rom/gen_bram.mem_reg_bram_19 (implemented as a Block RAM) might be sub-optimal as no optional output register could be merged into the ram block. Providing additional output register may help in improving timing.
+INFO: [Synth 8-7052] The timing for the instance inst/u_animalnet_topi_3/u_weight_rom/gen_bram.mem_reg_bram_23 (implemented as a Block RAM) might be sub-optimal as no optional output register could be merged into the ram block. Providing additional output register may help in improving timing.
+INFO: [Synth 8-7052] The timing for the instance inst/u_animalnet_topi_3/u_weight_rom/gen_bram.mem_reg_bram_27 (implemented as a Block RAM) might be sub-optimal as no optional output register could be merged into the ram block. Providing additional output register may help in improving timing.
+INFO: [Synth 8-7052] The timing for the instance inst/u_animalnet_topi_3/u_weight_rom/gen_bram.mem_reg_bram_31 (implemented as a Block RAM) might be sub-optimal as no optional output register could be merged into the ram block. Providing additional output register may help in improving timing.
+INFO: [Synth 8-7052] The timing for the instance inst/u_animalnet_topi_3/u_weight_rom/gen_bram.mem_reg_bram_35 (implemented as a Block RAM) might be sub-optimal as no optional output register could be merged into the ram block. Providing additional output register may help in improving timing.
+INFO: [Synth 8-7052] The timing for the instance inst/u_animalnet_topi_3/u_weight_rom/gen_bram.mem_reg_bram_39 (implemented as a Block RAM) might be sub-optimal as no optional output register could be merged into the ram block. Providing additional output register may help in improving timing.
+INFO: [Synth 8-7052] The timing for the instance inst/u_animalnet_topi_3/u_weight_rom/gen_bram.mem_reg_bram_43 (implemented as a Block RAM) might be sub-optimal as no optional output register could be merged into the ram block. Providing additional output register may help in improving timing.
+INFO: [Synth 8-7052] The timing for the instance inst/u_animalnet_topi_3/u_weight_rom/gen_bram.mem_reg_bram_47 (implemented as a Block RAM) might be sub-optimal as no optional output register could be merged into the ram block. Providing additional output register may help in improving timing.
+INFO: [Synth 8-7052] The timing for the instance inst/u_animalnet_topi_3/u_weight_rom/gen_bram.mem_reg_bram_49 (implemented as a Block RAM) might be sub-optimal as no optional output register could be merged into the ram block. Providing additional output register may help in improving timing.
+INFO: [Synth 8-7052] The timing for the instance inst/u_animalnet_topi_3/u_weight_rom/gen_bram.mem_reg_bram_57 (implemented as a Block RAM) might be sub-optimal as no optional output register could be merged into the ram block. Providing additional output register may help in improving timing.
+INFO: [Synth 8-7052] The timing for the instance inst/u_animalnet_topi_3/u_weight_rom/gen_bram.mem_reg_bram_65 (implemented as a Block RAM) might be sub-optimal as no optional output register could be merged into the ram block. Providing additional output register may help in improving timing.
+INFO: [Synth 8-7052] The timing for the instance inst/u_animalnet_topi_3/u_weight_rom/gen_bram.mem_reg_bram_73 (implemented as a Block RAM) might be sub-optimal as no optional output register could be merged into the ram block. Providing additional output register may help in improving timing.
+INFO: [Synth 8-7052] The timing for the instance inst/u_animalnet_topi_3/u_weight_rom/gen_bram.mem_reg_bram_74 (implemented as a Block RAM) might be sub-optimal as no optional output register could be merged into the ram block. Providing additional output register may help in improving timing.
+INFO: [Synth 8-7052] The timing for the instance inst/u_animalnet_topi_3/u_weight_rom/gen_bram.mem_reg_bram_82 (implemented as a Block RAM) might be sub-optimal as no optional output register could be merged into the ram block. Providing additional output register may help in improving timing.
+INFO: [Synth 8-7052] The timing for the instance inst/u_animalnet_topi_3/u_weight_rom/gen_bram.mem_reg_bram_87 (implemented as a Block RAM) might be sub-optimal as no optional output register could be merged into the ram block. Providing additional output register may help in improving timing.
+INFO: [Synth 8-7052] The timing for the instance inst/u_animalnet_topi_3/u_weight_rom/gen_bram.mem_reg_bram_94 (implemented as a Block RAM) might be sub-optimal as no optional output register could be merged into the ram block. Providing additional output register may help in improving timing.
+INFO: [Synth 8-3333] propagating constant 0 across sequential element (inst/u_animalnet_topi_0/\u_animalnet_top/u_conv7/gen_depthwise.u_conv/output_data_reg[15] )
+INFO: [Synth 8-3333] propagating constant 0 across sequential element (inst/u_animalnet_topi_0/\u_animalnet_top/u_conv3/gen_depthwise.u_conv/output_data_reg[15] )
+INFO: [Synth 8-3333] propagating constant 0 across sequential element (inst/u_animalnet_topi_0/\u_animalnet_top/u_conv11/gen_depthwise.u_conv/output_data_reg[15] )
+INFO: [Synth 8-3333] propagating constant 0 across sequential element (inst/u_animalnet_topi_0/\u_animalnet_top/u_conv6/gen_regular.u_conv/output_data_reg[15] )
+---------------------------------------------------------------------------------
+Finished Technology Mapping : Time (s): cpu = 00:01:00 ; elapsed = 00:01:53 . Memory (MB): peak = 2906.918 ; gain = 1408.176
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start IO Insertion
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Flattening Before IO Insertion
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished Flattening Before IO Insertion
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Final Netlist Cleanup
+---------------------------------------------------------------------------------
+INFO: [Synth 8-7052] The timing for the instance inst/u_animalnet_top/u_weight_rom/gen_bram.mem_reg_bram_3 (implemented as a Block RAM) might be sub-optimal as no optional output register could be merged into the ram block. Providing additional output register may help in improving timing.
+INFO: [Synth 8-7052] The timing for the instance inst/u_animalnet_top/u_weight_rom/gen_bram.mem_reg_bram_7 (implemented as a Block RAM) might be sub-optimal as no optional output register could be merged into the ram block. Providing additional output register may help in improving timing.
+INFO: [Synth 8-7052] The timing for the instance inst/u_animalnet_top/u_weight_rom/gen_bram.mem_reg_bram_11 (implemented as a Block RAM) might be sub-optimal as no optional output register could be merged into the ram block. Providing additional output register may help in improving timing.
+INFO: [Synth 8-7052] The timing for the instance inst/u_animalnet_top/u_weight_rom/gen_bram.mem_reg_bram_15 (implemented as a Block RAM) might be sub-optimal as no optional output register could be merged into the ram block. Providing additional output register may help in improving timing.
+INFO: [Synth 8-7052] The timing for the instance inst/u_animalnet_top/u_weight_rom/gen_bram.mem_reg_bram_19 (implemented as a Block RAM) might be sub-optimal as no optional output register could be merged into the ram block. Providing additional output register may help in improving timing.
+INFO: [Synth 8-7052] The timing for the instance inst/u_animalnet_top/u_weight_rom/gen_bram.mem_reg_bram_23 (implemented as a Block RAM) might be sub-optimal as no optional output register could be merged into the ram block. Providing additional output register may help in improving timing.
+INFO: [Synth 8-7052] The timing for the instance inst/u_animalnet_top/u_weight_rom/gen_bram.mem_reg_bram_27 (implemented as a Block RAM) might be sub-optimal as no optional output register could be merged into the ram block. Providing additional output register may help in improving timing.
+INFO: [Synth 8-7052] The timing for the instance inst/u_animalnet_top/u_weight_rom/gen_bram.mem_reg_bram_31 (implemented as a Block RAM) might be sub-optimal as no optional output register could be merged into the ram block. Providing additional output register may help in improving timing.
+INFO: [Synth 8-7052] The timing for the instance inst/u_animalnet_top/u_weight_rom/gen_bram.mem_reg_bram_35 (implemented as a Block RAM) might be sub-optimal as no optional output register could be merged into the ram block. Providing additional output register may help in improving timing.
+INFO: [Synth 8-7052] The timing for the instance inst/u_animalnet_top/u_weight_rom/gen_bram.mem_reg_bram_39 (implemented as a Block RAM) might be sub-optimal as no optional output register could be merged into the ram block. Providing additional output register may help in improving timing.
+INFO: [Synth 8-7052] The timing for the instance inst/u_animalnet_top/u_weight_rom/gen_bram.mem_reg_bram_43 (implemented as a Block RAM) might be sub-optimal as no optional output register could be merged into the ram block. Providing additional output register may help in improving timing.
+INFO: [Synth 8-7052] The timing for the instance inst/u_animalnet_top/u_weight_rom/gen_bram.mem_reg_bram_47 (implemented as a Block RAM) might be sub-optimal as no optional output register could be merged into the ram block. Providing additional output register may help in improving timing.
+INFO: [Synth 8-7052] The timing for the instance inst/u_animalnet_top/u_weight_rom/gen_bram.mem_reg_bram_49 (implemented as a Block RAM) might be sub-optimal as no optional output register could be merged into the ram block. Providing additional output register may help in improving timing.
+INFO: [Synth 8-7052] The timing for the instance inst/u_animalnet_top/u_weight_rom/gen_bram.mem_reg_bram_57 (implemented as a Block RAM) might be sub-optimal as no optional output register could be merged into the ram block. Providing additional output register may help in improving timing.
+INFO: [Synth 8-7052] The timing for the instance inst/u_animalnet_top/u_weight_rom/gen_bram.mem_reg_bram_65 (implemented as a Block RAM) might be sub-optimal as no optional output register could be merged into the ram block. Providing additional output register may help in improving timing.
+INFO: [Synth 8-7052] The timing for the instance inst/u_animalnet_top/u_weight_rom/gen_bram.mem_reg_bram_73 (implemented as a Block RAM) might be sub-optimal as no optional output register could be merged into the ram block. Providing additional output register may help in improving timing.
+INFO: [Synth 8-7052] The timing for the instance inst/u_animalnet_top/u_weight_rom/gen_bram.mem_reg_bram_74 (implemented as a Block RAM) might be sub-optimal as no optional output register could be merged into the ram block. Providing additional output register may help in improving timing.
+INFO: [Synth 8-7052] The timing for the instance inst/u_animalnet_top/u_weight_rom/gen_bram.mem_reg_bram_82 (implemented as a Block RAM) might be sub-optimal as no optional output register could be merged into the ram block. Providing additional output register may help in improving timing.
+INFO: [Synth 8-7052] The timing for the instance inst/u_animalnet_top/u_weight_rom/gen_bram.mem_reg_bram_87 (implemented as a Block RAM) might be sub-optimal as no optional output register could be merged into the ram block. Providing additional output register may help in improving timing.
+INFO: [Synth 8-7052] The timing for the instance inst/u_animalnet_top/u_weight_rom/gen_bram.mem_reg_bram_94 (implemented as a Block RAM) might be sub-optimal as no optional output register could be merged into the ram block. Providing additional output register may help in improving timing.
+---------------------------------------------------------------------------------
+Finished Final Netlist Cleanup
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished IO Insertion : Time (s): cpu = 00:01:04 ; elapsed = 00:01:57 . Memory (MB): peak = 3075.941 ; gain = 1577.199
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Renaming Generated Instances
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished Renaming Generated Instances : Time (s): cpu = 00:01:04 ; elapsed = 00:01:57 . Memory (MB): peak = 3075.941 ; gain = 1577.199
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Rebuilding User Hierarchy
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished Rebuilding User Hierarchy : Time (s): cpu = 00:01:05 ; elapsed = 00:01:58 . Memory (MB): peak = 3075.941 ; gain = 1577.199
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Renaming Generated Ports
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished Renaming Generated Ports : Time (s): cpu = 00:01:06 ; elapsed = 00:01:59 . Memory (MB): peak = 3075.941 ; gain = 1577.199
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Handling Custom Attributes
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished Handling Custom Attributes : Time (s): cpu = 00:01:06 ; elapsed = 00:01:59 . Memory (MB): peak = 3075.941 ; gain = 1577.199
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Renaming Generated Nets
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished Renaming Generated Nets : Time (s): cpu = 00:01:06 ; elapsed = 00:01:59 . Memory (MB): peak = 3075.941 ; gain = 1577.199
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Writing Synthesis Report
+---------------------------------------------------------------------------------
+
+DSP Final Report (the ' indicates corresponding REG is set)
++----------------------------+---------------+--------+--------+--------+--------+--------+------+------+------+------+-------+------+------+
+|Module Name                 | DSP Mapping   | A Size | B Size | C Size | D Size | P Size | AREG | BREG | CREG | DREG | ADREG | MREG | PREG | 
++----------------------------+---------------+--------+--------+--------+--------+--------+------+------+------+------+-------+------+------+
+|conv2d_regular_sequential   | A*B           | 30     | 8      | -      | -      | 26     | 0    | 0    | -    | -    | -     | 0    | 0    | 
+|conv2d_regular_sequential   | A'*B          | 30     | 8      | -      | -      | 26     | 1    | 0    | -    | -    | -     | 0    | 0    | 
+|conv2d_regular_sequential   | C+A*B         | 30     | 8      | 48     | -      | 17     | 0    | 0    | 0    | -    | -     | 0    | 0    | 
+|conv2d_regular_sequential   | A'*B          | 30     | 7      | -      | -      | 26     | 1    | 0    | -    | -    | -     | 0    | 0    | 
+|conv2d_regular_sequential   | A'*B          | 30     | 7      | -      | -      | 26     | 1    | 0    | -    | -    | -     | 0    | 0    | 
+|conv2d_regular_sequential   | C+A*B         | 30     | 7      | 48     | -      | 18     | 0    | 0    | 0    | -    | -     | 0    | 0    | 
+|conv2d_regular_sequential   | A'*B'         | 30     | 18     | -      | -      | 32     | 1    | 1    | -    | -    | -     | 0    | 0    | 
+|conv2d_depthwise_sequential | A'*B          | 30     | 7      | -      | -      | 26     | 1    | 0    | -    | -    | -     | 0    | 0    | 
+|conv2d_depthwise_sequential | A*B           | 30     | 7      | -      | -      | 26     | 0    | 0    | -    | -    | -     | 0    | 0    | 
+|conv2d_depthwise_sequential | C+A*B         | 30     | 7      | 48     | -      | 18     | 0    | 0    | 0    | -    | -     | 0    | 0    | 
+|conv2d_depthwise_sequential | C+A'*B        | 30     | 7      | 48     | -      | 18     | 1    | 0    | 0    | -    | -     | 0    | 0    | 
+|conv2d_depthwise_sequential | A'*B'         | 30     | 18     | -      | -      | 32     | 1    | 1    | -    | -    | -     | 0    | 0    | 
+|conv2d_regular_sequential   | A'*B          | 30     | 5      | -      | -      | 22     | 1    | 0    | -    | -    | -     | 0    | 0    | 
+|conv2d_regular_sequential   | A'*B          | 30     | 5      | -      | -      | 22     | 1    | 0    | -    | -    | -     | 0    | 0    | 
+|conv2d_regular_sequential   | C+A*B         | 30     | 5      | 48     | -      | 16     | 0    | 0    | 0    | -    | -     | 0    | 0    | 
+|conv2d_regular_sequential   | A'*B          | 30     | 8      | -      | -      | 0      | 1    | 0    | -    | -    | -     | 0    | 0    | 
+|conv2d_regular_sequential   | PCIN+A':B'+C' | 0      | 0      | -      | -      | 15     | 1    | 1    | -    | -    | -     | 0    | 0    | 
+|conv2d_regular_sequential   | A'*B          | 30     | 5      | -      | -      | 23     | 1    | 0    | -    | -    | -     | 0    | 0    | 
+|conv2d_regular_sequential   | A'*B          | 30     | 5      | -      | -      | 23     | 1    | 0    | -    | -    | -     | 0    | 0    | 
+|conv2d_regular_sequential   | C+A*B         | 30     | 5      | 48     | -      | 17     | 0    | 0    | 0    | -    | -     | 0    | 0    | 
+|conv2d_regular_sequential   | A'*B'         | 30     | 18     | -      | -      | 32     | 1    | 1    | -    | -    | -     | 0    | 0    | 
+|conv2d_depthwise_sequential | A*B           | 30     | 5      | -      | -      | 23     | 0    | 0    | -    | -    | -     | 0    | 0    | 
+|conv2d_sequential           | A'*B          | 30     | 5      | -      | -      | 23     | 1    | 0    | -    | -    | -     | 0    | 0    | 
+|conv2d_depthwise_sequential | C+A*B         | 30     | 5      | 48     | -      | 17     | 0    | 0    | 0    | -    | -     | 0    | 0    | 
+|conv2d_depthwise_sequential | A'*B'         | 30     | 18     | -      | -      | 32     | 1    | 1    | -    | -    | -     | 0    | 0    | 
+|conv2d_sequential           | A'*B          | 30     | 8      | -      | -      | 0      | 1    | 0    | -    | -    | -     | 0    | 0    | 
+|conv2d_sequential           | PCIN+A':B'+C' | 0      | 0      | -      | -      | 16     | 1    | 1    | -    | -    | -     | 0    | 0    | 
+|conv2d_regular_sequential   | A'*B'         | 30     | 18     | -      | -      | 32     | 1    | 1    | -    | -    | -     | 0    | 0    | 
+|conv2d_depthwise_sequential | A'*B'         | 30     | 18     | -      | -      | 32     | 1    | 1    | -    | -    | -     | 0    | 0    | 
+|conv2d_regular_sequential   | A'*B'         | 30     | 18     | -      | -      | 32     | 1    | 1    | -    | -    | -     | 0    | 0    | 
+|conv2d_regular_sequential   | A'*B          | 30     | 7      | -      | -      | 26     | 1    | 0    | -    | -    | -     | 0    | 0    | 
+|conv2d_regular_sequential   | A'*B          | 30     | 7      | -      | -      | 26     | 1    | 0    | -    | -    | -     | 0    | 0    | 
+|conv2d_regular_sequential   | C+A*B         | 30     | 7      | 48     | -      | 18     | 0    | 0    | 0    | -    | -     | 0    | 0    | 
+|conv2d_regular_sequential   | A'*B          | 30     | 5      | -      | -      | 0      | 1    | 0    | -    | -    | -     | 0    | 0    | 
+|conv2d_regular_sequential   | PCIN+A':B'+C' | 0      | 0      | -      | -      | 11     | 1    | 1    | -    | -    | -     | 0    | 0    | 
+|conv2d_regular_sequential   | A'*B          | 30     | 7      | -      | -      | 27     | 1    | 0    | -    | -    | -     | 0    | 0    | 
+|conv2d_regular_sequential   | A'*B          | 30     | 7      | -      | -      | 27     | 1    | 0    | -    | -    | -     | 0    | 0    | 
+|conv2d_regular_sequential   | C+A*B         | 30     | 7      | 48     | -      | 19     | 0    | 0    | 0    | -    | -     | 0    | 0    | 
+|conv2d_regular_sequential   | A'*B'         | 30     | 18     | -      | -      | 32     | 1    | 1    | -    | -    | -     | 0    | 0    | 
+|conv2d_depthwise_sequential | A*B           | 30     | 7      | -      | -      | 27     | 0    | 0    | -    | -    | -     | 0    | 0    | 
+|conv2d_sequential           | A'*B          | 30     | 7      | -      | -      | 27     | 1    | 0    | -    | -    | -     | 0    | 0    | 
+|conv2d_depthwise_sequential | C+A*B         | 30     | 7      | 48     | -      | 19     | 0    | 0    | 0    | -    | -     | 0    | 0    | 
+|conv2d_sequential           | A'*B          | 30     | 6      | -      | -      | 24     | 1    | 0    | -    | -    | -     | 0    | 0    | 
+|conv2d_sequential           | A'*B          | 30     | 6      | -      | -      | 24     | 1    | 0    | -    | -    | -     | 0    | 0    | 
+|conv2d_depthwise_sequential | C+A*B         | 30     | 6      | 48     | -      | 17     | 0    | 0    | 0    | -    | -     | 0    | 0    | 
+|conv2d_depthwise_sequential | A'*B'         | 30     | 18     | -      | -      | 32     | 1    | 1    | -    | -    | -     | 0    | 0    | 
+|conv2d_regular_sequential   | A'*B          | 30     | 6      | -      | -      | 24     | 1    | 0    | -    | -    | -     | 0    | 0    | 
+|conv2d_regular_sequential   | A'*B          | 30     | 6      | -      | -      | 24     | 1    | 0    | -    | -    | -     | 0    | 0    | 
+|conv2d_regular_sequential   | C+A*B         | 30     | 6      | 48     | -      | 17     | 0    | 0    | 0    | -    | -     | 0    | 0    | 
+|conv2d_regular_sequential   | A'*B          | 30     | 6      | -      | -      | 0      | 1    | 0    | -    | -    | -     | 0    | 0    | 
+|conv2d_regular_sequential   | PCIN+A':B'+C' | 0      | 0      | -      | -      | 12     | 1    | 1    | -    | -    | -     | 0    | 0    | 
+|conv2d_regular_sequential   | A'*B          | 30     | 6      | -      | -      | 24     | 1    | 0    | -    | -    | -     | 0    | 0    | 
+|conv2d_regular_sequential   | A'*B          | 30     | 6      | -      | -      | 24     | 1    | 0    | -    | -    | -     | 0    | 0    | 
+|conv2d_regular_sequential   | C+A*B         | 30     | 6      | 48     | -      | 17     | 0    | 0    | 0    | -    | -     | 0    | 0    | 
+|conv2d_regular_sequential   | A'*B'         | 30     | 18     | -      | -      | 32     | 1    | 1    | -    | -    | -     | 0    | 0    | 
+|conv2d_depthwise_sequential | A'*B          | 30     | 6      | -      | -      | 24     | 1    | 0    | -    | -    | -     | 0    | 0    | 
+|conv2d_depthwise_sequential | A*B           | 30     | 6      | -      | -      | 24     | 0    | 0    | -    | -    | -     | 0    | 0    | 
+|conv2d_depthwise_sequential | C+A*B         | 30     | 6      | 48     | -      | 17     | 0    | 0    | 0    | -    | -     | 0    | 0    | 
+|conv2d_depthwise_sequential | C+A'*B        | 30     | 6      | 48     | -      | 17     | 1    | 0    | 0    | -    | -     | 0    | 0    | 
+|conv2d_depthwise_sequential | A'*B'         | 30     | 18     | -      | -      | 32     | 1    | 1    | -    | -    | -     | 0    | 0    | 
+|conv2d_regular_sequential   | A'*B          | 30     | 6      | -      | -      | 24     | 1    | 0    | -    | -    | -     | 0    | 0    | 
+|conv2d_sequential           | A'*B          | 30     | 6      | -      | -      | 24     | 1    | 0    | -    | -    | -     | 0    | 0    | 
+|conv2d_regular_sequential   | C+A*B         | 30     | 6      | 48     | -      | 17     | 0    | 0    | 0    | -    | -     | 0    | 0    | 
+|conv2d_sequential           | A'*B          | 30     | 7      | -      | -      | 0      | 1    | 0    | -    | -    | -     | 0    | 0    | 
+|conv2d_sequential           | PCIN+A':B'+C' | 0      | 0      | -      | -      | 13     | 1    | 1    | -    | -    | -     | 0    | 0    | 
+|conv2d_sequential           | A'*B          | 30     | 6      | -      | -      | 25     | 1    | 0    | -    | -    | -     | 0    | 0    | 
+|conv2d_sequential           | A'*B          | 30     | 6      | -      | -      | 25     | 1    | 0    | -    | -    | -     | 0    | 0    | 
+|conv2d_regular_sequential   | C+A*B         | 30     | 6      | 48     | -      | 18     | 0    | 0    | 0    | -    | -     | 0    | 0    | 
+|conv2d_regular_sequential   | A'*B'         | 30     | 18     | -      | -      | 32     | 1    | 1    | -    | -    | -     | 0    | 0    | 
+|conv2d_depthwise_sequential | A*B           | 30     | 6      | -      | -      | 25     | 0    | 0    | -    | -    | -     | 0    | 0    | 
+|conv2d_sequential           | A'*B          | 30     | 6      | -      | -      | 25     | 1    | 0    | -    | -    | -     | 0    | 0    | 
+|conv2d_depthwise_sequential | C+A*B         | 30     | 6      | 48     | -      | 18     | 0    | 0    | 0    | -    | -     | 0    | 0    | 
+|conv2d_sequential           | A'*B          | 30     | 5      | -      | -      | 22     | 1    | 0    | -    | -    | -     | 0    | 0    | 
+|conv2d_sequential           | A'*B          | 30     | 5      | -      | -      | 22     | 1    | 0    | -    | -    | -     | 0    | 0    | 
+|conv2d_depthwise_sequential | C+A*B         | 30     | 5      | 48     | -      | 16     | 0    | 0    | 0    | -    | -     | 0    | 0    | 
+|conv2d_depthwise_sequential | A'*B'         | 30     | 18     | -      | -      | 32     | 1    | 1    | -    | -    | -     | 0    | 0    | 
+|conv2d_regular_sequential   | A'*B          | 30     | 5      | -      | -      | 22     | 1    | 0    | -    | -    | -     | 0    | 0    | 
+|conv2d_regular_sequential   | A'*B          | 30     | 5      | -      | -      | 22     | 1    | 0    | -    | -    | -     | 0    | 0    | 
+|conv2d_regular_sequential   | C+A*B         | 30     | 5      | 48     | -      | 16     | 0    | 0    | 0    | -    | -     | 0    | 0    | 
+|conv2d_regular_sequential   | A'*B          | 30     | 7      | -      | -      | 0      | 1    | 0    | -    | -    | -     | 0    | 0    | 
+|conv2d_regular_sequential   | PCIN+A':B'+C' | 0      | 0      | -      | -      | 14     | 1    | 1    | -    | -    | -     | 0    | 0    | 
+|conv2d_regular_sequential   | A'*B          | 30     | 5      | -      | -      | 22     | 1    | 0    | -    | -    | -     | 0    | 0    | 
+|conv2d_regular_sequential   | A'*B          | 30     | 5      | -      | -      | 22     | 1    | 0    | -    | -    | -     | 0    | 0    | 
+|conv2d_regular_sequential   | C+A*B         | 30     | 5      | 48     | -      | 16     | 0    | 0    | 0    | -    | -     | 0    | 0    | 
+|conv2d_regular_sequential   | A'*B'         | 30     | 18     | -      | -      | 32     | 1    | 1    | -    | -    | -     | 0    | 0    | 
+|conv2d_depthwise_sequential | A'*B          | 30     | 5      | -      | -      | 22     | 1    | 0    | -    | -    | -     | 0    | 0    | 
+|conv2d_depthwise_sequential | A*B           | 30     | 5      | -      | -      | 22     | 0    | 0    | -    | -    | -     | 0    | 0    | 
+|conv2d_depthwise_sequential | C+A*B         | 30     | 5      | 48     | -      | 16     | 0    | 0    | 0    | -    | -     | 0    | 0    | 
+|conv2d_depthwise_sequential | C+A'*B        | 30     | 5      | 48     | -      | 16     | 1    | 0    | 0    | -    | -     | 0    | 0    | 
+|conv2d_depthwise_sequential | A'*B'         | 30     | 18     | -      | -      | 32     | 1    | 1    | -    | -    | -     | 0    | 0    | 
+|linear_sequential           | A'*B'         | 30     | 18     | -      | -      | 32     | 1    | 1    | -    | -    | -     | 0    | 0    | 
++----------------------------+---------------+--------+--------+--------+--------+--------+------+------+------+------+-------+------+------+
+
+
+Report BlackBoxes: 
++-+--------------+----------+
+| |BlackBox name |Instances |
++-+--------------+----------+
++-+--------------+----------+
+
+Report Cell Usage: 
++------+----------------+------+
+|      |Cell            |Count |
++------+----------------+------+
+|1     |CARRY8          |  1452|
+|2     |DSP_ALU         |    91|
+|3     |DSP_A_B_DATA    |    91|
+|6     |DSP_C_DATA      |    91|
+|8     |DSP_MULTIPLIER  |    91|
+|10    |DSP_M_DATA      |    91|
+|11    |DSP_OUTPUT      |    91|
+|12    |DSP_PREADD      |    91|
+|13    |DSP_PREADD_DATA |    91|
+|15    |LUT1            |  2124|
+|16    |LUT2            |  5447|
+|17    |LUT3            |  3274|
+|18    |LUT4            |   838|
+|19    |LUT5            |  3002|
+|20    |LUT6            |  1859|
+|21    |MUXF7           |    18|
+|22    |MUXF8           |     9|
+|23    |RAMB36E2        |    97|
+|120   |URAM288         |    45|
+|122   |FDRE            |  5005|
+|123   |FDSE            |     3|
+|124   |LD              |    94|
++------+----------------+------+
+---------------------------------------------------------------------------------
+Finished Writing Synthesis Report : Time (s): cpu = 00:01:06 ; elapsed = 00:01:59 . Memory (MB): peak = 3075.941 ; gain = 1577.199
+---------------------------------------------------------------------------------
+Synthesis finished with 0 errors, 0 critical warnings and 20 warnings.
+Synthesis Optimization Runtime : Time (s): cpu = 00:00:54 ; elapsed = 00:01:58 . Memory (MB): peak = 3075.941 ; gain = 1516.082
+Synthesis Optimization Complete : Time (s): cpu = 00:01:06 ; elapsed = 00:02:01 . Memory (MB): peak = 3075.941 ; gain = 1577.199
+INFO: [Project 1-571] Translating synthesized netlist
+Netlist sorting complete. Time (s): cpu = 00:00:00 ; elapsed = 00:00:00.230 . Memory (MB): peak = 3075.941 ; gain = 0.000
+INFO: [Netlist 29-17] Analyzing 1664 Unisim elements for replacement
+INFO: [Netlist 29-28] Unisim Transformation completed in 1 CPU seconds
+INFO: [Project 1-570] Preparing netlist for logic optimization
+INFO: [Opt 31-138] Pushed 0 inverter(s) to 0 load pin(s).
+Netlist sorting complete. Time (s): cpu = 00:00:00 ; elapsed = 00:00:00.003 . Memory (MB): peak = 3075.941 ; gain = 0.000
+INFO: [Project 1-111] Unisim Transformation Summary:
+  A total of 185 instances were transformed.
+  DSP48E2 => DSP48E2 (DSP_ALU, DSP_A_B_DATA, DSP_C_DATA, DSP_MULTIPLIER, DSP_M_DATA, DSP_OUTPUT, DSP_PREADD, DSP_PREADD_DATA): 91 instances
+  LD => LDCE: 94 instances
+
+Synth Design complete | Checksum: dc53ab9f
+INFO: [Common 17-83] Releasing license: Synthesis
+402 Infos, 61 Warnings, 1 Critical Warnings and 0 Errors encountered.
+synth_design completed successfully
+synth_design: Time (s): cpu = 00:01:15 ; elapsed = 00:02:14 . Memory (MB): peak = 3075.941 ; gain = 2569.461
+Write ShapeDB Complete: Time (s): cpu = 00:00:00 ; elapsed = 00:00:00.057 . Memory (MB): peak = 3075.941 ; gain = 0.000
+INFO: [Common 17-1381] The checkpoint 'C:/Users/NguyenHuy/Downloads/SoC_Animal/SoC_Animal.runs/design_1_animalnet_axi_lite_0_0_synth_1/design_1_animalnet_axi_lite_0_0.dcp' has been generated.
+INFO: [runtcl-6] Synthesis results are not added to the cache due to CRITICAL_WARNING
+INFO: [Coretcl 2-1174] Renamed 40 cell refs.
+Write ShapeDB Complete: Time (s): cpu = 00:00:00 ; elapsed = 00:00:00.046 . Memory (MB): peak = 3075.941 ; gain = 0.000
+INFO: [Common 17-1381] The checkpoint 'C:/Users/NguyenHuy/Downloads/SoC_Animal/SoC_Animal.runs/design_1_animalnet_axi_lite_0_0_synth_1/design_1_animalnet_axi_lite_0_0.dcp' has been generated.
+INFO: [Vivado 12-24828] Executing command : report_utilization -file design_1_animalnet_axi_lite_0_0_utilization_synth.rpt -pb design_1_animalnet_axi_lite_0_0_utilization_synth.pb
+INFO: [Common 17-206] Exiting Vivado at Sun May 10 21:01:24 2026...

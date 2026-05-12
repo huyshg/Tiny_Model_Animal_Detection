@@ -1,0 +1,7 @@
+Running: xsim.dir/tb_conv2d_sequential_behav/xsimk.exe -simmode gui -wdb tb_conv2d_sequential_behav.wdb -simrunnum 0 -socket 63046
+Design successfully loaded
+Design Loading Memory Usage: 29688 KB (Peak: 29688 KB)
+Design Loading CPU Usage: 530 ms
+Simulation completed
+Simulation Memory Usage: 30816 KB (Peak: 30816 KB)
+Simulation CPU Usage: 609 ms

@@ -1,0 +1,8 @@
+INFO: [VRFC 10-2263] Analyzing Verilog file "C:/Users/NguyenHuy/Downloads/SoC_Project/conv2d_depthwise_sequential.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module conv2d_depthwise_sequential
+INFO: [VRFC 10-2263] Analyzing Verilog file "C:/Users/NguyenHuy/Downloads/SoC_Project/conv2d_regular_sequential.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module conv2d_regular_sequential
+INFO: [VRFC 10-2263] Analyzing Verilog file "C:/Users/NguyenHuy/Downloads/SoC_Project/conv2d_sequential.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module conv2d_sequential
+INFO: [VRFC 10-2263] Analyzing Verilog file "C:/Users/NguyenHuy/Downloads/SoC_Project/tb_conv2d_sequential.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module tb_conv2d_sequential

@@ -1,0 +1,12 @@
+# compile verilog/system verilog design source files
+verilog xil_defaultlib  --include "../../../../SoC_Animal.gen/sources_1/bd/design_1/ipshared/ec67/hdl" --include "../../../../SoC_Animal.gen/sources_1/bd/design_1/ipshared/6f8f/hdl" --include "../../../../SoC_Animal.gen/sources_1/bd/design_1/ipshared/f0b6/hdl/verilog" --include "../../../../SoC_Animal.gen/sources_1/bd/design_1/ipshared/0127/hdl/verilog" --include "C:/Xilinx/Vivado/2024.2/data/xilinx_vip/include" \
+"../../../../../SoC_Project/conv2d_depthwise_sequential.v" \
+"../../../../../SoC_Project/conv2d_regular_sequential.v" \
+"../../../../../SoC_Project/conv2d_sequential.v" \
+"../../../../../SoC_Project/tb_conv2d_sequential.v" \
+
+# compile glbl module
+verilog xil_defaultlib "glbl.v"
+
+# Do not sort compile order
+nosort

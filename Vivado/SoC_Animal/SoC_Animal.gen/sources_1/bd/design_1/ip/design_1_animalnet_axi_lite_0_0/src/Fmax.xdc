@@ -1,0 +1,1 @@
+create_clock -name clk_pl_0 -period 9.881 [get_pins design_1_i/zynq_ultra_ps_e_0/pl_clk0]
